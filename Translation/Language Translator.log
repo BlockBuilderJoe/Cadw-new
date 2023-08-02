@@ -1,0 +1,146 @@
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Current FME version: FME 2023.0.0.1 (20230501 - Build 23288 - macosx-aarch64)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|System Time: 20230802102351 UTC
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME_HOME is '/Library/FME/2023.0/'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Form (floating)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Permanent License.
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Machine host name is: Joes-M1-Max-600
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|OS Locale Name     : en_GB
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|OS Locale Encoding : UTF-8
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME API version: '4.0 20230418'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is '/Users/joe/Documents/GitHub/Cadw-new/Translation/'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Language Translator.fmw'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2023.0.0.1'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Operating System: macOS Version 13.4.1 (c) (Build 22F770820d)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Platform: macosx-aarch64
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|System Status: 1.04 TB of disk space available in the FME temporary folder (/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wbrun_1690967027008_26576/fmetmp_36)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|System Status: 64.00 GB of physical memory available
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|System Status: 64.00 GB of virtual memory available
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|START - ProcessID: 35248, peak process memory usage: 92976 kB, current process memory usage: 92976 kB
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `/Library/FME/2023.0/fme' `/Users/joe/Documents/GitHub/Cadw-new/Translation/wb-xlate-1690971830960_26576' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `54063' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `53978'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: '/Users/joe/Library/Caches/Safe Software/FME/'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for formats are : /Library/FME/2023.0/datasources;/Users/joe/Library/Application Support/FME/Formats
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for transformers are : /Users/joe/Library/Caches/Safe Software/FME/Packages/23288-macosx-aarch64/transformers;/Library/FME/2023.0/transformers;/Users/joe/Library/Caches/Safe Software/FME/FME Store/Transformers
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : /Users/joe/Library/Application Support/FME/CoordinateSystems
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : /Users/joe/Library/Application Support/FME/CoordinateSystemExceptions
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : /Users/joe/Library/Application Support/FME/CoordinateSystemGridOverrides
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : /Users/joe/Library/Application Support/FME/CsmapTransformationExceptions
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Shared folders for transformer categories are : /Users/joe/Library/Application Support/FME/TransformerCategories
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `/Users/joe/Documents/GitHub/Cadw-new/Translation'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wbrun_1690967027008_26576/fmetmp_36', set from environment variable `FME_TEMP'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Cache folder is '/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `/Library/FME/2023.0/'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 62.83 GB
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 47.12 GB
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|DYLD_LIBRARY_PATH is not set
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file '/Library/FME/2023.0/plugins/logcount_func.so'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20230418)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-08-02 11:23:51|   0.0|  0.0|STATS |text_line_TEXTLINE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-08-02 11:23:51|   0.0|  0.0|STATS |text_line_TEXTLINE_3 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Restoring 4892 feature(s) from FME feature store file `/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wb-cache--nuKbMY/Main_AttributeFilter_2 -1 20 fo 4 0  0  17d9401a7cd79c5c1ddcf3b86557cc2c9806292b.ffs'
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Restoring 4565 feature(s) from FME feature store file `/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wb-cache--nuKbMY/Main_AttributeRemover -1 61 fo 0 OUTPUT  0  fd9fe96ce7e0fcd8ca3ebd01ca34e7b86edab5e1.ffs'
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Restoring 5788 feature(s) from FME feature store file `/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wb-cache--nuKbMY/Main_AttributeRemover_2 -1 63 fo 0 OUTPUT  0  bf6647d37ed891fe582b85bb880112b0128016f6.ffs'
+2023-08-02 11:23:51|   0.0|  0.0|STATS |Restoring 142 feature(s) from FME feature store file `/private/var/folders/7m/7nq11k8n2mxf_871ny539djc0000gn/T/wb-cache--nuKbMY/Main_AttributeManager_3 -1 69 fo 0 OUTPUT  0  c12f488545cb9234f3eefa269fb4c7e1226af9c9.ffs'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Creating writer for format: Text File
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `TEXTLINE'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Loaded module 'TEXTLINE' from file '/Library/FME/2023.0/plugins/textline.so'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME API version of module 'TEXTLINE' matches current internal version (4.0 20230418)
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Writer `TEXTLINE_2' of type `TEXTLINE' using group definition keyword `TEXTLINE_DEF'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Text File Writer: Opening the file '/Users/joe/Library/Application Support/minecraftpe/games/com.mojang/development_resource_packs/football 1/texts/en_US.lang\'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Text File Writer: Line Termination: Unix
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Text File Writer: Write the final line termination character: yes
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Text File Writer: Character Encoding: 'UTF-8'
+2023-08-02 11:23:51|   0.0|  0.0|INFORM|Text File Writer: Write UTF-8 Byte Order Mark: yes
+2023-08-02 11:23:51|   0.0|  0.0|WARN  |TEXTLINE Writer: Expected data attribute 'text_line_data' is missing. The file '/Users/joe/Library/Application Support/minecraftpe/games/com.mojang/development_resource_packs/football 1/texts/en_US.lang' will be written empty
+2023-08-02 11:23:51|   0.1|  0.1|WARN  |... Last line repeated 157 times ...
+2023-08-02 11:23:51|   0.1|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 15387 input feature(s), wrote 15387 output feature(s): 0 matched merge filters, 15387 were routed to output, 0 could not be routed.
+2023-08-02 11:23:51|   0.1|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Text File Writer: Closing the file '/Users/joe/Library/Application Support/minecraftpe/games/com.mojang/development_resource_packs/football 1/texts/en_US.lang'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Feature output statistics for `TEXTLINE' writer using keyword `TEXTLINE_2':
+2023-08-02 11:23:51|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.1|  0.0|STATS |                               Features Written
+2023-08-02 11:23:51|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.1|  0.0|STATS |text_line                                                                 4892
+2023-08-02 11:23:51|   0.1|  0.0|STATS |==============================================================================
+2023-08-02 11:23:51|   0.1|  0.0|STATS |Total Features Written                                                    4892
+2023-08-02 11:23:51|   0.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Started outputting features
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Creating writer for format: Microsoft Excel
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `XLSXW'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Loaded module 'XLSXW' from file '/Library/FME/2023.0/plugins/xlsx.so'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|FME API version of module 'xlsx' matches current internal version (4.0 20230418)
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Writer `XLSXW_3' of type `XLSXW' using group definition keyword `XLSXW_3_DEF'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Use Attribute Names As Column Positions is set to 'no' for sheet 'Translation' in dataset '/Users/joe/Documents/GitHub/Cadw-new/Translation/No_Microsoft_Translate_Cadw_Welsh_Translation.xlsx' 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Opening dataset '/Users/joe/Documents/GitHub/Cadw-new/Translation/No_Microsoft_Translate_Cadw_Welsh_Translation.xlsx'...
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Reading existing workbook formatting. Workbook contains 1 fonts and 1 cell formats
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Sheet 'Translation' has writer mode 'INSERT'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Sheet 'Translation' has Output field names set to 'yes'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Sheet 'Translation' will start writing to row '1' and column 'A' relative to its start location. Sheets have a starting location of row 1, column 1, named range starting locations can be specified
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|Excel Writer: Outputting field names for sheet 'Translation'
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 1000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 2000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 3000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 4000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 5000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 6000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 7000 
+2023-08-02 11:23:51|   0.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 8000 
+2023-08-02 11:23:51|   0.2|  0.1|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 9000 
+2023-08-02 11:23:51|   0.2|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Writing feature 10000 
+2023-08-02 11:23:51|   0.2|  0.0|INFORM|Excel Writer: Saving changes to dataset '/Users/joe/Documents/GitHub/Cadw-new/Translation/No_Microsoft_Translate_Cadw_Welsh_Translation.xlsx'
+2023-08-02 11:23:51|   0.2|  0.0|INFORM|Excel Writer: Workbook contains 1 fonts and 1 cell formats after writing
+2023-08-02 11:23:51|   0.3|  0.1|INFORM|Excel Writer: Closing dataset '/Users/joe/Documents/GitHub/Cadw-new/Translation/No_Microsoft_Translate_Cadw_Welsh_Translation.xlsx'...
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|Feature output statistics for `XLSXW' writer using keyword `XLSXW_3':
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |                               Features Written
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |Translation                                                              10495
+2023-08-02 11:23:51|   0.3|  0.0|STATS |==============================================================================
+2023-08-02 11:23:51|   0.3|  0.0|STATS |Total Features Written                                                   10495
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': done writing 10495 feature(s) 
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |                            Features Read Summary
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |==============================================================================
+2023-08-02 11:23:51|   0.3|  0.0|STATS |Total Features Read                                                          0
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |                           Features Written Summary
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|STATS |Translation                                                              10495
+2023-08-02 11:23:51|   0.3|  0.0|STATS |text_line                                                                 4892
+2023-08-02 11:23:51|   0.3|  0.0|STATS |==============================================================================
+2023-08-02 11:23:51|   0.3|  0.0|STATS |Total Features Written                                                   15387
+2023-08-02 11:23:51|   0.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~                                                                             ~-
+2023-08-02 11:23:51|   0.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|Translation was SUCCESSFUL with 165 warning(s) (15387 feature(s) output)
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|FME Session Duration: 0.3 seconds. (CPU: 0.3s user, 0.0s system)
+2023-08-02 11:23:51|   0.3|  0.0|INFORM|END - ProcessID: 35248, peak process memory usage: 136480 kB, current process memory usage: 136480 kB
