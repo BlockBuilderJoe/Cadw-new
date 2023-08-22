@@ -1,26 +1,545 @@
-[09:54:05] [Server thread/INFO]: josephpalmercouk lost connection: Disconnected
-[09:54:05] [Server thread/INFO]: josephpalmercouk left the game
-[10:04:10] [Server thread/INFO]: Saving the game (this may take a moment!)
-[10:04:10] [Server thread/INFO]: Saved the game
-[10:04:11] [Server thread/INFO]: Stopping the server
-[10:04:11] [Server thread/INFO]: Stopping server
-[10:04:11] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.1-SNAPSHOT-547;a088e6a
-[10:04:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[10:04:11] [Server thread/INFO]: Saving players
-[10:04:11] [Server thread/INFO]: Saving worlds
-[10:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:04:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:04:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:04:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:04:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[10:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:04:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:04:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:04:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:04:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:04:12] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[10:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:04:12] [Server thread/INFO]: Flushing Chunk IO
-[10:04:12] [Server thread/INFO]: Closing Thread Pool
-[10:04:12] [Server thread/INFO]: Closing Server
+[09:54:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:55:01] [ServerMain/INFO]: Loaded 7 recipes
+[09:55:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[09:55:01] [Server thread/INFO]: Loading properties
+[09:55:02] [Server thread/INFO]: This server is running Paper version git-Paper-117 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 9bc70e6)
+[09:55:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:55:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:55:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:55:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and gen parallelism of 8 threads
+[09:55:02] [Server thread/INFO]: Default game type: CREATIVE
+[09:55:02] [Server thread/INFO]: Generating keypair
+[09:55:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:55:02] [Server thread/INFO]: Using epoll channel type
+[09:55:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:55:03] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[09:55:03] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.7.1-SNAPSHOT-547;a088e6a
+[09:55:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74d7ab9b]
+[09:55:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:55:04] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.1-SNAPSHOT-547;a088e6a
+[09:55:04] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[09:55:04] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[09:55:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:55:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[09:55:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[09:55:05] [Server thread/INFO]: Preparing level "world"
+[09:55:06] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+You are running build 547, the latest version is build 548.
+Update at https://www.spigotmc.org/resources/13932/
+[09:55:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:55:06] [Server thread/INFO]: Time elapsed: 328 ms
+[09:55:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:55:06] [Server thread/INFO]: Time elapsed: 19 ms
+[09:55:06] [Server thread/INFO]: Running delayed init tasks
+[09:55:06] [Server thread/INFO]: Done (4.952s)! For help, type "help"
+[09:55:06] [Server thread/INFO]: Timings Reset
+[09:55:56] [User Authenticator #0/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[09:55:57] [Server thread/INFO]: alex86465 joined the game
+[09:55:57] [Server thread/INFO]: alex86465[/10.147.17.188:65454] logged in with entity id 48 at ([world]2934.734113771765, 36.0, 1975.11776502002)
+[09:56:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[09:56:53] [Server thread/INFO]: alex86465 issued server command: /tp -955 97 -1146
+[09:56:53] [Server thread/INFO]: [alex86465: Teleported alex86465 to -954.500000, 97.000000, -1145.500000]
+[09:56:53] [Server thread/WARN]: alex86465 moved too quickly! -3881.5164193571827,61.0,-3117.800000011921
+[09:57:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[09:57:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[09:57:29] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[09:57:29] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[09:57:35] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[09:57:35] [Server thread/INFO]: alex86465 left the game
+[10:00:58] [User Authenticator #1/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[10:00:58] [Server thread/INFO]: alex86465 joined the game
+[10:00:58] [Server thread/INFO]: alex86465[/10.147.17.188:49314] logged in with entity id 194 at ([world]-845.7422229637715, 124.53715510414553, -1272.4388366454427)
+[10:01:01] [Server thread/INFO]: alex86465 issued server command: /clear
+[10:01:01] [Server thread/INFO]: [alex86465: Removed 9 item(s) from player alex86465]
+[10:01:03] [Server thread/INFO]: alex86465 issued server command: //wand
+[10:01:28] [Server thread/INFO]: alex86465 issued server command: //brush sphere deepslate_bricks 6
+[10:01:31] [Server thread/INFO]: alex86465 issued server command: /mask bricks
+[10:01:39] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightStarlightRelighterFactory as relighter factory.
+[10:01:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:01:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:01:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:01:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:03:34] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_bricks 6
+[10:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:03:55] [Server thread/INFO]: alex86465 issued server command: //brush sphere deepslate_bricks 6
+[10:04:01] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks
+[10:05:12] [Server thread/INFO]: alex86465 issued server command: /mask bricks
+[10:07:05] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_bricks 6
+[10:07:08] [Server thread/INFO]: alex86465 issued server command: /mask bricks
+[10:07:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:07:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:08:58] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:09:11] [Server thread/INFO]: alex86465 issued server command: //pos2
+[10:09:15] [Server thread/INFO]: alex86465 issued server command: //pos2
+[10:09:17] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:09:26] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
+[10:09:29] [Server thread/INFO]: alex86465 issued server command: //stack 17 down
+[10:09:38] [Server thread/INFO]: alex86465 issued server command: //stack 17 down
+[10:09:52] [Server thread/INFO]: alex86465 issued server command: //stack 17 down
+[10:10:18] [Server thread/INFO]: alex86465 issued server command: //brush cyl cobblestone6
+[10:10:22] [Server thread/INFO]: alex86465 issued server command: //brush cyl cobblestone 6
+[10:11:25] [Server thread/INFO]: alex86465 issued server command: //pos1
+[10:11:32] [Server thread/INFO]: alex86465 issued server command: //pos2
+[10:11:34] [Server thread/INFO]: alex86465 issued server command: //set air
+[10:17:59] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:18:05] [Server thread/INFO]: alex86465 issued server command: //stack 14 down
+[10:18:46] [Server thread/INFO]: alex86465 issued server command: //stack 3 up
+[10:19:26] [Server thread/INFO]: alex86465 issued server command: //stack 14 down
+[10:20:20] [Server thread/INFO]: alex86465 issued server command: //stack 14 down
+[10:20:54] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:20:59] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:21:40] [Server thread/INFO]: alex86465 issued server command: //copy
+[10:22:23] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:22:28] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:22:32] [Server thread/INFO]: alex86465 issued server command: //rotate 180
+[10:22:35] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:22:47] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:23:04] [Server thread/INFO]: alex86465 issued server command: //brush cyl water 6
+[10:23:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:15] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:15] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:23:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:23:56] [Server thread/INFO]: alex86465 issued server command: //line cobblestone
+[10:24:12] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:24:14] [Server thread/INFO]: alex86465 issued server command: //line cobblestone
+[10:24:32] [Server thread/INFO]: alex86465 issued server command: //pos1
+[10:24:43] [Server thread/INFO]: alex86465 issued server command: //pos2
+[10:27:13] [Server thread/INFO]: alex86465 lost connection: Timed out
+[10:27:20] [Server thread/INFO]: alex86465 left the game
+[10:27:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6136ms or 122 ticks behind
+[10:27:58] [User Authenticator #2/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[10:27:58] [Server thread/INFO]: alex86465 joined the game
+[10:27:58] [Server thread/INFO]: alex86465[/10.147.17.188:50102] logged in with entity id 226 at ([world]-833.6941389629656, 66.5217989962023, -1250.748983207836)
+[10:28:35] [Server thread/INFO]: alex86465 issued server command: //pos1
+[10:28:44] [Server thread/INFO]: alex86465 issued server command: //pos2
+[10:28:51] [Server thread/INFO]: alex86465 issued server command: //copy
+[10:29:06] [Server thread/INFO]: alex86465 issued server command: //rotate 180
+[10:29:09] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:29:16] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:29:22] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:29:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:29:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:43] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:29:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:29:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:29:48] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:48] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:29:56] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:29:56] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:15] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:15] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:32] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:30:36] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
+[10:30:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:30:59] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:30:59] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:06] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:06] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:31:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:31:55] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:31:55] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:31:57] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:32:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:32:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:32:28] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:32:46] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:32:51] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
+[10:33:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:33:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:33:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:09] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[10:34:10] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:10] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:34:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:34:31] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 4
+[10:35:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:35:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:35:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:36:27] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:36:27] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:37:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:37:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:37:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:37:05] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:37:12] [Server thread/INFO]: alex86465 issued server command: //copy
+[10:37:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:37:12] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:37:13] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:37:13] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:37:32] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:37:41] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:37:45] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:37:48] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:37:57] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:37:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:37:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:38:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:38:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:38:09] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:38:21] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:38:36] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:38:36] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:38:40] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:38:44] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:38:58] [Server thread/INFO]: alex86465 issued server command: //undor
+[10:39:00] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:39:17] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:39:17] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:39:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:39:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:39:32] [Server thread/INFO]: alex86465 issued server command: //line stone
+[10:39:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:39:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:39:53] [Server thread/INFO]: alex86465 issued server command: //copy
+[10:39:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:39:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:40:07] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:40:11] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:40:20] [Server thread/INFO]: alex86465 issued server command: //rotate 180
+[10:40:22] [Server thread/INFO]: alex86465 issued server command: //paste
+[10:40:38] [Server thread/INFO]: alex86465 issued server command: //set air
+[10:41:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:08] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:08] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:23] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:29] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:29] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:31] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:31] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:38] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:38] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:41:52] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:41:52] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:42:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:42:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:42:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:42:11] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:42:38] [Server thread/INFO]: alex86465 issued server command: //line smooth_stone
+[10:42:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:42:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:42:59] [Server thread/INFO]: alex86465 issued server command: //line smooth_stone
+[10:43:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:43:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:43:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:43:03] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:43:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:43:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:43:29] [Server thread/INFO]: alex86465 issued server command: //line smooth_stone
+[10:43:41] [Server thread/INFO]: alex86465 issued server command: //line smooth_stone
+[10:43:58] [Server thread/INFO]: alex86465 issued server command: //stack 2 up
+[10:44:05] [Server thread/INFO]: alex86465 issued server command: //stack 2 up
+[10:45:02] [Server thread/INFO]: alex86465 issued server command: //brush cyl cobblestone 3
+[10:45:05] [Server thread/INFO]: alex86465 issued server command: /mask air
+[10:45:24] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:45:24] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:45:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:45:44] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:45:51] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:45:51] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:46:36] [Server thread/INFO]: alex86465 issued server command: //brush cyl stone 3
+[10:46:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:46:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:46:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:46:57] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:47:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:47:04] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:47:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:47:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:47:48] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:49] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:49] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:50] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:50] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:51] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:51] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:52] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:52] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:53] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:54] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:55] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:55] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:56] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:57] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:58] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:47:59] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:48:00] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:48:01] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:48:26] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:48:27] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:48:35] [Server thread/INFO]: alex86465 issued server command: /mask
+[10:48:41] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:50:24] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:50:24] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:50:41] [Server thread/INFO]: alex86465 issued server command: //line cyan_terracotta
+[10:51:15] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:51:16] [Server thread/INFO]: alex86465 issued server command: //line cyan_terracotta
+[10:52:59] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:52:59] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:00] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:01] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:07] [Server thread/INFO]: alex86465 issued server command: //line polished_diorite
+[10:53:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:08] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:08] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:18] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[10:53:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:22] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:53:22] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:53:23] [Server thread/INFO]: alex86465 issued server command: //undo
+[10:53:41] [Server thread/INFO]: alex86465 issued server command: //line polished_diorite
+[10:53:55] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[10:54:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:31] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:31] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:38] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:38] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:54:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:54:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:21] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:21] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:28] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:40] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:55:40] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:55:47] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:55:54] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[10:56:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:56:16] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:56:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:56:19] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:56:20] [Server thread/INFO]: alex86465 issued server command: //brush cyl water 6
+[10:56:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:56:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:09] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
+[10:57:10] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:10] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:20] [Server thread/INFO]: alex86465 issued server command: //replace #existing stone_bricks
+[10:57:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:26] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:57:47] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:57:47] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:07] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:24] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[10:58:30] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:30] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:38] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[10:58:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:39] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:41] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:47] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:58:47] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:58:49] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[10:59:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[10:59:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[10:59:04] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[10:59:13] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[10:59:23] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
+[10:59:59] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
+[11:00:06] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[11:00:17] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[11:00:54] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[11:00:59] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[11:01:10] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[11:01:14] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
+[11:01:19] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
+[11:01:39] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[11:01:52] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[11:02:03] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
+[11:02:15] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
+[11:02:22] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
+[11:02:29] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[11:02:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:02:46] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:02:49] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:02:49] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:02:51] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan concrete 4
+[11:02:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:02:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:02:55] [Server thread/INFO]: alex86465 issued server command: /mask air
+[11:02:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:02:55] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:03:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:03:02] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:03:02] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan_concrete 4
+[11:03:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:03:09] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:03:10] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan_terracotta 4
+[11:03:12] [Server thread/INFO]: alex86465 issued server command: /undo
+[11:03:13] [Server thread/INFO]: alex86465 issued server command: /undo
+[11:03:13] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:03:13] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:03:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[11:03:14] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[11:04:09] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[11:04:16] [Server thread/INFO]: alex86465 left the game
+[11:04:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7310ms or 146 ticks behind
+[11:20:58] [Server thread/INFO]: Saving the game (this may take a moment!)
+[11:20:58] [Server thread/INFO]: Saved the game
+[11:21:00] [Server thread/INFO]: Stopping the server
+[11:21:00] [Server thread/INFO]: Stopping server
+[11:21:00] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.1-SNAPSHOT-547;a088e6a
+[11:21:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:21:00] [Server thread/INFO]: Saving players
+[11:21:00] [Server thread/INFO]: Saving worlds
+[11:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[11:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:21:00] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[11:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:21:00] [Server thread/INFO]: Flushing Chunk IO
+[11:21:00] [Server thread/INFO]: Closing Thread Pool
+[11:21:00] [Server thread/INFO]: Closing Server
