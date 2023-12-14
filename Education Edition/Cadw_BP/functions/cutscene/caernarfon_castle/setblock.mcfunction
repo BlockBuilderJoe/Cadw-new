@@ -1,1 +1,0 @@
-setblock 81 10 102 redstone_block 0
