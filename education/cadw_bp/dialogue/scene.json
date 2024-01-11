@@ -1,0 +1,56 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "lobby",
+                "npc_name": "{\"rawtext\": [{\"translate\": \"cw.npc.name.lobby\"}]}",
+                "text": "cw.npc.text.lobby",
+                "on_open_commands": [
+                    ""
+                ],
+                "on_close_commands": [
+                    ""
+                ],
+                "buttons": [
+                    {
+                        "name": "cw.npc.button.one.lobby",
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
