@@ -4,47 +4,244 @@
         "scenes": [
             {
                 "scene_tag": "lobby",
-                "npc_name": "{\"rawtext\": [{\"translate\": \"cw.npc.name.lobby\"}]}",
-                "text": "cw.npc.text.lobby",
-                "on_open_commands": [
-                    ""
-                ],
-                "on_close_commands": [
-                    ""
-                ],
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.lobby"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.lobby"
+                        }
+                    ]
+                },
                 "buttons": [
                     {
-                        "name": "cw.npc.button.one.lobby",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.lobby"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "coch",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.cochwelcome"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.cochwelcome"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.cochwelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": "",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.two.cochwelcome"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tretower",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.trewelcome"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.trewelcome"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.trewelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": "",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.two.trewelcome"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "raglan",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.raglanwelcome"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.raglanwelcome"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.raglanwelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": "",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.two.raglanwelcome"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "conwy",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.conwywelcome"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.conwywelcome"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.conwywelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": "",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.two.conwywelcome"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "stdavids",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.name.davidwelcome"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.davidwelcome"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.davidwelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
                     },
                     {
-                        "name": "",
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.two.davidwelcome"
+                                }
+                            ]
+                        },
                         "commands": [
                             ""
                         ]
