@@ -1,0 +1,39 @@
+#World Translations
+cw.npc.name.lobby=Welcome
+cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
+cw.npc.button.one.lobby=Thanks!
+
+cw.npc.text.easel=Click on the button with the location you want to explore!
+cw.npc.button.one.coch=Castell Coch
+cw.npc.button.two.tre=Tretower
+cw.npc.button.three.raglan=Raglan
+cw.npc.button.four.conwy=Conwy
+cw.npc.button.five.david=St. Davids
+cw.npc.button.six.back=Back
+
+cw.npc.name.cochwelcome=Castell Coch
+cw.npc.text.cochwelcome=Welcome to Castell Coch, you can explore the site! When you want to go back press the lobby button.
+cw.npc.button.one.cochwelcome=Explore!
+cw.npc.button.two.cochwelcome=Lobby 
+
+cw.npc.name.trewelcome=Tretower
+cw.npc.text.trewelcome=Welcome to Tretower, you can explore the site! When you want to go back press the lobby button.
+cw.npc.button.one.trewelcome=Explore!
+cw.npc.button.two.trewelcome=Lobby 
+
+cw.npc.name.raglanwelcome=Raglan
+cw.npc.text.raglanwelcome=Welcome to Raglan, you can explore the site! When you want to go back press the lobby button.
+cw.npc.button.one.raglanwelcome=Explore!
+cw.npc.button.two.raglanwelcome=Lobby 
+
+cw.npc.name.conwywelcome=Conwy
+cw.npc.text.conwywelcome=Welcome to Conwy, you can explore the site! When you want to go back press the lobby button.
+cw.npc.button.one.conwywelcome=Explore!
+cw.npc.button.two.conwywelcome=Lobby
+
+cw.npc.name.davidwelcome=St Davids
+cw.npc.text.davidwelcome=Welcome to St Davids, you can explore the site! When you want to go back press the lobby button.
+cw.npc.button.one.davidwelcome=Explore!
+cw.npc.button.two.davidwelcome=Lobby
+
+
