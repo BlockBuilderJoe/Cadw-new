@@ -71,7 +71,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -251 -59 -261 facing -251 -59 -265"
                         ]
                     }
                 ]
@@ -114,7 +114,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -251 -59 -261 facing -251 -59 -265"
                         ]
                     }
                 ]
@@ -157,7 +157,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -251 -59 -261 facing -251 -59 -265"
                         ]
                     }
                 ]
@@ -200,7 +200,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -251 -59 -261 facing -251 -59 -265"
                         ]
                     }
                 ]
@@ -243,7 +243,79 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -251 -59 -261 facing -251 -59 -265"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "easel",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "cw.npc.text.easel"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.coch"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function coch/trigger"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.tre"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function tretower/trigger"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.raglan"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function raglan/trigger"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.conwy"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function conwy/trigger"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.one.david"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function davids/trigger"
                         ]
                     }
                 ]

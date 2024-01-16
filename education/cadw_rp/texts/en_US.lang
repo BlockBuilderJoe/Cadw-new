@@ -1,10 +1,17 @@
 #World Translations
 cw.npc.name.lobby=Welcome
 cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
-cw.npc.button.one.lobby=Okay
+cw.npc.button.one.lobby=Thanks!
+
+cw.npc.text.easel= Click on the button with the location you want to explore!
+cw.npc.button.one.coch=Castell Coch
+cw.npc.button.one.tre=Tretower
+cw.npc.button.one.raglan=Raglan
+cw.npc.button.one.conwy=Conwy
+cw.npc.button.one.david=St. Davids
 
 cw.npc.name.cochwelcome=Castell Coch
-cw.npc.text.cochwelcome=Welcome to Castell Coch, you can explore the site! When you want to go back to the lobby press the button.
+cw.npc.text.cochwelcome=Welcome to Castell Coch, you can explore the site! When you want to go back press the lobby button.
 cw.npc.button.one.cochwelcome=Explore!
 cw.npc.button.two.cochwelcome=Lobby 
 
@@ -27,3 +34,5 @@ cw.npc.name.davidwelcome=St Davids
 cw.npc.text.davidwelcome=Welcome to St Davids, you can explore the site! When you want to go back press the lobby button.
 cw.npc.button.one.davidwelcome=Explore!
 cw.npc.button.two.davidwelcome=Lobby
+
+
