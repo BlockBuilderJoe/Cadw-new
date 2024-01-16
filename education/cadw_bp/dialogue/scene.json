@@ -274,7 +274,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "cw.npc.button.one.tre"
+                                    "translate": "cw.npc.button.two.tre"
                                 }
                             ]
                         },
@@ -286,7 +286,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "cw.npc.button.one.raglan"
+                                    "translate": "cw.npc.button.three.raglan"
                                 }
                             ]
                         },
@@ -298,7 +298,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "cw.npc.button.one.conwy"
+                                    "translate": "cw.npc.button.four.conwy"
                                 }
                             ]
                         },
@@ -310,12 +310,24 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "cw.npc.button.one.david"
+                                    "translate": "cw.npc.button.five.david"
                                 }
                             ]
                         },
                         "commands": [
                             "function davids/trigger"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "cw.npc.button.six.back"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
                         ]
                     }
                 ]
