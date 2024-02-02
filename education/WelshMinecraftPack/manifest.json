@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "This is a test and will be changed later",
+        "name": "Cadw Minecraft Game conversion language pack",
+        "uuid": "ae11e5d5-a40b-4d02-9641-53a8bb68ba0e",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+    "modules": [
+        {
+            "description": "This is a test and will be changed later",
+            "type": "resources",
+            "uuid": "65410f83-e6a2-4849-895c-0b318fd00832",
+            "version": [0, 0, 1]
+        }
+    ]
+}
