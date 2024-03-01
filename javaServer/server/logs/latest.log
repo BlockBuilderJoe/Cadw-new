@@ -1,0 +1,67 @@
+[15:39:36] [ServerMain/WARN]: Failed to get system info for Microarchitecture
+java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "this.cpuVendor" is null
+	at oshi.hardware.CentralProcessor$ProcessorIdentifier.queryMicroarchitecture(CentralProcessor.java:825) ~[oshi-core-6.4.5.jar:6.4.5]
+	at oshi.util.Memoizer$1.get(Memoizer.java:61) ~[oshi-core-6.4.5.jar:6.4.5]
+	at oshi.hardware.CentralProcessor$ProcessorIdentifier.getMicroarchitecture(CentralProcessor.java:816) ~[oshi-core-6.4.5.jar:6.4.5]
+	at net.minecraft.SystemReport.setDetail(SystemReport.java:62) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.putProcessor(SystemReport.java:153) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.lambda$putHardware$4(SystemReport.java:72) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.ignoreErrors(SystemReport.java:85) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.lambda$putHardware$4(SystemReport.java:72) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.lambda$new$2(SystemReport.java:47) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.ignoreErrors(SystemReport.java:85) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.SystemReport.lambda$new$2(SystemReport.java:47) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:34) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.CrashReport.preload(CrashReport.java:257) ~[paper-1.20.4.jar:git-Paper-436]
+	at net.minecraft.server.Main.main(Main.java:126) ~[paper-1.20.4.jar:git-Paper-436]
+	at org.bukkit.craftbukkit.Main.main(Main.java:326) ~[paper-1.20.4.jar:git-Paper-436]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[15:39:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:39:40] [ServerMain/INFO]: Loaded 1174 recipes
+[15:39:40] [ServerMain/INFO]: Loaded 1271 advancements
+[15:39:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:39:40] [Server thread/INFO]: Loading properties
+[15:39:40] [Server thread/INFO]: This server is running Paper version git-Paper-436 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 850b736)
+[15:39:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:39:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:39:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:39:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[15:39:41] [Server thread/INFO]: Default game type: CREATIVE
+[15:39:41] [Server thread/INFO]: Generating keypair
+[15:39:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:39:41] [Server thread/INFO]: Using epoll channel type
+[15:39:41] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[15:39:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[15:39:41] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[15:39:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74fa0bd2]
+[15:39:41] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[15:39:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:39:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[15:39:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:39:42] [Server thread/INFO]: WEPIF: Updated config file
+[15:39:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:39:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[15:39:42] [Server thread/INFO]: Preparing level "world"
+[15:39:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:39:43] [Server thread/INFO]: Time elapsed: 222 ms
+[15:39:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:39:43] [Server thread/INFO]: Time elapsed: 59 ms
+[15:39:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:39:43] [Server thread/INFO]: Time elapsed: 21 ms
+[15:39:43] [Server thread/INFO]: Starting remote control listener
+[15:39:43] [Server thread/INFO]: Thread RCON Listener started
+[15:39:43] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[15:39:43] [Server thread/INFO]: Running delayed init tasks
+[15:39:43] [Server thread/INFO]: Done (3.220s)! For help, type "help"
+[15:39:43] [Server thread/INFO]: Timings Reset
+[15:40:06] [User Authenticator #0/INFO]: UUID of player josephpalmercouk is 87dea0fb-d2fb-4a3e-b941-9c7be77a13a2
+[15:40:06] [Server thread/INFO]: josephpalmercouk joined the game
+[15:40:06] [Server thread/INFO]: josephpalmercouk[/192.168.65.1:46814] logged in with entity id 11 at ([world]10.5, 10.0, 10.5)
+[15:40:09] [Server thread/INFO]: josephpalmercouk issued server command: //wand
+[15:40:33] [Server thread/INFO]: josephpalmercouk issued server command: //fill stone
+[15:40:42] [Server thread/INFO]: josephpalmercouk issued server command: //replace stone
+[15:40:44] [Server thread/INFO]: josephpalmercouk lost connection: Disconnected
+[15:40:44] [Server thread/INFO]: josephpalmercouk left the game
