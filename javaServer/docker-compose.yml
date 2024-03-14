@@ -23,9 +23,10 @@ services:
         BlockB110
         Otto4903
         josephpalmercouk
+      SPIGET_RESOURCES: 27448,19254
       PLUGINS: |
         https://dev.bukkit.org/projects/worldedit/files/latest
-
+        https://ci.athion.net/job/FastAsyncWorldEdit/lastStableBuild/artifact/artifacts/FastAsyncWorldEdit-Bukkit-2.9.1-SNAPSHOT-661.jar
     ports:
       - "25565:25565"
     volumes:
