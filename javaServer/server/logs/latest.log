@@ -1,424 +1,75 @@
-[07:28:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:28:30] [ServerMain/INFO]: Loaded 1174 recipes
-[07:28:30] [ServerMain/INFO]: Loaded 1271 advancements
-[07:28:31] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[07:28:31] [Server thread/INFO]: Loading properties
-[07:28:31] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
-[07:28:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:28:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:28:31] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[05:43:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:43:05] [ServerMain/INFO]: Loaded 1174 recipes
+[05:43:05] [ServerMain/INFO]: Loaded 1271 advancements
+[05:43:05] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[05:43:05] [Server thread/INFO]: Loading properties
+[05:43:05] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
+[05:43:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:43:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:43:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[07:28:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[07:28:31] [Server thread/INFO]: Default game type: CREATIVE
-[07:28:31] [Server thread/INFO]: Generating keypair
-[07:28:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:28:31] [Server thread/INFO]: Using default channel type
-[07:28:31] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[07:28:31] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[07:28:31] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[07:28:31] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[07:28:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:28:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:28:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[07:28:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[07:28:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[07:28:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@346e9c00]
-[07:28:32] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[07:28:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[07:28:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:28:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[07:28:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[07:28:33] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[07:28:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[07:28:33] [Server thread/INFO]: Preparing level "world"
-[07:28:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:28:34] [Server thread/INFO]: Time elapsed: 207 ms
-[07:28:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:28:34] [Server thread/INFO]: Time elapsed: 65 ms
-[07:28:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:28:34] [Server thread/INFO]: Time elapsed: 18 ms
-[07:28:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[07:28:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[07:28:34] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[07:28:34] [Server thread/INFO]: [Plan] 
-[07:28:34] [Server thread/INFO]: [Plan]            ██▌
-[07:28:34] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[07:28:34] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[07:28:34] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[07:28:34] [Server thread/INFO]: [Plan] 
-[07:28:34] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[07:28:34] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[07:28:35] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[07:28:35] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[07:28:35] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[07:28:35] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[07:28:35] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[07:28:35] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[07:28:35] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[07:28:35] [Server thread/INFO]: [Plan] Loading server identifying information
-[07:28:35] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
-[07:28:35] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[07:28:35] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[07:28:35] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[07:28:35] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[07:28:35] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[07:28:35] [Server thread/INFO]: Starting remote control listener
-[07:28:35] [Server thread/INFO]: Thread RCON Listener started
-[07:28:35] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[07:28:35] [Server thread/INFO]: Running delayed init tasks
-[07:28:35] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[07:28:35] [Server thread/INFO]: Done (4.293s)! For help, type "help"
-[07:28:35] [Server thread/INFO]: Timings Reset
-[07:28:35] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] You're using the latest version.
-[07:30:08] [Server thread/INFO]: Nothing changed. The player already is an operator
-[07:30:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[07:30:23] [Server thread/INFO]: Nothing changed. The player already is an operator
-[09:31:13] [User Authenticator #0/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[09:31:13] [Server thread/INFO]: alex86465 joined the game
-[09:31:13] [Server thread/INFO]: alex86465[/10.147.17.188:53035] logged in with entity id 11 at ([world]1794.5, 4.0, -5116.5)
-[09:31:23] [Server thread/INFO]: alex86465 issued server command: /tp 0 180 0
-[09:31:23] [Server thread/INFO]: [alex86465: Teleported alex86465 to 0.500000, 180.000000, 0.500000]
-[09:31:23] [Server thread/WARN]: alex86465 moved too quickly! -1794.0,176.0,5117.0
-[09:31:32] [Server thread/INFO]: alex86465 issued server command: /time set day
-[09:31:32] [Server thread/INFO]: [alex86465: Set the time to 1000]
-[09:34:09] [Server thread/INFO]: alex86465 issued server command: //wand
-[09:34:18] [Server thread/INFO]: alex86465 issued server command: //brush sphere brick 6
-[09:34:26] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks
-[09:34:31] [Server thread/INFO]: alex86465 issued server command: //brush sphere bricks 6
-[09:34:36] [Server thread/INFO]: alex86465 issued server command: //brush sphere bricks 5
-[09:41:02] [Server thread/INFO]: alex86465 issued server command: //pos1
-[09:41:09] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:41:16] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[09:41:25] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[09:41:30] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[09:41:34] [Server thread/INFO]: alex86465 issued server command: //stack 11 down
-[09:41:43] [Server thread/INFO]: alex86465 issued server command: /time set day
-[09:41:43] [Server thread/INFO]: [alex86465: Set the time to 1000]
-[09:43:13] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:43:20] [Server thread/INFO]: alex86465 issued server command: //pos1
-[09:43:22] [Server thread/INFO]: alex86465 issued server command: //stack 11 down
-[09:48:17] [Server thread/INFO]: alex86465 issued server command: /weather clear
-[09:48:17] [Server thread/INFO]: [alex86465: Set the weather to clear]
-[09:48:24] [Server thread/INFO]: alex86465 issued server command: /gamerule doWeatherCycle false
-[09:48:24] [Server thread/INFO]: [alex86465: Gamerule doWeatherCycle is now set to: false]
-[09:48:30] [Server thread/INFO]: alex86465 issued server command: /gamerule doDaylightCycle false
-[09:48:30] [Server thread/INFO]: [alex86465: Gamerule doDaylightCycle is now set to: false]
-[09:49:33] [Server thread/INFO]: alex86465 issued server command: //pos1
-[09:49:39] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:49:45] [Server thread/INFO]: alex86465 issued server command: //stack 11 down
-[09:49:50] [Server thread/INFO]: alex86465 issued server command: //undo
-[09:49:54] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[09:50:10] [Server thread/INFO]: alex86465 issued server command: //wand
-[09:50:19] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[09:50:21] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[09:50:59] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 4
-[09:51:03] [Server thread/INFO]: alex86465 issued server command: //undo
-[09:51:04] [Server thread/INFO]: alex86465 issued server command: //undo
-[09:51:10] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 4
-[09:53:04] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[09:53:07] [Server thread/INFO]: alex86465 issued server command: //undo
-[09:53:10] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[09:53:17] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[09:54:43] [Server thread/INFO]: alex86465 issued server command: //brush cyl water 3
-[09:56:07] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:56:21] [Server thread/INFO]: alex86465 issued server command: //copy
-[09:56:28] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[09:56:50] [Server thread/INFO]: alex86465 issued server command: //paste
-[09:58:56] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:59:02] [Server thread/INFO]: alex86465 issued server command: //pos1
-[09:59:07] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[09:59:09] [Server thread/INFO]: alex86465 issued server command: //undo
-[09:59:12] [Server thread/INFO]: alex86465 issued server command: //redo
-[09:59:17] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[09:59:36] [Server thread/INFO]: alex86465 issued server command: //pos1
-[09:59:48] [Server thread/INFO]: alex86465 issued server command: //pos2
-[09:59:55] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:00:07] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[10:00:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:04:07] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:05:23] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:05:29] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:05:34] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:07:47] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:07:55] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:08:42] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:08:46] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:08:52] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:08:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:09:12] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:09:16] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:09:48] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:09:52] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[10:09:59] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:10:15] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:10:21] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:10:24] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:14:14] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:15:19] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:15:24] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:15:34] [Server thread/INFO]: alex86465 issued server command: //stack 13 down
-[10:15:41] [Server thread/INFO]: alex86465 issued server command: //stack 13 down
-[10:15:52] [Server thread/INFO]: alex86465 issued server command: //stack 13 down
-[10:17:43] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:17:50] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:17:55] [Server thread/INFO]: alex86465 issued server command: //stack 13 down
-[10:18:00] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:18:04] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:19:02] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[10:19:08] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:20:00] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:20:05] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:20:08] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:20:13] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:20:36] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[10:20:45] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:21:21] [Server thread/INFO]: alex86465 issued server command: //stack 9 down
-[10:21:57] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[10:22:03] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[10:26:15] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:26:22] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:26:27] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[10:28:00] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:28:04] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:28:11] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
-[10:28:15] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[10:29:54] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[10:31:43] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:31:49] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:31:52] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:31:54] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[10:31:58] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
-[10:37:58] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[10:38:02] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[10:38:34] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[10:39:02] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[10:39:46] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[10:41:17] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_brick 6
-[10:41:22] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_brick 5
-[10:41:27] [Server thread/INFO]: alex86465 issued server command: /mask bricks
-[10:41:32] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:41:35] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_bricks 5
-[10:44:32] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:44:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:40] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:43] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:48] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:19] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:45:20] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:45:20] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:45:21] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:45:24] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:46:25] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:46:28] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:46:32] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:46:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:46:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:46:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:46:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:46:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:46:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:49:33] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:49:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:49:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:49:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:49:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:50:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:50:46] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:50:47] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:50:47] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:50:48] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:50:49] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:51:08] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:51:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:51:17] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:51:21] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:51:24] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:51:26] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:53:14] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:53:19] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:53:28] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:53:31] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:53:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:53:38] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:53:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:29] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:54:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:45] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:54:59] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:55:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:13] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:16] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:55:22] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:56:51] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:56:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:56:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:56:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:57:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:57:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:57:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:57:37] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:37] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:38] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:38] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:39] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:40] [Server thread/INFO]: alex86465 issued server command: //undo
-[10:57:57] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:58:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:58:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:58:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:58:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:58:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:58:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:00:03] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:00:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:26:27] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:26:37] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:26:39] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:26:54] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:26:58] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:27:54] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:28:08] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:28:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:28:21] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:30:57] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:31:13] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[11:31:15] [Server thread/INFO]: alex86465 issued server command: /paste
-[11:31:17] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:31:20] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:31:25] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:31:28] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:31:31] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:32:31] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:32:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:33:25] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:33:36] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:33:40] [Server thread/INFO]: alex86465 issued server command: //rotate 90
-[11:33:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:33:59] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:34:14] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:34:31] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:34:32] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:34:36] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:34:47] [Server thread/INFO]: alex86465 issued server command: //rotate 90
-[11:34:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:34:53] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:34:54] [Server thread/INFO]: alex86465 issued server command: //rotate 90
-[11:34:55] [Server thread/INFO]: alex86465 issued server command: //rotate 90
-[11:34:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:35:13] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:36:04] [Server thread/INFO]: alex86465 issued server command: //set stone_button
-[11:36:10] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:36:45] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:36:52] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:36:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:36:58] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:22] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:25] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:28] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:30] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:38:07] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:38:40] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:38:47] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:39:02] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[11:39:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:39:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:39:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:02] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:40:08] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:40:26] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:29] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:40:33] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[11:40:34] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:38] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:40] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:43] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:45] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:38] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:42] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:52] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:42:22] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:42:25] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:42:28] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:42:30] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:42:33] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:42:35] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:43:12] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:43:50] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:43:58] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:44:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:13] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:29] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:32] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:37] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:44:52] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:47:01] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:56:00] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:56:12] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:56:16] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:56:23] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:01:33] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:01:42] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:01:46] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:01:50] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:02:01] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:03:55] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[12:05:20] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:05:35] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:05:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:05:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:06:04] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:07:09] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:11:49] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:11:57] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:12:09] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[12:12:11] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:12:20] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:12:23] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:13:02] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:16:27] [Server thread/INFO]: alex86465 issued server command: //brush sphere light_gray_concrete
-[12:16:32] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks
-[12:16:38] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks
-[12:16:42] [Server thread/INFO]: alex86465 issued server command: //brush sphere light_gray_concrete 3
-[12:16:53] [Server thread/INFO]: alex86465 issued server command: /mask stone_brick_slab
-[12:18:35] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:18:43] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[12:18:50] [Server thread/INFO]: alex86465 issued server command: //stack 4 down
-[12:53:43] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[12:53:48] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[12:54:14] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:54:17] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[12:54:34] [Server thread/INFO]: alex86465 issued server command: //set grass_block
-[12:56:42] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[12:56:48] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[13:22:38] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:23:45] [Server thread/INFO]: alex86465 issued server command: //stack 6 up
-[13:24:40] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:26:29] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:33:27] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:37:24] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[13:37:24] [Server thread/INFO]: alex86465 left the game
-[18:07:42] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:07:42] [Server thread/INFO]: Saved the game
+[05:43:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[05:43:06] [Server thread/INFO]: Default game type: CREATIVE
+[05:43:06] [Server thread/INFO]: Generating keypair
+[05:43:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:43:06] [Server thread/INFO]: Using default channel type
+[05:43:06] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[05:43:06] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[05:43:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[05:43:06] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[05:43:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:43:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:43:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:43:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:43:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[05:43:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b40feba]
+[05:43:07] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
+[05:43:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[05:43:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:43:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[05:43:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:43:07] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:43:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[05:43:07] [Server thread/INFO]: Preparing level "world"
+[05:43:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:43:08] [Server thread/INFO]: Time elapsed: 203 ms
+[05:43:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:43:08] [Server thread/INFO]: Time elapsed: 47 ms
+[05:43:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:43:08] [Server thread/INFO]: Time elapsed: 15 ms
+[05:43:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[05:43:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[05:43:08] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
+[05:43:09] [Server thread/INFO]: [Plan] 
+[05:43:09] [Server thread/INFO]: [Plan]            ██▌
+[05:43:09] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[05:43:09] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[05:43:09] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
+[05:43:09] [Server thread/INFO]: [Plan] 
+[05:43:09] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[05:43:09] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[05:43:09] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[05:43:09] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[05:43:09] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[05:43:09] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[05:43:09] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[05:43:09] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[05:43:09] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[05:43:09] [Server thread/INFO]: [Plan] Loading server identifying information
+[05:43:09] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
+[05:43:09] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[05:43:09] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[05:43:09] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[05:43:09] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[05:43:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[05:43:09] [Server thread/INFO]: Starting remote control listener
+[05:43:09] [Server thread/INFO]: Thread RCON Listener started
+[05:43:09] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[05:43:09] [Server thread/INFO]: Running delayed init tasks
+[05:43:09] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[05:43:09] [Server thread/INFO]: Done (4.128s)! For help, type "help"
+[05:43:09] [Server thread/INFO]: Timings Reset
+[05:43:09] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] You're using the latest version.
+[06:01:38] [Server thread/INFO]: Saving the game (this may take a moment!)
+[06:01:38] [Server thread/INFO]: Saved the game
