@@ -1,58 +1,119 @@
-[02:01:33] [Server thread/INFO]: Stopping server
-[02:01:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[02:01:33] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-454]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:228) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[02:01:33] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[02:01:33] [Server thread/INFO]: [Plan] Processing complete.
-[02:01:33] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[02:01:33] [Server thread/INFO]: [Plan] Transaction queue closed.
-[02:01:33] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[02:01:33] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[02:01:33] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[02:01:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[02:01:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:01:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[02:01:33] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[02:01:33] [Server thread/INFO]: Saving players
-[02:01:33] [Server thread/INFO]: Saving worlds
-[02:01:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:01:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:01:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:01:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[02:01:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:01:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:01:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:01:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:01:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:01:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:01:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:01:34] [Server thread/INFO]: Flushing Chunk IO
-[02:01:34] [Server thread/INFO]: Closing Thread Pool
-[02:01:34] [Server thread/INFO]: Closing Server
+[11:28:21] [Server thread/INFO]: alex86465 (/10.147.17.188:50112) lost connection: Disconnected
+[11:29:40] [Server thread/INFO]: alex86465 (/10.147.17.188:50145) lost connection: Disconnected
+[11:29:59] [User Authenticator #8/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[11:29:59] [Server thread/INFO]: alex86465 joined the game
+[11:29:59] [Server thread/INFO]: alex86465[/10.147.17.188:50153] logged in with entity id 44664 at ([world]2129.459666473441, 58.0, -8202.89104215219)
+[11:37:39] [Server thread/INFO]: alex86465 issued server command: //set air
+[11:39:21] [Server thread/INFO]: alex86465 issued server command: //set grass_block
+[11:43:39] [Server thread/INFO]: alex86465 issued server command: //set air
+[11:55:46] [Server thread/INFO]: alex86465 issued server command: //replace stone_bricks polished_andesite
+[12:05:51] [Server thread/INFO]: alex86465 issued server command: //set gravel
+[12:10:54] [Server thread/INFO]: alex86465 issued server command: //set air
+[12:11:08] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
+[12:11:18] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[12:11:23] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[12:21:11] [Server thread/INFO]: alex86465 issued server command: //set gravel
+[12:23:36] [Server thread/INFO]: alex86465 issued server command: //set gravel
+[13:12:27] [User Authenticator #9/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[13:12:28] [Server thread/INFO]: Otto4903 joined the game
+[13:12:28] [Server thread/INFO]: Otto4903[/10.147.17.189:49320] logged in with entity id 49541 at ([world]-27.950425204312705, 61.927007409419545, -4004.0363238576283)
+[13:14:24] [Server thread/INFO]: alex86465 issued server command: /tp 2050 180 -2050
+[13:14:24] [Server thread/INFO]: [alex86465: Teleported alex86465 to 2050.500000, 180.000000, -2049.500000]
+[13:16:13] [Server thread/INFO]: alex86465 issued server command: /tp 2050 180 -4100
+[13:16:13] [Server thread/INFO]: [alex86465: Teleported alex86465 to 2050.500000, 180.000000, -4099.500000]
+[13:17:00] [Server thread/INFO]: alex86465 issued server command: /clear
+[13:17:00] [Server thread/INFO]: [alex86465: Removed 38 item(s) from player alex86465]
+[13:17:02] [Server thread/INFO]: alex86465 issued server command: //wand
+[13:17:15] [Server thread/INFO]: alex86465 issued server command: //brush sphere stone_bricks 5
+[13:17:17] [Server thread/INFO]: alex86465 issued server command: /mask bricks
+[13:20:25] [Server thread/INFO]: alex86465 issued server command: //copy
+[13:20:27] [Server thread/INFO]: alex86465 issued server command: //paste
+[13:21:12] [Server thread/INFO]: alex86465 issued server command: //replace air water
+[13:21:25] [Server thread/INFO]: alex86465 issued server command: //copy
+[13:21:29] [Server thread/INFO]: alex86465 issued server command: //paste
+[13:22:14] [Server thread/INFO]: alex86465 issued server command: //replace air water
+[13:22:38] [Server thread/INFO]: alex86465 issued server command: //replace air water
+[13:23:40] [Server thread/INFO]: alex86465 issued server command: //replace water air
+[13:23:49] [Server thread/INFO]: alex86465 issued server command: //brush cyl water 5
+[13:24:10] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 5
+[13:24:13] [Server thread/INFO]: alex86465 issued server command: /mask water
+[13:25:15] [Server thread/INFO]: alex86465 issued server command: //pos1
+[13:25:19] [Server thread/INFO]: alex86465 issued server command: //pos2
+[13:25:21] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:25:25] [Server thread/INFO]: alex86465 issued server command: //set stone
+[13:25:28] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:25:37] [Server thread/INFO]: alex86465 issued server command: /mask
+[13:25:40] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:25:47] [Server thread/INFO]: alex86465 issued server command: //pos1
+[13:25:52] [Server thread/INFO]: alex86465 issued server command: //pos2
+[13:25:54] [Server thread/INFO]: alex86465 issued server command: //set stone
+[13:25:58] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:26:44] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:26:44] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:26:45] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:27:01] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:27:03] [Server thread/INFO]: alex86465 issued server command: /mask water
+[13:27:39] [Server thread/INFO]: alex86465 issued server command: //pos2
+[13:27:49] [Server thread/INFO]: alex86465 issued server command: //replace water air
+[13:28:00] [Server thread/INFO]: alex86465 issued server command: //pos2
+[13:28:01] [Server thread/INFO]: alex86465 issued server command: //replace water air
+[13:36:06] [Server thread/INFO]: alex86465 issued server command: //replace air water
+[13:37:19] [Server thread/INFO]: alex86465 issued server command: //replace air water
+[13:48:09] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[13:48:09] [Server thread/INFO]: alex86465 left the game
+[14:07:22] [Server thread/INFO]: Otto4903 issued server command: //wand
+[14:07:34] [Server thread/INFO]: Otto4903 issued server command: //brush set sphere mud_bricks
+[14:07:38] [Server thread/INFO]: Otto4903 issued server command: /mask stone
+[16:01:33] [Server thread/INFO]: Otto4903 issued server command: //
+[16:01:51] [Server thread/INFO]: Otto4903 issued server command: //
+[16:01:53] [Server thread/INFO]: Otto4903 issued server command: //
+[16:02:12] [Server thread/INFO]: Otto4903 issued server command: //brush set cuboid 1 air
+[16:02:17] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:02:27] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:02:28] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:02:29] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:02:36] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:06:06] [Server thread/INFO]: Otto4903 issued server command: //brush sphere gravel,suspicious_gravel
+[16:06:10] [Server thread/INFO]: Otto4903 issued server command: /mask stone
+[16:06:44] [Server thread/INFO]: Otto4903 lost connection: Disconnected
+[16:06:44] [Server thread/INFO]: Otto4903 left the game
+[16:32:10] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:32:10] [Server thread/INFO]: Saved the game
+[16:32:17] [Server thread/INFO]: Stopping the server
+[16:32:17] [Server thread/INFO]: Stopping server
+[16:32:17] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[16:32:17] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[16:32:17] [Server thread/INFO]: [Plan] Processing complete.
+[16:32:17] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[16:32:17] [Server thread/INFO]: [Plan] Transaction queue closed.
+[16:32:17] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[16:32:17] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[16:32:17] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[16:32:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[16:32:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:32:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[16:32:17] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:32:17] [Server thread/INFO]: Saving players
+[16:32:17] [Server thread/INFO]: Saving worlds
+[16:32:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:32:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:32:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:32:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:32:17] [Server thread/INFO]: [ChunkHolderManager] Saved 98 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[16:32:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:32:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:32:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[16:32:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:32:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:32:18] [Server thread/INFO]: Flushing Chunk IO
+[16:32:18] [Server thread/INFO]: Closing Thread Pool
+[16:32:18] [Server thread/INFO]: Closing Server
