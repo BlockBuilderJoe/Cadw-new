@@ -1337,21 +1337,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
-      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
+      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/detector_rail": {
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
     "criteria": {
-      "has_rail": "2024-04-05 14:41:20 +0100"
+      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/chest_minecart": {
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
-      "has_minecart": "2024-04-05 14:41:37 +0100"
+      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
     },
     "done": true
   },
@@ -1373,39 +1379,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
-    "criteria": {
-      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/furnace_minecart": {
-    "criteria": {
-      "has_minecart": "2024-04-05 14:41:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2024-04-05 14:41:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-04-05 13:59:59 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/exposed_cut_copper_from_exposed_copper_stonecutting": {
-    "criteria": {
-      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
     },
     "done": true
   },
@@ -1421,33 +1397,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab": {
-    "criteria": {
-      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2024-04-05 13:59:59 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
-    "criteria": {
-      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
     },
     "done": true
   },
@@ -1457,33 +1409,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tripwire_hook": {
+  "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
+      "has_planks": "2024-04-05 13:59:59 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
+      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
-      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
+      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/tnt_minecart": {
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
-      "has_minecart": "2024-04-05 14:41:37 +0100"
+      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/candle": {
+  "minecraft:recipes/building_blocks/exposed_cut_copper_from_exposed_copper_stonecutting": {
     "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
+      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
     },
     "done": true
   },
@@ -1499,9 +1457,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+  "minecraft:recipes/building_blocks/exposed_cut_copper": {
     "criteria": {
-      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
+      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-04-05 14:41:20 +0100"
     },
     "done": true
   },
@@ -1511,45 +1475,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2024-04-05 14:31:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2024-04-05 14:43:32 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2024-04-05 13:46:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2024-04-05 13:59:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2024-04-05 14:41:20 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/exposed_cut_copper": {
+  "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
-      "has_exposed_copper": "2024-04-05 14:38:37 +0100"
+      "has_minecart": "2024-04-05 14:41:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2024-04-05 14:41:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2024-04-05 14:41:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-04-05 14:41:37 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2024-04-05 14:41:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-04-05 14:43:32 +0100"
     },
     "done": true
   },

@@ -234,6 +234,7 @@ World_aliases:
     List:
         world: world
         phase1: "phase1"
+        phase2: "phase2"
     # List of - "alias:regex" rules, Set alias of multiple worlds that match regex to group them
     Regex:
       - "Alias for world:^abc$"
