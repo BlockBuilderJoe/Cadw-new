@@ -1,37 +1,37 @@
-[15:30:34] [Server thread/INFO]: Stopping server
-[15:30:34] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[15:30:34] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[15:30:34] [Server thread/INFO]: [Plan] Processing complete.
-[15:30:34] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[15:30:34] [Server thread/INFO]: [Plan] Transaction queue closed.
-[15:30:34] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[15:30:34] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[15:30:34] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[15:30:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[15:30:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:30:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[15:30:34] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[15:30:34] [Server thread/INFO]: Saving players
-[15:30:34] [Server thread/INFO]: Saving worlds
-[15:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1]'/minecraft:overworld
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 65 entity chunks, 0 poi chunks in world 'phase1' in 0.01s
-[15:30:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (phase1): All chunks are saved
-[15:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1_nether]'/minecraft:the_nether
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1_nether'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1_nether'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1_nether'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'phase1_nether' in 0.00s
-[15:30:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1_the_end]'/minecraft:the_end
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1_the_end'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1_the_end'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1_the_end'
-[15:30:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'phase1_the_end' in 0.01s
-[15:30:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:30:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:30:34] [Server thread/INFO]: Flushing Chunk IO
-[15:30:34] [Server thread/INFO]: Closing Thread Pool
-[15:30:34] [Server thread/INFO]: Closing Server
+[21:34:26] [Server thread/INFO]: Stopping server
+[21:34:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[21:34:26] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[21:34:26] [Server thread/INFO]: [Plan] Processing complete.
+[21:34:26] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[21:34:26] [Server thread/INFO]: [Plan] Transaction queue closed.
+[21:34:26] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[21:34:26] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[21:34:26] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[21:34:26] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[21:34:26] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:34:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[21:34:26] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:34:26] [Server thread/INFO]: Saving players
+[21:34:26] [Server thread/INFO]: Saving worlds
+[21:34:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1]'/minecraft:overworld
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 62 entity chunks, 0 poi chunks in world 'phase1' in 0.01s
+[21:34:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (phase1): All chunks are saved
+[21:34:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1_nether]'/minecraft:the_nether
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1_nether'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1_nether'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1_nether'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'phase1_nether' in 0.00s
+[21:34:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:34:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[phase1_the_end]'/minecraft:the_end
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'phase1_the_end'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'phase1_the_end'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'phase1_the_end'
+[21:34:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'phase1_the_end' in 0.00s
+[21:34:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:34:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:34:26] [Server thread/INFO]: Flushing Chunk IO
+[21:34:26] [Server thread/INFO]: Closing Thread Pool
+[21:34:26] [Server thread/INFO]: Closing Server
