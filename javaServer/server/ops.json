@@ -12,6 +12,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "e913bbee-5098-460f-897e-2a1932ca69e6",
+    "name": "DozingBookwyrm",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "e167822e-aeb1-46f5-8b57-c0007920e80a",
     "name": "BlockB110",
     "level": 4,
