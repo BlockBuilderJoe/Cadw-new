@@ -1,1225 +1,195 @@
-[10:05:11] [User Authenticator #44/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[10:05:12] [Server thread/INFO]: alex86465 joined the game
-[10:05:12] [Server thread/INFO]: alex86465[/10.147.17.188:49834] logged in with entity id 607 at ([Conwyx2]24990.593187921517, 49.0, 25234.342915487756)
-[10:06:27] [Server thread/INFO]: alex86465 issued server command: //replace mossy_stone_bricks,stone stone_bricks
-[10:06:40] [Server thread/INFO]: alex86465 issued server command: //replace mossy_stone_bricks,stone stone_bricks
-[10:08:02] [Server thread/INFO]: alex86465 issued server command: //line stone_bricks
-[10:09:18] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:10:46] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[10:10:54] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[10:11:15] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:11:19] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:11:31] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:11:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:11:45] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:11:51] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:11:56] [Server thread/INFO]: alex86465 issued server command: //pos1
-[10:12:04] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:12:23] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:28] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:30] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:37] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:43] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:48] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:12:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:09] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:18] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:20] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:22] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:25] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:13:59] [Server thread/INFO]: alex86465 issued server command: //set day
-[10:14:03] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:14:06] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:15:02] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:15:13] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:15:25] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:15:42] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:15:46] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:16:04] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:22:08] [User Authenticator #45/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[10:22:08] [Server thread/INFO]: BlockBuilderJoe joined the game
-[10:22:08] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:34464] logged in with entity id 661 at ([Conwyx2]25174.358984792012, 73.95856498923187, 25199.687161690697)
-[10:22:39] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:22:46] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:22:52] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
-[10:24:33] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
-[10:24:37] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
-[10:26:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[10:26:27] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
-[10:26:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[10:26:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[10:27:12] [Server thread/INFO]: BlockBuilderJoe issued server command: //set cyan_concrete
-[10:27:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //set gray_concrete
-[10:27:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //set light_gray_concrete
-[10:27:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //set cyan_terracotta
-[10:27:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[10:28:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[10:28:06] [Server thread/INFO]: BlockBuilderJoe issued server command: //set air
-[10:28:22] [Server thread/INFO]: BlockBuilderJoe issued server command: /gamerule doTileDrops false
-[10:28:22] [Server thread/INFO]: [BlockBuilderJoe: Gamerule doTileDrops is now set to: false]
-[10:29:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[10:29:46] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
-[10:29:46] [Server thread/INFO]: [BlockBuilderJoe: Removed 21 item(s) from player BlockBuilderJoe]
-[10:29:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[10:30:03] [Server thread/INFO]: BlockBuilderJoe issued server command: ///pos2
-[10:30:05] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[10:30:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //hollow
-[10:31:17] [Server thread/INFO]: BlockBuilderJoe lost connection: Timed out
-[10:31:17] [Server thread/INFO]: BlockBuilderJoe left the game
-[10:32:08] [User Authenticator #46/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[10:32:08] [Server thread/INFO]: BlockBuilderJoe joined the game
-[10:32:08] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:53350] logged in with entity id 692 at ([Conwyx2]24986.70997185013, 50.559941198391904, 25173.12396673853)
-[10:32:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone_bricks
-[10:33:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone_bricks
-[10:33:31] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[10:34:03] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:34:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:11] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:18] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:21] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:23] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:27] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:30] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:38] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:45] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:34:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:35:25] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:35:33] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:35:43] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:36:01] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:36:08] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:36:11] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:36:16] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:36:20] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:36:49] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:37:23] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:37:29] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:42] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:37:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:38:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:38:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:38:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:38:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //set gray_concrete
-[10:40:12] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:40:30] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:40:43] [Server thread/INFO]: alex86465 issued server command: //pos2
-[10:40:47] [Server thread/INFO]: BlockBuilderJoe lost connection: Timed out
-[10:40:47] [Server thread/INFO]: BlockBuilderJoe left the game
-[10:40:51] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:41:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:41:08] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:43:40] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[10:43:51] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:44:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:37] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:44:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:50] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:52] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:44:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:09] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:16] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:45:28] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[10:49:07] [Server thread/INFO]: alex86465 issued server command: //set air
-[10:49:48] [User Authenticator #47/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[10:49:48] [Server thread/INFO]: BlockBuilderJoe joined the game
-[10:49:48] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.117:50604] logged in with entity id 694 at ([Conwyx2]24989.57640372303, 49.0, 25172.951516217545)
-[10:50:56] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 5
-[10:51:05] [Server thread/INFO]: alex86465 issued server command: /mask cobblestone
-[10:51:16] [Server thread/INFO]: alex86465 issued server command: /mask mossy_cobblestone
-[10:51:21] [Server thread/INFO]: alex86465 issued server command: /mask cobblestone
-[10:51:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[10:51:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[10:51:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //hollow
-[10:52:03] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision infinite
-[10:52:03] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
-[10:52:10] [Server thread/INFO]: alex86465 has made the advancement [Getting an Upgrade]
-[10:52:36] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan_concrete 4
-[10:52:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone_slab
-[10:52:52] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 4
-[10:53:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone
-[10:53:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone_bricks
-[10:53:29] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan_terracotta 4
-[10:54:18] [Netty Server IO #0/WARN]: Received expired chat: 'I really like this scale'. Is the client/server system time unsynchronized?
-[10:54:18] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> I really like this scale
-[10:54:30] [Async Chat Thread - #54/INFO]: <alex86465> yeah it definately feels right
-[10:54:46] [Netty Server IO #0/WARN]: Received expired chat: 'woo only took us 10 years'. Is the client/server system time unsynchronized?
-[10:54:46] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> woo only took us 10 years
-[10:55:20] [Async Chat Thread - #54/INFO]: <alex86465> itll be easy from now on haha
-[10:55:32] [Async Chat Thread - #53/INFO]: <alex86465> how much of this car park will be accessible?
-[10:55:56] [Netty Server IO #0/WARN]: Received expired chat: 'its worth doing this bit'. Is the client/server system time unsynchronized?
-[10:55:56] [Async Chat Thread - #54/INFO]: [Not Secure] <BlockBuilderJoe> its worth doing this bit
-[10:56:07] [Netty Server IO #0/WARN]: Received expired chat: 'so yeah all of it'. Is the client/server system time unsynchronized?
-[10:56:07] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> so yeah all of it
-[10:56:17] [Netty Server IO #0/WARN]: Received expired chat: 'as people will walk along the walls a bit'. Is the client/server system time unsynchronized?
-[10:56:17] [Async Chat Thread - #54/INFO]: [Not Secure] <BlockBuilderJoe> as people will walk along the walls a bit
-[10:56:27] [Netty Server IO #0/WARN]: Received expired chat: 'I like the turrets!'. Is the client/server system time unsynchronized?
-[10:56:27] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> I like the turrets!
-[10:56:35] [Async Chat Thread - #54/INFO]: <alex86465> yeah you can walk on the wall irl too
-[10:56:44] [Async Chat Thread - #53/INFO]: <alex86465> can block it off here
-[10:56:58] [Netty Server IO #0/WARN]: Received expired chat: 'yeah perfect'. Is the client/server system time unsynchronized?
-[10:56:58] [Async Chat Thread - #54/INFO]: [Not Secure] <BlockBuilderJoe> yeah perfect
-[10:57:01] [Async Chat Thread - #53/INFO]: <alex86465> or continue to this one?
-[10:57:28] [Netty Server IO #0/WARN]: Received expired chat: 'continue it to that one'. Is the client/server system time unsynchronized?
-[10:57:28] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> continue it to that one
-[10:57:33] [Async Chat Thread - #54/INFO]: <alex86465> ok nice
-[10:57:40] [Async Chat Thread - #53/INFO]: <alex86465> thats a cool gate house too
-[10:57:49] [Netty Server IO #0/WARN]: Received expired chat: 'then they can go under as well as it won't take long to clean it up down here and its a nice feature'. Is the client/server system time unsynchronized?
-[10:57:49] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> then they can go under as well as it won't take long to clean it up down here and its a nice feature
-[10:57:56] [Async Chat Thread - #54/INFO]: <alex86465> ah true
-[10:58:06] [Async Chat Thread - #54/INFO]: <alex86465> and see the town wall from both sides
-[10:58:15] [Netty Server IO #0/WARN]: Received expired chat: 'as this view is sick!'. Is the client/server system time unsynchronized?
-[10:58:15] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> as this view is sick!
-[10:58:26] [Netty Server IO #0/WARN]: Received expired chat: 'the flags are great!'. Is the client/server system time unsynchronized?
-[10:58:26] [Async Chat Thread - #53/INFO]: [Not Secure] <BlockBuilderJoe> the flags are great!
-[10:58:32] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[10:58:40] [Async Chat Thread - #53/INFO]: <alex86465> yeah brings it together
-[10:59:39] [Server thread/INFO]: alex86465 issued server command: //copy
-[10:59:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[10:59:52] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:00:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:00:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:00:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //set air
-[11:00:17] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:01:34] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:01:42] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:01:54] [Server thread/INFO]: alex86465 issued server command: //rotate 270
-[11:01:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:02:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:02:26] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:02:56] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:03:09] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:05:29] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:05:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:05:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //line white_concrete
-[11:05:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[11:06:34] [Server thread/INFO]: BlockBuilderJoe lost connection: Timed out
-[11:06:34] [Server thread/INFO]: BlockBuilderJoe left the game
-[11:07:06] [Server thread/INFO]: alex86465 issued server command: //set smooth_stone
-[11:07:10] [Server thread/INFO]: alex86465 issued server command: //set smooth_stone
-[11:07:14] [Server thread/INFO]: alex86465 issued server command: //set smooth_stone
-[11:09:08] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[11:10:11] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[11:10:32] [Server thread/INFO]: alex86465 issued server command: //set cyan_terracotta
-[11:10:35] [Server thread/INFO]: alex86465 issued server command: //set cyan_terracotta
-[11:10:46] [User Authenticator #48/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[11:10:46] [Server thread/INFO]: BlockBuilderJoe joined the game
-[11:10:46] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.117:50039] logged in with entity id 697 at ([Conwyx2]25010.75042559121, 54.76392965919157, 25167.472380819032)
-[11:11:09] [Server thread/INFO]: alex86465 issued server command: //set cyan_terracotta
-[11:11:22] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:11:31] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:11:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:11:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:11:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:11:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:11:58] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:12:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:12:16] [Server thread/INFO]: alex86465 issued server command: //set bricks
-[11:12:33] [Server thread/INFO]: alex86465 issued server command: //set grass_block
-[11:13:57] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:14:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //set white_concrete
-[11:14:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //set white_concrete
-[11:14:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //set white_concrete
-[11:15:35] [Server thread/INFO]: alex86465 issued server command: //set white_concrete#
-[11:15:36] [Server thread/INFO]: alex86465 issued server command: //set white_concrete
-[11:15:40] [Server thread/INFO]: alex86465 issued server command: //set white_concrete
-[11:15:55] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:16:02] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:16:08] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:16:15] [Server thread/INFO]: alex86465 issued server command: //stack 2
-[11:16:30] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:16:41] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:16:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:55] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:16:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:24] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:27] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:29] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:17:58] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:18:20] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:18:43] [Server thread/INFO]: alex86465 issued server command: //replace white_concrete cobbled_deepslate
-[11:18:46] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[11:18:46] [Server thread/INFO]: BlockBuilderJoe left the game
-[11:18:54] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:19:03] [Server thread/INFO]: alex86465 issued server command: //replace white_concrete cobbled_deepslate
-[11:19:41] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:19:53] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:19:56] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:20:01] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[11:20:05] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:20:12] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:20:14] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[11:20:19] [Server thread/INFO]: alex86465 issued server command: //stack 11 down
-[11:20:38] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:20:44] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:20:50] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:20:54] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:21:00] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:21:05] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:21:09] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:21:27] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:21:37] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:21:43] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:21:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:21:49] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:21:52] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:21:55] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:21:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:22:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:28:13] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:29:09] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:29:50] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:29:53] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:30:27] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 3
-[11:30:52] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:01] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:05] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:34] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:38] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:43] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:48] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:55] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:31:59] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:04] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:08] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:12] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:16] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:25] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:31] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:36] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:44] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:49] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:55] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:32:59] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:33:03] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:33:07] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:33:10] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[11:33:25] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 2
-[11:35:16] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
-[11:35:20] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
-[11:36:58] [Server thread/INFO]: alex86465 issued server command: //pos1
-[11:37:06] [Server thread/INFO]: alex86465 issued server command: //pos2
-[11:37:15] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:37:37] [Server thread/INFO]: alex86465 issued server command: //rotate 270
-[11:37:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:37:52] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:38:05] [Server thread/INFO]: alex86465 issued server command: //set air
-[11:38:15] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[11:38:19] [Server thread/INFO]: alex86465 issued server command: //stack 11 down
-[11:38:55] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
-[11:39:08] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
-[11:39:12] [Server thread/INFO]: alex86465 issued server command: //stack 8 down
-[11:40:38] [Server thread/INFO]: alex86465 issued server command: //copy
-[11:40:46] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:50] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:40:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:28] [Server thread/INFO]: alex86465 issued server command: //paste
-[11:41:48] [Server thread/INFO]: alex86465 issued server command: //stack 4 up
-[11:41:55] [Server thread/INFO]: alex86465 issued server command: //stack 4 up
-[11:42:01] [Server thread/INFO]: alex86465 issued server command: //stack 4 up
-[11:42:21] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 2
-[11:42:40] [Server thread/INFO]: alex86465 issued server command: /mask air
-[11:43:42] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:48:30] [Server thread/INFO]: alex86465 issued server command: //brush cyl coarse_dirt 3
-[11:50:43] [Server thread/INFO]: alex86465 issued server command: //stack 4
-[11:50:55] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:51:01] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
-[11:52:35] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:52:36] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:52:36] [Server thread/INFO]: alex86465 issued server command: //undo
-[11:58:49] [Server thread/INFO]: alex86465 lost connection: You have been idle for too long!
-[11:58:49] [Server thread/INFO]: alex86465 left the game
-[12:00:55] [User Authenticator #49/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[12:00:55] [Server thread/INFO]: alex86465 joined the game
-[12:00:55] [Server thread/INFO]: alex86465[/10.147.17.188:51797] logged in with entity id 700 at ([Conwyx2]25151.61260962589, 72.49313562294512, 25124.284426343307)
-[12:03:55] [Server thread/INFO]: alex86465 lost connection: You have been idle for too long!
-[12:03:55] [Server thread/INFO]: alex86465 left the game
-[12:04:10] [User Authenticator #50/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[12:04:10] [Server thread/INFO]: alex86465 joined the game
-[12:04:10] [Server thread/INFO]: alex86465[/10.147.17.188:51853] logged in with entity id 702 at ([Conwyx2]25151.61260962589, 72.49313562294512, 25124.284426343307)
-[12:05:32] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 6
-[12:05:43] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks,white_concrete
-[12:05:50] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 6
-[12:05:53] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 5
-[12:07:28] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[12:08:00] [Server thread/INFO]: alex86465 issued server command: /clear
-[12:08:00] [Server thread/INFO]: [alex86465: Removed 18 item(s) from player alex86465]
-[12:08:01] [Server thread/INFO]: alex86465 issued server command: //wand
-[12:08:10] [Server thread/INFO]: alex86465 issued server command: //set grass_block
-[12:08:21] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[12:08:52] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 5
-[12:08:55] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks,white_concrete
-[12:10:28] [Server thread/INFO]: alex86465 issued server command: /mask
-[12:10:57] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 4
-[12:12:17] [Server thread/INFO]: alex86465 issued server command: //brush smooth 6
-[12:12:22] [Server thread/INFO]: alex86465 issued server command: //brush smooth 5
-[12:12:56] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:12:56] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:12:57] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:18:50] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:18:58] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:20:15] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:20:21] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:20:31] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:20:40] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:21:34] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:21:37] [Server thread/INFO]: alex86465 issued server command: //stack 10 up
-[12:21:53] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:22:04] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:22:08] [Server thread/INFO]: alex86465 issued server command: //stack 10 up
-[12:22:20] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:22:23] [Server thread/INFO]: alex86465 issued server command: //stack 6 up
-[12:22:53] [Server thread/INFO]: alex86465 issued server command: //stack 8 up
-[12:22:59] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:23:01] [Server thread/INFO]: alex86465 issued server command: //stack 7 up
-[12:25:45] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:25:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:28:43] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:28:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:28:50] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:28:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:28:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:28:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:29:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:29:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:29:16] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:29:21] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:29:25] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:29:36] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:29:48] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[12:29:51] [Server thread/INFO]: alex86465 issued server command: //stack 8 down
-[12:29:56] [Server thread/INFO]: alex86465 issued server command: //stack 8 down
-[12:30:25] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:30:33] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:01] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:04] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:08] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:12] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:19] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:24] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:31:30] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
-[12:33:36] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:33:46] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:33:48] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:34:02] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:34:10] [Server thread/INFO]: alex86465 issued server command: //stack 10 up
-[12:34:12] [Server thread/INFO]: alex86465 issued server command: //stack 15 up
-[12:36:06] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:36:10] [Server thread/INFO]: alex86465 issued server command: //stack 20
-[12:36:16] [Server thread/INFO]: alex86465 issued server command: //stack 26
-[12:36:19] [Server thread/INFO]: alex86465 issued server command: //stack 30
-[12:36:22] [Server thread/INFO]: alex86465 issued server command: //stack 35
-[12:36:27] [Server thread/INFO]: alex86465 issued server command: //stack 38
-[12:39:40] [Server thread/INFO]: alex86465 issued server command: //stack 1
-[12:39:43] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:40:40] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:40:42] [Server thread/INFO]: alex86465 issued server command: //copy
-[12:40:44] [Server thread/INFO]: alex86465 issued server command: //paste
-[12:41:34] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:41:37] [Server thread/INFO]: alex86465 issued server command: //stack 5
-[12:41:47] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:41:50] [Server thread/INFO]: alex86465 issued server command: //stack 5
-[12:41:53] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:41:56] [Server thread/INFO]: alex86465 issued server command: //stack 4
-[12:44:40] [Server thread/INFO]: alex86465 issued server command: //brush cyl stone 2
-[12:44:43] [Server thread/INFO]: alex86465 issued server command: /mask
-[12:45:36] [Server thread/INFO]: alex86465 issued server command: /mask stone
-[12:45:40] [Server thread/INFO]: alex86465 issued server command: /mask stone
-[12:46:11] [Server thread/INFO]: alex86465 issued server command: /mask
-[12:48:34] [Server thread/INFO]: alex86465 issued server command: //stack 10 up
-[12:48:39] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:48:42] [Server thread/INFO]: alex86465 issued server command: //stack 7 up
-[12:49:31] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:49:34] [Server thread/INFO]: alex86465 issued server command: //stack 10
-[12:49:40] [Server thread/INFO]: alex86465 issued server command: //stack 15
-[12:53:51] [Server thread/INFO]: alex86465 lost connection: You have been idle for too long!
-[12:53:51] [Server thread/INFO]: alex86465 left the game
-[13:16:57] [User Authenticator #51/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[13:16:57] [Server thread/INFO]: alex86465 joined the game
-[13:16:57] [Server thread/INFO]: alex86465[/10.147.17.188:52784] logged in with entity id 704 at ([Conwyx2]24990.243801726563, 49.0, 25223.020814734708)
-[13:17:43] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:18:36] [Server thread/INFO]: alex86465 issued server command: //pos2
-[13:18:39] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:19:05] [Server thread/INFO]: alex86465 issued server command: //pos1
-[13:19:19] [Server thread/INFO]: alex86465 issued server command: //pos2
-[13:19:27] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:19:46] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[13:19:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:20:07] [Server thread/INFO]: alex86465 issued server command: /s/et air
-[13:20:09] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:20:34] [Server thread/INFO]: alex86465 issued server command: //stack 15 down
-[13:20:38] [Server thread/INFO]: alex86465 issued server command: //stack 19 down
-[13:20:41] [Server thread/INFO]: alex86465 issued server command: //stack 20 down
-[13:20:50] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[13:21:13] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 5
-[13:21:39] [Server thread/INFO]: alex86465 issued server command: //brush smooth 5
-[13:22:21] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:22:30] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:22:40] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:23:20] [Server thread/INFO]: alex86465 issued server command: /clear
-[13:23:20] [Server thread/INFO]: [alex86465: Removed 9 item(s) from player alex86465]
-[13:23:22] [Server thread/INFO]: alex86465 issued server command: //wand
-[13:23:30] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[13:23:47] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[13:23:51] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[13:23:53] [Server thread/INFO]: alex86465 issued server command: //stack 5 down
-[13:24:32] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:24:46] [Server thread/INFO]: alex86465 issued server command: //line red_wool
-[13:25:04] [Server thread/INFO]: alex86465 issued server command: //line red_wool
-[13:26:00] [Server thread/INFO]: alex86465 issued server command: //line red_wool
-[13:26:25] [Server thread/INFO]: alex86465 issued server command: //line red_wool
-[13:26:31] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 5
-[13:26:40] [Server thread/INFO]: alex86465 issued server command: /mask polished_diorite
-[13:27:08] [Server thread/INFO]: alex86465 issued server command: /mask red_wool
-[13:27:36] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:27:45] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 2
-[13:28:56] [Server thread/INFO]: alex86465 issued server command: //brush sphere polished_diorite 5
-[13:28:59] [Server thread/INFO]: alex86465 issued server command: /mask red_wall_banner
-[13:29:04] [Server thread/INFO]: alex86465 issued server command: /mask red_wool
-[13:29:24] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 4
-[13:29:29] [Server thread/INFO]: alex86465 issued server command: /mask polished_diorite
-[13:30:12] [Server thread/INFO]: alex86465 issued server command: //wand
-[13:30:27] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[13:30:37] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[13:30:47] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[13:30:52] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[13:31:04] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[13:34:33] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:34:47] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:34:55] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:02] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:08] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:14] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:19] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:25] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:31] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:37] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:44] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:53] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:35:59] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:05] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:10] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:15] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:20] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:29] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:34] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:40] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:47] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:36:57] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:38:21] [Server thread/INFO]: alex86465 issued server command: //stack 1 up
-[13:38:24] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:38:29] [Server thread/INFO]: alex86465 issued server command: //stack 1 up
-[13:39:26] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:39:53] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:41:07] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:41:14] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:41:19] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:41:24] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:41:46] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:42:20] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:42:49] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:42:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:43:05] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:43:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:43:20] [Server thread/INFO]: alex86465 issued server command: //copt
-[13:43:23] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:43:26] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:44:02] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:44:50] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:45:35] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:45:55] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:46:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:46:30] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
-[13:46:36] [Server thread/INFO]: alex86465 issued server command: //stack 6 down
-[13:47:48] [Server thread/INFO]: alex86465 issued server command: //line red_wool
-[13:48:03] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:48:15] [Server thread/INFO]: alex86465 issued server command: //redo
-[13:48:32] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:48:55] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:49:31] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:49:37] [Server thread/INFO]: alex86465 issued server command: //set polished_diorite
-[13:49:43] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:50:20] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:50:31] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:50:40] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:50:59] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:51:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:19] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:22] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:24] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:29] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:32] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:35] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:39] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:42] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:45] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:48] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:52] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:55] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:51:58] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:05] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:09] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:16] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:52:36] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:52:44] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:52:51] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:52:56] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:53:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:10] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:13] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:16] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:19] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:23] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:26] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:29] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:34] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:53:42] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:53:46] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:53:50] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:53:55] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:01] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:07] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:14] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:19] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:27] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:33] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:54:54] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:55:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:55:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:55:37] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:55:43] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:55:49] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:55:52] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:55:58] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:03] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:08] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:13] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:17] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:22] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:33] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:37] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:43] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:48] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:53] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:56:58] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:05] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:10] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:22] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:29] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:37] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:56] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:57:58] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:58:12] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:58:39] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:58:57] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 3
-[13:59:30] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:59:35] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:00:00] [Server thread/INFO]: alex86465 issued server command: //copy
-[14:00:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:00:25] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:00:33] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:00:37] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:00:38] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:00:59] [Server thread/INFO]: alex86465 issued server command: //copy
-[14:01:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:03:48] [Server thread/INFO]: alex86465 issued server command: //replace stone coarse_dirt
-[14:03:58] [Server thread/INFO]: alex86465 issued server command: //replace stone coarse_dirt
-[14:04:05] [Server thread/INFO]: alex86465 issued server command: //replace stone coarse_dirt
-[14:04:09] [Server thread/INFO]: alex86465 issued server command: //replace stone coarse_dirt
-[14:05:53] [Server thread/INFO]: alex86465 issued server command: //brush sphere grass_block 5
-[14:05:56] [Server thread/INFO]: alex86465 issued server command: /mask stone
-[14:08:59] [Server thread/INFO]: alex86465 issued server command: //wand
-[14:09:11] [Server thread/INFO]: alex86465 issued server command: //replace infested_cobblestone cobblestone
-[14:09:25] [Server thread/INFO]: alex86465 issued server command: //replace infested_cobblestone cobblestone
-[14:13:27] [User Authenticator #52/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[14:13:27] [Server thread/INFO]: DozingBookwyrm joined the game
-[14:13:27] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:51043] logged in with entity id 706 at ([Conwyx2]25021.5, 49.0, 25165.5)
-[14:13:54] [Server thread/INFO]: alex86465 lost connection: You have been idle for too long!
-[14:13:54] [Server thread/INFO]: alex86465 left the game
-[14:26:02] [User Authenticator #53/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[14:26:02] [Server thread/INFO]: alex86465 joined the game
-[14:26:02] [Server thread/INFO]: alex86465[/10.147.17.188:54068] logged in with entity id 707 at ([Conwyx2]25269.321756983867, 62.0, 25167.0802782041)
-[14:26:09] [Server thread/INFO]: DozingBookwyrm lost connection: You have been idle for too long!
-[14:26:09] [Server thread/INFO]: DozingBookwyrm left the game
-[14:27:14] [Server thread/INFO]: alex86465 issued server command: /clear
-[14:27:14] [Server thread/INFO]: [alex86465: Removed 16 item(s) from player alex86465]
-[14:27:15] [Server thread/INFO]: alex86465 issued server command: //wand
-[14:27:28] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:27:30] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:28:28] [User Authenticator #54/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[14:28:28] [Server thread/INFO]: DozingBookwyrm joined the game
-[14:28:28] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:52337] logged in with entity id 708 at ([Conwyx2]24828.653023974373, 111.75110762026966, 25204.627317574847)
-[14:28:32] [Async Chat Thread - #62/INFO]: <alex86465> yo
-[14:28:36] [Async Chat Thread - #61/INFO]: <DozingBookwyrm> hiya
-[14:29:45] [Async Chat Thread - #63/INFO]: <DozingBookwyrm> Joe said to build the car park but it already looks kina built? has someone already done it?
-[14:29:51] [Async Chat Thread - #64/INFO]: <DozingBookwyrm> kinda*
-[14:30:08] [Async Chat Thread - #63/INFO]: <alex86465> yeah megan did the lines and i did the walls
-[14:30:27] [Async Chat Thread - #64/INFO]: <DozingBookwyrm> ah cool, what can I help with?
-[14:30:53] [Async Chat Thread - #63/INFO]: <alex86465> I'm just working on making the white blob buildings not look crap
-[14:31:23] [Async Chat Thread - #64/INFO]: <alex86465> so when they walk up to the castle it doesn't look bad
-[14:31:32] [Server thread/INFO]: alex86465 issued server command: /tp DozingBookwyrm
-[14:31:32] [Server thread/INFO]: [alex86465: Teleported alex86465 to DozingBookwyrm]
-[14:31:36] [Async Chat Thread - #63/INFO]: <DozingBookwyrm> makes sense
-[14:32:31] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:32:38] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:32:53] [Server thread/INFO]: alex86465 issued server command: //copy
-[14:32:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:02] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:14] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:15] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:17] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:41] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:42] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:45] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:47] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:55] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:33:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:01] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:03] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:04] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:07] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:11] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:13] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:17] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:20] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:56] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:34:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:35:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:35:06] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:35:08] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:35:09] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:35:39] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:35:42] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:35:45] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:35:50] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:35:57] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:36:04] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:36:14] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:36:16] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:36:19] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[14:36:45] [Async Chat Thread - #66/INFO]: <DozingBookwyrm> is there worldedit on here?
-[14:36:49] [Async Chat Thread - #65/INFO]: <alex86465> yup
-[14:36:57] [Async Chat Thread - #66/INFO]: <DozingBookwyrm> ah
-[14:37:08] [Server thread/INFO]: alex86465 issued server command: //brush cyl cyan_terracotta 5
-[14:37:09] [Async Chat Thread - #65/INFO]: <DozingBookwyrm> I'm playing vanilla rn, lemme go change that
-[14:37:13] [Async Chat Thread - #66/INFO]: <DozingBookwyrm> brb
-[14:37:15] [Server thread/INFO]: DozingBookwyrm lost connection: Disconnected
-[14:37:15] [Server thread/INFO]: DozingBookwyrm left the game
-[14:37:36] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:37:39] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:38:00] [Server thread/INFO]: alex86465 issued server command: //brush cyl stone_bricks 5
-[14:38:29] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[14:38:45] [Server thread/INFO]: alex86465 issued server command: //stack 1 down
-[14:39:41] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 4
-[14:39:51] [Server thread/INFO]: alex86465 issued server command: /mask white_concrete,stone_bricks
-[14:40:02] [User Authenticator #55/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[14:40:02] [Server thread/INFO]: DozingBookwyrm joined the game
-[14:40:02] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:53277] logged in with entity id 709 at ([Conwyx2]24958.613806361263, 63.0, 25071.732201772465)
-[14:40:45] [Async Chat Thread - #68/INFO]: <DozingBookwyrm> yo, just been informed I don't need it on the client, I just assumed I did since it didn't work
-[14:40:51] [Async Chat Thread - #67/INFO]: <DozingBookwyrm> I'm jsut not opped
-[14:41:00] [Async Chat Thread - #68/INFO]: <DozingBookwyrm> could you pls?
-[14:41:01] [Async Chat Thread - #67/INFO]: <alex86465> yep, worldedit is on the server so you can just play vanilla
-[14:41:10] [Server thread/INFO]: alex86465 issued server command: /op DozingBookwyrm
-[14:41:10] [Server thread/INFO]: [alex86465: Made DozingBookwyrm a server operator]
-[14:41:12] [Async Chat Thread - #68/INFO]: <alex86465> done
-[14:41:16] [Async Chat Thread - #67/INFO]: <DozingBookwyrm> ty <3
-[14:41:20] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[14:41:58] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:42:01] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:09] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:11] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:12] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[14:42:13] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:14] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:16] [Server thread/INFO]: alex86465 issued server command: /mask
-[14:42:27] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:28] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:42:29] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:43:45] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:43:53] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:43:59] [Server thread/INFO]: alex86465 issued server command: //copy
-[14:44:12] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:44:15] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:44:22] [Server thread/INFO]: alex86465 issued server command: //rotate 180
-[14:44:23] [Server thread/INFO]: alex86465 issued server command: //paste
-[14:44:36] [Server thread/INFO]: alex86465 issued server command: //stack 10 down
-[14:44:48] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:44:49] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:44:57] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:45:15] [Server thread/INFO]: DozingBookwyrm issued server command: //clear
-[14:45:34] [Server thread/INFO]: DozingBookwyrm issued server command: //fill air
-[14:45:42] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[14:45:53] [Server thread/INFO]: DozingBookwyrm issued server command: /paste
-[14:45:56] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:45:59] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:46:29] [Server thread/INFO]: alex86465 issued server command: //set black_concrete
-[14:46:33] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[14:46:37] [Server thread/INFO]: alex86465 issued server command: //set black_concrete
-[14:46:45] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[14:46:47] [Server thread/INFO]: alex86465 issued server command: //set black_concrete
-[14:46:48] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[14:46:54] [Server thread/INFO]: alex86465 issued server command: //set black_concrete
-[14:46:55] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[14:46:59] [Server thread/INFO]: alex86465 issued server command: //set black_concrete
-[14:47:03] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[14:47:20] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[14:47:30] [Server thread/INFO]: alex86465 issued server command: //brush sphere white_terracotta
-[14:47:34] [Server thread/INFO]: alex86465 issued server command: /mask white_concrete
-[14:48:12] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:48:17] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:48:20] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:24] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[14:48:29] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:48:33] [Server thread/INFO]: DozingBookwyrm issued server command: //pastye
-[14:48:36] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:40] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:42] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:43] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:44] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:45] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:48:49] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:50] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:51] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:48:52] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:49:13] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[14:49:30] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[14:49:48] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:50:02] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:50:03] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:50:09] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:50:13] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:50:14] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:50:57] [Server thread/INFO]: alex86465 issued server command: //stack 20 up
-[14:51:04] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:51:07] [Server thread/INFO]: alex86465 issued server command: //stack 15 up
-[14:51:32] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:51:34] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:51:35] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:51:36] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:51:48] [Server thread/INFO]: alex86465 issued server command: //replace #existing white_concrete
-[14:51:57] [Server thread/INFO]: alex86465 issued server command: //replace #existing white_concrete
-[14:52:06] [Server thread/INFO]: alex86465 issued server command: //replace #existing white_concrete
-[14:52:27] [Server thread/INFO]: alex86465 issued server command: //replace #existing white_concrete
-[14:52:35] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:52:47] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:52:49] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:52:56] [Server thread/INFO]: alex86465 issued server command: //undo
-[14:53:03] [Server thread/INFO]: alex86465 issued server command: //replace white_concrete air
-[14:53:08] [Server thread/INFO]: alex86465 issued server command: //replace stone_bricksair
-[14:53:10] [Server thread/INFO]: alex86465 issued server command: //replace stone_bricks air
-[14:53:27] [Server thread/INFO]: alex86465 issued server command: //set white_concrete
-[14:57:06] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:57:15] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:57:19] [Server thread/INFO]: alex86465 issued server command: //stack 20
-[14:57:38] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:57:45] [Server thread/INFO]: alex86465 issued server command: //pos1
-[14:57:51] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:57:53] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:58:01] [Server thread/INFO]: alex86465 issued server command: //pos2
-[14:58:02] [Server thread/INFO]: alex86465 issued server command: //set air
-[14:58:08] [Server thread/INFO]: alex86465 issued server command: //brush cyl grass_block 5
-[14:58:09] [Server thread/INFO]: alex86465 issued server command: /mask
-[14:58:12] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[14:58:15] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:16] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:17] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:17] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:58:19] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:58:20] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:21] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:58:22] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:58:24] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:35] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:40] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:44] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:49] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:58:54] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:00] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:04] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:08] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:12] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:12] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:59:13] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:59:15] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:16] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:16] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:21] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:22] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:23] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:59:24] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:25] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:30] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:31] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[14:59:32] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:33] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[14:59:53] [Async Chat Thread - #69/INFO]: <alex86465> aight gonna head
-[15:00:06] [Async Chat Thread - #70/INFO]: <DozingBookwyrm> kk, have a good one
-[15:00:17] [Async Chat Thread - #69/INFO]: <alex86465> feel free to add windows or decoration, and pls have a look around the whole build to see if anything is missing or weird :)
-[15:00:41] [Async Chat Thread - #69/INFO]: <DozingBookwyrm> will do, thanks
-[15:00:45] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[15:00:45] [Server thread/INFO]: alex86465 left the game
-[15:00:50] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[15:00:55] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:01:47] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:01:51] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:01:55] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:01:58] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:07] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:08] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[15:02:09] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:10] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:11] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:12] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:02:37] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:02:48] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:03:03] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:03:08] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:03:16] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:04:16] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:04:18] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:10:00] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:10:04] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:10:12] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:11:14] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:14:12] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[15:14:16] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[15:14:18] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:14:19] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[15:14:21] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:14:22] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[15:14:28] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:14:30] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[15:14:32] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:14:35] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[15:14:39] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:14:41] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[15:15:01] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[15:20:18] [Server thread/INFO]: DozingBookwyrm lost connection: You have been idle for too long!
-[15:20:18] [Server thread/INFO]: DozingBookwyrm left the game
-[15:20:38] [User Authenticator #56/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[15:20:38] [Server thread/INFO]: DozingBookwyrm joined the game
-[15:20:38] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:56454] logged in with entity id 710 at ([Conwyx2]24928.748876199115, 64.5, 25082.917606148687)
-[15:22:51] [User Authenticator #57/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[15:22:51] [Server thread/INFO]: BlockBuilderJoe joined the game
-[15:22:51] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:38254] logged in with entity id 711 at ([Conwyx2]25003.952513931214, 50.97090251947823, 25166.23740419327)
-[15:24:01] [Async Chat Thread - #73/INFO]: <DozingBookwyrm> hiya
-[15:24:19] [Server thread/INFO]: DozingBookwyrm issued server command: //set black_concrete
-[15:24:26] [Server thread/INFO]: DozingBookwyrm issued server command: //set black_concrete
-[15:27:18] [Server thread/INFO]: DozingBookwyrm issued server command: //set black_concrete
-[15:27:39] [Server thread/INFO]: DozingBookwyrm issued server command: //set black_concrete
-[15:27:48] [Server thread/INFO]: DozingBookwyrm issued server command: //set black_concrete
-[15:30:23] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
-[15:30:23] [Server thread/INFO]: BlockBuilderJoe left the game
-[15:31:04] [User Authenticator #58/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[15:31:04] [Server thread/INFO]: BlockBuilderJoe joined the game
-[15:31:04] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:60108] logged in with entity id 713 at ([Conwyx2]25009.383768051073, 46.0, 25179.714859165564)
-[15:36:45] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:36:50] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:36:55] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:00] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:06] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:12] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:18] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:24] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:28] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:34] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:40] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:37:52] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:38:01] [Server thread/INFO]: DozingBookwyrm issued server command: //set lime_concrete
-[15:46:51] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:46:58] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:06] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:13] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:18] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:24] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:28] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:37] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:42] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:47] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:47:55] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:48:03] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:48:07] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:48:13] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:48:17] [Server thread/INFO]: DozingBookwyrm issued server command: //set green_concrete
-[15:51:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //set jungle_wood
-[15:51:35] [Server thread/INFO]: BlockBuilderJoe issued server command: //set jungle_planks
-[15:53:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[15:53:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:53:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:53:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:53:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:53:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:53:47] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:53:54] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:00] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:06] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:27] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:30] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:43] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:48] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:54:58] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:55:13] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:55:26] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:55:28] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:55:31] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:55:33] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:59:34] [Server thread/INFO]: BlockBuilderJoe issued server command: /tp DozingBookwyrm
-[15:59:34] [Server thread/INFO]: [BlockBuilderJoe: Teleported BlockBuilderJoe to DozingBookwyrm]
-[15:59:35] [Server thread/INFO]: DozingBookwyrm issued server command: //set white_concrete
-[15:59:40] [Async Chat Thread - #76/INFO]: <BlockBuilderJoe> hey!
-[15:59:43] [Async Chat Thread - #77/INFO]: <DozingBookwyrm> hiya!
-[15:59:56] [Async Chat Thread - #76/INFO]: <BlockBuilderJoe> could you focus on the bridge over here
-[16:00:07] [Async Chat Thread - #77/INFO]: <DozingBookwyrm> sure thing
-[16:00:15] [Async Chat Thread - #77/INFO]: <DozingBookwyrm> which one?
-[16:00:22] [Async Chat Thread - #76/INFO]: <BlockBuilderJoe> if you tp to me
-[16:00:37] [Server thread/INFO]: DozingBookwyrm issued server command: /tp @s BlockBuilderJoe
-[16:00:37] [Server thread/INFO]: [DozingBookwyrm: Teleported DozingBookwyrm to BlockBuilderJoe]
-[16:00:46] [Async Chat Thread - #77/INFO]: <DozingBookwyrm> on it
-[16:00:48] [Async Chat Thread - #77/INFO]: <BlockBuilderJoe> its a railway bridge
-[16:00:58] [Async Chat Thread - #77/INFO]: <BlockBuilderJoe> the top of it is covered
-[16:01:57] [Server thread/INFO]: DozingBookwyrm issued server command: /clear
-[16:01:57] [Server thread/INFO]: [DozingBookwyrm: Removed 11 item(s) from player DozingBookwyrm]
-[16:01:58] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:13:00] [Server thread/INFO]: DozingBookwyrm lost connection: You have been idle for too long!
-[16:13:00] [Server thread/INFO]: DozingBookwyrm left the game
-[16:14:14] [User Authenticator #59/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[16:14:14] [Server thread/INFO]: DozingBookwyrm joined the game
-[16:14:14] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:60588] logged in with entity id 718 at ([Conwyx2]25570.453938122013, 80.0, 25128.86917569331)
-[16:14:40] [Server thread/INFO]: DozingBookwyrm has made the advancement [Stone Age]
-[16:16:39] [Async Chat Thread - #79/INFO]: <DozingBookwyrm> could I get your opinion on block choice?
-[16:17:37] [Server thread/INFO]: DozingBookwyrm lost connection: Timed out
-[16:17:37] [Server thread/INFO]: DozingBookwyrm left the game
-[16:19:07] [User Authenticator #60/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[16:19:07] [Server thread/INFO]: DozingBookwyrm joined the game
-[16:19:07] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:61176] logged in with entity id 719 at ([Conwyx2]25568.493728076104, 44.58008563274994, 25131.623556947223)
-[16:19:21] [Async Chat Thread - #82/INFO]: <DozingBookwyrm> back, internet hiccupped
-[16:19:39] [Server thread/INFO]: BlockBuilderJoe issued server command: /tp DozingBookwyrm
-[16:19:39] [Server thread/INFO]: [BlockBuilderJoe: Teleported BlockBuilderJoe to DozingBookwyrm]
-[16:19:39] [Server thread/WARN]: BlockBuilderJoe moved too quickly! 560.0239557169298,-3.8819450661431247,-74.14545938840092
-[16:19:49] [Async Chat Thread - #82/INFO]: <BlockBuilderJoe> sorry I was in the zone
-[16:19:53] [Async Chat Thread - #81/INFO]: <DozingBookwyrm> nw
-[16:19:55] [Async Chat Thread - #82/INFO]: <BlockBuilderJoe> what block do you want?
-[16:20:05] [Async Chat Thread - #81/INFO]: <DozingBookwyrm> I'm thinking iron or basalt looks best
-[16:20:12] [Async Chat Thread - #82/INFO]: <BlockBuilderJoe> yeah I reckon iron
-[16:20:17] [Async Chat Thread - #81/INFO]: <BlockBuilderJoe> its pretty irony
-[16:20:20] [Async Chat Thread - #82/INFO]: <BlockBuilderJoe> tlol
-[16:20:24] [Async Chat Thread - #81/INFO]: <DozingBookwyrm> iron is mroe metallic, but basalt looks more irrigated
-[16:20:27] [Async Chat Thread - #82/INFO]: <DozingBookwyrm> lol irony
-[16:20:53] [Async Chat Thread - #81/INFO]: <BlockBuilderJoe> I think the basalt is a bit to dark
-[16:21:06] [Async Chat Thread - #82/INFO]: <DozingBookwyrm> yeah you're right
-[16:21:07] [Async Chat Thread - #82/INFO]: <BlockBuilderJoe> this is for the box over the bridge right
-[16:21:27] [Async Chat Thread - #82/INFO]: <DozingBookwyrm> yeah the enclosed? railway one
-[16:21:34] [Async Chat Thread - #81/INFO]: <BlockBuilderJoe> perfect iron it is
-[16:21:40] [Async Chat Thread - #82/INFO]: <DozingBookwyrm> nice, thx
-[16:21:44] [Server thread/INFO]: DozingBookwyrm issued server command: /clear
-[16:21:44] [Server thread/INFO]: [DozingBookwyrm: Removed 9 item(s) from player DozingBookwyrm]
-[16:22:08] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:23:39] [Server thread/INFO]: DozingBookwyrm issued server command: //brush apply cyl item iron_block
-[16:23:54] [Server thread/INFO]: DozingBookwyrm issued server command: /brush unbind
-[16:24:08] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect clear
-[16:24:08] [Server thread/INFO]: [BlockBuilderJoe: Removed every effect from BlockBuilderJoe]
-[16:24:11] [Server thread/INFO]: DozingBookwyrm issued server command: /brush cylinder iron_block
-[16:24:48] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:24:50] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:24:51] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:24:59] [Server thread/INFO]: DozingBookwyrm issued server command: //brush mask cobblestone
-[16:26:01] [Server thread/INFO]: DozingBookwyrm issued server command: //replace smooth_stone
-[16:26:08] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:26:09] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:26:10] [Server thread/INFO]: DozingBookwyrm issued server command: //undo
-[16:28:33] [Server thread/INFO]: DozingBookwyrm issued server command: /brush cyl iron_block 4
-[16:28:50] [Server thread/INFO]: DozingBookwyrm issued server command: /gmask smooth_stone
-[16:29:14] [Server thread/INFO]: DozingBookwyrm issued server command: /brush unbind
-[16:29:36] [Server thread/INFO]: DozingBookwyrm issued server command: //brush sphere iron_block
-[16:29:46] [Server thread/INFO]: DozingBookwyrm issued server command: /gmask smooth_stone
-[16:31:56] [Server thread/INFO]: DozingBookwyrm issued server command: /brush unbind
-[16:32:01] [Server thread/INFO]: DozingBookwyrm issued server command: //brush sphere iron_block 10
-[16:32:04] [Server thread/INFO]: DozingBookwyrm issued server command: //brush sphere iron_block 5
-[16:32:08] [Server thread/INFO]: DozingBookwyrm issued server command: /gmask smooth_stone
-[16:33:29] [Server thread/INFO]: DozingBookwyrm issued server command: /brush unbind
-[16:33:31] [Server thread/INFO]: DozingBookwyrm issued server command: /brush unbind
-[16:33:45] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:34:04] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:34:10] [Server thread/INFO]: DozingBookwyrm issued server command: /
-[16:34:12] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:34:21] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:34:27] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:34:38] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:36:24] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[16:36:27] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
-[16:36:27] [Server thread/INFO]: [BlockBuilderJoe: Removed 90 item(s) from player BlockBuilderJoe]
-[16:36:29] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[16:36:36] [Server thread/INFO]: DozingBookwyrm issued server command: //set air
-[16:36:43] [Server thread/INFO]: DozingBookwyrm lost connection: Disconnected
-[16:36:43] [Server thread/INFO]: DozingBookwyrm left the game
-[16:36:49] [User Authenticator #61/INFO]: UUID of player DozingBookwyrm is e913bbee-5098-460f-897e-2a1932ca69e6
-[16:36:49] [Server thread/INFO]: DozingBookwyrm joined the game
-[16:36:49] [Server thread/INFO]: DozingBookwyrm[/10.147.17.156:62574] logged in with entity id 722 at ([Conwyx2]25564.253863419053, 45.0, 25151.149149427165)
-[16:36:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:37:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:37:28] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:37:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:37:50] [Server thread/INFO]: DozingBookwyrm issued server command: //replace iron_block
-[16:37:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:38:06] [Server thread/INFO]: DozingBookwyrm issued server command: //copy
-[16:38:15] [Server thread/INFO]: DozingBookwyrm issued server command: //paste
-[16:38:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:38:39] [Server thread/INFO]: DozingBookwyrm issued server command: /gmask !
-[16:38:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //line air
-[16:39:14] [Async Chat Thread - #84/INFO]: <DozingBookwyrm> uh, I can't use a wand, cna select positions and whatnot but it won't excecute commands
-[16:39:29] [Server thread/INFO]: BlockBuilderJoe issued server command: /op DozingBookwyrm
-[16:39:40] [Async Chat Thread - #85/INFO]: <BlockBuilderJoe> are you using //
-[16:39:46] [Async Chat Thread - #84/INFO]: <BlockBuilderJoe> instead of /
-[16:39:48] [Async Chat Thread - #85/INFO]: <DozingBookwyrm> yeah
-[16:39:52] [Async Chat Thread - #84/INFO]: <DozingBookwyrm> I was using it as a brush but it hasn't worked since I unbrushed it, I tried giving myself a new one but
-[16:39:55] [Async Chat Thread - #84/INFO]: <DozingBookwyrm> didnt work
-[16:39:56] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:40:05] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:40:14] [Async Chat Thread - #85/INFO]: <BlockBuilderJoe> it might of mapped it to a brush and not the wand
-[16:40:23] [Async Chat Thread - #84/INFO]: <BlockBuilderJoe> not sure how to undo that
-[16:40:34] [Server thread/INFO]: DozingBookwyrm issued server command: //brush unbind
-[16:40:37] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:40:49] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:41:00] [Async Chat Thread - #85/INFO]: <BlockBuilderJoe> wait that wouldn't be an issue with commands so you can't use fill for example
-[16:41:01] [Server thread/INFO]: DozingBookwyrm issued server command: //set iron_block
-[16:41:25] [Server thread/INFO]: DozingBookwyrm issued server command: //fill iron_block
-[16:42:00] [Async Chat Thread - #86/INFO]: <DozingBookwyrm> ?
-[16:42:25] [Server thread/INFO]: DozingBookwyrm issued server command: /give @s minecraft:iron_block
-[16:42:25] [Server thread/INFO]: [DozingBookwyrm: Gave 1 [Block of Iron] to DozingBookwyrm]
-[16:42:36] [Async Chat Thread - #87/INFO]: <BlockBuilderJoe> no worries if you can't use commands can I get your help digging out this trench
-[16:43:00] [Server thread/INFO]: DozingBookwyrm issued server command: //replacenear 10 iron_block Iron_ore
-[16:43:12] [Server thread/INFO]: DozingBookwyrm issued server command: /clear
-[16:43:12] [Server thread/INFO]: [DozingBookwyrm: Removed 3 item(s) from player DozingBookwyrm]
-[16:43:22] [Async Chat Thread - #86/INFO]: <BlockBuilderJoe> thanks!
-[16:43:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //line iron_block
-[16:44:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //line iron_block
-[16:45:00] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[16:45:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up 10
-[16:45:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:45:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up 10
-[16:46:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[16:46:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[16:46:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:46:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:46:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //
-[16:46:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:47:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 10 up
-[16:49:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:50:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:50:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack up
-[16:51:33] [Async Chat Thread - #88/INFO]: <BlockBuilderJoe> can you think of a way of doing the roof I'm stumped
-[16:52:00] [Server thread/INFO]: DozingBookwyrm issued server command: //wand
-[16:52:18] [Server thread/INFO]: DozingBookwyrm issued server command: //brush cylinder iron_block
-[16:52:40] [Async Chat Thread - #90/INFO]: <DozingBookwyrm> an unmasked cylinder brush?
-[16:52:49] [Async Chat Thread - #91/INFO]: <BlockBuilderJoe> I think we can use the fill command
-[16:53:02] [Async Chat Thread - #90/INFO]: <BlockBuilderJoe> this could go horribly wrong
-[16:53:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron 100
-[16:53:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron 100 1
-[16:53:18] [Async Chat Thread - #91/INFO]: <DozingBookwyrm> what's life without a little risk?
-[16:53:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:53:30] [Async Chat Thread - #90/INFO]: <BlockBuilderJoe> lol
-[16:53:32] [Async Chat Thread - #91/INFO]: <DozingBookwyrm> lol
-[16:53:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[16:53:46] [Async Chat Thread - #90/INFO]: <DozingBookwyrm> fixed
-[16:53:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:53:51] [Async Chat Thread - #91/INFO]: <BlockBuilderJoe> wooooo
-[16:53:55] [Async Chat Thread - #90/INFO]: <DozingBookwyrm> woooo
-[16:53:55] [Async Chat Thread - #90/INFO]: <BlockBuilderJoe> thanks!
-[16:54:10] [Async Chat Thread - #91/INFO]: <DozingBookwyrm> np, spotted it seconds before the fill went through
-[16:54:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:54:33] [Async Chat Thread - #90/INFO]: <BlockBuilderJoe> I love world edit
-[16:54:41] [Async Chat Thread - #91/INFO]: <BlockBuilderJoe> but you can really mess things up
-[16:54:56] [Async Chat Thread - #90/INFO]: <DozingBookwyrm> oh yeah massively
-[16:54:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block
-[16:55:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:55:19] [Async Chat Thread - #91/INFO]: <DozingBookwyrm> the worst is when you're dealing with water or something and undo can't finx it
-[16:55:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:55:35] [Async Chat Thread - #91/INFO]: <DozingBookwyrm> ohno
-[16:55:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[16:55:48] [Async Chat Thread - #90/INFO]: <BlockBuilderJoe> the gaps down here
-[16:56:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill iron_block 100 1
-[16:56:22] [Async Chat Thread - #91/INFO]: <BlockBuilderJoe> woohoo
-[16:56:31] [Async Chat Thread - #90/INFO]: <DozingBookwyrm> nice
-[16:57:26] [Server thread/INFO]: DozingBookwyrm issued server command: /clear
-[16:57:26] [Server thread/INFO]: [DozingBookwyrm: Removed 3 item(s) from player DozingBookwyrm]
-[16:57:39] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[16:57:39] [Server thread/INFO]: BlockBuilderJoe left the game
-[16:57:42] [User Authenticator #62/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[16:57:42] [Server thread/INFO]: BlockBuilderJoe joined the game
-[16:57:42] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:36992] logged in with entity id 726 at ([Conwyx2]25025.524876935342, 50.5, 25163.90062790319)
-[16:57:49] [Async Chat Thread - #93/INFO]: <BlockBuilderJoe> thanks for your help today!
-[16:58:00] [Async Chat Thread - #92/INFO]: <BlockBuilderJoe> have a great weekend :)
-[16:58:09] [Async Chat Thread - #93/INFO]: <DozingBookwyrm> oh thanks, didn't realise it was 5
-[16:58:18] [Async Chat Thread - #92/INFO]: <DozingBookwyrm> you too!
-[16:58:22] [Async Chat Thread - #93/INFO]: <BlockBuilderJoe> haha time flies when you're building bridges
-[16:58:31] [Async Chat Thread - #92/INFO]: <DozingBookwyrm> indeed
-[16:58:35] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[16:58:35] [Server thread/INFO]: BlockBuilderJoe left the game
-[16:58:37] [Server thread/INFO]: DozingBookwyrm lost connection: Disconnected
-[16:58:37] [Server thread/INFO]: DozingBookwyrm left the game
-[16:58:48] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:58:48] [Server thread/INFO]: Saved the game
-[16:59:18] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:59:18] [Server thread/INFO]: Saved the game
+[10:26:27] [User Authenticator #8/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[10:26:27] [Server thread/INFO]: BlockB110 joined the game
+[10:26:27] [Server thread/INFO]: BlockB110[/10.147.17.144:61297] logged in with entity id 31 at ([Conwyx2]25070.3838760066, 74.72718733638267, 25139.345166119514)
+[10:29:27] [Server thread/INFO]: BlockB110 lost connection: You have been idle for too long!
+[10:29:27] [Server thread/INFO]: BlockB110 left the game
+[10:50:24] [User Authenticator #9/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[10:50:24] [Server thread/INFO]: BlockB110 joined the game
+[10:50:25] [Server thread/INFO]: BlockB110[/10.147.17.144:62971] logged in with entity id 32 at ([Conwyx2]25070.3838760066, 74.72718733638267, 25139.345166119514)
+[10:51:33] [User Authenticator #10/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
+[10:51:33] [Server thread/INFO]: BlockBuilderJoe joined the game
+[10:51:33] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:50216] logged in with entity id 33 at ([Conwyx2]25280.24606601672, 72.22867187087402, 25118.60583305597)
+[10:52:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush cylinder stone_bricks 3
+[10:53:10] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:53:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:53:52] [Server thread/INFO]: BlockB110 lost connection: You have been idle for too long!
+[10:53:52] [Server thread/INFO]: BlockB110 left the game
+[10:54:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere stone
+[10:56:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //mask !air
+[10:56:42] [Server thread/INFO]: BlockBuilderJoe issued server command: /mask !air
+[10:57:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere 10%basalt,10%cobblestone,20%stone
+[10:58:10] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere 10%basalt,10%cobblestone,20%stone,20%mossy_cobblestone
+[10:58:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere 10%basalt,10%cobblestone,20%stone,20%mossy_cobblestone,20%grass_block
+[10:59:12] [User Authenticator #11/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[10:59:12] [Server thread/INFO]: BlockB110 joined the game
+[10:59:12] [Server thread/INFO]: BlockB110[/10.147.17.144:63634] logged in with entity id 34 at ([Conwyx2]25019.917738935786, 49.0, 25166.214151074735)
+[10:59:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[11:05:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[11:06:02] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
+[11:06:02] [Server thread/INFO]: [BlockBuilderJoe: Removed 11 item(s) from player BlockBuilderJoe]
+[11:06:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[11:06:10] [Server thread/INFO]: BlockBuilderJoe issued server command: //set dirt
+[11:06:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //set dirt
+[11:07:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[11:07:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[11:08:00] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[11:08:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[11:08:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[11:09:01] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
+[11:09:01] [Server thread/INFO]: [BlockBuilderJoe: Removed 2 item(s) from player BlockBuilderJoe]
+[11:10:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere stone50%,10%blackstone,10%dirt,10%mossy_cobblestone
+[11:10:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere 50%stone,10%blackstone,10%dirt,10%mossy_cobblestone
+[11:10:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[11:12:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[11:12:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora
+[11:12:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[11:24:24] [Server thread/INFO]: BlockBuilderJoe issued server command: /gamemode a
+[11:24:33] [Server thread/INFO]: BlockBuilderJoe issued server command: /gamemode adventure
+[11:24:33] [Server thread/INFO]: [BlockBuilderJoe: Set own game mode to Adventure Mode]
+[11:24:57] [Server thread/INFO]: BlockBuilderJoe issued server command: /gamemode c
+[11:25:03] [Server thread/INFO]: BlockBuilderJoe issued server command: /gamemode creative
+[11:25:03] [Server thread/INFO]: [BlockBuilderJoe: Set own game mode to Creative Mode]
+[11:31:54] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
+[11:31:54] [Server thread/INFO]: BlockBuilderJoe left the game
+[11:32:47] [Server thread/INFO]: BlockB110 lost connection: You have been idle for too long!
+[11:32:47] [Server thread/INFO]: BlockB110 left the game
+[11:51:38] [User Authenticator #12/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[11:51:38] [Server thread/INFO]: BlockB110 joined the game
+[11:51:38] [Server thread/INFO]: BlockB110[/10.147.17.144:50521] logged in with entity id 35 at ([Conwyx2]25068.767883386517, 72.0, 25211.188352444107)
+[11:56:40] [User Authenticator #13/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
+[11:56:40] [Server thread/INFO]: BlockBuilderJoe joined the game
+[11:56:40] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:57040] logged in with entity id 36 at ([Conwyx2]24993.119014125514, 72.653304966591, 25228.820952994163)
+[12:03:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:03:47] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:03:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:04:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:04:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:04:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:04:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:04:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:05:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:05:11] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:05:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:05:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:05:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:05:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:06:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace moss_block air
+[12:06:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill moss_block replace air
+[12:06:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_block
+[12:06:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[12:06:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:07:24] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:07:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:07:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:08:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:08:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //po2
+[12:08:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:08:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:14:12] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:14:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:14:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace moss_carpet
+[12:14:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpetd
+[12:14:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:14:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:14:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:15:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air moss_carpet
+[12:18:41] [Server thread/INFO]: BlockBuilderJoe issued server command: /tp BlockB110
+[12:18:41] [Server thread/INFO]: [BlockBuilderJoe: Teleported BlockBuilderJoe to BlockB110]
+[12:20:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //set air
+[12:20:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //undi
+[12:20:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //undi
+[12:20:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[12:20:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //set air
+[12:24:17] [Server thread/INFO]: BlockB110 lost connection: You have been idle for too long!
+[12:24:17] [Server thread/INFO]: BlockB110 left the game
+[12:24:27] [User Authenticator #14/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[12:24:27] [Server thread/INFO]: BlockB110 joined the game
+[12:24:27] [Server thread/INFO]: BlockB110[/10.147.17.144:52542] logged in with entity id 38 at ([Conwyx2]25246.276557008197, 66.61517612413755, 25210.545371428696)
+[12:28:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[12:28:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[12:28:53] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[12:29:14] [Server thread/INFO]: BlockBuilderJoe issued server command: /tree largeoak
+[12:31:54] [Server thread/INFO]: BlockB110 lost connection: You have been idle for too long!
+[12:31:54] [Server thread/INFO]: BlockB110 left the game
+[12:32:06] [User Authenticator #15/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[12:32:06] [Server thread/INFO]: BlockB110 joined the game
+[12:32:06] [Server thread/INFO]: BlockB110[/10.147.17.144:53007] logged in with entity id 39 at ([Conwyx2]25242.647316902505, 62.61650136792814, 25232.13794245516)
+[12:40:41] [Server thread/INFO]: BlockB110 lost connection: Disconnected
+[12:40:41] [Server thread/INFO]: BlockB110 left the game
+[12:40:43] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
+[12:40:43] [Server thread/INFO]: BlockBuilderJoe left the game
+[13:06:41] [User Authenticator #16/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
+[13:06:41] [Server thread/INFO]: BlockBuilderJoe joined the game
+[13:06:41] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:59782] logged in with entity id 49 at ([Conwyx2]25271.072195203178, 61.0, 25172.54281799513)
+[13:10:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //cyl stone_bricks 5
+[13:10:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:10:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //cyl stone_bricks 3 10
+[13:10:50] [Server thread/INFO]: BlockBuilderJoe issued server command: /thru
+[13:11:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //cyl stone_bricks 3 10
+[13:11:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:11:12] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:11:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //cyl stone_bricks 3 60
+[13:11:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //thru
+[13:11:32] [Server thread/INFO]: BlockBuilderJoe issued server command: /thru
+[13:11:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:11:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //cyl stone_bricks 3 35
+[13:11:57] [Server thread/INFO]: BlockBuilderJoe issued server command: /thru
+[13:11:59] [Server thread/INFO]: BlockBuilderJoe issued server command: /thru
+[13:12:07] [Server thread/INFO]: BlockBuilderJoe issued server command: /tp ~ 200 ~
+[13:12:07] [Server thread/INFO]: [BlockBuilderJoe: Teleported BlockBuilderJoe to 25304.700000, 200.000000, 25233.300000]
+[13:12:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
+[13:12:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[13:12:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
+[13:16:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush stone
+[13:16:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush sphere stone
+[13:17:04] [Server thread/INFO]: BlockBuilderJoe issued server command: /mask !air
+[13:18:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:18:12] [Server thread/INFO]: BlockBuilderJoe issued server command: /tree largeoak
+[13:18:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:18:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:18:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:18:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush cylinder air
+[13:19:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:19:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //brush cylinder stone
+[13:19:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //br cyl air
+[13:20:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:20:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //br stone
+[13:20:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //br cyl stone
+[13:21:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //u
+[13:21:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:21:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:21:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:21:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[13:36:11] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision
+[13:36:11] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
+[13:46:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[13:46:27] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
+[13:46:27] [Server thread/INFO]: [BlockBuilderJoe: Removed 35 item(s) from player BlockBuilderJoe]
+[13:46:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[13:46:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora
+[13:46:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //flora 60
+[13:49:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stone_bricks
+[14:14:14] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give night_vision
+[14:14:21] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision
+[14:14:21] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
+[14:21:25] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision
+[14:21:25] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
+[14:24:28] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
+[14:24:28] [Server thread/INFO]: BlockBuilderJoe left the game
+[14:51:58] [User Authenticator #17/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
+[14:51:58] [Server thread/INFO]: BlockBuilderJoe joined the game
+[14:51:58] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:48712] logged in with entity id 51 at ([Conwyx2]25040.508201810655, 90.0854131281215, 25218.27899149732)
+[15:04:07] [User Authenticator #18/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[15:04:07] [Server thread/INFO]: BlockB110 joined the game
+[15:04:07] [Server thread/INFO]: BlockB110[/10.147.17.144:60313] logged in with entity id 52 at ([Conwyx2]25262.83102407144, 62.45604663572167, 25173.7805854139)
+[15:04:16] [Server thread/INFO]: BlockB110 issued server command: /tp BlockBuilderJoe
+[15:04:16] [Server thread/INFO]: [BlockB110: Teleported BlockB110 to BlockBuilderJoe]
+[15:04:16] [Server thread/WARN]: BlockB110 moved too quickly! -264.9580805609112,14.530687389024415,71.6295880761354
+[15:04:45] [Server thread/INFO]: BlockB110 lost connection: Disconnected
+[15:04:45] [Server thread/INFO]: BlockB110 left the game
+[15:04:46] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
+[15:04:46] [Server thread/INFO]: BlockBuilderJoe left the game
+[15:05:28] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:05:28] [Server thread/INFO]: Saved the game
+[15:05:58] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:05:58] [Server thread/INFO]: Saved the game
