@@ -863,15 +863,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-07-06 15:40:57 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2024-07-06 16:41:53 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/smoker": {
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
-      "has_furnace": "2024-07-06 15:40:57 +0100"
+      "has_glass": "2024-07-08 16:17:23 +0100"
     },
     "done": true
   },
