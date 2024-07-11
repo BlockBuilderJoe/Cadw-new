@@ -1,350 +1,171 @@
-[14:31:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:31:34] [ServerMain/INFO]: Loaded 1174 recipes
-[14:31:34] [ServerMain/INFO]: Loaded 1271 advancements
-[14:31:34] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[14:31:34] [Server thread/INFO]: Loading properties
-[14:31:34] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
-[14:31:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:31:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:31:35] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[09:50:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:50:44] [ServerMain/INFO]: Loaded 1174 recipes
+[09:50:44] [ServerMain/INFO]: Loaded 1271 advancements
+[09:50:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:50:45] [Server thread/INFO]: Loading properties
+[09:50:45] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
+[09:50:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:50:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:50:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:31:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[14:31:35] [Server thread/INFO]: Default game type: CREATIVE
-[14:31:35] [Server thread/INFO]: Generating keypair
-[14:31:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:31:35] [Server thread/INFO]: Using epoll channel type
-[14:31:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:31:35] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[14:31:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[14:31:35] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[14:31:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:31:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:31:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:31:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:31:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[14:31:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d893de]
-[14:31:36] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[14:31:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[14:31:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:31:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[14:31:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:31:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:31:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[14:31:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:31:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:31:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:31:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:31:37] [Server thread/INFO]: Preparing level "tretower"
-[14:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:31:38] [Server thread/INFO]: Time elapsed: 139 ms
-[14:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:31:38] [Server thread/INFO]: Time elapsed: 125 ms
-[14:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:31:38] [Server thread/INFO]: Time elapsed: 32 ms
-[14:31:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[14:31:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[14:31:38] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[14:31:39] [Server thread/INFO]: [Plan] 
-[14:31:39] [Server thread/INFO]: [Plan]            ██▌
-[14:31:39] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[14:31:39] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[14:31:39] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[14:31:39] [Server thread/INFO]: [Plan] 
-[14:31:39] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[14:31:39] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[14:31:39] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[14:31:39] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[14:31:39] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[14:31:39] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[14:31:39] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[14:31:39] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[14:31:39] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[14:31:39] [Server thread/INFO]: [Plan] Loading server identifying information
-[14:31:39] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
-[14:31:39] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[14:31:39] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[14:31:39] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[14:31:39] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[14:31:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[14:31:39] [Server thread/INFO]: Starting remote control listener
-[14:31:39] [Server thread/INFO]: Thread RCON Listener started
-[14:31:39] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[14:31:39] [Server thread/INFO]: Running delayed init tasks
-[14:31:39] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[14:31:39] [Server thread/INFO]: Done (4.675s)! For help, type "help"
-[14:31:39] [Server thread/INFO]: Timings Reset
-[14:31:39] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[14:31:39] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
-[14:31:39] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[14:31:40] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
-[14:32:30] [User Authenticator #0/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
-[14:32:30] [Server thread/INFO]: BlockBuilderJoe joined the game
-[14:32:30] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:44272] logged in with entity id 11 at ([tretower]-84.89577329959876, 68.0, 667.6120370225126)
-[14:34:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:34:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //past
-[14:34:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:36:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:36:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:36:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:37:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:37:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:38:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_birch_log
-[14:38:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_oak_log
-[14:44:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:45:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:46:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[14:46:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:48:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:48:35] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:49:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //copu
-[14:49:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:50:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:50:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:50:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:50:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:50:47] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:50:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:51:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:51:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:52:00] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give BlockBuilderJoe minecraft:night_vision
-[14:52:00] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
-[14:52:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:52:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:53:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:53:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:53:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:53:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:54:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:54:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[14:54:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:55:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[14:55:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:55:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[14:55:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[14:55:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[14:55:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[14:55:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //hollow
-[14:56:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[14:56:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[14:56:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[14:56:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //clear
-[14:56:25] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
-[14:56:25] [Server thread/INFO]: [BlockBuilderJoe: Removed 10 item(s) from player BlockBuilderJoe]
-[14:56:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[14:56:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[14:56:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //hollow
-[14:57:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[14:57:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[14:57:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[14:57:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste !air
-[14:57:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste -m !air
-[14:58:10] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give BlockBuilderJoe minecraft:night_vision
-[14:58:10] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
-[14:58:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:58:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:59:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:59:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[14:59:49] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision
-[14:59:49] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
-[15:00:27] [Server thread/INFO]: BlockBuilderJoe issued server command: /effect give @p minecraft:night_vision infinite
-[15:00:27] [Server thread/INFO]: [BlockBuilderJoe: Applied effect Night Vision to BlockBuilderJoe]
-[15:00:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill spruce_wood 500
-[15:00:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:01:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //fill spruce_planks 50
-[15:01:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //set spruce_planks
-[15:04:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:04:53] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace spruce_wood blackstone
-[15:06:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //set spruce_wood 0
-[15:06:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //set spruce_wood 0
-[15:06:29] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace spruce_wood 0
-[15:08:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:09:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[15:09:06] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:09:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //und
-[15:09:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:09:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:13:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:13:24] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:13:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace black_stone
-[15:13:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:14:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[15:14:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[15:14:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[15:15:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[15:15:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[15:16:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //set cobblestone
-[15:17:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:17:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:17:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:22:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[15:22:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:22:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:22:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:22:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:22:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:23:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:23:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:23:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:23:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:23:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:24:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:24:24] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:24:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:24:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:24:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:25:05] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:26:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:26:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:28:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:28:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:29:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack forward 20 -m !air
-[15:29:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 10 forward -m !air
-[15:30:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 20 forward -m !air
-[15:30:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 50 forward -m !air
-[15:30:29] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[15:30:29] [Server thread/INFO]: BlockBuilderJoe left the game
-[15:30:31] [User Authenticator #1/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
-[15:30:31] [Server thread/INFO]: BlockBuilderJoe joined the game
-[15:30:31] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:47846] logged in with entity id 1399 at ([tretower]-74.23772910231318, 84.13815566890773, 615.5632668828316)
-[15:30:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:30:57] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:30:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:31:02] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:31:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:31:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 20 forward -m !air,cobblestone
-[15:32:00] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:32:33] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 400 forward -m !air,cobblestone
-[15:32:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:32:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:32:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:33:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 30
-[15:33:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:33:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 30 forward -m !air,cobblestone
-[15:33:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 10 forward -m !air,cobblestone
-[15:34:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:34:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[15:34:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 30 forward -m !air,cobblestone
-[15:34:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:34:35] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:34:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:34:40] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:34:57] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[15:34:57] [Server thread/INFO]: BlockBuilderJoe left the game
-[15:34:59] [User Authenticator #2/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
-[15:34:59] [Server thread/INFO]: BlockBuilderJoe joined the game
-[15:34:59] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:35880] logged in with entity id 1400 at ([tretower]-305.9644219997254, 77.49643365218171, 659.9204231921094)
-[15:35:22] [Server thread/INFO]: BlockBuilderJoe issued server command: //clear
-[15:35:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[15:35:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:35:54] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[15:36:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 50 forward -m !air,cobblestone
-[15:36:47] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:37:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone air
-[15:37:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone air
-[15:37:23] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone 0
-[15:37:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone 0
-[15:39:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:39:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:40:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:40:35] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:40:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[15:41:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //stack 50 forward -m !air,cobblestone
-[15:41:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:41:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:42:05] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[15:46:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[15:46:16] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[15:47:15] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,10%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[15:47:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[15:47:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[15:53:24] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-all
-[15:53:24] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
-[15:54:47] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:55:11] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace blackstone air
-[15:56:07] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[15:56:11] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:34] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:43] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:56:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:57:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:57:05] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:57:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[15:57:29] [Server thread/INFO]: BlockBuilderJoe issued server command: //set blackstone
-[16:00:00] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
-[16:00:00] [Server thread/INFO]: [BlockBuilderJoe: Removed 16 item(s) from player BlockBuilderJoe]
-[16:00:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
-[16:00:14] [Server thread/INFO]: BlockBuilderJoe issued server command: //set cobblestone
-[16:00:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:01:19] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:02:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:02:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:02:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:02:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //set spruce_planks
-[16:07:38] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
-[16:07:38] [Server thread/INFO]: BlockBuilderJoe left the game
-[16:09:38] [User Authenticator #3/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
-[16:09:38] [Server thread/INFO]: BlockBuilderJoe joined the game
-[16:09:38] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:58532] logged in with entity id 1401 at ([tretower]-73.87770046521776, 71.95333060332223, 661.6994732720642)
-[16:11:30] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[16:11:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[16:11:50] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[16:12:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[16:14:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace cobblestone 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:15:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 20%cobblestone,2%mossy_cobblestone,20%stone_bricks,15%cracked_stone_bricks
-[16:20:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[16:21:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[16:35:20] [Server thread/INFO]: BlockBuilderJoe issued server command: //cut
-[16:35:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[16:41:02] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-all
-[16:41:03] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
-[16:41:05] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[16:41:05] [Server thread/INFO]: BlockBuilderJoe left the game
-[16:43:13] [Server thread/INFO]: Stopping server
-[16:43:13] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[16:43:13] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[16:43:13] [Server thread/INFO]: [Plan] Processing complete.
-[16:43:13] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[16:43:13] [Server thread/INFO]: [Plan] Transaction queue closed.
-[16:43:13] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[16:43:13] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[16:43:13] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[16:43:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[16:43:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:43:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[16:43:13] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[16:43:14] [Server thread/INFO]: Saving players
-[16:43:14] [Server thread/INFO]: Saving worlds
-[16:43:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower]'/minecraft:overworld
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 33 entity chunks, 0 poi chunks in world 'tretower' in 0.03s
-[16:43:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (tretower): All chunks are saved
-[16:43:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_nether]'/minecraft:the_nether
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_nether'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_nether'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_nether'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'tretower_nether' in 0.00s
-[16:43:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:43:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_the_end]'/minecraft:the_end
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_the_end'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_the_end'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_the_end'
-[16:43:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'tretower_the_end' in 0.01s
-[16:43:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:43:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:43:14] [Server thread/INFO]: Flushing Chunk IO
-[16:43:14] [Server thread/INFO]: Closing Thread Pool
-[16:43:14] [Server thread/INFO]: Closing Server
+[09:50:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[09:50:45] [Server thread/INFO]: Default game type: CREATIVE
+[09:50:45] [Server thread/INFO]: Generating keypair
+[09:50:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:50:45] [Server thread/INFO]: Using epoll channel type
+[09:50:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:50:45] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[09:50:45] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[09:50:45] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[09:50:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:50:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:50:46] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:50:46] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:50:46] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[09:50:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@111110b5]
+[09:50:46] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
+[09:50:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[09:50:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:50:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[09:50:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:50:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[09:50:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[09:50:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:50:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:50:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:50:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:50:47] [Server thread/INFO]: Preparing level "tretower"
+[09:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:50:47] [Server thread/INFO]: Time elapsed: 93 ms
+[09:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:50:47] [Server thread/INFO]: Time elapsed: 26 ms
+[09:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:50:48] [Server thread/INFO]: Time elapsed: 101 ms
+[09:50:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[09:50:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[09:50:48] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
+[09:50:48] [Server thread/INFO]: [Plan] 
+[09:50:48] [Server thread/INFO]: [Plan]            ██▌
+[09:50:48] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[09:50:48] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[09:50:48] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
+[09:50:48] [Server thread/INFO]: [Plan] 
+[09:50:48] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[09:50:48] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[09:50:48] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[09:50:48] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[09:50:48] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[09:50:48] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[09:50:48] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[09:50:48] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[09:50:48] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[09:50:48] [Server thread/INFO]: [Plan] Loading server identifying information
+[09:50:48] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
+[09:50:48] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[09:50:48] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[09:50:48] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[09:50:49] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[09:50:49] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[09:50:49] [Server thread/INFO]: Starting remote control listener
+[09:50:49] [Server thread/INFO]: Thread RCON Listener started
+[09:50:49] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[09:50:49] [Server thread/INFO]: Running delayed init tasks
+[09:50:49] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:50:49] [Server thread/INFO]: Done (4.076s)! For help, type "help"
+[09:50:49] [Server thread/INFO]: Timings Reset
+[09:50:49] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[09:50:49] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
+[09:50:49] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[09:50:49] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
+[09:52:08] [User Authenticator #0/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
+[09:52:08] [Server thread/INFO]: BlockBuilderJoe joined the game
+[09:52:08] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:43242] logged in with entity id 11 at ([tretower]-121.02405770861613, 83.86988468401461, 629.6399638183518)
+[10:08:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
+[10:11:27] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
+[10:11:27] [Server thread/INFO]: BlockBuilderJoe left the game
+[10:24:08] [User Authenticator #1/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
+[10:24:09] [Server thread/INFO]: BlockBuilderJoe joined the game
+[10:24:09] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:40172] logged in with entity id 1348 at ([tretower]-75.08044481303621, 69.43337546922226, 613.9887022017124)
+[10:26:22] [Server thread/INFO]: BlockBuilderJoe issued server command: /cleat
+[10:29:22] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
+[10:29:22] [Server thread/INFO]: BlockBuilderJoe left the game
+[10:34:27] [User Authenticator #2/INFO]: UUID of player BlockBuilderJoe is ab6a1740-bbeb-3d84-8f13-230242612517
+[10:34:27] [Server thread/INFO]: BlockBuilderJoe joined the game
+[10:34:27] [Server thread/INFO]: BlockBuilderJoe[/127.0.0.1:57686] logged in with entity id 1350 at ([tretower]-74.9023456245433, 69.37197900725847, 623.7186114620573)
+[10:34:39] [Server thread/INFO]: BlockBuilderJoe issued server command: /clear
+[10:34:40] [Server thread/INFO]: [BlockBuilderJoe: Removed 12 item(s) from player BlockBuilderJoe]
+[10:34:41] [Server thread/INFO]: BlockBuilderJoe issued server command: ///wand
+[10:34:45] [Server thread/INFO]: BlockBuilderJoe issued server command: //wand
+[10:35:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //set white_terracotta
+[10:37:24] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
+[10:37:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
+[10:37:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:37:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:38:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:38:10] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:38:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:38:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:38:27] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:38:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:38:38] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:39:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:39:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:39:12] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:39:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:51:44] [Server thread/INFO]: BlockBuilderJoe issued server command: //line stripped_spruce_wood
+[10:51:51] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:53:55] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_spruce_wood
+[10:53:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
+[10:54:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_spruce_wood
+[10:54:26] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_spruce_wood
+[10:54:36] [Server thread/INFO]: BlockBuilderJoe issued server command: //set stripped_spruce_wood
+[10:54:56] [Server thread/INFO]: BlockBuilderJoe issued server command: //copuy
+[10:54:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
+[10:55:04] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:55:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:55:12] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:55:17] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:55:21] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
+[10:58:16] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-on
+[10:58:20] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-all
+[10:58:20] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
+[10:58:23] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
+[10:58:23] [Server thread/INFO]: BlockBuilderJoe left the game
+[10:58:28] [Server thread/INFO]: Stopping server
+[10:58:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[10:58:28] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[10:58:28] [Server thread/INFO]: [Plan] Processing complete.
+[10:58:28] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[10:58:28] [Server thread/INFO]: [Plan] Transaction queue closed.
+[10:58:28] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[10:58:28] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[10:58:28] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[10:58:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[10:58:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:58:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[10:58:28] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[10:58:28] [Server thread/INFO]: Saving players
+[10:58:28] [Server thread/INFO]: Saving worlds
+[10:58:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower]'/minecraft:overworld
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'tretower' in 0.03s
+[10:58:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (tretower): All chunks are saved
+[10:58:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_nether]'/minecraft:the_nether
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_nether'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_nether'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_nether'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'tretower_nether' in 0.00s
+[10:58:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:58:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_the_end]'/minecraft:the_end
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_the_end'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_the_end'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_the_end'
+[10:58:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'tretower_the_end' in 0.00s
+[10:58:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:58:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:58:28] [Server thread/INFO]: Flushing Chunk IO
+[10:58:28] [Server thread/INFO]: Closing Thread Pool
+[10:58:28] [Server thread/INFO]: Closing Server
