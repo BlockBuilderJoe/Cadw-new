@@ -168,3 +168,40 @@
 [11:55:37] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
 [11:55:38] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
 [11:55:39] [Server thread/INFO]: BlockBuilderJoe left the game
+[11:56:32] [Server thread/INFO]: Stopping server
+[11:56:32] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[11:56:32] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[11:56:32] [Server thread/INFO]: [Plan] Processing complete.
+[11:56:32] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[11:56:32] [Server thread/INFO]: [Plan] Transaction queue closed.
+[11:56:32] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[11:56:32] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[11:56:32] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[11:56:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[11:56:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:56:32] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[11:56:32] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[11:56:32] [Server thread/INFO]: Saving players
+[11:56:33] [Server thread/INFO]: Saving worlds
+[11:56:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower]'/minecraft:overworld
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'tretower' in 0.02s
+[11:56:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (tretower): All chunks are saved
+[11:56:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_nether]'/minecraft:the_nether
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_nether'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_nether'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_nether'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'tretower_nether' in 0.00s
+[11:56:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:56:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tretower_the_end]'/minecraft:the_end
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'tretower_the_end'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'tretower_the_end'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'tretower_the_end'
+[11:56:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'tretower_the_end' in 0.00s
+[11:56:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:56:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:56:33] [Server thread/INFO]: Flushing Chunk IO
+[11:56:33] [Server thread/INFO]: Closing Thread Pool
+[11:56:33] [Server thread/INFO]: Closing Server
