@@ -869,5 +869,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2024-07-15 20:07:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-15 20:09:21 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
