@@ -1,247 +1,277 @@
-[10:40:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:40:36] [ServerMain/INFO]: Loaded 1174 recipes
-[10:40:37] [ServerMain/INFO]: Loaded 1271 advancements
-[10:40:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[10:40:38] [Server thread/INFO]: Loading properties
-[10:40:39] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
-[10:40:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:40:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:40:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:37:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:37:34] [ServerMain/INFO]: Loaded 1174 recipes
+[20:37:36] [ServerMain/INFO]: Loaded 1271 advancements
+[20:37:37] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:37:37] [Server thread/INFO]: Loading properties
+[20:37:37] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
+[20:37:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:37:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:37:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[10:40:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[10:40:40] [Server thread/INFO]: Default game type: CREATIVE
-[10:40:40] [Server thread/INFO]: Generating keypair
-[10:40:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:40:40] [Server thread/INFO]: Using default channel type
-[10:40:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:40:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:40:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[10:40:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[10:40:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[10:40:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:40:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[10:40:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[10:40:42] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[10:40:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@42192830]
-[10:40:43] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[10:40:43] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[10:40:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:40:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[10:40:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:40:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:40:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[10:40:46] [Server thread/INFO]: Preparing level "stdavids2"
-[10:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:40:47] [Server thread/INFO]: Time elapsed: 705 ms
-[10:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:40:48] [Server thread/INFO]: Time elapsed: 213 ms
-[10:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:40:48] [Server thread/INFO]: Time elapsed: 193 ms
-[10:40:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[10:40:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[10:40:48] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[10:40:50] [Server thread/INFO]: [Plan] 
-[10:40:50] [Server thread/INFO]: [Plan]            ██▌
-[10:40:50] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[10:40:50] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[10:40:50] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[10:40:50] [Server thread/INFO]: [Plan] 
-[10:40:50] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[10:40:50] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[10:40:50] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[10:40:50] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[10:40:51] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[10:40:51] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[10:40:51] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[10:40:51] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[10:40:51] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[10:40:51] [Server thread/INFO]: [Plan] Loading server identifying information
-[10:40:51] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
-[10:40:51] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[10:40:51] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[10:40:51] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[10:40:51] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[10:40:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[10:40:51] [Server thread/INFO]: Starting remote control listener
-[10:40:51] [Server thread/INFO]: Thread RCON Listener started
-[10:40:51] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[10:40:52] [Server thread/INFO]: Running delayed init tasks
-[10:40:52] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[10:40:52] [Server thread/INFO]: Done (13.222s)! For help, type "help"
-[10:40:52] [Server thread/INFO]: Timings Reset
-[10:40:52] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[10:40:52] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
-[10:40:52] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[10:40:52] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
-[10:41:00] [User Authenticator #0/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
-[10:41:01] [Server thread/INFO]: BlockB110 joined the game
-[10:41:01] [Server thread/INFO]: BlockB110[/127.0.0.1:52123] logged in with entity id 12 at ([stdavids2]24844.112327464292, -18.317288630567898, 25223.601109923344)
-[10:41:52] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:06] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:18] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:31] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:37] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:45] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:42:49] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:43:07] [Server thread/INFO]: BlockB110 issued server command: //set smooth_sandstone
-[10:46:57] [Server thread/INFO]: BlockB110 issued server command: //replace stone smooth_sandstone
-[10:47:14] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:47:46] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:47:56] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:48:22] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:48:28] [Server thread/INFO]: BlockB110 issued server command: //undo
-[10:48:34] [Server thread/INFO]: BlockB110 issued server command: //undo
-[10:48:36] [Server thread/INFO]: BlockB110 issued server command: //redo
-[10:48:41] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:48:50] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:50:52] [Server thread/INFO]: BlockB110 issued server command: //replace stone smooth_sandstone
-[10:50:56] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:51:02] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:51:22] [Server thread/INFO]: BlockB110 issued server command: //set smooth_sandstone
-[10:51:29] [Server thread/INFO]: BlockB110 issued server command: //set smooth_sandstone
-[10:51:50] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:53:06] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:53:35] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:53:48] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:54:20] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:55:04] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:57:47] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:57:56] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:58:33] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:58:39] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:58:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[10:58:50] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:00:08] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:01:00] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:01:11] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:02:17] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:02:35] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:02:46] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:02:51] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:03:06] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:05:01] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:05:19] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:05:49] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:07:56] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:08:08] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:10:37] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:11:31] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:11:49] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:11:59] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:12:59] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:13:07] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:13:14] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:13:18] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:13:38] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:13:51] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:14:15] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:14:29] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:14:36] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:15:05] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:15:29] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:15:41] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:15:48] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:15:54] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:16:01] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:16:06] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:21:23] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
-[11:21:39] [Server thread/INFO]: BlockB110 issued server command: //set grass_block
-[11:22:19] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:22:54] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:23:10] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:23:21] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:23:27] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:23:36] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:24:01] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:24:06] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:24:13] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:24:17] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:27:04] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[11:27:04] [Server thread/INFO]: [BlockB110: Saved the game]
-[11:31:36] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[11:31:36] [Server thread/INFO]: [BlockB110: Saved the game]
-[11:32:20] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:32:33] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:33:42] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[11:33:42] [Server thread/INFO]: [BlockB110: Saved the game]
-[11:37:54] [Server thread/INFO]: BlockB110 issued server command: //set clay
-[11:38:03] [Server thread/INFO]: BlockB110 issued server command: //set terracotta
-[11:38:14] [Server thread/INFO]: BlockB110 issued server command: //set pink_terracotta
-[11:38:24] [Server thread/INFO]: BlockB110 issued server command: //set white_terracotta
-[11:40:38] [Server thread/INFO]: BlockB110 issued server command: //wand
-[11:41:06] [Server thread/INFO]: BlockB110 issued server command: //set 50%stone,50%stone_bricks
-[11:52:08] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:52:18] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:53:19] [Server thread/INFO]: BlockB110 issued server command: //set 50%stone,50%stone_bricks
-[11:53:23] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:53:38] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:53:47] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:53:58] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:54:04] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:54:15] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:54:17] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:54:44] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:55:02] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[11:55:02] [Server thread/INFO]: [BlockB110: Saved the game]
-[11:56:11] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:56:30] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:56:37] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:57:32] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:57:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[11:58:14] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:58:42] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:59:04] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:59:15] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[11:59:42] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[12:00:12] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[12:00:20] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[12:00:31] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
-[12:00:37] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
-[12:01:21] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
-[12:01:45] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[12:01:50] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[12:03:20] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[12:03:20] [Server thread/INFO]: [BlockB110: Saved the game]
-[12:03:24] [Server thread/INFO]: BlockB110 lost connection: Disconnected
-[12:03:24] [Server thread/INFO]: BlockB110 left the game
-[12:03:31] [Server thread/INFO]: Saving the game (this may take a moment!)
-[12:03:31] [Server thread/INFO]: Saved the game
-[12:03:32] [Server thread/INFO]: Stopping the server
-[12:03:33] [Server thread/INFO]: Stopping server
-[12:03:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[12:03:33] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[12:03:33] [Server thread/INFO]: [Plan] Processing complete.
-[12:03:33] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[12:03:33] [Server thread/INFO]: [Plan] Transaction queue closed.
-[12:03:33] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[12:03:33] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[12:03:33] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[12:03:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[12:03:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[12:03:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[12:03:33] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[12:03:33] [Server thread/INFO]: Saving players
-[12:03:33] [Server thread/INFO]: Saving worlds
-[12:03:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2]'/minecraft:overworld
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'stdavids2' in 0.00s
-[12:03:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (stdavids2): All chunks are saved
-[12:03:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2_nether]'/minecraft:the_nether
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2_nether'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2_nether'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2_nether'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'stdavids2_nether' in 0.00s
-[12:03:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:03:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2_the_end]'/minecraft:the_end
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2_the_end'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2_the_end'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2_the_end'
-[12:03:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'stdavids2_the_end' in 0.00s
-[12:03:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:03:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:03:33] [Server thread/INFO]: Flushing Chunk IO
-[12:03:33] [Server thread/INFO]: Closing Thread Pool
-[12:03:33] [Server thread/INFO]: Closing Server
+[20:37:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[20:37:38] [Server thread/INFO]: Default game type: CREATIVE
+[20:37:38] [Server thread/INFO]: Generating keypair
+[20:37:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:37:38] [Server thread/INFO]: Using default channel type
+[20:37:38] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:37:38] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:37:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:37:39] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:37:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:37:40] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:37:40] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:37:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:37:41] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[20:37:42] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7c1aa8e9]
+[20:37:42] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
+[20:37:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:37:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:37:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[20:37:42] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:37:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:37:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:37:44] [Server thread/INFO]: Preparing level "stdavids2"
+[20:37:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:37:46] [Server thread/INFO]: Time elapsed: 681 ms
+[20:37:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:37:46] [Server thread/INFO]: Time elapsed: 380 ms
+[20:37:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:37:46] [Server thread/INFO]: Time elapsed: 133 ms
+[20:37:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:37:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:37:46] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
+[20:37:48] [Server thread/INFO]: [Plan] 
+[20:37:48] [Server thread/INFO]: [Plan]            ██▌
+[20:37:48] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[20:37:48] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[20:37:48] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
+[20:37:48] [Server thread/INFO]: [Plan] 
+[20:37:48] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[20:37:48] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[20:37:49] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[20:37:49] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[20:37:49] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[20:37:49] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[20:37:49] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[20:37:49] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[20:37:49] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[20:37:49] [Server thread/INFO]: [Plan] Loading server identifying information
+[20:37:49] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
+[20:37:49] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[20:37:49] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[20:37:49] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[20:37:49] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[20:37:49] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:37:49] [Server thread/INFO]: Starting remote control listener
+[20:37:49] [Server thread/INFO]: Thread RCON Listener started
+[20:37:49] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[20:37:50] [Server thread/INFO]: Running delayed init tasks
+[20:37:50] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:37:50] [Server thread/INFO]: Done (12.963s)! For help, type "help"
+[20:37:50] [Server thread/INFO]: Timings Reset
+[20:37:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[20:37:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
+[20:37:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[20:37:50] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
+[20:38:29] [User Authenticator #0/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
+[20:38:30] [Server thread/INFO]: BlockB110 joined the game
+[20:38:30] [Server thread/INFO]: BlockB110[/127.0.0.1:57795] logged in with entity id 12 at ([stdavids2]24796.110011787718, -15.66977212103739, 25221.363331553413)
+[20:46:07] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:46:16] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:46:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:47:45] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:47:50] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:48:13] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:48:32] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:50:33] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:50:38] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:50:47] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[20:51:01] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:51:12] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:51:19] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:51:25] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:51:38] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[20:51:40] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[20:51:40] [Server thread/INFO]: [BlockB110: Saved the game]
+[20:52:48] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestoned
+[20:52:51] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:53:04] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:53:14] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[20:53:22] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:53:57] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:54:04] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[20:55:32] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:55:39] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:56:31] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:56:35] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:57:09] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[20:57:09] [Server thread/INFO]: [BlockB110: Saved the game]
+[20:58:37] [Server thread/INFO]: BlockB110 issued server command: //wand
+[20:58:46] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:59:09] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[20:59:50] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[20:59:58] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:00:05] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:00:13] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:00:18] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:00:47] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:00:53] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:01:52] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:01:59] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:02:04] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:02:12] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:03:01] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:04:14] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:04:22] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:04:36] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:04:40] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:07:21] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:07:21] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:09:34] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:09:34] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:12:16] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:12:27] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:12:31] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:12:41] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:13:28] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:13:33] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:13:42] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:13:48] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:14:00] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:14:07] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:14:18] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:14:18] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:16:36] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:16:41] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:16:48] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:16:53] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:22:15] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:22:15] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:23:31] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:24:23] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:25:05] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:25:10] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:25:18] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:25:24] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:27:21] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:27:26] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:27:30] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:29:03] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:29:07] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:29:13] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:29:19] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:31:38] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:31:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:31:47] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:32:04] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:32:04] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:32:10] [Server thread/INFO]: BlockB110 issued server command: //wand
+[21:32:21] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:34:13] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:34:24] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:35:38] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:35:38] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:36:37] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:36:55] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:37:21] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:37:26] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:37:49] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:37:50] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:38:18] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:28] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:32] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:42] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:46] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:55] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:38:57] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:39:07] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:39:12] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:39:16] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:39:27] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:43:46] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:43:59] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:46:42] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:46:42] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:47:43] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:47:43] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:50:00] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:50:04] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:50:09] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:50:14] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:51:13] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:51:18] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:52:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:52:53] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:52:57] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:53:01] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:53:11] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:54:59] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:55:36] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[21:55:44] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:56:19] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[21:57:25] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[21:57:25] [Server thread/INFO]: [BlockB110: Saved the game]
+[21:58:43] [Server thread/INFO]: BlockB110 issued server command: //set stone
+[21:58:57] [Server thread/INFO]: BlockB110 issued server command: //set stone
+[21:59:24] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[21:59:34] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[22:01:40] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[22:01:40] [Server thread/INFO]: [BlockB110: Saved the game]
+[22:02:27] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[22:02:35] [Server thread/INFO]: BlockB110 issued server command: //set packed_mud
+[22:04:40] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[22:05:14] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[22:06:32] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[22:06:37] [Server thread/INFO]: BlockB110 issued server command: //undo
+[22:06:47] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[22:07:26] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[22:07:44] [Server thread/INFO]: BlockB110 issued server command: //set 0
+[22:07:55] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[22:08:01] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[22:09:43] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[22:09:55] [Server thread/INFO]: BlockB110 issued server command: //set 20%stone,20%mossy_cobblestone,20%mossy_stone_bricks,20%cobblestone
+[22:11:10] [Server thread/INFO]: BlockB110 issued server command: /save-all
+[22:11:10] [Server thread/INFO]: [BlockB110: Saved the game]
+[22:11:19] [Server thread/INFO]: BlockB110 lost connection: Disconnected
+[22:11:19] [Server thread/INFO]: BlockB110 left the game
+[22:11:27] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:11:27] [Server thread/INFO]: Saved the game
+[22:11:28] [Server thread/INFO]: Stopping the server
+[22:11:28] [Server thread/INFO]: Stopping server
+[22:11:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[22:11:28] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[22:11:28] [Server thread/INFO]: [Plan] Processing complete.
+[22:11:28] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[22:11:28] [Server thread/INFO]: [Plan] Transaction queue closed.
+[22:11:28] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[22:11:29] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[22:11:29] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[22:11:29] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[22:11:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:11:29] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[22:11:29] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:11:29] [Server thread/INFO]: Saving players
+[22:11:29] [Server thread/INFO]: Saving worlds
+[22:11:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2]'/minecraft:overworld
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'stdavids2' in 0.01s
+[22:11:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (stdavids2): All chunks are saved
+[22:11:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2_nether]'/minecraft:the_nether
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2_nether'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2_nether'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2_nether'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'stdavids2_nether' in 0.00s
+[22:11:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:11:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[stdavids2_the_end]'/minecraft:the_end
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stdavids2_the_end'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stdavids2_the_end'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'stdavids2_the_end'
+[22:11:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'stdavids2_the_end' in 0.01s
+[22:11:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:11:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:11:29] [Server thread/INFO]: Flushing Chunk IO
+[22:11:29] [Server thread/INFO]: Closing Thread Pool
+[22:11:29] [Server thread/INFO]: Closing Server
