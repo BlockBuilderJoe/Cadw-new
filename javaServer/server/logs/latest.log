@@ -1,144 +1,76 @@
-[11:51:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:51:39] [ServerMain/INFO]: Loaded 1174 recipes
-[11:51:40] [ServerMain/INFO]: Loaded 1271 advancements
-[11:51:42] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:51:42] [Server thread/INFO]: Loading properties
-[11:51:42] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
-[11:51:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:51:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:51:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[14:07:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:07:01] [ServerMain/INFO]: Loaded 1174 recipes
+[14:07:01] [ServerMain/INFO]: Loaded 1271 advancements
+[14:07:01] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:07:01] [Server thread/INFO]: Loading properties
+[14:07:01] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
+[14:07:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:07:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:07:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:51:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[11:51:44] [Server thread/INFO]: Default game type: CREATIVE
-[11:51:44] [Server thread/INFO]: Generating keypair
-[11:51:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:51:44] [Server thread/INFO]: Using default channel type
-[11:51:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:51:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:51:45] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[11:51:45] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[11:51:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:51:46] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:51:46] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[11:51:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:51:47] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[11:51:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4c152bf5]
-[11:51:48] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[11:51:48] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[11:51:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:51:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[11:51:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:51:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[11:51:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[11:51:51] [Server thread/INFO]: Preparing level "Conwyx2"
-[11:51:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:51:53] [Server thread/INFO]: Time elapsed: 674 ms
-[11:51:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:51:53] [Server thread/INFO]: Time elapsed: 273 ms
-[11:51:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:51:54] [Server thread/INFO]: Time elapsed: 115 ms
-[11:51:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[11:51:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[11:51:54] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[11:51:56] [Server thread/INFO]: [Plan] 
-[11:51:56] [Server thread/INFO]: [Plan]            ██▌
-[11:51:56] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[11:51:56] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[11:51:56] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[11:51:56] [Server thread/INFO]: [Plan] 
-[11:51:56] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[11:51:56] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[11:51:57] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[11:51:57] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[11:51:57] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[11:51:57] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[11:51:57] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[11:51:57] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[11:51:57] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[11:51:57] [Server thread/INFO]: [Plan] Loading server identifying information
-[11:51:57] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
-[11:51:57] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[11:51:57] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[11:51:58] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[11:51:58] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[11:51:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[11:51:58] [Server thread/INFO]: Starting remote control listener
-[11:51:58] [Server thread/INFO]: Thread RCON Listener started
-[11:51:58] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[11:51:58] [Server thread/INFO]: Running delayed init tasks
-[11:51:58] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[11:51:58] [Server thread/INFO]: Done (15.935s)! For help, type "help"
-[11:51:58] [Server thread/INFO]: Timings Reset
-[11:51:58] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[11:51:58] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
-[11:51:58] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[11:51:58] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
-[11:52:04] [User Authenticator #0/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
-[11:52:05] [Server thread/INFO]: BlockB110 joined the game
-[11:52:05] [Server thread/INFO]: BlockB110[/127.0.0.1:54373] logged in with entity id 14 at ([Conwyx2]3906.5, -16.766142722037806, 4004.5)
-[11:52:10] [Server thread/INFO]: BlockB110 lost connection: Disconnected
-[11:52:11] [Server thread/INFO]: BlockB110 left the game
-[11:52:14] [User Authenticator #0/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
-[11:52:14] [Server thread/INFO]: BlockB110 joined the game
-[11:52:14] [Server thread/INFO]: BlockB110[/127.0.0.1:54382] logged in with entity id 15 at ([Conwyx2]3906.5, -16.766142722037806, 4004.5)
-[11:52:30] [Server thread/INFO]: BlockB110 lost connection: Disconnected
-[11:52:30] [Server thread/INFO]: BlockB110 left the game
-[14:07:39] [Server thread/INFO]: Stopping server
-[14:07:39] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[14:07:39] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[14:07:40] [Server thread/INFO]: [Plan] Processing complete.
-[14:07:40] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[14:07:40] [Server thread/INFO]: [Plan] Transaction queue closed.
-[14:07:40] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[14:07:40] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[14:07:40] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[14:07:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[14:07:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:07:40] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[14:07:40] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[14:07:40] [Server thread/INFO]: Saving players
-[14:07:40] [Server thread/INFO]: Saving worlds
-[14:07:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Conwyx2]'/minecraft:overworld
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Conwyx2'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Conwyx2'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Conwyx2'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Conwyx2' in 0.00s
-[14:07:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (Conwyx2): All chunks are saved
-[14:07:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Conwyx2_nether]'/minecraft:the_nether
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Conwyx2_nether'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Conwyx2_nether'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Conwyx2_nether'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'Conwyx2_nether' in 0.00s
-[14:07:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:07:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Conwyx2_the_end]'/minecraft:the_end
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Conwyx2_the_end'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Conwyx2_the_end'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Conwyx2_the_end'
-[14:07:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Conwyx2_the_end' in 0.00s
-[14:07:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:07:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:07:40] [Server thread/INFO]: Flushing Chunk IO
-[14:07:40] [Server thread/INFO]: Closing Thread Pool
-[14:07:40] [Server thread/INFO]: Closing Server
-[14:07:42] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-454]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:228) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
+[14:07:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[14:07:01] [Server thread/INFO]: Default game type: CREATIVE
+[14:07:01] [Server thread/INFO]: Generating keypair
+[14:07:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:07:02] [Server thread/INFO]: Using default channel type
+[14:07:02] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[14:07:02] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[14:07:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[14:07:02] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[14:07:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:07:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:07:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:07:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:07:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[14:07:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3b603771]
+[14:07:03] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
+[14:07:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[14:07:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:07:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[14:07:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:07:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:07:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[14:07:04] [Server thread/INFO]: Preparing level "Conwyx2"
+[14:07:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:07:04] [Server thread/INFO]: Time elapsed: 160 ms
+[14:07:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:07:04] [Server thread/INFO]: Time elapsed: 38 ms
+[14:07:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:07:04] [Server thread/INFO]: Time elapsed: 12 ms
+[14:07:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[14:07:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[14:07:04] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
+[14:07:05] [Server thread/INFO]: [Plan] 
+[14:07:05] [Server thread/INFO]: [Plan]            ██▌
+[14:07:05] [Server thread/INFO]: [Plan]      ██▌   ██▌
+[14:07:05] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
+[14:07:05] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
+[14:07:05] [Server thread/INFO]: [Plan] 
+[14:07:05] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[14:07:05] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[14:07:05] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[14:07:05] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[14:07:05] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[14:07:05] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[14:07:05] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[14:07:05] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[14:07:05] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[14:07:05] [Server thread/INFO]: [Plan] Loading server identifying information
+[14:07:05] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
+[14:07:05] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[14:07:05] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
+[14:07:05] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[14:07:05] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[14:07:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[14:07:06] [Server thread/INFO]: Starting remote control listener
+[14:07:06] [Server thread/INFO]: Thread RCON Listener started
+[14:07:06] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[14:07:06] [Server thread/INFO]: Running delayed init tasks
+[14:07:06] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:07:06] [Server thread/INFO]: Done (4.724s)! For help, type "help"
+[14:07:06] [Server thread/INFO]: Timings Reset
+[14:07:06] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[14:07:06] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
+[14:07:06] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
+[14:07:06] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.1, you're on: 4.9.3
