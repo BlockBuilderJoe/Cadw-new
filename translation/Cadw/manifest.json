@@ -1,18 +1,18 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "This is a test and will be changed later",
-        "name": "Cadw test language pack",
-        "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
-        "version": [0, 0, 1],
-        "min_engine_version": [ 1, 19, 30 ]
-    },
-    "modules": [
-        {
-            "description": "This is a test and will be changed later",
-            "type": "resources",
-            "uuid": "743f6949-53be-44b6-b326-398005028819",
-            "version": [0, 0, 1]
-        }
-    ]
+  "format_version": 2,
+  "header": {
+    "description": "Archwilio byd cemeg yn Minecraft!",
+    "name": "Cemeg",
+    "uuid": "3c076c58-b8a7-4082-8722-62135c73e48c",
+    "version": [1,0,0],
+    "min_engine_version": [1, 20, 13]
+  },
+  "modules": [
+    {
+      "description": "Archwilio byd cemeg yn Minecraft!",
+      "type": "resources",
+      "uuid": "e4294226-95b6-49d0-aff9-a50ce6495c59",
+      "version": [1,0,0]
+    }
+  ]
 }
