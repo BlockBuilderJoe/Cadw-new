@@ -1,70 +1,40 @@
-[09:59:47] [User Authenticator #18/INFO]: UUID of player BlockB110 is e167822e-aeb1-46f5-8b57-c0007920e80a
-[09:59:47] [Server thread/INFO]: BlockB110 joined the game
-[09:59:47] [Server thread/INFO]: BlockB110[/10.147.17.144:57177] logged in with entity id 795 at ([release]-20086.185410000875, 28.621327914971204, -19604.882709726586)
-[09:59:52] [Server thread/INFO]: BlockB110 issued server command: /tp -112 -60 -245
-[09:59:52] [Server thread/INFO]: [BlockB110: Teleported BlockB110 to -111.500000, -60.000000, -244.500000]
-[10:00:06] [Server thread/INFO]: BlockB110 issued server command: /tp -40293 -6 -40038
-[10:00:06] [Server thread/INFO]: [BlockB110: Teleported BlockB110 to -40292.500000, -6.000000, -40037.500000]
-[10:00:36] [Server thread/INFO]: BlockB110 issued server command: //wand
-[10:00:46] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:00:51] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:00:58] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:01:16] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:01:36] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:02:18] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:02:37] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:02:44] [Server thread/INFO]: BlockB110 issued server command: //set 0
-[10:08:11] [Server thread/INFO]: BlockB110 issued server command: /save-all
-[10:08:11] [Server thread/INFO]: [BlockB110: Saved the game]
-[10:08:14] [Server thread/INFO]: BlockB110 lost connection: Disconnected
-[10:08:14] [Server thread/INFO]: BlockB110 left the game
-[10:22:18] [User Authenticator #19/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[10:22:18] [Server thread/INFO]: BlockBuilderJoe joined the game
-[10:22:18] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:52784] logged in with entity id 866 at ([release]-79982.97007011782, 16.361097232174185, -79897.3377238302)
-[10:22:24] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[10:22:24] [Server thread/INFO]: BlockBuilderJoe left the game
-[10:22:40] [User Authenticator #19/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[10:22:40] [Server thread/INFO]: BlockBuilderJoe joined the game
-[10:22:40] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:43462] logged in with entity id 868 at ([release]-79982.97007011782, 16.361097232174185, -79897.3377238302)
-[10:22:43] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[10:22:43] [Server thread/INFO]: BlockBuilderJoe left the game
-[10:25:19] [Server thread/INFO]: Saving the game (this may take a moment!)
-[10:25:19] [Server thread/INFO]: Saved the game
-[10:25:20] [Server thread/INFO]: Stopping the server
-[10:25:20] [Server thread/INFO]: Stopping server
-[10:25:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[10:25:20] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
-[10:25:20] [Server thread/INFO]: [Plan] Processing complete.
-[10:25:20] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
-[10:25:20] [Server thread/INFO]: [Plan] Transaction queue closed.
-[10:25:20] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
-[10:25:20] [Server thread/INFO]: [Plan] Closed SQLite connection.
-[10:25:20] [Server thread/INFO]: [Plan] Player Analytics Disabled.
-[10:25:20] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[10:25:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[10:25:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[10:25:20] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[10:25:20] [Server thread/INFO]: Saving players
-[10:25:20] [Server thread/INFO]: Saving worlds
-[10:25:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release]'/minecraft:overworld
-[10:25:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release'
-[10:25:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release'
-[10:25:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release'
-[10:25:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'release' in 0.00s
-[10:25:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (release): All chunks are saved
-[10:25:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release_nether]'/minecraft:the_nether
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release_nether'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release_nether'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release_nether'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'release_nether' in 0.00s
-[10:25:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:25:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release_the_end]'/minecraft:the_end
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release_the_end'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release_the_end'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release_the_end'
-[10:25:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'release_the_end' in 0.01s
-[10:25:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:25:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:25:21] [Server thread/INFO]: Flushing Chunk IO
-[10:25:21] [Server thread/INFO]: Closing Thread Pool
-[10:25:21] [Server thread/INFO]: Closing Server
+[08:20:45] [Server thread/INFO]: Saving the game (this may take a moment!)
+[08:20:45] [Server thread/INFO]: Saved the game
+[08:20:56] [Server thread/INFO]: Stopping the server
+[08:20:56] [Server thread/INFO]: Stopping server
+[08:20:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[08:20:56] [Server thread/INFO]: [Plan] Disabling Plan v5.6 build 2820
+[08:20:56] [Server thread/INFO]: [Plan] Processing complete.
+[08:20:56] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[08:20:56] [Server thread/INFO]: [Plan] Transaction queue closed.
+[08:20:56] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[08:20:56] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[08:20:56] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[08:20:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[08:20:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[08:20:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[08:20:56] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[08:20:56] [Server thread/INFO]: Saving players
+[08:20:56] [Server thread/INFO]: Saving worlds
+[08:20:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release]'/minecraft:overworld
+[08:20:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release'
+[08:20:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release'
+[08:20:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release'
+[08:20:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'release' in 0.00s
+[08:20:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (release): All chunks are saved
+[08:20:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release_nether]'/minecraft:the_nether
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release_nether'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release_nether'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release_nether'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'release_nether' in 0.00s
+[08:20:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:20:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[release_the_end]'/minecraft:the_end
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'release_the_end'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'release_the_end'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'release_the_end'
+[08:20:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'release_the_end' in 0.00s
+[08:20:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:20:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:20:57] [Server thread/INFO]: Flushing Chunk IO
+[08:20:57] [Server thread/INFO]: Closing Thread Pool
+[08:20:57] [Server thread/INFO]: Closing Server
