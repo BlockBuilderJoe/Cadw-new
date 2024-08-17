@@ -1,9 +1,27 @@
-blockName,red,green,blue
-stone,205,117,154
-grass_block,60,82,55
-gravel,200,39,48
-cobblestone,136,135,136
-gray_wool,63,71,76
-grass_block,122,90,52
-spruce_wood,56,42,28
-dirt,103,69,50
+blockName,red,green,blue,,,,,,,,
+stone,205,117,154,,,,,,,,
+grass_block,60,82,55,,,,,,,,
+gravel,200,39,48,,,,,,,,
+cobblestone,136,135,136,,,,,,,,
+,,,,,,,,,,,
+grass_block,122,90,52,,,,,,,,
+spruce_wood,56,42,28,,,,,,,,
+dirt,103,69,50,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+block used in Avoyd,,red,green,blue,,in game block,,,red,green ,blue
+light blue concrete powder,,76,184,214,,stone bricks,,,116,115,116
+yellow concrete,,240,174,21,,stone stairs ,,,,,
+spruce log,,50,30,12,,dark oak log,,,51,40,21
+red concrete,,142,33,33,,stone wall,,,,,
+smooth stone ,,169,169,169,,iron blocks (or something metall-y),,,232,232,232
+magenta concrete powder,,194,86,186,,cobblestone,,,168,168,168
+lime concrete ,,93,166,24,,white  concrete,,,205,210,211
+orange concrete,,224,97,0,,glass,,,207,233,232
+oak wood planks,,183,148,92,,iron bars,,,109,112,107
+purple concrete,,101,32,156,,oak leaves,,,,,
+white concrete,,205,210,211,,gravel,,,120,115,114
+blackstone,,31,23,24,,white concrete,,,205,210,211
+red sand ,,187,101,32,,bricks,,,166,103,87
+blue concrete,,45,47,143,,stone,,,169,169,169
