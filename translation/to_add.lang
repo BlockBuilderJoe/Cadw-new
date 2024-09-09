@@ -1,0 +1,156 @@
+####1.20 updates####
+
+library.category.label.howToPlay.startHereKeyboard=DECHREUWCH YMA - BYSELLFWRDD	####keyboard refers to the input device (e.g. mouse and keyboard)
+library.category.title.howToPlay.startHereKeyboard=Dechreuwch Yma - Bysellfwrdd	####keyboard refers to the input device (e.g. mouse and keyboard)
+library.category.label.howToPlay.startHereTouch=DECHREUWCH YMA - CYFFWRDD	##touch refers to the form of input (e.g. touch vs. mouse and keyboard)
+library.category.title.howToPlay.startHereTouch=Dechreuwch Yma - Cyffwrdd	##touch refers to the form of input (e.g. touch vs. mouse and keyboard)
+
+tag.touch=Cyffwrdd	##touch refers to the form of input (e.g. touch vs. mouse and keyboard)
+tag.keyboard=Bysellfwrdd & Llygoden	##
+
+library.category.label.computerScience.codingFunTouch=SYLFEINI CODIO - CYFFWRDD	##touch refers to the form of input (e.g. touch vs. mouse and keyboard)
+library.category.title.computerScience.codingFunTouch=Sylfeini Codio - Cyffwrdd	##touch refers to the form of input (e.g. touch vs. mouse and keyboard)
+library.category.label.computerScience.codingFunKeyboard=SYLFEINI CODIO - BYSELLFWRDD	##keyboard refers to the input device (e.g. mouse and keyboard)
+library.category.title.computerScience.codingFunKeyboard=Sylfeini Codio - Bysellfwrdd	##keyboard refers to the input device (e.g. mouse and keyboard)
+library.category.computerScience.coding_fundamentals.label=SYLFEINI CODIO	## 
+library.category.computerScience.coding_fundamentals.title=Sylfeini Codio	## 
+library.category.computerScience.cybersecurity.label=SEIBRDDIOGELWCH	##
+library.category.computerScience.cybersecurity.title=Seibrddiogelwch	##
+library.category.computerScience.digital_skills.description=Archwiliwch ruglder digidol a sgiliau dinasyddiaeth ddigidol gyda'r casgliad hwn o wersi dan sylw. Dysgwch am drin diogelwch personol a phreifatrwydd ar-lein, teithio trwy hanes technoleg, defnyddio codio i adrodd straeon clasurol a darganfod yr Asiant a'r adeiladwr codau.	##
+library.category.computerScience.digital_skills.label=SGILIAU DIGIDOL	##
+library.category.computerScience.digital_skills.title=Sgiliau Digidol	##
+library.category.computerScience.fundamentals_keyboard.label=BYSELLFWRDD	##
+library.category.computerScience.fundamentals_keyboard.title=Bysellfwrdd	##
+library.category.computerScience.fundamentals_touch.label=CYFFWRDD	##
+library.category.computerScience.fundamentals_touch.title=Cyffwrdd	##
+library.category.computerScience.lower_primary.description=Cyflwyno meddwl cyfrifiannol gyda chodio bloc i gefnogi datblygiad sgiliau mewn cysyniadau cyfrifiadureg.	## Changed: New Description for Block Coding, Lower Primary
+library.category.computerScience.lower_primary.label=CYNRADD IS	## 
+library.category.computerScience.lower_primary.title=Cynradd Is	## 
+library.category.computerScience.python_101_mc.description=Newydd i Python? Dechreuwch godio Python yn Minecraft gyda MakeCode! Python 101 yw'r casgliad cyntaf yn y dilyniant cyfrifiadureg Rhaglennu gyda Python Cyfun Uchuaf (Oedrannau 9-12 | 14-18 oed). Yn y rhan hon o'r dilyniant, mae myfyrwyr yn trosglwyddo i raglennu testun gan ddefnyddio Python wrth ddefnyddio Makecode. Dysgwch hanfodion Python, gan gynnwys cystrawen, mathau o ddata, newidynnau, amodau, 'ar gyfer' a dolenni amodol, rhestrau a ffwythiannau.	##
+library.category.computerScience.python_101_mc.label=PYTHON 101-MAKECODE	##
+library.category.computerScience.python_101_mc.title=Python 101-Makecode	##
+library.category.computerScience.python_101_nb.description=Yn barod i godi lefel eich Python? Dechreuwch godio Python yn Minecraft gyda Azure Notebooks, y golygydd cod arddull llyfr nodiadau a ddefnyddir mewn diwydiant.  Mae llyfrau nodiadau yn ehangu'r cysyniadau a'r cod sydd ar gael i'w dysgu yn Minecraft. Python 101 yw'r casgliad cyntaf yn y dilyniant cyfrifiadureg Rhaglennu gyda Python Cyfun Uwch (Oedrannau 9-12 | 14-18 oed). Yn y rhan hon o'r dilyniant, mae myfyrwyr yn cychwyn ar eu taith raglennu testun-seiliedig gan ddefnyddio Python gyda Llyfrau Nodiadau i ddysgu hanfodion Python, gan gynnwys cystrawen, mathau o ddata, newidynnau, amodau, dolenni 'ar gyfer' ac amodol, rhestrau a swyddogaethau.	##
+library.category.computerScience.python_101_nb.label=PYTHON 101-LLYFRAU NODIADAU	##
+library.category.computerScience.python_101_nb.title=Python 101-Llyfrau Nodiadau	##
+library.category.computerScience.seymour_island.label=YNYS SEYMOUR	##
+library.category.computerScience.seymour_island.title=Ynys Seymour	##
+library.category.computerScience.transition_python.label=PONTIO PYTHON	##
+library.category.computerScience.transition_python.title=Pontio Python	##
+library.category.computerScience.upper_primary.label=CYNRADD UWCH	##
+library.category.computerScience.upper_primary.title=Cynradd Uwch	##
+library.category.description.build_plates=Defnyddiwch y platiau adeiladu hyn a grëwyd ymlaen llaw fel sbringfwrdd i greu cynnwys eich gwers eich hun.	##
+library.category.description.computerScience.ai=Cyflwyno myfyrwyr i bŵer deallusrwydd artiffisial (AI) ar draws ystod o senarios cyffrous byd go iawn. Bydd myfyrwyr yn helpu pobl mewn ardaloedd anghysbell, amddiffyn bywyd gwyllt ac ecosystemau, ac ymchwilio i newid hinsawdd. Mae gweithgareddau hunan-dywys hawdd yn galluogi myfyrwyr i brofi datblygiad cysyniadol o AI mewn cyfres o gamau, gan gynnwys casglu data, creu setiau data, dysgu peirianeg, a dadansoddi canlyniadau.	##
+library.category.description.computerScience.gamecode=Mae GameCode yn cynnig dull trochi ac arloesol o ddatblygu gemau, dylunio gemau a chodio. Gan gyfuno gwefr hapchwarae a Minecraft, bydd myfyrwyr yn creu eu steil arcêd eu hunain ac yn cychwyn ar daith gyffrous lle mae creadigrwydd a rhesymeg yn cydblethu.	##
+library.category.description.computerScience.computingWithMinecraft=Adeiladwch eich dinas eich hun gyda'r gwersi cyfrifiadureg hyn yn seiliedig ar safonau CSTA. Dysgwch gysyniadau CS sylfaenol gan gynnwys dolenni, algorithmau, amodau, dadfygio, iteriad, a mwy.	## GameCode should not be translated
+library.category.description.computerScience.hourOfCode=Dechreuodd yr Awr Cod yn 2013 fel cyflwyniad awr o hyd i gyfrifiadureg, a gynlluniwyd i ddangos y gall pawb ddysgu hanfodion codio. Mae’r gwersi hyn yn cynnig profiad hwyliog, rhagarweiniol i godio yn Minecraft, ac maent yn addas ar gyfer dysgwyr o bob oed.	##
+library.category.description.computerScience.languageAgnostic=Os ydych chi am ganolbwyntio ar gysyniad codio penodol, dyma'r lle i ddechrau! Dysgwch sut i ddefnyddio dolenni, dilyniannu, amodau, newidynnau a ffwythiannau. Yn y gwersi hyn gallwch ddewis codio mewn Blocks, Python, neu JavaScript.	##
+library.category.description.computerScience.python.python_islands=Croeso i Deyrnas yr Ynysoedd Arnofiol! Mae'r deyrnas gyfriniol hon yn arnofio'n uchel uwchben y byd islaw. Yn y casgliad hwn o wersi, bydd myfyrwyr yn dysgu hanfodion Python trwy gyfres o dasgau thema ym mhob byd. Cwblhewch y tasgau hyn i helpu'r deyrnas i ddatblygu a ffynnu!	##
+library.category.description.enviroment_sustainability=Mae'r bydoedd a'r gwersi hyn yn canolbwyntio ar yr amgylchedd a chynaliadwyedd. Archwiliwch ddinasoedd cynaliadwy, ynni amgen, ac datblygu atebion creadigol i frwydro yn erbyn newid hinsawdd.	##
+library.category.description.equity_and_inclusion=Mae'r bydoedd a'r gweithgareddau hyn yn canolbwyntio ar degwch a chynhwysiant. Mae cysyniadau'n cynnwys cyfiawnder cymdeithasol, hunaniaeth a goddefgarwch.	##
+library.category.description.esports.challenge_series=Datblygwch eich sgiliau echwaraeon gydag amrywiaeth o heriau Minecraft pob un wedi'u cynllunio i gryfhau sgiliau adeiladu, creadigrwydd, datrys problemau, codio a gwaith tîm. Defnyddiwch dempled yr arena i gyflwyno chwaraewyr i chwarae tîm a meithrin ymdeimlad o gystadleuaeth iach ymhlith myfyrwyr.	##
+library.category.description.esports.build_battles=Mae echwaraeon yn cynnig llwyfan i fyfyrwyr ac addysgwyr ar gyfer ymgysylltu creadigol, cydweithredol a chystadleuol. Mae’r categori Build Battles yn cynnwys mapiau ymarfer ar gyfer hyd at 12 tîm, arena cystadlu ar gyfer chwe thîm, a chyfres o fapiau Gwneud a Model dau dîm. Mae'r bydoedd echwaraeon cyffrous hyn yn hybu sgiliau emosiynol cymdeithasol a llwybrau newydd ar gyfer dysgu ac asesu.	##
+library.category.description.esports.speedruns=Yn Speed ​​Runs mae chwaraewyr yn cystadlu mewn heriau egni uchel yn rasio yn erbyn y cloc i gwblhau tasgau. Nid yw'n ymwneud â chyflymder yn unig, mae'n ymwneud â meddwl call a datrys problemau. Y cyfuniad hwn o gystadleuaeth gyflym a dysgu trochi yw lle mae strategaeth, creadigrwydd a meddwl cyflym yn allweddol i fuddugoliaeth.	##
+library.category.description.history=Mae'r bydoedd a'r gwersi hyn yn canolbwyntio ar hanes a diwylliant. Teithiwch i ddinasoedd enwog ddoe a heddiw, crëwch eich amgueddfa eich hun, a dysgwch am ddiwylliannau o bedwar ban byd.	##
+library.category.description.starter=Defnyddiwch y casgliad hwn o fydoedd a biomau i helpu i ddechrau creu gwersi yn Minecraft Education.	##
+library.category.label.climate_sustainability=HINSAWDD & CHYNALIADWYEDD	## Library category name, Context is Environmental & Earth Sciences
+library.category.label.computerScience.ai=DEALLUSRWYDD ARTIFFISIAL	##
+library.category.label.computerScience.gamecode=GAMECODE	## GameCode should not be translated
+library.category.label.computerScience.coding_tutorials=TIWTORIALAU CODIO	##
+library.category.label.computerScience.computingWithMinecraft=CYFRIFIADURA GYDA MINECRAFT	##
+library.category.label.computerScience.languageAgnostic=IAITH-AGNOSTIC	##
+library.category.label.computerScience.python.python_101=PYTHON 101	##
+library.category.label.computerScience.python.python_islands=YNYSOEDD PYTHON	##
+library.category.label.enviroment_sustainability=AMGYLCHEDD & CHYNALIADWYEDD	## Library category name, Context is Environmental & Earth Sciences
+library.category.label.equity_and_inclusion=TEGWCH & CHYNHWYSIANT	## Library category name
+library.category.label.esports=ECHWARAEON	##
+library.category.label.esports.challenge_series=CYFRES HER	##
+library.category.label.esports.speedruns=SPEED RUNS	##
+library.category.label.esports.build_battles=BUILD BATTLES	##
+library.category.label.languageArts=LLYTHRENNEDD & IAITH	## Library category name
+library.category.label.starter=BYDOEDD CYCHWYNNOL	## minecraft worlds to help you get started building
+library.category.label.starter.build_plates=PLATIAU ADEILADU	## basic minecraft worlds on which to build your own structure
+library.category.label.subject_kits=CITIAU PWNC	##
+library.category.title.climate_sustainability=Hinsawdd & Chynaliadwyedd	## Library category name, Context is Environmental & Earth Sciences
+library.category.title.computerScience.ai=Deallusrwydd Artiffisial	##
+library.category.title.computerScience.gamecode=GameCode	## GameCode should not be translated
+library.category.title.computerScience.coding_tutorials=Tiwtorialau Codio	##
+library.category.title.computerScience.computingWithMinecraft=Cyfrifiadura gyda Minecraft	##
+library.category.title.computerScience.languageAgnostic=Iaith-Agnostic	##
+library.category.title.computerScience.python.python_101=Python 101	##
+library.category.title.computerScience.python.python_islands=Ynysoedd Python	##
+library.category.title.enviroment_sustainability=Amgylchedd & Chynaliadwyedd	## Library category name, Context is Environmental & Earth Sciences
+library.category.title.equity_and_inclusion=Tegwch & Chynhwysiant	## Library category name
+library.category.title.esports=Echwaraeon	##
+library.category.title.esports.challenge_series=Cyfres Her	##
+library.category.title.esports.speedruns=Speed Runs	##
+library.category.title.esports.build_battles=Build Battles	##
+library.category.title.languageArts=Llythrennedd & Iaith	## Library category name
+library.category.title.starter=Bydoedd Cychwynnol	## minecraft worlds to help you get started building
+library.category.title.starter.build_plates=Platiau Adeiladu	## basic minecraft worlds on which to build your own structure
+library.category.title.subject_kits=Citiau Pwnc	##
+tag.artificial_intelligence=Deallusrwydd Artiffisial	##
+tag.gamecode=GameCode	## GameCode should not be translated
+tag.build_plates=Platiau Adeiladu	## basic minecraft worlds on which to build your own structure
+tag.challenge_series=Cyfres Het	## a set of challenges
+tag.climate=Hinsawdd	## referring to the weather of the Earth, in the context of Environmental & Earth Sciences. For example climate change.
+tag.speedruns=Speed Runs	##
+tag.equity_and_inclusion=Tegwch & Chynaliadwyedd	##
+tag.esports=Echwaraeon	##
+tag.build_battles=Build Battles	## A competition for building in Minecraft
+tag.python101=Python 101	##
+tag.python_islands=Ynysoedd Python	##
+tag.sustainability=Cynaliadwyedd	## referring to the avoidance of the depletion of natural resources in order to maintain an ecological balance. The study of environmental sustainability
+
+
+library.category.description.computerScience=Mae Pecyn Pwnc Cyfrifiadureg Minecraft yn darparu gwersi seiliedig ar safonau, gan ganiatáu i fyfyrwyr ddysgu, ymarfer a chymhwyso sgiliau cyfrifiadureg mewn codio, seiber, ac AI. Gydag amrywiaeth o diwtorialau a phrofiadau codio, mae'n cefnogi dysgwyr ar bob cam o'u taith Cyfrifiadureg.	##
+
+library.category.computerScience.block_based.title=Codio Bloc	##Library category name, Context is Computer Science
+library.category.computerScience.block_based.label=CODIO BLOC	##Library category name, Context is Computer Science
+library.category.description.computerScience.blockcoding=Rhyddhewch eich creadigrwydd a meithrin meddwl cyfrifiadol gyda chodio bloc. Adeiladu, rhaglennu ac archwilio bydoedd Minecraft. Hogwch sgiliau datrys problemau trwy raglennu gweledol llusgo a gollwng, gan wneud codio yn hygyrch ac yn bleserus i ddysgwyr o bob oed.	##
+
+library.category.computerScience.coding_with_python.label=CODIO GYDA PYTHON	##
+library.category.computerScience.coding_with_python.title=CodiO Gyda Python	##
+library.category.description.computerScience.codingwithpython=Cychwyn ar daith o greadigrwydd a meddwl cyfrifiannol gyda Python Notebooks. Plymiwch i Python 101 neu symud ymlaen i Ynysoedd Python i adeiladu prosiectau rhyngweithiol a meithrin galluoedd datrys problemau.	##
+
+library.category.title.computerScience.cyber=Seiber	##Cyber is related to IT and computers
+library.category.label.computerScience.cyber=SEIBER	##Cyber is related to IT and computers
+library.category.description.computerScience.cyber=Meistroli sgiliau hanfodol seiberddiogelwch a dinasyddiaeth ddigidol gyda CyberSafe a Cyber ​​Essentials. Archwiliwch wersi wedi'u curadu a dysgwch am ddiogelwch ar-lein, preifatrwydd data, seifferau, a seiberfoeseg. Mae addysg seiber yn gynhwysol ac yn cynnig cipolwg ar yrfaoedd seiber gwefreiddiol.	##
+
+library.category.computerScience.cyberSafe.title=Seiberddiogel	##CyberSafe is short for safe computer use
+library.category.computerScience.cyberSafe.label=SEIBERDDIOGEL	##CyberSafe is short for safe computer use
+library.category.description.computerScience.cyberSafe=Introducing "SEIBERDDIOGEL," casgliad rhagarweiniol o wersi diddorol ar gyfer oedran 7-18. Dysgwch sgiliau dinasyddiaeth ddigidol hanfodol, adnabod bygythiadau ar-lein, diogelu data personol, archwilio technoleg cwmwl, ac adeiladu amddiffynfeydd yn erbyn heriau seiber.	##
+
+library.category.computerScience.cyberFundamentals=Sylfeini Seiber	##fundamentals of IT computing
+library.category.computerScience.cyberFundamentals.label=SYLFEINI SEIBER	##Cfundamentals of IT computing
+library.category.description.computerScience.cyberFundamentals=Cychwyn ar daith seibr ymdrochol gyda "Sylfeini Seiber," casgliad o dair gwers anturus lle mae'n rhaid i fyfyrwyr ddiogelu eu hysgol rhag bygythiadau digidol, meistroli amgryptio, cryfhau amddiffynfeydd, a chofleidio seiberfoeseg. Yn unol â safonau cyber.org, mae’r cyflwyniad cyffrous hwn i yrfaoedd seiberddiogelwch yn amlygu eu rôl hanfodol yn ein byd digidol.	##
+
+library.category.computerScience.cyberexpert.title=Arbenigwr Seiber	##Cyber expert is short for cybersecurity expert
+library.category.computerScience.cyberexpert.label=ARBENIGWR SEIBER	##Cyber expert is short for cybersecurity expert
+library.category.description.computerScience.cyberexpert=Mae casgliad Arbenigwr Seiber Minecraft, mewn partneriaeth ag Ysgol Knight School of Computer and Information Sciences, Prifysgol Ryngwladol Florida, yn cynnig addysg seiberddiogelwch sylfaenol i fyfyrwyr uwchradd trwy dri map rhyngweithiol. Mae myfyrwyr yn archwilio amgryptio, dadgryptio, ac amddiffyn rhag ymosodiadau seiber, gan ennill profiad ymarferol o reoli malware a deall safonau sy'n berthnasol i'r diwydiant.	##
+
+library.category.computerScience.cyberdefender.title=Amddiffynwr Seiber	##Cyber Defender of digital attacks
+library.category.computerScience.cyberdefender.label=AMDDIFFYNWR SEIBER	##Cyber Defender of digital attacks
+library.category.description.computerScience.cyberdefender=Mae gelynion ar eu ffordd. Paratowch eich amddiffynfeydd! Mae Amddiffynwr Seiber yn eich gosod yn erbyn ton ar ôl ton o oresgynwyr mewn profiad dysgu amddiffyn twr. Dysgwch dactegau seiberddiogelwch wrth i chi frwydro yn erbyn goresgynwyr digidol. Gan ymgysylltu â thonnau o ymosodwyr, byddwch yn cael mewnwelediad i fygythiadau digidol yn y byd go iawn a gyrfaoedd posibl seiberddiogelwch.	##
+
+
+library.category.computerScience.seymourisland.description=Mae Ynys Seymour yn antur aml-chwaraewr byd agored gydag 11 o dasgau codio wedi'u cynllunio ar gyfer cydweithredu dosbarth llawn naill ai yn Blociau MakeCode neu Python, gan ddarparu ar gyfer dewisiadau a lefelau codio myfyrwyr. Yn ogystal, mae cwest ochr cracio cryptograffeg / cod gyda robotiaid cudd yn ychwanegu her gyffrous i'r profiad.	##
+
+library.category.computerScience.secondary.title=Cyfun	##secondary is referring to high school level schooling
+library.category.computerScience.secondary.label=CYFUN	##secondary is referring to high school level schooling
+library.category.description.computerScience.secondary=Dysgwch amodau, swyddogaethau, cyfesurynnau, AI, a mwy gyda'r 10 gwers cyfrifiadureg hyn yn seiliedig ar safonau CSTA. Yn cynnwys prosiect terfynol fel yr uned carreg gap.	##
+
+library.category.computerScience.upper_primary.description=Cyflwyno hanfodion meddwl cyfrifiannol a chodio i fyfyrwyr cynradd uwch gyda chodio bloc. Mae'r casgliad cynhwysfawr hwn yn cynnwys 24 o wersi difyr sy'n cwmpasu algorithmau, dilyniannu, dolenni, amodau, gweithredwyr, digwyddiadau, newidynnau a swyddogaethau. Cychwyn ar archwiliad cyffrous o ddeallusrwydd artiffisial i ddatgloi ei botensial.	##
+library.category.description.computerScience.codingfundamentals=Cychwyn ar daith godio o algorithmau, dilyniannu, a dolenni i amodau, gweithredwyr, digwyddiadau, newidynnau a swyddogaethau. Mae’r 18 gwers hyn sy’n seiliedig ar flociau, wedi’u rhannu’n 3 bloc, yn darparu cyfarwyddyd cynhwysfawr ar hanfodion codio, meithrin meddwl cyfrifiadol a sgiliau datrys problemau.	##
+library.category.description.computerScience.codingFunkeyboard=Ar gyfer defnydd bysellfwrdd. Cychwyn ar daith godio o algorithmau, dilyniannu, a dolenni i amodau, gweithredwyr, digwyddiadau, newidynnau a swyddogaethau. Mae’r 18 gwers hyn sy’n seiliedig ar flociau, wedi’u rhannu’n 3 bloc, yn darparu cyfarwyddyd cynhwysfawr ar hanfodion codio, meithrin meddwl cyfrifiadol a sgiliau datrys problemau.	##
+library.category.description.computerScience.codingFunTouch=Ar gyfer defnydd dyfais gyffwrdd. Cychwyn ar daith godio o algorithmau, dilyniannu, a dolenni i amodau, gweithredwyr, digwyddiadau, newidynnau a swyddogaethau. Mae’r 18 gwers hyn sy’n seiliedig ar flociau, wedi’u rhannu’n 3 bloc, yn darparu cyfarwyddyd cynhwysfawr ar hanfodion codio, meithrin meddwl cyfrifiadol a sgiliau datrys problemau.	##
+library.category.description.computerScience.codingFun1=Coding Fundamentals:Rhan 1 – Mae Canolfan Ymchwil Anifeiliaid yn rhan o ddilyniant cyfrifiadureg Cynradd Uchaf (Graddau 3-5 | 8-11 oed). Mae myfyrwyr yn canolbwyntio ar ddatblygu a defnyddio cysyniadau codio, fel dolenni, amodau, a dadfygio. Mae myfyrwyr hefyd yn datblygu eu sgiliau rhuglder digidol wrth iddynt ddadansoddi hygrededd ffynonellau gwahanol wrth ymchwilio i ddarganfod mwy o wybodaeth am anifeiliaid.	##
+library.category.description.computerScience.codingFun2=Coding Fundamentals:Rhan 2 - Mae Canolfan Ofod Minecraft yn dilyn o'r Ganolfan Ymchwil Anifeiliaid, gan ehangu sgiliau i leoliad antur yn y gofod - y ffin olaf! Ymarfer dolenni, amodau, dadfygio, ac ysgrifennu rhaglenni o fewn Code Builder.	##
+library.category.description.computerScience.codingFun3=Coding Fundamentals:Rhan 3 - Rhedeg Allan o Amser yw'r uned gloi, lle bydd myfyrwyr yn cael cyfleoedd lluosog i drin ac adeiladu eu rhaglenni eu hunain o fewn Code Builder a chydweithio yn ystod profiadau aml-chwaraewr. Yn cynnwys prosiect tîm ymchwil terfynol.	##
+
+library.category.title.science.space=Gofod	##space as in astronauts and astronomy
+library.category.label.science.space=GOFOD	##space as in astronauts and astronomy
+
+library.category.title.literacy=LLYTHRENNED & Iaith	##
+library.category.label.literacy=LLYTHRENNED & IAITH	##
+edu.play_screen.view_library=Llyfrgell Gwersi	##
+edu.play_screen.view_worlds=Fy Mydoedd	##Was previously View My Worlds
