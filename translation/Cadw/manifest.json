@@ -3,15 +3,15 @@
   "header": {
     "description": "Archwilio byd cemeg yn Minecraft!",
     "name": "Cemeg",
-    "uuid": "3c076c58-b8a7-4082-8722-62135c73e48c",
+    "uuid": "55fe8719-4f0b-4a01-aa8d-bcafbb3a3a20",
     "version": [1,0,0],
-    "min_engine_version": [1, 20, 13]
+    "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "description": "Archwilio byd cemeg yn Minecraft!",
       "type": "resources",
-      "uuid": "e4294226-95b6-49d0-aff9-a50ce6495c59",
+      "uuid": "316c3893-3921-432b-9daf-a6bda2f3c1b2",
       "version": [1,0,0]
     }
   ]
