@@ -36,4 +36,5 @@ cw.npc.text.davidwelcome=Welcome to St Davids, you can explore the site! When yo
 cw.npc.button.one.davidwelcome=Explore!
 cw.npc.button.two.davidwelcome=Lobby
 
-
+entity.myname:red_dragon.name=Red Dragon
+item.spawn_egg.entity.myname:red_dragon.name=Spawn Red Dragon
