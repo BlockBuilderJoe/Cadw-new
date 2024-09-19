@@ -15,21 +15,16 @@
 				"sheared": "geometry.sheep.sheared.v1.8"
 			},
 			"animations": {
-				"setup": "animation.red_dragon.setup",
-				"grazing": "animation.red_dragon.grazing",
-				"walk": "animation.red_dragon.walk",
-				"look_at_target": "animation.common.look_at_target",
-				"baby_transform": "animation.red_dragon.baby_transform",
-				"move": "controller.animation.sheep.move"
+			
+				"look_at_target": "animation.common.look_at_target"
+			
+				
 			},
 			"scripts": {
 				"animate": [
-					"setup",
-					"look_at_target",
-					"move",
-					{
-						"baby_transform": "query.is_baby"
-					}
+			
+					"look_at_target"
+					
 				]
 			},
 			"render_controllers": ["controller.render.sheep"],
