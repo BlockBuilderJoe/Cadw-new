@@ -1490,6 +1490,72 @@
                         ]
                     }
                 ]
+            },
+            {
+                "scene_tag": "Misc NPCS",
+                "buttons": []
+            },
+            {
+                "scene_tag": "dragonNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.dragonNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.dragonNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.dragonNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=secretNPC] @p secretNPC1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "secretNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.secretNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.secretNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.secretNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             }
         ]
     }

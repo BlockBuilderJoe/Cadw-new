@@ -14,19 +14,7 @@
 				"default": "geometry.red_dragon",
 				"sheared": "geometry.sheep.sheared.v1.8"
 			},
-			"animations": {
 			
-				"look_at_target": "animation.common.look_at_target"
-			
-				
-			},
-			"scripts": {
-				"animate": [
-			
-					"look_at_target"
-					
-				]
-			},
 			"render_controllers": ["controller.render.sheep"],
 			"spawn_egg": {
 				"base_color": "#a4070e",
