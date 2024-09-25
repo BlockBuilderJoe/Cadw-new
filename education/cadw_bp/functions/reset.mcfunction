@@ -1,3 +1,5 @@
+
+
 tp @p 9939 40 10178 
 dialogue change @e[type=npc,c=1] pcNPC1
 
@@ -19,7 +21,7 @@ dialogue change @e[type=npc,c=1] swtNPC1
 tp @p 9998 47 10246
 dialogue change @e[type=npc,c=1] cghNPC1
 
-tp @p 10030 80 10267
+tp @p 10025 57 10266
 dialogue change @e[type=npc,c=1] ptNPC1
 
 tp @p 10013 50 10204
@@ -56,4 +58,7 @@ dialogue change @e[type=npc,c=1] ebNPC1
 
 tp @p 9858 29 10268
 dialogue change @e[type=npc,c=1] wwNPC1
+
+#This is the final tp, so put the player start coordinate here
+tp @p 9894 29 10172
 
