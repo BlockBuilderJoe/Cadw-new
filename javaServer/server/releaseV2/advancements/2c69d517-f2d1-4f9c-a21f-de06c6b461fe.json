@@ -29,5 +29,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-09-11 11:59:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-09-11 11:59:33 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
