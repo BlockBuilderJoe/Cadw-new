@@ -3,7 +3,7 @@
   "header": {
     "description": "Archwilio byd cemeg yn Minecraft!",
     "name": "Cymraeg",
-    "uuid": "8c458c83-899e-4868-a14f-52f4ea63b725",
+    "uuid": "9705a1d1-6eb1-4457-8170-8c3bc8ed4c6e",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 13]
   },
@@ -11,7 +11,7 @@
     {
       "description": "Archwilio byd cemeg yn Minecraft!",
       "type": "resources",
-      "uuid": "8c458c83-899e-4868-a14f-52f4ea63b725",
+      "uuid": "e57bb98a-e898-4683-aff3-96433c2fb87a",
       "version": [1, 0, 0]
     }
   ]
