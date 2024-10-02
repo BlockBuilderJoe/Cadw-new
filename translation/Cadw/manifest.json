@@ -5,7 +5,7 @@
     "name": "Cymraeg",
     "uuid": "9705a1d1-6eb1-4457-8170-8c3bc8ed4c6e",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 13]
+    "min_engine_version": [1, 13, 0]
   },
   "modules": [
     {
