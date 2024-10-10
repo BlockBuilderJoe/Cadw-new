@@ -2,9 +2,19 @@ import { world, system } from "@minecraft/server";
 
 let overworld = world.getDimension("overworld");
 
-system.afterEvents.scriptEventReceive.subscribe(async (event) => {
-  if (event.id === "bb:flythrough") {
-    startFlythrough(event.message);
+world.afterEvents.buttonPush.subscribe(async (event) => {
+  const buttonLocation = event.block.location;
+  world.sendMessage(`Button pushed at ${buttonLocation.x} ${buttonLocation.y} ${buttonLocation.z}`);
+
+  switch (buttonLocation.x,buttonLocation.z) {
+    case 79942,80003:
+      startFlythrough("conwy");
+      break;
+    case 79942,80008:
+      startFlythrough("conwy");
+      break;
+    default:
+      world.sendMessage(`Unhandled button location: ${buttonLocation.x}`);
   }
 });
 
@@ -13,11 +23,12 @@ export async function startFlythrough(type) {
     /////// copy from here ///////
     case "conwy": {
       ///change this to the name you want.
+      let finalLocation = 'tp @p 9893 29 10172 facing 9899 29 10172'
       let path = await generatePath([
-        { x: 27, y: 84, z: -88 }, //Change the start coordinate.
-        { x: 25, y: 77, z: -173 }, //Change the end coordinate.
+        { x: 9836, y: 73, z: 10238 }, //Change the start coordinate.
+        { x: 10139, y: 73, z: 10204 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation); //Change the second number to change the speed.
       break;
     }
     /////// to here /////// and paste below ////
@@ -29,25 +40,25 @@ export async function startFlythrough(type) {
   }
 }
 
-async function playerFlythrough(path, speed) {
+async function playerFlythrough(path, speed, finalLocation) {
   let player = world.getAllPlayers()[0];
-
+  await overworld.runCommandAsync(finalLocation);
   for (let i = 0; i < path.length - 1; i++) {
     let location = path[i];
     const nextPoint = path[i + 1];
     const facingLocation = {
-      x: nextPoint.x,
-      y: nextPoint.y,
-      z: nextPoint.z,
+      x: path[path.length - 1].x,
+      y: nextPoint.y - 0.3,
+      z: path[path.length - 1].z,
     };
 
     system.runTimeout(async () => {
-      player.teleport(location, {
-        facingLocation: facingLocation,
-      });
+      await overworld.runCommandAsync(`camera @p set minecraft:free pos ${location.x} ${location.y} ${location.z} facing ${facingLocation.x} ${facingLocation.y} ${facingLocation.z}`)
       if (path.length - 2 === i) {
         // Final point.
         await overworld.runCommandAsync(`camera @p clear`); // End of walk dialogue.
+      } else if (path.length - 10 === i){
+        await overworld.runCommandAsync (`camera @p fade time 0.2 0.2 0.2`)
       }
     }, i * speed);
   }
