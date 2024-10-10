@@ -1,1 +1,0 @@
-setblock -252 -60 -253 redstone_block

@@ -1,19 +1,26 @@
 {
-    "format_version": 2,
-    "header": {
-      "description": "Contains functions and dialogue changes to the Cadw game.",
-      "name": "Cadw Behaviour Pack",
-      "uuid":"796abbcf-edd2-47de-be73-2d6ffd4377c4",
+  "format_version": 2,
+  "header": {
+    "description": "Contains functions and dialogue changes to the Cadw game.",
+    "name": "Cadw Behaviour Pack",
+    "uuid": "796abbcf-edd2-47de-be73-2d6ffd4377c4",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "9e0593f7-d7d7-4a81-8f09-a76dc4d18eab",
       "version": [1, 0, 0],
-      "min_engine_version": [1, 20, 0]
-    },
-    "modules":
-      [
-        {
-          "description": "My First Add-On!",
-            "type": "data",
-            "uuid": "3b88a1aa-e85e-4d5d-9401-2c852e8f7dbc",
-            "version": [1, 0, 0]
-        }
-      ]
-  }
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}
