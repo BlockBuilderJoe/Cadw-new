@@ -1,0 +1,108 @@
+{
+  "skins": [
+    {
+      "localization_name": "skin01",
+      "geometry": "geometry.FriendsSkinPack.skin01",
+      "texture": "skin01.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin02",
+      "geometry": "geometry.FriendsSkinPack.skin02",
+      "texture": "skin02.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin03",
+      "geometry": "geometry.FriendsSkinPack.skin03",
+      "texture": "skin03.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin04",
+      "geometry": "geometry.FriendsSkinPack.skin04",
+      "texture": "skin04.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin05",
+      "geometry": "geometry.FriendsSkinPack.skin05",
+      "texture": "skin05.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin06",
+      "geometry": "geometry.FriendsSkinPack.skin06",
+      "texture": "skin06.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin07",
+      "geometry": "geometry.FriendsSkinPack.skin07",
+      "texture": "skin07.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin08",
+      "geometry": "geometry.FriendsSkinPack.skin08",
+      "texture": "skin08.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin09",
+      "geometry": "geometry.FriendsSkinPack.skin09",
+      "texture": "skin09.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin10",
+      "geometry": "geometry.FriendsSkinPack.skin10",
+      "texture": "skin10.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin11",
+      "geometry": "geometry.FriendsSkinPack.skin11",
+      "texture": "skin11.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin12",
+      "geometry": "geometry.FriendsSkinPack.skin12",
+      "texture": "skin12.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin13",
+      "geometry": "geometry.FriendsSkinPack.skin13",
+      "texture": "skin13.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin14",
+      "geometry": "geometry.FriendsSkinPack.skin14",
+      "texture": "skin14.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin15",
+      "geometry": "geometry.FriendsSkinPack.skin15",
+      "texture": "skin15.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin16",
+      "geometry": "geometry.FriendsSkinPack.skin16",
+      "texture": "skin16.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin17",
+      "geometry": "geometry.FriendsSkinPack.skin17",
+      "texture": "skin17.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "Friends",
+  "localization_name": "Friends"
+}

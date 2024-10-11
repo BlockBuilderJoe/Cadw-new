@@ -1,0 +1,66 @@
+{
+  "skins": [
+    {
+      "localization_name": "Scholar",
+      "geometry": "geometry.RedstoneSpecialists.Scholar",
+      "texture": "Scholar.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "RedstoneMiser",
+      "geometry": "geometry.RedstoneSpecialists.Miser",
+      "texture": "Miser.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Tinkerer",
+      "geometry": "geometry.RedstoneSpecialists.Tinkerer",
+      "texture": "Tinkerer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Trapper",
+      "geometry": "geometry.RedstoneSpecialists.TrapperSlim",
+      "texture": "TrapperSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Coder",
+      "geometry": "geometry.RedstoneSpecialists.CoderSlim",
+      "texture": "CoderSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Prospector",
+      "geometry": "geometry.RedstoneSpecialists.Prospector",
+      "texture": "Prospector.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Architect",
+      "geometry": "geometry.RedstoneSpecialists.ArchitectSlim",
+      "texture": "ArchitectSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "RailRider",
+      "geometry": "geometry.RedstoneSpecialists.RailRiderSlim",
+      "texture": "RailRiderSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Artisan",
+      "geometry": "geometry.RedstoneSpecialists.ArtisanSlim",
+      "texture": "ArtisanSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Composer",
+      "geometry": "geometry.RedstoneSpecialists.Composer",
+      "texture": "Composer.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "RedstoneSpecialists",
+  "localization_name": "Redstone"
+}

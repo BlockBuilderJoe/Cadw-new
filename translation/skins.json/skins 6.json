@@ -1,0 +1,96 @@
+{
+  "skins": [
+    {
+      "localization_name": "astronaut",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Astronaut.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "fireman",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Fireman.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "policewoman",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "PoliceWoman.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "bluehelmet",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "BlueHelmet.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "doctor",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Doctor.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "scientist",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Scientist.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "nurse",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Nurse.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "paramedic",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Paramedic.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "mailwoman",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "MailWoman.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "construction",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Construction.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "chef",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Chef.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "lifeguard",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Lifeguard.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "pilot",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Pilot.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "judge",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Judge.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "lawyer",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "Lawyer.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "EverydayHeroes",
+  "localization_name": "EverydayHeroes"
+}

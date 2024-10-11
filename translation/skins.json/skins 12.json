@@ -1,0 +1,30 @@
+{
+  "skins": [
+    {
+      "localization_name": "SweaterSteve",
+      "geometry": "geometry.HolidaySkinPack2015.SweaterSteve",
+      "texture": "SweaterSteve.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "SweaterAlex",
+      "geometry": "geometry.HolidaySkinPack2015.SweaterAlex",
+      "texture": "SweaterAlex.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "PajamaKidSlim",
+      "geometry": "geometry.HolidaySkinPack2015.PajamaKidSlim",
+      "texture": "PajamaKidSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "SkiBibsSlim",
+      "geometry": "geometry.HolidaySkinPack2015.SkiBibsSlim",
+      "texture": "SkiBibsSlim.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "HolidaySkinPack2015",
+  "localization_name": "HolidaySkinPack2015"
+}

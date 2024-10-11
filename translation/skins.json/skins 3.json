@@ -1,0 +1,72 @@
+{
+  "skins": [
+    {
+      "localization_name": "DesertTamer",
+      "geometry": "geometry.BiomeSettlers01.DesertTamerSlim",
+      "texture": "DesertTamerSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "DesertHunter",
+      "geometry": "geometry.BiomeSettlers01.DesertHunter",
+      "texture": "DesertHunter.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "DesertGriefer",
+      "geometry": "geometry.BiomeSettlers01.DesertGriefer",
+      "texture": "DesertGriefer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "DesertEngineer",
+      "geometry": "geometry.BiomeSettlers01.DesertEngineer",
+      "texture": "DesertEngineer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "DesertBrewer",
+      "geometry": "geometry.BiomeSettlers01.DesertBrewer",
+      "texture": "DesertBrewer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "TundraBrewer",
+      "geometry": "geometry.BiomeSettlers01.TundraBrewerSlim",
+      "texture": "TundraBrewerSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "TundraEngineer",
+      "geometry": "geometry.BiomeSettlers01.TundraEngineer",
+      "texture": "TundraEngineer.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "TundraHunter",
+      "geometry": "geometry.BiomeSettlers01.TundraHunterSlim",
+      "texture": "TundraHunterSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "TundraTamer",
+      "geometry": "geometry.BiomeSettlers01.TundraTamerSlim",
+      "texture": "TundraTamerSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "TundraGriefer",
+      "geometry": "geometry.BiomeSettlers01.TundraGrieferSlim",
+      "texture": "TundraGrieferSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "ForestHunter",
+      "geometry": "geometry.BiomeSettlers01.ForestHunterSlim",
+      "texture": "ForestHunterSlim.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "BiomeSettlers01",
+  "localization_name": "PvPWarriors"
+}

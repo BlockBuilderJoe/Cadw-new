@@ -1,0 +1,102 @@
+{
+  "skins": [
+    {
+      "localization_name": "RedMiner",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "RedMiner.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "RedScout",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "RedScout.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "RedSoldier",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "RedSoldier.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "RedLumberjack",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "RedLumberjack.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "BlueLumberjack",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "BlueLumberjack.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "BlueMiner",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "BlueMiner.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "BlueScout",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "BlueScout.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "BlueSoldier",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "BlueSoldier.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "YellowScout",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "YellowScout.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "YellowLumberjack",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "YellowLumberjack.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "YellowMiner",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "YellowMiner.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "YellowSoldier",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "YellowSoldier.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "GreenLumberjack",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "GreenLumberjack.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "GreenMiner",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "GreenMiner.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "GreenScout",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "GreenScout.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "GreenSoldier",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "GreenSoldier.png",
+      "type": "free"
+    }
+  ],
+  "serialize_name": "TeamUp",
+  "localization_name": "TeamUp"
+}
