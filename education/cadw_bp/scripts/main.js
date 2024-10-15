@@ -17,7 +17,13 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       world.sendMessage(`Unhandled button location: ${buttonLocation.x}`);
   }
 });
-
+world.afterEvents.playerSpawn.subscribe((event) => {
+  let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
+  if (block?.permutation?.matches("minecraft:diamond_block")) {
+    startFlythrough(`intro`)
+    block.setPermutation(BlockPermutation.resolve("minecraft:air"));
+  }
+});
 export async function startFlythrough(type) {
   switch (type) {
     /////// copy from here ///////
@@ -32,7 +38,16 @@ export async function startFlythrough(type) {
       break;
     }
     /////// to here /////// and paste below ////
-
+    case "intro": {
+      ///change this to the name you want.
+      let finalLocation = 'tp @p 79933 -42 80020 facing 79933 -42 80020'
+      let path = await generatePath([
+        { x: 690203, y: 93, z: 690247 }, //Change the start coordinate.
+        { x: 690068, y: 70, z: 690105 }, //Change the end coordinate.
+      ]);
+      playerFlythrough(path, 1, finalLocation); //Change the second number to change the speed.
+      break;
+    }
     ////////////////////////////////////////////
     default:
       error("Flythrough type: " + type + " not found");
@@ -42,7 +57,6 @@ export async function startFlythrough(type) {
 
 async function playerFlythrough(path, speed, finalLocation) {
   let player = world.getAllPlayers()[0];
-  await overworld.runCommandAsync(finalLocation);
   for (let i = 0; i < path.length - 1; i++) {
     let location = path[i];
     const nextPoint = path[i + 1];
@@ -53,10 +67,12 @@ async function playerFlythrough(path, speed, finalLocation) {
     };
 
     system.runTimeout(async () => {
+      player.teleport({x: location.x + 10, y: location.y, z: location.z})
       await overworld.runCommandAsync(`camera @p set minecraft:free pos ${location.x} ${location.y} ${location.z} facing ${facingLocation.x} ${facingLocation.y} ${facingLocation.z}`)
       if (path.length - 2 === i) {
         // Final point.
         await overworld.runCommandAsync(`camera @p clear`); // End of walk dialogue.
+        await overworld.runCommandAsync(finalLocation);
       } else if (path.length - 10 === i){
         await overworld.runCommandAsync (`camera @p fade time 0.2 0.2 0.2`)
       }
