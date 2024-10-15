@@ -1,0 +1,6 @@
+# Configuration for mcworld_creator.py
+existing_mcworld=education/Cadw.mcworld
+resource_pack=education/cadw_rp
+behavior_pack=education/cadw_bp
+output_name=Cadw.mcworld
+world_directory=education/cadwWorld
