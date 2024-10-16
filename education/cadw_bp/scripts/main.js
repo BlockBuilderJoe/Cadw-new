@@ -4,13 +4,15 @@ let overworld = world.getDimension("overworld");
 
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
-  world.sendMessage(`Button pushed at ${buttonLocation.x} ${buttonLocation.y} ${buttonLocation.z}`);
+  world.sendMessage(
+    `Button pushed at ${buttonLocation.x} ${buttonLocation.y} ${buttonLocation.z}`
+  );
 
-  switch (buttonLocation.x,buttonLocation.z) {
-    case 79942,80003:
+  switch ((buttonLocation.x, buttonLocation.z)) {
+    case (79942, 80003):
       startFlythrough("conwy");
       break;
-    case 79942,80008:
+    case (79942, 80008):
       startFlythrough("conwy");
       break;
     default:
@@ -20,7 +22,7 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
 world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
   if (block?.permutation?.matches("minecraft:diamond_block")) {
-    startFlythrough(`intro`)
+    startFlythrough(`intro`);
     block.setPermutation(BlockPermutation.resolve("minecraft:air"));
   }
 });
@@ -29,23 +31,23 @@ export async function startFlythrough(type) {
     /////// copy from here ///////
     case "conwy": {
       ///change this to the name you want.
-      let finalLocation = 'tp @p 9893 29 10172 facing 9899 29 10172'
+      let finalLocation = "tp @p 9893 29 10172 facing 9899 29 10172";
       let path = await generatePath([
         { x: 9836, y: 73, z: 10238 }, //Change the start coordinate.
         { x: 10139, y: 73, z: 10204 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation, { x: 0, z: 0 }); //Change the second number to change the speed.
       break;
     }
     /////// to here /////// and paste below ////
     case "intro": {
       ///change this to the name you want.
-      let finalLocation = 'tp @p 79933 -42 80020 facing 79933 -42 80020'
+      let finalLocation = "tp @p 79933 -42 80020 facing 79933 -42 80020";
       let path = await generatePath([
         { x: 690203, y: 93, z: 690247 }, //Change the start coordinate.
         { x: 690068, y: 70, z: 690105 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation, { x: 0, z: 0 }); //Change the second number to change the speed.
       break;
     }
     ////////////////////////////////////////////
@@ -55,7 +57,7 @@ export async function startFlythrough(type) {
   }
 }
 
-async function playerFlythrough(path, speed, finalLocation) {
+async function playerFlythrough(path, speed, finalLocation, offset) {
   let player = world.getAllPlayers()[0];
   for (let i = 0; i < path.length - 1; i++) {
     let location = path[i];
@@ -67,14 +69,21 @@ async function playerFlythrough(path, speed, finalLocation) {
     };
 
     system.runTimeout(async () => {
-      player.teleport({x: location.x + 10, y: location.y, z: location.z})
-      await overworld.runCommandAsync(`camera @p set minecraft:free pos ${location.x} ${location.y} ${location.z} facing ${facingLocation.x} ${facingLocation.y} ${facingLocation.z}`)
+      let playerLocation = {
+        x: location.x + (offset?.x || 0), // Apply x offset if provided
+        y: location.y,
+        z: location.z + (offset?.z || 0), // Apply z offset if provided
+      };
+      player.teleport(playerLocation);
+      await overworld.runCommandAsync(
+        `camera @p set minecraft:free pos ${location.x} ${location.y} ${location.z} facing ${facingLocation.x} ${facingLocation.y} ${facingLocation.z}`
+      );
       if (path.length - 2 === i) {
         // Final point.
         await overworld.runCommandAsync(`camera @p clear`); // End of walk dialogue.
         await overworld.runCommandAsync(finalLocation);
-      } else if (path.length - 10 === i){
-        await overworld.runCommandAsync (`camera @p fade time 0.2 0.2 0.2`)
+      } else if (path.length - 10 === i) {
+        await overworld.runCommandAsync(`camera @p fade time 0.2 0.2 0.2`);
       }
     }, i * speed);
   }
