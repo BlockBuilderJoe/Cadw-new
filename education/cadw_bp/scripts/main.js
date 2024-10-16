@@ -4,9 +4,6 @@ let overworld = world.getDimension("overworld");
 
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
-  world.sendMessage(
-    `Button pushed at ${buttonLocation.x} ${buttonLocation.y} ${buttonLocation.z}`
-  );
 
   switch ((buttonLocation.x, buttonLocation.z)) {
     case (79942, 80003):
@@ -16,7 +13,7 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       startFlythrough("conwy");
       break;
     default:
-      world.sendMessage(`Unhandled button location: ${buttonLocation.x}`);
+      world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
   }
 });
 world.afterEvents.playerSpawn.subscribe((event) => {
@@ -36,7 +33,7 @@ export async function startFlythrough(type) {
         { x: 9836, y: 73, z: 10238 }, //Change the start coordinate.
         { x: 10139, y: 73, z: 10204 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation, { x: 0, z: 0 }); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation, { x: -10, z: 0 }); //Change the second number to change the speed.
       break;
     }
     /////// to here /////// and paste below ////
@@ -47,7 +44,7 @@ export async function startFlythrough(type) {
         { x: 690203, y: 93, z: 690247 }, //Change the start coordinate.
         { x: 690068, y: 70, z: 690105 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation, { x: 0, z: 0 }); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation, { x: 10, z: 0 }); //Change the second number to change the speed.
       break;
     }
     ////////////////////////////////////////////
