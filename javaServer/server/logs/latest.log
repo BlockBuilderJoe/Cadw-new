@@ -1,84 +1,176 @@
-[13:55:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:55:46] [ServerMain/INFO]: Loaded 1174 recipes
-[13:55:46] [ServerMain/INFO]: Loaded 1271 advancements
-[13:55:46] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:55:46] [Server thread/INFO]: Loading properties
-[13:55:46] [Server thread/INFO]: This server is running Paper version git-Paper-454 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 99a6416)
-[13:55:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:55:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:55:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:55:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[13:55:46] [Server thread/INFO]: Default game type: CREATIVE
-[13:55:46] [Server thread/INFO]: Generating keypair
-[13:55:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:55:47] [Server thread/INFO]: Using default channel type
-[13:55:47] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[13:55:47] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[13:55:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[13:55:47] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[13:55:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:55:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:55:47] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:55:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[13:55:47] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[13:55:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4de9fee9]
-[13:55:47] [Server thread/INFO]: [Plan] Loading server plugin Plan v5.6 build 2820
-[13:55:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[13:55:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:55:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[13:55:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:55:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:55:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[13:55:48] [Server thread/INFO]: Preparing level "releaseV2"
-[13:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:55:49] [Server thread/INFO]: Time elapsed: 129 ms
-[13:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:55:49] [Server thread/INFO]: Time elapsed: 21 ms
-[13:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:55:49] [Server thread/INFO]: Time elapsed: 29 ms
-[13:55:49] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[13:55:49] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[13:55:49] [Server thread/INFO]: [Plan] Enabling Plan v5.6 build 2820
-[13:55:49] [Server thread/INFO]: [Plan] 
-[13:55:49] [Server thread/INFO]: [Plan]            ██▌
-[13:55:49] [Server thread/INFO]: [Plan]      ██▌   ██▌
-[13:55:49] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  Player Analytics
-[13:55:49] [Server thread/INFO]: [Plan]   ██▌██▌██▌██▌  v5.6 build 2820
-[13:55:49] [Server thread/INFO]: [Plan] 
-[13:55:49] [Server thread/INFO]: [Plan] Config: Removed Customized_files.Plan
-[13:55:49] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
-[13:55:49] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
-[13:55:49] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
-[13:55:49] [Server thread/INFO]: [Plan] SQLite-database connection established.
-[13:55:49] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
-[13:55:49] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
-[13:55:49] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
-[13:55:49] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
-[13:55:49] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
-[13:55:49] [Server thread/INFO]: [Plan] Loading server identifying information
-[13:55:49] [Server thread/INFO]: [Plan] Server identifier loaded: 6c020606-d089-4120-9be6-f2f79c333d40
-[13:55:49] [Plan Non critical-pool-3/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
-[13:55:49] [Plan Non critical-pool-3/ERROR]: [Plan] Failed to enable geolocation.
-[13:55:50] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
-[13:55:50] [Server thread/INFO]: [Plan] Player Analytics Enabled.
-[13:55:50] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[13:55:50] [Server thread/INFO]: Starting remote control listener
-[13:55:50] [Server thread/INFO]: Thread RCON Listener started
-[13:55:50] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[13:55:50] [Server thread/INFO]: Running delayed init tasks
-[13:55:50] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[13:55:50] [Server thread/INFO]: Done (3.710s)! For help, type "help"
-[13:55:50] [Server thread/INFO]: Timings Reset
-[13:55:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[13:55:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] New Release (5.6.2883) is available https://github.com/plan-player-analytics/Plan/releases
-[13:55:50] [Craft Scheduler Thread - 1 - Plan/INFO]: [Plan] ----------------------------------------
-[13:55:50] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.5, you're on: 4.9.3
-[13:56:47] [User Authenticator #0/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[13:56:48] [Server thread/INFO]: BlockBuilderJoe joined the game
-[13:56:48] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.227:45098] logged in with entity id 12 at ([releaseV2]-20412.033526627296, -0.6519091851254646, -20130.91794219571)
-[13:57:24] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:57:25] [Server thread/INFO]: Saved the game
-[13:57:47] [Server thread/INFO]: BlockBuilderJoe lost connection: Disconnected
-[13:57:47] [Server thread/INFO]: BlockBuilderJoe left the game
+[13:02:29] [User Authenticator #13/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[13:02:29] [Server thread/INFO]: alex86465 joined the game
+[13:02:29] [Server thread/INFO]: alex86465[/10.147.17.188:59583] logged in with entity id 80 at ([releaseV2]79994.92874621692, -23.0, 80039.27489778693)
+[13:05:37] [Server thread/INFO]: alex86465 issued server command: //brush cyl light_gray_concrete
+[13:06:54] [Server thread/INFO]: alex86465 issued server command: //stack 30 down
+[13:10:19] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:10:23] [Server thread/INFO]: alex86465 issued server command: //stac k5
+[13:10:26] [Server thread/INFO]: alex86465 issued server command: //stack 5
+[13:19:27] [Server thread/INFO]: alex86465 issued server command: //stack 3 down
+[13:21:05] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:21:14] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:22:15] [Server thread/INFO]: alex86465 issued server command: //set air
+[13:28:10] [Server thread/INFO]: alex86465 lost connection: You have been idle for too long!
+[13:28:10] [Server thread/INFO]: alex86465 left the game
+[13:28:39] [User Authenticator #14/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[13:28:39] [Server thread/INFO]: alex86465 joined the game
+[13:28:39] [Server thread/INFO]: alex86465[/10.147.17.188:59947] logged in with entity id 83 at ([releaseV2]80001.30077126979, -9.799999952316284, 80080.24616644451)
+[13:38:18] [User Authenticator #15/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[13:38:19] [Server thread/INFO]: Otto4903 joined the game
+[13:38:19] [Server thread/INFO]: Otto4903[/10.147.17.189:51480] logged in with entity id 84 at ([releaseV2]39764.95382174538, -15.0, 39888.37570465231)
+[13:38:22] [Async Chat Thread - #24/INFO]: <alex86465> yo
+[13:38:25] [Async Chat Thread - #24/INFO]: <Otto4903> yooo
+[13:38:38] [Async Chat Thread - #24/INFO]: <alex86465> hows it going?
+[13:38:51] [Async Chat Thread - #23/INFO]: <Otto4903> yahhh good here how are you
+[13:39:08] [Async Chat Thread - #24/INFO]: <alex86465> all good, taking a break from uni to play minecraft
+[13:39:10] [Async Chat Thread - #23/INFO]: <alex86465> win win
+[13:39:13] [Async Chat Thread - #24/INFO]: <Otto4903> nice haha
+[13:42:55] [Server thread/INFO]: alex86465 issued server command: //stack 3 up
+[13:43:00] [Server thread/INFO]: alex86465 issued server command: //stack 3 up
+[13:43:55] [Server thread/INFO]: Otto4903 lost connection: You have been idle for too long!
+[13:43:55] [Server thread/INFO]: Otto4903 left the game
+[13:45:34] [User Authenticator #16/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[13:45:34] [Server thread/INFO]: Otto4903 joined the game
+[13:45:34] [Server thread/INFO]: Otto4903[/10.147.17.189:51517] logged in with entity id 115 at ([releaseV2]39820.71832448929, -12.825556451609836, 39944.24513407644)
+[13:47:39] [Server thread/INFO]: Otto4903 issued server command: //wand
+[13:47:40] [Server thread/INFO]: Otto4903 has made the advancement [Cover Me with Diamonds]
+[13:48:44] [Server thread/INFO]: alex86465 issued server command: //pos2
+[13:48:57] [Server thread/INFO]: alex86465 issued server command: //copy
+[13:49:03] [Server thread/INFO]: alex86465 issued server command: //paste
+[13:49:54] [Server thread/INFO]: Otto4903 issued server command: //brush sphere spruce_planks
+[13:49:59] [Server thread/INFO]: Otto4903 issued server command: /mask bricks
+[13:53:00] [Server thread/INFO]: alex86465 issued server command: //copy
+[13:53:05] [Server thread/INFO]: alex86465 issued server command: //paste
+[13:58:52] [Server thread/INFO]: alex86465 issued server command: //brush cyl polished_andesite 6
+[13:58:55] [Server thread/INFO]: alex86465 issued server command: //brush cyl polished_andesite 5
+[13:58:59] [Server thread/INFO]: alex86465 issued server command: /mask stone_bricks
+[13:59:12] [Server thread/INFO]: alex86465 issued server command: //undo
+[13:59:41] [Server thread/INFO]: alex86465 has made the advancement [Isn't It Iron Pick]
+[13:59:51] [Server thread/INFO]: alex86465 issued server command: //brush cyl stone_bricks 5
+[13:59:58] [Server thread/INFO]: alex86465 issued server command: /mask polished_andesite
+[14:01:53] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[14:01:53] [Server thread/INFO]: alex86465 left the game
+[14:24:40] [Server thread/INFO]: Otto4903 issued server command: //set akir
+[14:24:44] [Server thread/INFO]: Otto4903 issued server command: //set air
+[14:28:49] [Server thread/INFO]: Otto4903 lost connection: You have been idle for too long!
+[14:28:49] [Server thread/INFO]: Otto4903 left the game
+[14:53:00] [User Authenticator #17/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[14:53:00] [Server thread/INFO]: Otto4903 joined the game
+[14:53:00] [Server thread/INFO]: Otto4903[/10.147.17.189:51707] logged in with entity id 147 at ([releaseV2]39742.079225723275, -13.582784036482911, 39916.155474037674)
+[15:01:04] [Server thread/INFO]: Otto4903 issued server command: //set white_concrete
+[15:02:07] [Server thread/INFO]: Otto4903 issued server command: //set white_concrete
+[15:10:38] [Server thread/INFO]: Otto4903 issued server command: //brush sphere end_stone_bricks
+[15:11:01] [Server thread/INFO]: Otto4903 issued server command: //brush sphere sandstone
+[15:11:04] [Server thread/INFO]: Otto4903 issued server command: /mask bricks
+[15:20:41] [Server thread/INFO]: Otto4903 issued server command: //set air
+[15:28:08] [Server thread/INFO]: Otto4903 issued server command: //set air
+[15:28:15] [Server thread/INFO]: Otto4903 issued server command: //set air
+[15:36:37] [Server thread/INFO]: Otto4903 issued server command: //replace bricks air
+[15:45:49] [Server thread/INFO]: Otto4903 issued server command: /material white_concrete
+[15:47:26] [Server thread/INFO]: Otto4903 issued server command: /material nether_bricks
+[15:47:32] [Server thread/INFO]: Otto4903 issued server command: /mask stone_bricks
+[15:53:39] [Server thread/INFO]: Otto4903 issued server command: //set air
+[16:03:02] [Server thread/INFO]: Otto4903 lost connection: You have been idle for too long!
+[16:03:02] [Server thread/INFO]: Otto4903 left the game
+[16:13:47] [User Authenticator #18/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[16:13:47] [Server thread/INFO]: Otto4903 joined the game
+[16:13:47] [Server thread/INFO]: Otto4903[/10.147.17.189:51876] logged in with entity id 206 at ([releaseV2]39792.684996465534, -13.95435693310979, 39921.41924519454)
+[16:36:23] [User Authenticator #19/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[16:36:26] [Server thread/INFO]: alex86465 joined the game
+[16:36:26] [Server thread/INFO]: alex86465[/10.147.17.188:64635] logged in with entity id 256 at ([releaseV2]79982.21946407422, -6.254998729697383, 80045.64697849011)
+[16:40:35] [Server thread/INFO]: Otto4903 issued server command: //copy
+[16:41:04] [Server thread/INFO]: Otto4903 issued server command: //paste
+[16:41:11] [Server thread/INFO]: Otto4903 issued server command: //undo
+[16:41:12] [Server thread/INFO]: Otto4903 issued server command: //paste
+[16:41:38] [Server thread/INFO]: alex86465 issued server command: //copy
+[16:41:42] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:44] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:46] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:48] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:50] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:52] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:54] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:41:56] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:42:52] [Server thread/INFO]: alex86465 issued server command: //copy
+[16:42:59] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:01] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:03] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:04] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:06] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:08] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:09] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:11] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:14] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:16] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:43:17] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:44:45] [Server thread/INFO]: alex86465 issued server command: //copy
+[16:44:52] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:45:08] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:45:13] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:45:26] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:49:10] [Server thread/INFO]: alex86465 issued server command: //copy
+[16:49:18] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:49:31] [Server thread/INFO]: alex86465 issued server command: //undo
+[16:49:38] [Server thread/INFO]: alex86465 issued server command: //paste
+[16:50:11] [Server thread/INFO]: alex86465 issued server command: //set air
+[16:50:18] [Server thread/INFO]: alex86465 issued server command: //set air
+[16:52:39] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[16:52:45] [Server thread/INFO]: alex86465 issued server command: //set stone_bricks
+[16:52:52] [Server thread/INFO]: Otto4903 lost connection: You have been idle for too long!
+[16:52:52] [Server thread/INFO]: Otto4903 left the game
+[16:52:57] [Server thread/INFO]: alex86465 issued server command: /s/et air
+[16:53:00] [Server thread/INFO]: alex86465 issued server command: //set air
+[16:57:58] [User Authenticator #20/INFO]: UUID of player Otto4903 is 65a7d9c4-a2e8-4bfd-9c0e-fa39615fca79
+[16:57:58] [Server thread/INFO]: Otto4903 joined the game
+[16:57:58] [Server thread/INFO]: Otto4903[/10.147.17.189:52002] logged in with entity id 273 at ([releaseV2]39812.15520446242, -16.689490204635444, 39967.75961443719)
+[17:01:01] [Server thread/INFO]: Otto4903 issued server command: //rotate 180
+[17:01:10] [Server thread/INFO]: Otto4903 issued server command: //paste
+[17:01:19] [Server thread/INFO]: Otto4903 issued server command: //undo
+[17:01:25] [Server thread/INFO]: Otto4903 issued server command: //rotate 180
+[17:01:28] [Server thread/INFO]: Otto4903 issued server command: //paste
+[17:01:32] [Server thread/INFO]: Otto4903 issued server command: //undo
+[17:01:34] [Server thread/INFO]: Otto4903 issued server command: //paste
+[17:02:17] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:02:21] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:02:25] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:02:29] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:03:22] [Server thread/INFO]: alex86465 issued server command: //copy
+[17:03:27] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:03:32] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:03:37] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:03:41] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:04:04] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:04:14] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:04:22] [Server thread/INFO]: alex86465 issued server command: //set andesite
+[17:04:36] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:04:53] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:05:00] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:05:33] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:06:17] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:07:02] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:07:52] [Server thread/INFO]: alex86465 issued server command: //set air
+[17:08:33] [Server thread/INFO]: alex86465 issued server command: //copy
+[17:08:39] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:08:43] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:08:48] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:09:00] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:09:16] [Server thread/INFO]: alex86465 issued server command: //copy
+[17:09:20] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:09:26] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:09:33] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:09:39] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:10:04] [Server thread/INFO]: alex86465 issued server command: //paste
+[17:10:38] [Server thread/INFO]: Otto4903 lost connection: Disconnected
+[17:10:38] [Server thread/INFO]: Otto4903 left the game
+[17:12:43] [Server thread/INFO]: alex86465 issued server command: //brush cyl sand
+[17:12:52] [Server thread/INFO]: alex86465 issued server command: /mask light_gray_concrete
+[17:12:57] [Server thread/INFO]: alex86465 issued server command: //brush cyl sand 5
+[17:19:45] [Server thread/INFO]: alex86465 issued server command: //set stone
+[17:21:30] [Server thread/INFO]: alex86465 issued server command: //set grass_block
+[17:21:35] [Server thread/INFO]: alex86465 issued server command: //undo
+[17:22:30] [Server thread/INFO]: alex86465 issued server command: //set sand
+[17:22:35] [Server thread/INFO]: alex86465 issued server command: //set sand
+[17:22:38] [Server thread/INFO]: alex86465 issued server command: //set sand
+[17:22:43] [Server thread/INFO]: alex86465 issued server command: //set sand
+[17:23:29] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[17:23:29] [Server thread/INFO]: alex86465 left the game
