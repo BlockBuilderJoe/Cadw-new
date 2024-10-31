@@ -35,7 +35,7 @@
                                 }
                             ]
                         },
-                        "url": "https://google.com"
+                        "url": "https://www.youtube.com/watch_popup?v=MlzTMeEtZbI"
                     },
                     {
                         "name": {
@@ -45,15 +45,44 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=oAjC8Ry3Pe8"
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
                                     "translate": "npc.button.taliesinNPC1.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "dragonNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.dragonNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.dragonNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.dragonNPC1.0"
                                 }
                             ]
                         },
@@ -101,7 +130,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p 79934 -42 80019 facing 79934 -42 80016"
                         ]
                     }
                 ]
@@ -131,9 +160,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=8VnNMdrF8xQ "
                     },
                     {
                         "name": {
@@ -174,9 +201,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=4MR0oEiq7pA "
                     },
                     {
                         "name": {
@@ -217,9 +242,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=RpqqINFdVhg "
                     },
                     {
                         "name": {
@@ -260,9 +283,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=oYB2UeXA75k "
                     },
                     {
                         "name": {
@@ -303,9 +324,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=I9MGNyv2tfE "
                     },
                     {
                         "name": {
@@ -346,9 +365,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=m072INWcFXU "
                     },
                     {
                         "name": {
@@ -389,9 +406,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=wcp6sMJGSiY "
                     },
                     {
                         "name": {
@@ -432,9 +447,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=6QjdNgVNl3Y "
                     },
                     {
                         "name": {
@@ -475,9 +488,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=rAUH5OxitHg "
                     },
                     {
                         "name": {
@@ -518,9 +529,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=-VNjPjVOSBk "
                     }
                 ]
             },
@@ -549,9 +558,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=C0t6duLUpXk "
                     }
                 ]
             },
@@ -580,9 +587,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=wyhtG0XJlR0 "
                     },
                     {
                         "name": {
@@ -623,9 +628,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=8IRhOP6QlAM"
                     },
                     {
                         "name": {
@@ -666,9 +669,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=XPeHvT114Jw "
                     },
                     {
                         "name": {
@@ -709,9 +710,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=lb1Sn3CXvqM "
                     },
                     {
                         "name": {
@@ -752,9 +751,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=O9FxxAnED94 "
                     },
                     {
                         "name": {
@@ -795,9 +792,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=g-rLr7Xl36s "
                     },
                     {
                         "name": {
@@ -838,9 +833,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=M5QJdQC93JY "
                     },
                     {
                         "name": {
@@ -881,9 +874,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=MvMeRIXN7ZQ "
                     },
                     {
                         "name": {
@@ -924,9 +915,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=Q1d-5AelzCU "
                     },
                     {
                         "name": {
@@ -998,9 +987,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=BMyyKu5FZtI "
                     },
                     {
                         "name": {
@@ -1041,9 +1028,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=XEWl_ZHleYw "
                     },
                     {
                         "name": {
@@ -1084,9 +1069,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=UD8oBbkY954 "
                     },
                     {
                         "name": {
@@ -1198,9 +1181,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=IRXZIDdQFiM "
                     },
                     {
                         "name": {
@@ -1210,9 +1191,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=np6VMf7puhY "
                     },
                     {
                         "name": {
@@ -1222,9 +1201,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=cjw8XsGHscA "
                     },
                     {
                         "name": {
@@ -1234,9 +1211,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=gN0kMp1CAkw "
                     },
                     {
                         "name": {
@@ -1246,9 +1221,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=LsVC2Nm6MJs "
                     },
                     {
                         "name": {
@@ -1258,9 +1231,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=eHNU8VzL5l0 "
                     }
                 ]
             },
@@ -1289,9 +1260,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=U2YBGPeKxaQ "
                     },
                     {
                         "name": {
@@ -1301,9 +1270,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=ONzrxHcTG9w "
                     },
                     {
                         "name": {
@@ -1313,9 +1280,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=y7zuU_ZFiV8 "
                     }
                 ]
             },
@@ -1344,9 +1309,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=W0rGmmGmP8U "
                     }
                 ]
             },
@@ -1375,9 +1338,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=H5CZJ9YOR3M "
                     },
                     {
                         "name": {
@@ -1387,9 +1348,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=nPhdQqyLyzo "
                     }
                 ]
             },
@@ -1418,9 +1377,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=6h3nrSTeXMQ "
                     },
                     {
                         "name": {
@@ -1430,9 +1387,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=ls6s-ipIoIU "
                     },
                     {
                         "name": {
@@ -1442,9 +1397,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=KyfXVZ2Sz0U "
                     }
                 ]
             },
@@ -1473,9 +1426,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=kqEl5tOswhU "
                     },
                     {
                         "name": {
@@ -1485,9 +1436,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=SC5YhDa2c7Y "
                     }
                 ]
             },
@@ -1496,7 +1445,7 @@
                 "buttons": []
             },
             {
-                "scene_tag": "dragonNPC1",
+                "scene_tag": "dragonNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
@@ -1507,7 +1456,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.dragonNPC1"
+                            "translate": "npc.text.dragonNPC2"
                         }
                     ]
                 },
@@ -1516,7 +1465,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.dragonNPC1.0"
+                                    "translate": "npc.button.dragonNPC2.0"
                                 }
                             ]
                         },
