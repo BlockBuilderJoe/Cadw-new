@@ -45,7 +45,11 @@ dialogue change @e[type=npc,c=1] wcNPC1
 tp @p 10150 47 10227
 dialogue change @e[type=npc,c=1] ktNPC1
 
-#2 NPCS need to be added here, unsure of world placement atm
+tp @p 10136 43 10227
+dialogue change @e[type=npc,c=1] kcNPC1
+
+tp @p 10136 43 10223
+dialogue change @e[type=npc,c=1] qcNPC1
 
 tp @p 10094 45 10241 
 dialogue change @e[type=npc,c=1] bhNPC1
@@ -61,4 +65,21 @@ dialogue change @e[type=npc,c=1] wwNPC1
 
 #This is the final tp, so put the player start coordinate here
 tp @p 79933 -42 80020 facing 79934 -42 80014
+
+#Other commands, do we need all of these?
+#remove @e[type=agent]
+
+#Clears player inventory
+#execute as @p run clear @p
+
+#Sets gamemode adventure
+#gamemode adventure @p
+
+#gamerule falldamage false
+#gamerule sendcommandfeedback false
+#gamerule dotiledrops true
+#gamerule commandblockoutput false
+
+#Clears any effects the player has.
+#effect @p clear
 
