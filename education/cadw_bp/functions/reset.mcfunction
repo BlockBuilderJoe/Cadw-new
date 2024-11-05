@@ -66,6 +66,7 @@ dialogue change @e[type=npc,c=1] wwNPC1
 #This is the final tp, so put the player start coordinate here
 tp @p 79934 -42 80020 facing 79934 -42 80014
 
+tag @p remove buildChallenge
 
 remove @e[type=agent]
 gamemode adventure @p
