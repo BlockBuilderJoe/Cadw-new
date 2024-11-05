@@ -64,7 +64,7 @@ tp @p 9858 29 10268
 dialogue change @e[type=npc,c=1] wwNPC1
 
 #This is the final tp, so put the player start coordinate here
-tp @p 79933 -42 80020 facing 79934 -42 80014
+tp @p 79934 -42 80020 facing 79934 -42 80014
 
 #Other commands, do we need all of these?
 #remove @e[type=agent]

@@ -1,6 +1,34 @@
-import { world, system } from "@minecraft/server";
+import { world, system, BlockPermutation } from "@minecraft/server";
 
 let overworld = world.getDimension("overworld");
+
+
+const places = [
+  {
+    tag: "welcomeNPC",
+    name: "Conwy",
+    range: 10,
+    coordinates: { x: 79942, y: 29, z: 80003 },
+  },
+  {
+    tag: "introNPC",
+    name: "Intro",
+    range: 10,
+    coordinates: { x: 79936, y: -42, z: 80020 },
+  },
+]
+
+const showPlaceNameCoordinates = async  (places) => {
+  await overworld.runCommandAsync(`execute if entity @p[r=${places.range}] positioned ${places.coordinates.x} ${places.coordinates.y} ${places.coordinates.z} run title @p actionbar ${places.name}`);
+}
+
+const showPlaceName = async (places) => {
+  for (const place of places) {
+    world.sendMessage(`${place.name}`);
+    await overworld.runCommandAsync($`execute if entity @e[tag=${place.tag},r=${place.range}] run execute as @p run title @p actionbar ${place.name}`)
+  }
+  showPlaceName(places);
+}
 
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
@@ -16,13 +44,17 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
   }
 });
+
+
 world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
   if (block?.permutation?.matches("minecraft:diamond_block")) {
-    startFlythrough(`intro`);
     block.setPermutation(BlockPermutation.resolve("minecraft:air"));
+    startFlythrough(`intro`);
+    
   }
 });
+
 export async function startFlythrough(type) {
   switch (type) {
     /////// copy from here ///////
@@ -39,7 +71,7 @@ export async function startFlythrough(type) {
     /////// to here /////// and paste below ////
     case "intro": {
       ///change this to the name you want.
-      let finalLocation = "tp @p 79933 -42 80020 facing 79933 -42 80020";
+      let finalLocation = "tp @p 79934 -42 80020 facing 79934 -42 80015";
       let path = await generatePath([
         { x: 690203, y: 93, z: 690247 }, //Change the start coordinate.
         { x: 690068, y: 70, z: 690105 }, //Change the end coordinate.
