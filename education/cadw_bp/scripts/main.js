@@ -2,34 +2,6 @@ import { world, system, BlockPermutation } from "@minecraft/server";
 
 let overworld = world.getDimension("overworld");
 
-
-const places = [
-  {
-    tag: "welcomeNPC",
-    name: "Conwy",
-    range: 10,
-    coordinates: { x: 79942, y: 29, z: 80003 },
-  },
-  {
-    tag: "introNPC",
-    name: "Intro",
-    range: 10,
-    coordinates: { x: 79936, y: -42, z: 80020 },
-  },
-]
-
-const showPlaceNameCoordinates = async  (places) => {
-  await overworld.runCommandAsync(`execute if entity @p[r=${places.range}] positioned ${places.coordinates.x} ${places.coordinates.y} ${places.coordinates.z} run title @p actionbar ${places.name}`);
-}
-
-const showPlaceName = async (places) => {
-  for (const place of places) {
-    world.sendMessage(`${place.name}`);
-    await overworld.runCommandAsync($`execute if entity @e[tag=${place.tag},r=${place.range}] run execute as @p run title @p actionbar ${place.name}`)
-  }
-  showPlaceName(places);
-}
-
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
 
@@ -45,6 +17,11 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
   }
 });
 
+world.afterEvents.itemUse.subscribe((event) => {
+  if (event.itemStack.typeId === "minecraft:compass") {
+    overworld.runCommandAsync(`say Compass has been used`);
+  }
+});
 
 world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
