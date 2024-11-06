@@ -19,7 +19,7 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
 
 world.afterEvents.itemUse.subscribe((event) => {
   if (event.itemStack.typeId === "minecraft:compass") {
-    overworld.runCommandAsync(`say Compass has been used`);
+    overworld.runCommandAsync(`dialogue open @e[tag=compassNPC] @p compassNPC1`);
   }
 });
 

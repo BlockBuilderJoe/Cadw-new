@@ -1,4 +1,6 @@
 #World Translations
+cw.placename.portcullis=Portcullis
+
 cw.npc.name.lobby=Croeso
 cw.npc.text.lobby=Croeso i'r lobi, cliciwch ar y map o Gymru i archwilio ein safleoedd!
 cw.npc.button.one.lobby=Diolch!

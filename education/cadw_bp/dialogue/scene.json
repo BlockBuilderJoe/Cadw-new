@@ -1119,7 +1119,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=intro] @p intro"
+                            "dialogue open @e[tag=taliesinNPC] taliesinNPC3"
                         ]
                     },
                     {
@@ -1501,7 +1501,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9883 29 10191 facing 9883 29 10195"
+                            "function taliesinreturn"
                         ]
                     }
                 ]
@@ -1843,6 +1843,94 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.secretNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "compassNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.compassNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.compassNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.compassNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.compassNPC1.4"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.compassNPC1.6"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.compassNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 79934 -42 80020 facing 79934 -42 80013"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.compassNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function conwyreturn"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.compassNPC1.2"
                                 }
                             ]
                         },
