@@ -1,6 +1,15 @@
 import { world, system, BlockPermutation } from "@minecraft/server";
+import { ActionFormData } from "@minecraft/server-ui";
 
 let overworld = world.getDimension("overworld");
+
+let form = new ActionFormData()
+  .title(`ui.compass.title`)
+  .body(`ui.compass.body`)
+  .button(`ui.compass.button.stay`)
+  .button(`ui.compass.button.galleri`)
+  .button(`ui.compass.button.conwy`)
+
 
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
@@ -19,7 +28,14 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
 
 world.afterEvents.itemUse.subscribe((event) => {
   if (event.itemStack.typeId === "minecraft:compass") {
-    overworld.runCommandAsync(`dialogue open @e[tag=compassNPC] @p compassNPC1`);
+     form.show(event.source).then((response) => {
+      if (response.selection === 0) {
+      } else if (response.selection === 1) {
+        overworld.runCommand(`tp @p 79934 -42 80020 facing 79934 -42 80013`)
+      } else if (response.selection === 2) {
+        overworld.runCommand(`function conwyreturn`)
+      }
+    });
   }
 });
 

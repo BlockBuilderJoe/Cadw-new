@@ -23,6 +23,12 @@ cw.placename.eastbarbican=East Barbican
 cw.placename.wallwalk=Wall Walk
 cw.placename.townwall=Town Wall
 
+ui.compass.title=Compass Teleport
+ui.compass.body=Where would you like to go?
+ui.compass.button.stay=Stay Here
+ui.compass.button.galleri=Galleri
+ui.compass.button.conwy=Conwy
+
 cw.npc.name.lobby=Welcome
 cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
 cw.npc.button.one.lobby=Thanks!
