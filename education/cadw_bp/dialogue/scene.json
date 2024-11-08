@@ -46,6 +46,18 @@
                             ]
                         },
                         "url": "https://www.youtube.com/watch_popup?v=oAjC8Ry3Pe8"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinNPC1.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -1094,18 +1106,18 @@
                 ]
             },
             {
-                "scene_tag": "taliesinNPC2",
+                "scene_tag": "taliesinendNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesinNPC"
+                            "translate": "npc.name.taliesinendNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinNPC2"
+                            "translate": "npc.text.taliesinendNPC1"
                         }
                     ]
                 },
@@ -1114,19 +1126,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC2.0"
+                                    "translate": "npc.button.taliesinendNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesinNPC] taliesinNPC3"
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC2"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC2.1"
+                                    "translate": "npc.button.taliesinendNPC1.1"
                                 }
                             ]
                         },
@@ -1137,54 +1149,54 @@
                 ]
             },
             {
-                "scene_tag": "taliesinNPC3",
+                "scene_tag": "taliesinendNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesinNPC"
+                            "translate": "npc.name.taliesinendNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinNPC3.0"
+                            "translate": "npc.text.taliesinendNPC2.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.1"
+                            "translate": "npc.text.taliesinendNPC2.1"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.2"
+                            "translate": "npc.text.taliesinendNPC2.2"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.3"
+                            "translate": "npc.text.taliesinendNPC2.3"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.4"
+                            "translate": "npc.text.taliesinendNPC2.4"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.5"
+                            "translate": "npc.text.taliesinendNPC2.5"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesinNPC3.6"
+                            "translate": "npc.text.taliesinendNPC2.6"
                         },
                         {
                             "text": "\n"
@@ -1199,19 +1211,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC3.0"
+                                    "translate": "npc.button.taliesinendNPC2.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "function dragonvlion"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC3.1"
+                                    "translate": "npc.button.taliesinendNPC2.1"
                                 }
                             ]
                         },
@@ -1223,7 +1235,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC3.2"
+                                    "translate": "npc.button.taliesinendNPC2.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function stainedgpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.3"
                                 }
                             ]
                         },
@@ -1235,7 +1259,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC3.3"
+                                    "translate": "npc.button.taliesinendNPC2.4"
                                 }
                             ]
                         },
@@ -1247,19 +1271,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinNPC3.4"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinNPC3.5"
+                                    "translate": "npc.button.taliesinendNPC2.5"
                                 }
                             ]
                         },
@@ -1460,7 +1472,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9370 25 10097 facing 9364 25 10097"
+                            "function mblaunch"
                         ]
                     }
                 ]
@@ -1562,7 +1574,50 @@
                                 }
                             ]
                         },
+                        "commands": [
+                            "function stainedglaunch "
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "sgNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.sgNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.sgNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.sgNPC3.0"
+                                }
+                            ]
+                        },
                         "url": "https://www.youtube.com/watch_popup?v=W0rGmmGmP8U "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.sgNPC3.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function stainedgend"
+                        ]
                     }
                 ]
             },
@@ -1791,18 +1846,18 @@
                 "buttons": []
             },
             {
-                "scene_tag": "dragonNPC2",
+                "scene_tag": "hiddendragonNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.dragonNPC"
+                            "translate": "npc.name.hiddendragonNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.dragonNPC2"
+                            "translate": "npc.text.hiddendragonNPC1"
                         }
                     ]
                 },
@@ -1811,7 +1866,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.dragonNPC2.0"
+                                    "translate": "npc.button.hiddendragonNPC1.0"
                                 }
                             ]
                         },

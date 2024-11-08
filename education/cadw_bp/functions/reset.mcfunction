@@ -3,11 +3,14 @@ setblock 79936 -60 80022 minecraft:diamond_block
 tp @p 9939 40 10178 
 dialogue change @e[type=npc,c=1] pcNPC1
 
-tp @p 9941 52 10217
+tp @p 9942 52 10218
 dialogue change @e[type=npc,c=1] wbNPC1
 
 tp @p 9954 52 10222
 dialogue change @e[type=npc,c=1] mgNPC1
+
+tp @p 9983 52 10202
+dialogue change @e[type=npc,c=1] mmbNPC1
 
 tp @p 9972 52 10217 
 dialogue change @e[type=npc,c=1] owNPC1
@@ -49,6 +52,9 @@ tp @p 10136 43 10227
 dialogue change @e[type=npc,c=1] kcNPC1
 
 tp @p 10136 43 10223
+dialogue change @e[type=npc,c=1] kcNPC1
+
+tp @p 10106 44 10231
 dialogue change @e[type=npc,c=1] qcNPC1
 
 tp @p 10094 45 10241 
@@ -60,8 +66,7 @@ dialogue change @e[type=npc,c=1] stNPC1
 tp @p 10160 40 10204
 dialogue change @e[type=npc,c=1] ebNPC1
 
-tp @p 9858 29 10268
-dialogue change @e[type=npc,c=1] wwNPC1
+dialogue change @e[tag=dvlNPC] dvlNPC1
 
 #This is the final tp, so put the player start coordinate here
 tp @p 79934 -42 80020 facing 79934 -42 80014
