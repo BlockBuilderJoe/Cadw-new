@@ -66,8 +66,8 @@ export async function startFlythrough(type) {
       ///change this to the name you want.
       let finalLocation = "tp @p 79934 -42 80020 facing 79934 -42 80015";
       let path = await generatePath([
-        { x: 690203, y: 93, z: 690247 }, //Change the start coordinate.
-        { x: 690068, y: 70, z: 690105 }, //Change the end coordinate.
+        { x: 690032, y: 50, z: 690248 }, //Change the start coordinate.
+        { x: 690141, y: 44, z: 690047 }, //Change the end coordinate.
       ]);
       playerFlythrough(path, 1, finalLocation, { x: 10, z: 0 }); //Change the second number to change the speed.
       break;

@@ -417,7 +417,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 10025 57 10266 facing 10024 57 10267"
+                            "tp @p 10027 57 10265 facing 10024 57 10267"
                         ]
                     }
                 ]
@@ -434,7 +434,16 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ptNPC1"
+                            "translate": "npc.text.ptNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.ptNPC1.1"
+                        },
+                        {
+                            "text": "\n"
                         }
                     ]
                 },
@@ -1131,7 +1140,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC2"
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
                         ]
                     },
                     {
@@ -1277,6 +1286,487 @@
                         },
                         "commands": [
                             "tp @p 10024 43 10277 facing 10027 43 10281"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC4"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC5"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC6"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.3"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC7"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.4"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC8"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC3.5"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC9"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC4.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC4.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC4.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=tKalNcCY9yI "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC4.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function dragonvlion"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC4.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC5.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC5.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC5.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=0YBwnulSZzU"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC5.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function masterbuilder"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC5.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC6",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC6.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC6.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC6.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=B3qNfkopTz4"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC6.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function stainedgpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC6.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC7",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC7.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC7.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC7.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=VNIYTnkKsVk"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC7.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function queenpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC7.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC8",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC8.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC8.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC8.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=UBHFQQBFeD0"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC8.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function flagpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC8.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinendNPC9",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC9.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC9.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC9.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=FdOJqP7ds_0"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC9.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 10024 43 10277 facing 10027 43 10281"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC9.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
                         ]
                     }
                 ]
@@ -1574,49 +2064,18 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            "function stainedglaunch "
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "sgNPC3",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.sgNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.sgNPC3"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.sgNPC3.0"
-                                }
-                            ]
-                        },
                         "url": "https://www.youtube.com/watch_popup?v=W0rGmmGmP8U "
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.sgNPC3.1"
+                                    "translate": "npc.button.sgNPC2.1"
                                 }
                             ]
                         },
                         "commands": [
-                            "function stainedgend"
+                            "tp @p 9883 29 10191 facing 9883 29 10196"
                         ]
                     }
                 ]
@@ -1698,19 +2157,7 @@
                             ]
                         },
                         "commands": [
-                            "function queenstart"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.ffqNPC2.3"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "tp @p 9883 29 10191 facing 9883 29 10195"
+                            "tp @p 9883 29 10191 facing 9883 29 10196"
                         ]
                     }
                 ]
@@ -1771,7 +2218,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9883 29 10191 facing 9883 29 10195"
+                            "tp @p 9883 29 10191 facing 9883 29 10196"
                         ]
                     }
                 ]
@@ -1857,24 +2304,24 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=secretNPC] @p secretNPC1"
+                            "dialogue open @e[tag=hiddendragon] @p hiddendragonNPC2"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "secretNPC1",
+                "scene_tag": "hiddendragonNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.secretNPC"
+                            "translate": "npc.name.hiddendragonNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.secretNPC1"
+                            "translate": "npc.text.hiddendragonNPC2"
                         }
                     ]
                 },
@@ -1883,7 +2330,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.secretNPC1.0"
+                                    "translate": "npc.button.hiddendragonNPC2.0"
                                 }
                             ]
                         },
