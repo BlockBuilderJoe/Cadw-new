@@ -1252,7 +1252,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function queenpre"
                         ]
                     },
                     {
@@ -1264,7 +1264,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function flagpre"
                         ]
                     },
                     {
@@ -1276,7 +1276,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p 10024 43 10277 facing 10027 43 10281"
                         ]
                     }
                 ]
@@ -1688,6 +1688,30 @@
                             ]
                         },
                         "url": "https://www.youtube.com/watch_popup?v=nPhdQqyLyzo "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ffqNPC2.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function queenstart"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ffqNPC2.3"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 9883 29 10191 facing 9883 29 10195"
+                        ]
                     }
                 ]
             },
@@ -1716,44 +1740,13 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "flfNPC2",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.flfNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.flfNPC2"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.flfNPC2.0"
-                                }
-                            ]
-                        },
                         "url": "https://www.youtube.com/watch_popup?v=6h3nrSTeXMQ "
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.flfNPC2.1"
+                                    "translate": "npc.button.flfNPC1.1"
                                 }
                             ]
                         },
@@ -1763,11 +1756,23 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.flfNPC2.2"
+                                    "translate": "npc.button.flfNPC1.2"
                                 }
                             ]
                         },
                         "url": "https://www.youtube.com/watch_popup?v=KyfXVZ2Sz0U "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.flfNPC1.3"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 9883 29 10191 facing 9883 29 10195"
+                        ]
                     }
                 ]
             },
@@ -1796,48 +1801,29 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "ctcNPC2",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.ctcNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.ctcNPC2"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.ctcNPC2.0"
-                                }
-                            ]
-                        },
                         "url": "https://www.youtube.com/watch_popup?v=kqEl5tOswhU "
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctcNPC2.1"
+                                    "translate": "npc.button.ctcNPC1.1"
                                 }
                             ]
                         },
                         "url": "https://www.youtube.com/watch_popup?v=SC5YhDa2c7Y "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ctcNPC1.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 9883 29 10191 facing 9883 29 10196"
+                        ]
                     }
                 ]
             },
