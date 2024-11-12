@@ -18,6 +18,7 @@ execute at @p if entity @e[tag=cgcNPC,r=10] run titleraw @p actionbar {"rawtext"
 execute at @p if entity @e[tag=ctNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.chapeltower"}]}
 execute at @p if entity @e[tag=wcNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.watchingchamber"}]}
 execute at @p if entity @e[tag=ktNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.kingstower"}]}
+execute at @p if entity @e[tag=kcNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.kingschamber"}]}
 execute at @p if entity @e[tag=qcNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.queenschamber"}]}
 execute at @p if entity @e[tag=bhNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.bakehouse"}]}
 execute at @p if entity @e[tag=stNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.stockhouse"}]}

@@ -130,7 +130,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 79934 -42 80019 facing 79934 -42 80016"
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
                         ]
                     }
                 ]
@@ -294,7 +294,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9958 80 10198 facing 9961 81 10201"
+                            "tp @p 9968 52 10204 facing 9965 52 10204"
                         ]
                     }
                 ]
@@ -335,7 +335,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9969 80 10242 facing 9972 81 10244"
+                            "tp @p 9978 55 10242 facing 9977 55 10244"
                         ]
                     }
                 ]
@@ -1048,7 +1048,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 9531 29 10251 facing 9536 29 10251"
+                            "tp @p 9846 38 10273 facing 9843 38 10274"
                         ]
                     }
                 ]
@@ -1139,9 +1139,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=4j6ArBa7jzg"
                     },
                     {
                         "name": {
@@ -1152,140 +1150,19 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 79934 -42 80019 facing 79934 -42 80015"
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "taliesinendNPC2",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.taliesinendNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.taliesinendNPC2.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.1"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.2"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.3"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.4"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.5"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.6"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function dragonvlion"
+                            "dialogue open @e[tag=taliesinendNPC] @p taliesinendNPC3"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesinendNPC2.1"
+                                    "translate": "npc.button.taliesinendNPC1.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "function masterbuilder"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.2"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function stainedgpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.3"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function queenpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.4"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function flagpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.5"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "tp @p 10024 43 10277 facing 10027 43 10281"
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
                         ]
                     }
                 ]
@@ -1393,19 +1270,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC4.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC4.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC4"
                         }
                     ]
                 },
@@ -1458,19 +1323,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC5.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC5.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC5"
                         }
                     ]
                 },
@@ -1523,19 +1376,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC6.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC6.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC6"
                         }
                     ]
                 },
@@ -1588,19 +1429,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC7.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC7.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC7"
                         }
                     ]
                 },
@@ -1653,19 +1482,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC8.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC8.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC8"
                         }
                     ]
                 },
@@ -1718,19 +1535,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesinendNPC9.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC9.2"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesinendNPC9"
                         }
                     ]
                 },
@@ -2424,6 +2229,155 @@
                         },
                         "commands": [
                             ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "scene_tag": "Old dialogue",
+                "buttons": []
+            },
+            {
+                "scene_tag": "taliesinendNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinendNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinendNPC2.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.3"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.4"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.5"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesinendNPC2.6"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function dragonvlion"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function masterbuilder"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function stainedgpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.3"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function queenpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.4"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function flagpre"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinendNPC2.5"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 10024 43 10277 facing 10027 43 10281"
                         ]
                     }
                 ]

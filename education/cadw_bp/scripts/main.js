@@ -31,7 +31,7 @@ world.afterEvents.itemUse.subscribe((event) => {
      form.show(event.source).then((response) => {
       if (response.selection === 0) {
       } else if (response.selection === 1) {
-        overworld.runCommand(`tp @p 79934 -42 80020 facing 79934 -42 80013`)
+        overworld.runCommand(`tp @p 79934 -42 80011 facing 79934 -42 80005`)
       } else if (response.selection === 2) {
         overworld.runCommand(`function conwyreturn`)
       }
