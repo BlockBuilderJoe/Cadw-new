@@ -47,6 +47,8 @@ world.afterEvents.itemUse.subscribe((event) => {
         overworld.runCommand(`tp @p 79934 -42 80011 facing 79934 -42 80005`)
       } else if (response.selection === 2) {
         overworld.runCommand(`function conwyreturn`)
+      } else if (response.selection === 3) {
+        overworld.runCommand(`tp @p 9883 29 10191 facing 9883 29 10195`)
       }
     });
   }
@@ -56,7 +58,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
   if (block?.permutation?.matches("minecraft:diamond_block")) {
     block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-    startFlythrough(`intro`);
+    overworld.runCommand(`titleraw @p title {"rawtext": [{"translate":"title.1"}]}`); 
     
   }
 });

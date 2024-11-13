@@ -1562,7 +1562,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 10024 43 10277 facing 10027 43 10281"
+                            "tp @p 10025 43 10278 facing 10027 43 10280"
                         ]
                     },
                     {
@@ -1935,6 +1935,9 @@
                         }
                     ]
                 },
+                "on_open_commands": [
+                    "setblock 10150 45 10206 minecraft:air"
+                ],
                 "buttons": [
                     {
                         "name": {
