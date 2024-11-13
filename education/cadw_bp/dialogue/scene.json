@@ -1130,6 +1130,9 @@
                         }
                     ]
                 },
+                "on_open_commands": [
+                    "scoreboard players set completed quest 1"
+                ],
                 "buttons": [
                     {
                         "name": {
