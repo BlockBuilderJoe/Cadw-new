@@ -3,12 +3,15 @@ import { ActionFormData } from "@minecraft/server-ui";
 
 let overworld = world.getDimension("overworld");
 
-let form = new ActionFormData()
-  .title(`ui.compass.title`)
-  .body(`ui.compass.body`)
-  .button(`ui.compass.button.stay`)
-  .button(`ui.compass.button.galleri`)
-  .button(`ui.compass.button.conwy`)
+function getScore(score, objective) {
+  const scoreBoard = world.scoreboard.getObjective(objective);
+  if (scoreBoard) {
+    return scoreBoard.getScore(score);
+  }
+  return 0;
+}
+
+
 
 
 world.afterEvents.buttonPush.subscribe(async (event) => {
@@ -28,6 +31,16 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
 
 world.afterEvents.itemUse.subscribe((event) => {
   if (event.itemStack.typeId === "minecraft:compass") {
+      let taleisinActivated = getScore("completed", "quest");
+      let form = new ActionFormData()
+        .title(`ui.compass.title`)
+        .body(`ui.compass.body`)
+        .button(`ui.compass.button.stay`)
+        .button(`ui.compass.button.galleri`)
+        .button(`ui.compass.button.conwy`)
+      if (taleisinActivated === 1) {
+        form.button(`ui.compass.button.taleisin`)
+      }
      form.show(event.source).then((response) => {
       if (response.selection === 0) {
       } else if (response.selection === 1) {

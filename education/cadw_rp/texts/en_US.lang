@@ -26,8 +26,17 @@ cw.placename.townwall=Town Wall
 ui.compass.title=Compass Teleport
 ui.compass.body=Where would you like to go?
 ui.compass.button.stay=Stay Here
-ui.compass.button.galleri=Galleri
+ui.compass.button.galleri=Galeri
 ui.compass.button.conwy=Conwy
+ui.compass.button.taleisin=Taliesin
+
+book.1.line.1=First book first line of text
+book.1.line.2=First book second line of text
+book.1.line.3=First book third line of text
+
+book.2.line.1=Second book first line of text
+book.2.line.2=Second book second line of text
+book.2.line.3=Second book third line of text
 
 cw.npc.name.lobby=Welcome
 cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
