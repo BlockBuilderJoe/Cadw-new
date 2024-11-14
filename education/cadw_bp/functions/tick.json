@@ -1,7 +1,3 @@
 {
-    "values": [
-        "placeNames",
-        "border"
-    ]
-
+  "values": ["placeNames", "border", "gameModeLock"]
 }
