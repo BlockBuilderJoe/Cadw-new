@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Archwilio byd cemeg yn Minecraft!",
+    "description": "Archwilio Minecraft yn Gymraeg!",
     "name": "Cymraeg",
-    "uuid": "c96d42af-276a-4b42-9c0b-2a68ed586a75",
+    "uuid": "e48b288f-e859-4772-a0a0-312b4140c707",
     "version": [1, 0, 0],
     "min_engine_version": [1, 13, 0]
   },
   "modules": [
     {
-      "description": "Archwilio byd cemeg yn Minecraft!",
+      "description": "Archwilio Minecraft yn Gymraeg!",
       "type": "resources",
-      "uuid": "d098bbd0-aeea-4394-a5c2-aca9a7a4b343",
+      "uuid": "a18bfd00-acc9-493f-bff3-6c30f77c58d4",
       "version": [1, 0, 0]
     }
   ]
