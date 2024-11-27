@@ -1,0 +1,15 @@
+{
+    "header": {
+      "name": "Cymraeg",
+      "version": [1, 0, 0],
+      "uuid": "54d01808-5541-4c20-a12a-cf8a38b09bfa"
+    },
+    "modules": [
+      {
+        "version": [1, 0, 0],
+        "type": "skin_pack",
+        "uuid": "46b9abaa-1306-4e75-9a23-0a98957b6281"
+      }
+    ],
+    "format_version": 1
+  }
