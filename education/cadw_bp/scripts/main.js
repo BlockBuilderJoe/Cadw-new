@@ -58,8 +58,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
   if (block?.permutation?.matches("minecraft:diamond_block")) {
     block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-    overworld.runCommand(`titleraw @p title {"rawtext": [{"translate":"Cadw Cymru"}]}`); 
-    
+    startFlythrough("intro");
   }
 });
 
@@ -69,22 +68,25 @@ export async function startFlythrough(type) {
     case "conwy": {
       ///change this to the name you want.
       let finalLocation = "tp @p 9893 29 10172 facing 9899 29 10172";
+      let facingOffset = 0.3;
       let path = await generatePath([
         { x: 9836, y: 73, z: 10238 }, //Change the start coordinate.
         { x: 10139, y: 73, z: 10204 }, //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation, { x: -10, z: 0 }); //Change the second number to change the speed.
+      playerFlythrough(path, 1, finalLocation, { x: -10, z: 0 }, facingOffset); //Change the second number to change the speed.
       break;
     }
     /////// to here /////// and paste below ////
     case "intro": {
       ///change this to the name you want.
       let finalLocation = "tp @p 79934 -42 80020 facing 79934 -42 80015";
+      let facingOffset = 5;
       let path = await generatePath([
-        { x: 690032, y: 50, z: 690248 }, //Change the start coordinate.
-        { x: 690141, y: 44, z: 690047 }, //Change the end coordinate.
+        { x: 800301, y: 128, z: 800512 }, //Change the start coordinate.
+        { x: 800225, y: 22, z: 800395 },
+        { x: 800111, y: 8, z: 800195 } //Change the end coordinate.
       ]);
-      playerFlythrough(path, 1, finalLocation, { x: 10, z: 0 }); //Change the second number to change the speed.
+      playerFlythrough(path, 2, finalLocation, { x: 10, z: 0 }, facingOffset); //Change the second number to change the speed.
       break;
     }
     ////////////////////////////////////////////
@@ -94,14 +96,14 @@ export async function startFlythrough(type) {
   }
 }
 
-async function playerFlythrough(path, speed, finalLocation, offset) {
+async function playerFlythrough(path, speed, finalLocation, offset, facingOffset) {
   let player = world.getAllPlayers()[0];
   for (let i = 0; i < path.length - 1; i++) {
     let location = path[i];
     const nextPoint = path[i + 1];
     const facingLocation = {
       x: path[path.length - 1].x,
-      y: nextPoint.y - 0.3,
+      y: nextPoint.y - facingOffset,
       z: path[path.length - 1].z,
     };
 
