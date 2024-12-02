@@ -101,7 +101,7 @@ export async function startFlythrough(type, actionBar) {
       let finalLocation = "run Gower";
       let facingOffset = 0;
       let path = await generatePath([
-        { x: 100577, y: 93, z: 99499 }, //Change the start coordinate.
+        { x: 100800, y: 93, z: 99499 }, //Change the start coordinate.
         { x: 101033, y: 87, z: 99567 },
       ]);
       playerFlythrough(path, 1, finalLocation, { x: -10, z: 0 }, facingOffset, actionBar); //Change the second number to change the speed.
@@ -128,8 +128,12 @@ export async function startFlythrough(type, actionBar) {
       break;
     }
     case "intro": {
+      
       overworld.runCommand(`title @p title blockbuilders:image_popup_0`);
       startFlythrough("snowdon", "intro.snowdon");
+      let player = world.getAllPlayers()[0];
+      player.stopMusic();
+      player.playMusic("music.intro");
       system.runTimeout(() => {
         overworld.runCommand(`title @p title blockbuilders:cinematic_bars_fade_in`);
       }, 120);
