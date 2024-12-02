@@ -112,7 +112,7 @@ export async function startFlythrough(type, actionBar) {
       let facingOffset = 0;
       let path = await generatePath([
         { x: 98249, y: 69, z: 100700 }, //Change the start coordinate.
-        { x: 98148, y: 61, z: 100182 },
+        { x: 98190, y: 63, z: 100350 },
       ]);
       playerFlythrough(path, 1, finalLocation, { x: 10, z: 0 }, facingOffset, actionBar); //Change the second number to change the speed.
       break;
