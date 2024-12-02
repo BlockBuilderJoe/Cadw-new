@@ -56,7 +56,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   let block = overworld.getBlock({ x: 79936, y: -60, z: 80022 });
   if (block?.permutation?.matches("minecraft:diamond_block")) {
     block.setPermutation(BlockPermutation.resolve("minecraft:air"));
-    startFlythrough("intro", "");
+    //startFlythrough("intro", "");
   }
 });
 
