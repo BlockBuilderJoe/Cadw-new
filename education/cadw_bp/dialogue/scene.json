@@ -35,7 +35,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=MlzTMeEtZbI"
+                        "commands": [
+                            "dialogue open @e[tag=taliesinNPC] @p taliesinNPCurl1"
+                        ]
                     },
                     {
                         "name": {
@@ -58,6 +60,45 @@
                         "commands": [
                             ""
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesinNPCurl1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesinNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesinNPCurl1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinNPCurl1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=MlzTMeEtZbI"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesinNPCurl1.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=8YTWeHO-Wa8 "
                     }
                 ]
             },
