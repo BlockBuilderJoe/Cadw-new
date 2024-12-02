@@ -1,6 +1,12 @@
 
 ###############################################################
 
+intro.snowdon=Yr Wyddfa
+intro.bala=Llyn Tegid 
+intro.conwy=Castell Conwy
+intro.coch=Castell Coch
+intro.gower=Bae y Tri Chlogwyn
+
 cw.placename.portcullis=Porthcwlis
 cw.placename.westbarbican=Barbican Gorllewinol
 cw.placename.maingate=Prif Borth

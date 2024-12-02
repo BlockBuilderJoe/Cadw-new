@@ -1,5 +1,11 @@
 #World Translations
 
+intro.snowdon=Snowdon
+intro.bala=Bala Lake
+intro.conwy=Conwy Castle
+intro.coch=Castell Coch
+intro.gower=Three Cliffs Bay
+
 title.1=Cadw Cymru
 cw.placename.portcullis=Portcullis
 cw.placename.westbarbican=West Barbican
