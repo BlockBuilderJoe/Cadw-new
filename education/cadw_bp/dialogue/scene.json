@@ -47,7 +47,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=oAjC8Ry3Pe8"
+                        "commands": [
+                            "dialogue open @e[tag=taliesinNPC] @p taliesinNPCurl2"
+                        ]
                     },
                     {
                         "name": {
@@ -127,9 +129,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=oAjC8Ry3Pe8"
                     },
                     {
                         "name": {
@@ -139,9 +139,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            ""
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=03QngMoJ3pc "
                     }
                 ]
             },
@@ -244,7 +242,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=8VnNMdrF8xQ "
+                        "commands": [
+                            "dialogue open @e[tag=pcNPC] @p pcNPCurl1"
+                        ]
                     },
                     {
                         "name": {
@@ -257,6 +257,45 @@
                         "commands": [
                             "tp @p 9941 52 10217 facing 9943 52 10220"
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "pcNPCurl1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.pcNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.pcNPCurl1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.pcNPCurl1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=8VnNMdrF8xQ "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.pcNPCurl1.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=hmWzvGu3N4A "
                     }
                 ]
             },
@@ -285,7 +324,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=4MR0oEiq7pA "
+                        "commands": [
+                            "dialogue open @e[tag=wbNPC] @p wbNPCurl1"
+                        ]
                     },
                     {
                         "name": {
@@ -298,6 +339,45 @@
                         "commands": [
                             "tp @p 9954 52 10222 facing 9959 52 10224"
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "wbNPCurl1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.wbNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.wbNPCurl1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.wbNPCurl1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=4MR0oEiq7pA "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.wbNPCurl1.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Ck8mqnSioQw "
                     }
                 ]
             },
@@ -326,7 +406,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=RpqqINFdVhg "
+                        "commands": [
+                            "dialogue open @e[tag=mgNPC] @p mgNPCurl1"
+                        ]
                     },
                     {
                         "name": {
@@ -339,6 +421,45 @@
                         "commands": [
                             "tp @p 9972 52 10217 facing 9975 52 10217"
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "mgNPCurl1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mgNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mgNPCurl1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mgNPCurl1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=RpqqINFdVhg "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mgNPCurl1.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=12B2IYOJDnw"
                     }
                 ]
             },
@@ -367,7 +488,9 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=oYB2UeXA75k "
+                        "commands": [
+                            "dialogue open @e[tag=owNPC] @p owNPCurl1"
+                        ]
                     },
                     {
                         "name": {
@@ -380,6 +503,45 @@
                         "commands": [
                             "tp @p 9968 52 10204 facing 9965 52 10204"
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "owNPCurl1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.owNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.owNPCurl1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.owNPCurl1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=oYB2UeXA75k "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.owNPCurl1.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=FGxhtFeKAxA"
                     }
                 ]
             },
