@@ -108,7 +108,7 @@ export async function startFlythrough(type, actionBar) {
       break;
     }
     case "gower": {
-      let finalLocation = "run coch";
+      let finalLocation = "run conwy";
       let facingOffset = 0;
       let path = await generatePath([
         { x: 98249, y: 69, z: 100700 }, //Change the start coordinate.
@@ -128,7 +128,6 @@ export async function startFlythrough(type, actionBar) {
       break;
     }
     case "intro": {
-      
       overworld.runCommand(`title @p title blockbuilders:image_popup_0`);
       startFlythrough("snowdon", "intro.snowdon");
       let player = world.getAllPlayers()[0];
