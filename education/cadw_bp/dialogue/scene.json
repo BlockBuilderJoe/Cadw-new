@@ -355,18 +355,18 @@
                 ]
             },
             {
-                "scene_tag": "swtNPC1",
+                "scene_tag": "southNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.swtNPC"
+                            "translate": "npc.name.southtNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.swtNPC1"
+                            "translate": "npc.text.southNPC1"
                         }
                     ]
                 },
@@ -375,19 +375,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.swtNPC1.0"
+                                    "translate": "npc.button.southNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=swtNPC] @p swtNPC1url0"
+                            "dialogue open @e[tag=southNPC] @p southNPC1url0"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.swtNPC1.1"
+                                    "translate": "npc.button.southNPC1.1"
                                 }
                             ]
                         },
@@ -441,24 +441,24 @@
                 ]
             },
             {
-                "scene_tag": "ptNPC1",
+                "scene_tag": "prisonNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ptNPC"
+                            "translate": "npc.name.prisonNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ptNPC1.0"
+                            "translate": "npc.text.prisonNPC1.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.ptNPC1.1"
+                            "translate": "npc.text.prisonNPC1.1"
                         },
                         {
                             "text": "\n"
@@ -470,19 +470,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ptNPC1.0"
+                                    "translate": "npc.button.prisonNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ptNPC] @p ptNPC1url0"
+                            "dialogue open @e[tag=prisonNPC] @p prisonNPC1url0"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ptNPC1.1"
+                                    "translate": "npc.button.prisonNPC1.1"
                                 }
                             ]
                         },
@@ -708,18 +708,18 @@
                 ]
             },
             {
-                "scene_tag": "ctNPC1",
+                "scene_tag": "chapelNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ctNPC"
+                            "translate": "npc.name.chapelNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ctNPC1"
+                            "translate": "npc.text.chapelNPC1"
                         }
                     ]
                 },
@@ -728,19 +728,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC1.0"
+                                    "translate": "npc.button.chapelNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ctNPC] @p ctNPC1url0"
+                            "dialogue open @e[tag=chapelNPC] @p chapelNPC1url0"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC1.1"
+                                    "translate": "npc.button.chapelNPC1.1"
                                 }
                             ]
                         },
@@ -751,18 +751,18 @@
                 ]
             },
             {
-                "scene_tag": "ctNPC2",
+                "scene_tag": "inchapNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ctNPC"
+                            "translate": "npc.name.inchapNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ctNPC2"
+                            "translate": "npc.text.inchapNPC1"
                         }
                     ]
                 },
@@ -771,19 +771,19 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC2.0"
+                                    "translate": "npc.button.inchapNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ctNPC] @p ctNPC2url0"
+                            "dialogue open @e[tag=inchapNPC] @p inchapNPC1url0"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC2.1"
+                                    "translate": "npc.button.inchapNPC1.1"
                                 }
                             ]
                         },
@@ -1909,7 +1909,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=mmbNPC] @p mmbNPC3url0"
+                            "dialogue open @e[tag=mmbNPC] @p mmbNPC3url2"
                         ]
                     },
                     {
@@ -2369,152 +2369,6 @@
                 "buttons": []
             },
             {
-                "buttons": []
-            },
-            {
-                "buttons": []
-            },
-            {
-                "buttons": []
-            },
-            {
-                "scene_tag": "Old dialogue",
-                "buttons": []
-            },
-            {
-                "scene_tag": "taliesinendNPC2",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.taliesinendNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.taliesinendNPC2.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.1"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.2"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.3"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.4"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.5"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesinendNPC2.6"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function dragonvlion"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function masterbuilder"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.2"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function stainedgpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.3"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function queenpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.4"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "function flagpre"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesinendNPC2.5"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "tp @p 10024 43 10277 facing 10027 43 10281"
-                        ]
-                    }
-                ]
-            },
-            {
                 "scene_tag": "taliesinNPC1url0",
                 "npc_name": {
                     "rawtext": [
@@ -2872,18 +2726,18 @@
                 ]
             },
             {
-                "scene_tag": "swtNPC1url0",
+                "scene_tag": "southNPC1url0",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.swtNPC"
+                            "translate": "npc.name.southNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.swtNPC1url0"
+                            "translate": "npc.text.southNPC1url0"
                         }
                     ]
                 },
@@ -2892,7 +2746,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.swtNPC1url0.0"
+                                    "translate": "npc.button.southNPC1url0.0"
                                 }
                             ]
                         },
@@ -2902,7 +2756,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.swtNPC1url0.1"
+                                    "translate": "npc.button.southNPC1url0.1"
                                 }
                             ]
                         },
@@ -2912,12 +2766,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.swtNPC1url0.2"
+                                    "translate": "npc.button.southNPC1url0.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=swtNPC] @p swtNPC1"
+                            "dialogue open @e[tag=southNPC] @p southNPC1"
                         ]
                     }
                 ]
@@ -2974,18 +2828,18 @@
                 ]
             },
             {
-                "scene_tag": "ptNPC1url0",
+                "scene_tag": "prisonNPC1url0",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ptNPC"
+                            "translate": "npc.name.prisonNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ptNPC1url0"
+                            "translate": "npc.text.prisonNPC1url0"
                         }
                     ]
                 },
@@ -2994,7 +2848,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ptNPC1url0.0"
+                                    "translate": "npc.button.prisonNPC1url0.0"
                                 }
                             ]
                         },
@@ -3004,7 +2858,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ptNPC1url0.1"
+                                    "translate": "npc.button.prisonNPC1url0.1"
                                 }
                             ]
                         },
@@ -3014,12 +2868,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ptNPC1url0.2"
+                                    "translate": "npc.button.prisonNPC1url0.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ptNPC] @p ptNPC1"
+                            "dialogue open @e[tag=prisonNPC] @p prisonNPC1"
                         ]
                     }
                 ]
@@ -3280,18 +3134,18 @@
                 ]
             },
             {
-                "scene_tag": "ctNPC1url0",
+                "scene_tag": "chapelNPC1url0",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ctNPC"
+                            "translate": "npc.name.chapelNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ctNPC1url0"
+                            "translate": "npc.text.chapelNPC1url0"
                         }
                     ]
                 },
@@ -3300,7 +3154,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC1url0.0"
+                                    "translate": "npc.button.chapelNPC1url0.0"
                                 }
                             ]
                         },
@@ -3310,7 +3164,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC1url0.1"
+                                    "translate": "npc.button.chapelNPC1url0.1"
                                 }
                             ]
                         },
@@ -3320,29 +3174,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC1url0.2"
+                                    "translate": "npc.button.chapelNPC1url0.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ctNPC] @p ctNPC1"
+                            "dialogue open @e[tag=chapelNPC] @p chapelNPC1"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "ctNPC2url0",
+                "scene_tag": "inchapNPC1url0",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.ctNPC"
+                            "translate": "npc.name.inchapNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.ctNPC2url0"
+                            "translate": "npc.text.inchapNPC1url0"
                         }
                     ]
                 },
@@ -3351,7 +3205,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC2url0.0"
+                                    "translate": "npc.button.inchapNPC1url0.0"
                                 }
                             ]
                         },
@@ -3361,7 +3215,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC2url0.1"
+                                    "translate": "npc.button.inchapNPC1url0.1"
                                 }
                             ]
                         },
@@ -3371,12 +3225,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.ctNPC2url0.2"
+                                    "translate": "npc.button.inchapNPC1url0.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=ctNPC] @p ctNPC2"
+                            "dialogue open @e[tag=inchapNPC] @p inchapNPC1"
                         ]
                     }
                 ]
@@ -4504,6 +4358,57 @@
                 ]
             },
             {
+                "scene_tag": "dvlNPC2url5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.dvlNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.dvlNPC2url5"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.dvlNPC2url5.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=eHNU8VzL5l0"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.dvlNPC2url5.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=MUtg-AuUQn4"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.dvlNPC2url5.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=dvlNPC] @p dvlNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "mmbNPC2url0",
                 "npc_name": {
                     "rawtext": [
@@ -4606,7 +4511,7 @@
                 ]
             },
             {
-                "scene_tag": "mmbNPC3url0",
+                "scene_tag": "mmbNPC3url2",
                 "npc_name": {
                     "rawtext": [
                         {
@@ -4617,7 +4522,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.mmbNPC3url0"
+                            "translate": "npc.text.mmbNPC3url2"
                         }
                     ]
                 },
@@ -4626,7 +4531,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.mmbNPC3url0.0"
+                                    "translate": "npc.button.mmbNPC3url2.0"
                                 }
                             ]
                         },
@@ -4636,7 +4541,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.mmbNPC3url0.1"
+                                    "translate": "npc.button.mmbNPC3url2.1"
                                 }
                             ]
                         },
@@ -4646,7 +4551,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.mmbNPC3url0.2"
+                                    "translate": "npc.button.mmbNPC3url2.2"
                                 }
                             ]
                         },
