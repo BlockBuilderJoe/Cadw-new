@@ -16112,3 +16112,7 @@ npc.text.ctcNPC1=Cipiwyd Castell Conwy gan y Cymry ar Ebrill 1, 1401, yn ystod c
 npc.text.taliesinNPC1url1=Ym mha iaith yr hoffech wylio'r fideo?
 npc.button.taliesinNPC1url1.0=English
 npc.button.taliesinNPC1url1.1=Cymraeg
+npc.button.taliesinNPC1url0.2=Cefn
+npc.button.wellNPC1.1=Parhau
+npc.button.midgNPC1.1=Parhau
+npc.name.Parhau=Chwifio'r Fanner 
