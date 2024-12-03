@@ -10,7 +10,7 @@
 
 	// Any version below 1.19
 	"$is_edu": true,
-	"$enable_hearts": false,
+	"$enable_hearts": true,
 	"$enable_hunger": false,
 	"$enable_armor": false,
 	"$enable_bubbles": false,
