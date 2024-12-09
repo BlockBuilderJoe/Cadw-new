@@ -1,0 +1,420 @@
+// Generated with LibUI @hyperbeem
+// Adapted from Frozen Planet cutscenes
+{
+	// this will override the default ui for dialogs, removing the vanilla behavior.
+	"$npc.skip_button.name": "gui.skip_button",
+	"$npc.no_skip_button.name": "gui.no_skip_button",
+	
+	"$npc.loading_area_lock.name": "gui.loading_area_lock",
+	"$npc.no_loading_area_lock.name": "gui.no_loading_area_lock",
+
+	// Any version below 1.19
+	"$is_edu": true,
+	"$enable_hearts": true,
+	"$enable_hunger": false,
+	"$enable_armor": false,
+	"$enable_bubbles": false,
+	"$enable_horse_hearts": false,
+	"$enable_horse_jump": false,
+	"$enable_hotbar": true,
+	"$enable_experience_bar": false,
+	"$enable_experience_level": false,
+	"$enable_mob_icons": false,
+	"$enable_crosshair": true,
+	"$enable_item_text": true,
+	"$lvl_background": false,
+
+	// Trigger for the blockbuilders logo intro
+	"$intro.trigger": "blockbuilders:intro",
+	// Path to background image, 'empty' to ignore
+	"$intro.background_image": "empty",
+
+	// A fade to black, hold, then fade back to gameplay
+	"$fullblack_fade_in_out.name": "blockbuilders:fullblack_in_out",
+	"$fullblack_fade_in_out.trigger": "(#text = $fullblack_fade_in_out.name)",
+	"$fullblack_fade_in_out.in_dur": 1,
+	"$fullblack_fade_in_out.wait_dur": 2,
+	"$fullblack_fade_in_out.out_dur": 1,
+
+	// A fade to black, then hold
+	"$fullblack_fade_in_hold.name": "blockbuilders:fullblack_in_hold",
+	"$fullblack_fade_in_hold.trigger": "(#text = $fullblack_fade_in_hold.name)",
+	"$fullblack_fade_in_hold.in_dur": 0.35,
+
+	// An instant black, then fade out back to gameplay
+	"$fullblack_hold_out.name": "blockbuilders:fullblack_hold_out",
+	"$fullblack_hold_out.trigger": "(#text = $fullblack_hold_out.name)",
+	"$fullblack_hold_out.wait_dur": 1,
+	"$fullblack_hold_out.out_dur": 1,
+
+	// Instant cinematic bars on the top and bottom
+	"$cinematic_bars_instant.name": "blockbuilders:cinematic_bars_instant",
+	"$cinematic_bars_instant.trigger": "(#text = $cinematic_bars_instant.name)",
+
+	// Cinematic bars that fade in
+	"$cinematic_bars_fade_in.name": "blockbuilders:cinematic_bars_fade_in",
+	"$cinematic_bars_fade_in.trigger": "(#text = $cinematic_bars_fade_in.name)",
+	"$cinematic_bars_fade_in.in_dur": 1,
+
+	// Cinematic bars that fade out (instantly appear and fade out)
+	"$cinematic_bars_fade_out.name": "blockbuilders:cinematic_bars_fade_out",
+	"$cinematic_bars_fade_out.trigger": "(#text = $cinematic_bars_fade_out.name)",
+	"$cinematic_bars_fade_out.out_dur": 1,
+
+	// Cinematic bars that fade in, followed by a fullscreen fade in
+	"$cinematic_bars_fade_in_fullscreen_fade_in.name": "blockbuilders:cinematic_bars_fade_in_fullscreen_fade_in",
+	"$cinematic_bars_fade_in_fullscreen_fade_in.trigger": "(#text = $cinematic_bars_fade_in_fullscreen_fade_in.name)",
+	"$cinematic_bars_fade_in_fullscreen_fade_in.bars_in_dur": 0,
+	"$cinematic_bars_fade_in_fullscreen_fade_in.fullscreen_wait_dur": 1,
+	"$cinematic_bars_fade_in_fullscreen_fade_in.fullscreen_fade_in_dur": 1,
+
+	// Full blackout with fade out leaving cinematic bars, cinematic bars then fadeout
+	"$cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.name": "blockbuilders:cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out",
+	"$cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.trigger": "(#text = $cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.name)",
+	"$cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.bars_wait_dur": 1,
+	"$cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.bars_fade_out_dur": 1,
+	"$cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.fullscreen_fadeout_dur": 1,
+
+	// Full blackout with fade out leaving cinematic bars, leaving cinematic bars
+	"$cinematic_bars_fullscreen_instant_fullscreen_fade_out.name": "blockbuilders:cinematic_bars_fullscreen_instant_fullscreen_fade_out",
+	"$cinematic_bars_fullscreen_instant_fullscreen_fade_out.trigger": "(#text = $cinematic_bars_fullscreen_instant_fullscreen_fade_out.name)",
+	"$cinematic_bars_fullscreen_instant_fullscreen_fade_out.fullscreen_fadeout_dur": 1,
+
+	// Smoke transition that covers the screen
+	"$smoke_transition.name": "blockbuilders:smoke",
+	"$smoke_transition.trigger": "(#text = $smoke_transition.name)",
+	"$smoke_transition.move_in_dur": 2,
+	"$smoke_transition.wait_dur": 0,
+	"$smoke_transition.move_out_dur": 2,
+
+	// Trigger an image to appear on the screen, with optional fade in and background
+	"$image_popup_0.name": "blockbuilders:image_popup_0",
+	"$image_popup_0.trigger": "(#text = $image_popup_0.name)",
+	"$image_popup_0.foreground": "textures/ui/cutscenes/intro_title_0.png",
+	"$image_popup_0.background": "textures/ui/cutscenes/intro_title_1.png",
+	"$image_popup_0.static": false,
+	"$image_popup_0.fade_in_dur": 3,
+	"$image_popup_0.wait_dur": 6.0,
+	"$image_popup_0.fade_out_dur": 3,
+
+	// Trigger an image to appear on the screen, with optional fade in and background
+	"$image_popup_1.name": "blockbuilders:image_popup_1",
+	"$image_popup_1.trigger": "(#text = $image_popup_1.name)",
+	"$image_popup_1.foreground": "textures/ui/cam_overlay",
+	"$image_popup_1.background": "empty",
+	"$image_popup_1.static": true,
+	"$image_popup_1.fade_in_dur": 1,
+	"$image_popup_1.wait_dur": 1,
+	"$image_popup_1.fade_out_dur": 1,
+
+	// Trigger an image to appear on the screen, with optional fade in and background
+	"$image_popup_2.name": "blockbuilders:image_popup_2",
+	"$image_popup_2.trigger": "(#text = $image_popup_2.name)",
+	"$image_popup_2.foreground": "textures/ui/cutscenes/loading",
+	"$image_popup_2.background": "empty",
+	"$image_popup_2.static": false,
+	"$image_popup_2.fade_in_dur": 0,
+	"$image_popup_2.wait_dur": 11,
+	"$image_popup_2.fade_out_dur": 1,
+
+
+	// Trigger an image to appear on the screen, with optional fade in and background
+	"$image_popup_3.name": "blockbuilders:image_popup_3",
+	"$image_popup_3.trigger": "(#text = $image_popup_3.name)",
+	"$image_popup_3.foreground": "textures/ui/cutscenes/outro_title",
+	"$image_popup_3.background": "empty",
+	"$image_popup_3.static": false,
+	"$image_popup_3.fade_in_dur": 1,
+	"$image_popup_3.wait_dur": 999999,
+	"$image_popup_3.fade_out_dur": 1,
+
+	// Trigger an image to appear on the screen, with optional fade in and background
+	"$image_popup_4.name": "blockbuilders:image_popup_4",
+	"$image_popup_4.trigger": "(#text = $image_popup_4.name)",
+	"$image_popup_4.foreground": "empty",
+	"$image_popup_4.background": "empty",
+	"$image_popup_4.static": false,
+	"$image_popup_4.fade_in_dur": 1,
+	"$image_popup_4.wait_dur": 1,
+	"$image_popup_4.fade_out_dur": 1,
+
+
+	// Triggers the credits sequence
+	"$credits.name": "blockbuilders:credits",
+	"$credits_bars_timeline.trigger": "(#text = $credits.name)",
+	"$credits_bars_timeline.fullscreen_fade_in_dur": 0,
+	"$credits_bars_timeline.fullscreen_wait_dur": 1,
+	"$credits_bars_timeline.fullscreen_fade_out_dur": 1,
+	"$credits_bars_timeline.fullscreen_fade_in_dur2": 1,
+	"$credits_bars_timeline.fullscreen_fade_out_dur2": 1,
+
+
+	// Config for animation state 1
+	"$credits.trigger_1": "image_fade",
+	"$credits.content_1": "textures/ui/cutscenes/intro_title_0",
+	"$credits.subcontent_1": "empty",
+	"$credits.size_1": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_1_in_dur": 0,
+	"$credits.anim_1_wait_dur": 0,
+	"$credits.anim_1_out_dur": 0,
+
+	// Config for animation state 2
+	"$credits.trigger_2": "empty",
+	"$credits.content_2": "textures/ui/logo_blockbuild",
+	"$credits.subcontent_2": "empty",
+	"$credits.size_2": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_2_in_dur": 0,
+	"$credits.anim_2_wait_dur": 0,
+	"$credits.anim_2_out_dur": 0,
+
+	// Config for animation state 3
+	"$credits.trigger_3": "image_offset",
+	"$credits.content_3": "textures/ui/credits",
+	"$credits.subcontent_3": "empty",
+	"$credits.size_3": [
+		"70%",
+		"200%"
+	],
+	"$credits.anim_3_in_dur": 10,
+	"$credits.anim_3_wait_dur": 0,
+	"$credits.anim_3_out_dur": 10,
+
+	// Config for animation state 4
+	"$credits.trigger_4": "empty",
+	"$credits.content_4": "textures/ui/contact_address",
+	"$credits.subcontent_4": "empty",
+	"$credits.size_4": [
+		"90%",
+		"90%"
+	],
+	"$credits.anim_4_in_dur": 0,
+	"$credits.anim_4_wait_dur": 0,
+	"$credits.anim_4_out_dur": 0,
+
+	// Config for animation state 5
+	"$credits.trigger_5": "empty",
+	"$credits.content_5": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_5": "empty",
+	"$credits.size_5": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_5_in_dur": 0,
+	"$credits.anim_5_wait_dur": 0,
+	"$credits.anim_5_out_dur": 0,
+
+	// Config for animation state 6
+	"$credits.trigger_6": "empty",
+	"$credits.content_6": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_6": "empty",
+	"$credits.size_6": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_6_in_dur": 0,
+	"$credits.anim_6_wait_dur": 0,
+	"$credits.anim_6_out_dur": 0,
+
+	// Config for animation state 7
+	"$credits.trigger_7": "empty",
+	"$credits.content_7": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_7": "empty",
+	"$credits.size_7": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_7_in_dur": 0,
+	"$credits.anim_7_wait_dur": 0,
+	"$credits.anim_7_out_dur": 0,
+
+	// Config for animation state 8
+	"$credits.trigger_8": "empty",
+	"$credits.content_8": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_8": "empty",
+	"$credits.size_8": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_8_in_dur": 0,
+	"$credits.anim_8_wait_dur": 0,
+	"$credits.anim_8_out_dur": 0,
+
+	// Config for animation state 9
+	"$credits.trigger_9": "empty",
+	"$credits.content_9": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_9": "empty",
+	"$credits.size_9": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_9_in_dur": 0,
+	"$credits.anim_9_wait_dur": 0,
+	"$credits.anim_9_out_dur": 0,
+
+	// Config for animation state 10
+	"$credits.trigger_10": "empty",
+	"$credits.content_10": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_10": "empty",
+	"$credits.size_10": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_10_in_dur": 0,
+	"$credits.anim_10_wait_dur": 0,
+	"$credits.anim_10_out_dur": 0,
+
+	// Config for animation state 11
+	"$credits.trigger_11": "empty",
+	"$credits.content_11": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_11": "empty",
+	"$credits.size_11": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_11_in_dur": 0,
+	"$credits.anim_11_wait_dur": 0,
+	"$credits.anim_11_out_dur": 0,
+
+	// Config for animation state 12
+	"$credits.trigger_12": "empty",
+	"$credits.content_12": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_12": "empty",
+	"$credits.size_12": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_12_in_dur": 0,
+	"$credits.anim_12_wait_dur": 0,
+	"$credits.anim_12_out_dur": 0,
+
+	// Config for animation state 13
+	"$credits.trigger_13": "empty",
+	"$credits.content_13": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_13": "empty",
+	"$credits.size_13": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_13_in_dur": 0,
+	"$credits.anim_13_wait_dur": 0,
+	"$credits.anim_13_out_dur": 0,
+
+	// Config for animation state 14
+	"$credits.trigger_14": "empty",
+	"$credits.content_14": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_14": "empty",
+	"$credits.size_14": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_14_in_dur": 0,
+	"$credits.anim_14_wait_dur": 0,
+	"$credits.anim_14_out_dur": 0,
+
+	// Config for animation state 15
+	"$credits.trigger_15": "empty",
+	"$credits.content_15": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_15": "empty",
+	"$credits.size_15": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_15_in_dur": 0,
+	"$credits.anim_15_wait_dur": 0,
+	"$credits.anim_15_out_dur": 0,
+
+	// Config for animation state 16
+	"$credits.trigger_16": "empty",
+	"$credits.content_16": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_16": "empty",
+	"$credits.size_16": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_16_in_dur": 0,
+	"$credits.anim_16_wait_dur": 0,
+	"$credits.anim_16_out_dur": 0,
+
+	// Config for animation state 17
+	"$credits.trigger_17": "empty",
+	"$credits.content_17": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_17": "empty",
+	"$credits.size_17": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_17_in_dur": 0,
+	"$credits.anim_17_wait_dur": 0,
+	"$credits.anim_17_out_dur": 0,
+
+	// Config for animation state 18
+	"$credits.trigger_18": "empty",
+	"$credits.content_18": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_18": "empty",
+	"$credits.size_18": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_18_in_dur": 0,
+	"$credits.anim_18_wait_dur": 0,
+	"$credits.anim_18_out_dur": 0,
+
+	// Config for animation state 19
+	"$credits.trigger_19": "empty",
+	"$credits.content_19": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_19": "empty",
+	"$credits.size_19": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_19_in_dur": 0,
+	"$credits.anim_19_wait_dur": 0,
+	"$credits.anim_19_out_dur": 0,
+
+	// Config for animation state 20
+	"$credits.trigger_20": "empty",
+	"$credits.content_20": "textures/ui/blockbuild_logo",
+	"$credits.subcontent_20": "empty",
+	"$credits.size_20": [
+		"80%",
+		"80%"
+	],
+	"$credits.anim_20_in_dur": 0,
+	"$credits.anim_20_wait_dur": 0,
+	"$credits.anim_20_out_dur": 0,
+
+	// DO NOT EDIT PAST THIS POINT
+	"$hud_ignored_title_text": "(not (#text = $cleared.name or #text = $intro.trigger or #text = $fullblack_fade_in_out.name or #text = $fullblack_fade_in_hold.name or #text = $fullblack_hold_out.name or #text = $cinematic_bars_instant.name or #text = $cinematic_bars_fade_in.name or #text = $cinematic_bars_fade_out.name or #text = $cinematic_bars_fade_in_fullscreen_fade_in.name or #text = $cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.name or #text = $cinematic_bars_fullscreen_instant_fullscreen_fade_out.name or #text = $smoke_transition.name or #text = $image_popup_0.name or #text = $image_popup_1.name or #text = $image_popup_2.name or #text = $image_popup_3.name or #text = $image_popup_4.name or #text = $credits.name))",
+	"$npc.ignored": "(not (#dialogtext = $npc.skip_button.name or #dialogtext = $npc.no_skip_button.name or #dialogtext = $npc.loading_area_lock.name or #dialogtext = $npc.no_loading_area_lock.name))",
+	"$hud_autohide": "(not (#text = $intro.trigger or #text = $cinematic_bars_instant.name or #text = $cinematic_bars_fade_in.name or #text = $cinematic_bars_fade_out.name or #text = $cinematic_bars_fade_in_fullscreen_fade_in.name or #text = $cinematic_bars_wait_fade_out_w_fullscreen_instant_fade_out.name or #text = $cinematic_bars_fullscreen_instant_fullscreen_fade_out.name or #text = $cinematic_fade_sequence_start.name or #text = $cinematic_fade_sequence_end.name or #text = $smoke_transition.name or #text = $credits.name))",
+	// Text to display when nothing else is being rendered, use to cancel credits hiding
+	"$cleared.name": "blockbuilders:cleared",
+	"$credits_bars_timeline.bars_appear_dur": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur + $credits.anim_17_in_dur + $credits.anim_17_wait_dur + $credits.anim_17_out_dur + $credits.anim_18_in_dur + $credits.anim_18_wait_dur + $credits.anim_18_out_dur + $credits.anim_19_in_dur + $credits.anim_19_wait_dur + $credits.anim_19_out_dur + $credits.anim_20_in_dur + $credits.anim_20_wait_dur + $credits.anim_20_out_dur)",
+	"$credits.anim_1_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur)",
+	"$credits.anim_2_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur)",
+	"$credits.anim_3_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur)",
+	"$credits.anim_4_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur)",
+	"$credits.anim_5_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur)",
+	"$credits.anim_6_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur)",
+	"$credits.anim_7_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur)",
+	"$credits.anim_8_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur)",
+	"$credits.anim_9_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur)",
+	"$credits.anim_10_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur)",
+	"$credits.anim_11_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur)",
+	"$credits.anim_12_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur)",
+	"$credits.anim_13_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur)",
+	"$credits.anim_14_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur)",
+	"$credits.anim_15_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur)",
+	"$credits.anim_16_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur)",
+	"$credits.anim_17_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur)",
+	"$credits.anim_18_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur + $credits.anim_17_in_dur + $credits.anim_17_wait_dur + $credits.anim_17_out_dur)",
+	"$credits.anim_19_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur + $credits.anim_17_in_dur + $credits.anim_17_wait_dur + $credits.anim_17_out_dur + $credits.anim_18_in_dur + $credits.anim_18_wait_dur + $credits.anim_18_out_dur)",
+	"$credits.anim_20_await": "($credits_bars_timeline.fullscreen_wait_dur + $credits_bars_timeline.fullscreen_fade_out_dur + $credits_bars_timeline.fullscreen_fade_in_dur + $credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur + $credits.anim_17_in_dur + $credits.anim_17_wait_dur + $credits.anim_17_out_dur + $credits.anim_18_in_dur + $credits.anim_18_wait_dur + $credits.anim_18_out_dur + $credits.anim_19_in_dur + $credits.anim_19_wait_dur + $credits.anim_19_out_dur)",
+	"$credits.final_timings": "($credits.anim_1_in_dur + $credits.anim_1_wait_dur + $credits.anim_1_out_dur + $credits.anim_2_in_dur + $credits.anim_2_wait_dur + $credits.anim_2_out_dur + $credits.anim_3_in_dur + $credits.anim_3_wait_dur + $credits.anim_3_out_dur + $credits.anim_4_in_dur + $credits.anim_4_wait_dur + $credits.anim_4_out_dur + $credits.anim_5_in_dur + $credits.anim_5_wait_dur + $credits.anim_5_out_dur + $credits.anim_6_in_dur + $credits.anim_6_wait_dur + $credits.anim_6_out_dur + $credits.anim_7_in_dur + $credits.anim_7_wait_dur + $credits.anim_7_out_dur + $credits.anim_8_in_dur + $credits.anim_8_wait_dur + $credits.anim_8_out_dur + $credits.anim_9_in_dur + $credits.anim_9_wait_dur + $credits.anim_9_out_dur + $credits.anim_10_in_dur + $credits.anim_10_wait_dur + $credits.anim_10_out_dur + $credits.anim_11_in_dur + $credits.anim_11_wait_dur + $credits.anim_11_out_dur + $credits.anim_12_in_dur + $credits.anim_12_wait_dur + $credits.anim_12_out_dur + $credits.anim_13_in_dur + $credits.anim_13_wait_dur + $credits.anim_13_out_dur + $credits.anim_14_in_dur + $credits.anim_14_wait_dur + $credits.anim_14_out_dur + $credits.anim_15_in_dur + $credits.anim_15_wait_dur + $credits.anim_15_out_dur + $credits.anim_16_in_dur + $credits.anim_16_wait_dur + $credits.anim_16_out_dur + $credits.anim_17_in_dur + $credits.anim_17_wait_dur + $credits.anim_17_out_dur + $credits.anim_18_in_dur + $credits.anim_18_wait_dur + $credits.anim_18_out_dur + $credits.anim_19_in_dur + $credits.anim_19_wait_dur + $credits.anim_19_out_dur + $credits.anim_20_in_dur + $credits.anim_20_wait_dur + $credits.anim_20_out_dur)"
+}
