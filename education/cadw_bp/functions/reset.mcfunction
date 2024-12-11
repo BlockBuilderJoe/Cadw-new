@@ -8,7 +8,6 @@ tag @p remove buildChallenge
 #Adds in barrier blocks above the 2 chests so the player can't open them until they finish the tour
 setblock 10150 45 10206 minecraft:barrier
 
-remove @e[type=agent]
 gamemode adventure @p
 effect @p clear
 function giveItems

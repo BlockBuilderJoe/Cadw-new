@@ -1,6 +1,6 @@
 
 
-intro.snowdon=Snowdon
+intro.snowdon=Yr Wyddfa
 intro.bala=Bala Lake
 intro.conwy=Castell Conwy
 intro.coch=Castell Coch
@@ -712,3 +712,5 @@ npc.text.mmbstartNPC3url2=What language would you like to view the video in?
 npc.button.mmbstartNPC3url2.0=English
 npc.button.mmbstartNPC3url2.1=Cymraeg
 npc.button.mmbstartNPC3url2.2=Back
+npc.name.mmbNPCstart=Master Medieval Builder
+npc.name.mmbNPCstart=Master Medieval Builder
