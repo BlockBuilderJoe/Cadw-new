@@ -31,6 +31,9 @@ cw.placename.eastbarbican=East Barbican
 cw.placename.wallwalk=Wall Walk
 cw.placename.townwall=Town Wall
 
+sign.1=Press the button to go to Castell Conwy
+sign.2=Exhibition area under construction
+
 ui.compass.title=Compass Teleport
 ui.compass.body=Where would you like to go?
 ui.compass.button.stay=Stay Here

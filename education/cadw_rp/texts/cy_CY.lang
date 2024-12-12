@@ -31,6 +31,9 @@ cw.placename.eastbarbican=Barbican y Dwyrain
 cw.placename.wallwalk=Taith Wal
 cw.placename.townwall=Wal y Dreg
 
+sign.1=Pwyswch y botwm i fynd i Castell Conwy
+sign.2=Ardal arddangos ar y gweill
+
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
 ui.compass.button.stay=Aros yma
