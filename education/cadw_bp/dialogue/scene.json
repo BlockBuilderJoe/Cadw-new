@@ -1888,7 +1888,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.mmbNPC"
+                            "translate": "npc.name.mmbNPCstart"
                         }
                     ]
                 },
@@ -1909,7 +1909,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=mmbNPC] @p mmbNPC3url2"
+                            "dialogue open @e[tag=mmbNPCstart] @p mmbNPC3url2"
                         ]
                     },
                     {
@@ -4515,7 +4515,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.mmbNPC"
+                            "translate": "npc.name.mmbNPCstart"
                         }
                     ]
                 },
@@ -4556,7 +4556,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=mmbNPC] @p mmbNPC3"
+                            "dialogue open @e[tag=mmbNPCstart] @p mmbNPC3"
                         ]
                     }
                 ]
