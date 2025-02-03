@@ -78,3 +78,7 @@
 [12:44:06] [Server thread/INFO]: [BlockB109: Saved the game]
 [12:45:16] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-all
 [12:45:16] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
+[12:47:06] [Server thread/INFO]: BlockB109 lost connection: You have been idle for too long!
+[12:47:06] [Server thread/INFO]: BlockB109 left the game
+[12:48:17] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
+[12:48:17] [Server thread/INFO]: BlockBuilderJoe left the game
