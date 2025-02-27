@@ -1,33 +1,31 @@
-[13:18:02] [User Authenticator #47/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[13:18:02] [Server thread/INFO]: alex86465 joined the game
-[13:18:02] [Server thread/INFO]: alex86465[/10.147.17.188:53564] logged in with entity id 47042 at ([PHASE3]9977.226855232831, -0.5, 20088.74439204639)
-[13:24:26] [Server thread/INFO]: alex86465 issued server command: //stack 20
-[13:24:31] [Server thread/INFO]: alex86465 issued server command: //stack 30
-[13:24:35] [Server thread/INFO]: alex86465 issued server command: //stack 31
-[13:24:38] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:25:44] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:25:49] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:25:53] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:26:53] [Server thread/INFO]: alex86465 issued server command: //pos2
-[13:26:55] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:26:59] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:28:30] [Server thread/INFO]: alex86465 issued server command: //stack 25
-[13:28:37] [Server thread/INFO]: alex86465 issued server command: //stack 29
-[13:29:28] [Server thread/INFO]: alex86465 issued server command: //stack 29
-[13:30:02] [Server thread/INFO]: alex86465 issued server command: /effect give alex86465 minecraft:night_vision infinite
-[13:30:02] [Server thread/INFO]: [alex86465: Applied effect Night Vision to alex86465]
-[13:30:22] [Server thread/INFO]: alex86465 issued server command: //stack 29
-[13:38:10] [Server thread/INFO]: alex86465 issued server command: //set air
-[13:39:55] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:40:00] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:40:07] [Server thread/INFO]: alex86465 issued server command: //undo
-[13:40:48] [Server thread/INFO]: alex86465 issued server command: //copy
-[13:40:51] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:40:55] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:40:57] [Server thread/INFO]: alex86465 issued server command: //paste
-[13:54:55] [Server thread/INFO]: alex86465 issued server command: /clear
-[13:54:55] [Server thread/INFO]: [alex86465: Removed 28 item(s) from player alex86465]
-[14:01:55] [Server thread/INFO]: alex86465 issued server command: /clear
-[14:01:55] [Server thread/INFO]: [alex86465: Removed 271 item(s) from player alex86465]
-[14:06:04] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[14:06:04] [Server thread/INFO]: alex86465 left the game
+[19:00:06] [User Authenticator #48/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[19:00:06] [Server thread/INFO]: alex86465 joined the game
+[19:00:06] [Server thread/INFO]: alex86465[/10.147.17.188:54362] logged in with entity id 47063 at ([PHASE3]9975.300000011921, 1.99390748022948, 20104.830543500844)
+[19:05:53] [Server thread/INFO]: alex86465 issued server command: /clear
+[19:05:53] [Server thread/INFO]: [alex86465: Removed 10 item(s) from player alex86465]
+[19:05:56] [Server thread/INFO]: alex86465 issued server command: //wand
+[19:06:05] [Server thread/INFO]: alex86465 issued server command: //copy
+[19:06:10] [Server thread/INFO]: alex86465 issued server command: //paste
+[19:18:15] [Server thread/INFO]: alex86465 issued server command: //brush sphere air 4
+[19:18:20] [Server thread/INFO]: alex86465 issued server command: /mask bricks
+[19:18:48] [Server thread/INFO]: alex86465 issued server command: //set air
+[19:20:03] [Server thread/INFO]: alex86465 issued server command: //stack 10
+[19:20:10] [Server thread/INFO]: alex86465 issued server command: //stack 14
+[19:22:14] [Server thread/INFO]: alex86465 issued server command: //stack 9
+[19:22:18] [Server thread/INFO]: alex86465 issued server command: //undo
+[19:22:20] [Server thread/INFO]: alex86465 issued server command: //stack 7
+[19:22:26] [Server thread/INFO]: alex86465 issued server command: //stack 8
+[19:23:06] [Server thread/INFO]: alex86465 issued server command: //set polished_andesite
+[19:24:30] [Server thread/INFO]: alex86465 issued server command: //set air
+[19:24:46] [Server thread/INFO]: alex86465 issued server command: //copy
+[19:24:48] [Server thread/INFO]: alex86465 issued server command: //paste
+[19:26:06] [Server thread/INFO]: alex86465 issued server command: //stack 6
+[19:26:09] [Server thread/INFO]: alex86465 issued server command: //stack 8
+[19:33:06] [Server thread/INFO]: alex86465 issued server command: //stack 5
+[19:33:10] [Server thread/INFO]: alex86465 issued server command: //stack 7
+[19:39:10] [Server thread/INFO]: alex86465 issued server command: //copy
+[19:39:18] [Server thread/INFO]: alex86465 issued server command: //paste
+[19:42:19] [Server thread/INFO]: alex86465 issued server command: //replace black_terracotta smooth_quartz
+[19:42:30] [Server thread/INFO]: alex86465 issued server command: //replace black_terracotta smooth_quartz
+[19:54:46] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[19:54:46] [Server thread/INFO]: alex86465 left the game
