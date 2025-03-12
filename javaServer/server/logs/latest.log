@@ -1,91 +1,23 @@
-[11:29:46] [User Authenticator #120/INFO]: UUID of player BlockB109 is 1bc870ff-f7cc-4591-8c20-7a40182d928f
-[11:29:46] [Server thread/INFO]: BlockB109 joined the game
-[11:29:46] [Server thread/INFO]: BlockB109[/10.147.17.92:50897] logged in with entity id 2260 at ([releaseV2]69340.21655428938, -62.9375, 69533.66386771489)
-[11:33:48] [Server thread/INFO]: BlockB109 lost connection: You have been idle for too long!
-[11:33:48] [Server thread/INFO]: BlockB109 left the game
-[12:15:40] [User Authenticator #121/INFO]: UUID of player BlockB109 is 1bc870ff-f7cc-4591-8c20-7a40182d928f
-[12:15:40] [Server thread/INFO]: BlockB109 joined the game
-[12:15:40] [Server thread/INFO]: BlockB109[/10.147.17.92:51563] logged in with entity id 2337 at ([releaseV2]69321.4104817133, -57.60348632275966, 69468.99796682633)
-[12:16:30] [Server thread/INFO]: BlockB109 issued server command: //copy
-[12:16:39] [Server thread/INFO]: BlockB109 issued server command: //paste
-[12:29:58] [User Authenticator #122/INFO]: UUID of player BlockBuilderJoe is 2c69d517-f2d1-4f9c-a21f-de06c6b461fe
-[12:29:58] [Server thread/INFO]: BlockBuilderJoe joined the game
-[12:29:58] [Server thread/INFO]: BlockBuilderJoe[/10.147.17.117:58507] logged in with entity id 2414 at ([releaseV2]69355.30000001192, -29.948929037908023, 69508.02118182047)
-[12:30:06] [Server thread/INFO]: BlockBuilderJoe issued server command: /tp BlockB109
-[12:30:06] [Server thread/INFO]: [BlockBuilderJoe: Teleported BlockBuilderJoe to BlockB109]
-[12:30:06] [Server thread/WARN]: BlockBuilderJoe moved too quickly! -36.55479868873954,-23.92120888418803,-35.77737401124614
-[12:30:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[12:30:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[12:31:08] [Server thread/INFO]: BlockB109 issued server command: //set air
-[12:31:53] [Server thread/INFO]: BlockB109 issued server command: //set air
-[12:32:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:33:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:33:32] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:33:39] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[12:33:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[12:33:58] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[12:35:01] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:35:08] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:35:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //pate
-[12:35:28] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[12:35:35] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:35:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:35:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //set glass air
-[12:35:52] [Server thread/INFO]: BlockBuilderJoe issued server command: //set glass 0
-[12:36:03] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace glass air
-[12:36:08] [Server thread/INFO]: BlockB109 issued server command: //pos1
-[12:36:18] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace green_glass air
-[12:36:22] [Server thread/INFO]: BlockB109 issued server command: //pos2
-[12:36:28] [Server thread/INFO]: BlockB109 issued server command: //copy
-[12:36:51] [Server thread/INFO]: BlockB109 issued server command: /tp BlockBuilderJoe
-[12:36:51] [Server thread/INFO]: [BlockB109: Teleported BlockB109 to BlockBuilderJoe]
-[12:37:01] [Server thread/INFO]: BlockB109 issued server command: //paste
-[12:37:21] [Server thread/INFO]: BlockB109 issued server command: //set 0
-[12:37:25] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:37:29] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:37:29] [Server thread/INFO]: BlockB109 issued server command: //pos2
-[12:37:31] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[12:37:31] [Server thread/INFO]: BlockB109 issued server command: //set air
-[12:37:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[12:37:40] [Server thread/INFO]: BlockB109 issued server command: //pos2
-[12:37:41] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:37:45] [Server thread/INFO]: BlockB109 issued server command: //set air
-[12:37:46] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:37:49] [Server thread/INFO]: BlockBuilderJoe issued server command: //set 0
-[12:38:05] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:38:09] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:38:13] [Server thread/INFO]: BlockBuilderJoe issued server command: //replace air
-[12:38:42] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos1
-[12:38:48] [Server thread/INFO]: BlockBuilderJoe issued server command: //pos2
-[12:38:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //copy
-[12:39:24] [Server thread/INFO]: BlockB109 issued server command: //pos1
-[12:39:37] [Server thread/INFO]: BlockBuilderJoe issued server command: //paste
-[12:39:39] [Server thread/INFO]: BlockB109 issued server command: //pos2
-[12:39:45] [Server thread/INFO]: BlockB109 issued server command: //copy
-[12:39:59] [Server thread/INFO]: BlockBuilderJoe issued server command: //undo
-[12:40:15] [Server thread/INFO]: BlockB109 issued server command: //paste
-[12:40:27] [Server thread/INFO]: BlockB109 issued server command: //set 0
-[12:40:39] [Server thread/INFO]: BlockB109 issued server command: //set air
-[12:41:40] [Server thread/INFO]: BlockB109 issued server command: //pos1
-[12:41:57] [Server thread/INFO]: BlockB109 issued server command: //pos2
-[12:42:06] [Server thread/INFO]: BlockB109 issued server command: //copy
-[12:42:31] [Server thread/INFO]: BlockB109 issued server command: //paste
-[12:42:44] [Server thread/INFO]: BlockB109 issued server command: //set 0
-[12:42:54] [Server thread/INFO]: BlockB109 issued server command: //set 0
-[12:43:00] [Server thread/INFO]: BlockB109 issued server command: //pos1
-[12:43:07] [Server thread/INFO]: BlockB109 issued server command: //set 0
-[12:44:06] [Server thread/INFO]: BlockB109 issued server command: /save-all
-[12:44:06] [Server thread/INFO]: [BlockB109: Saved the game]
-[12:45:16] [Server thread/INFO]: BlockBuilderJoe issued server command: /save-all
-[12:45:16] [Server thread/INFO]: [BlockBuilderJoe: Saved the game]
-[12:47:06] [Server thread/INFO]: BlockB109 lost connection: You have been idle for too long!
-[12:47:06] [Server thread/INFO]: BlockB109 left the game
-[12:48:17] [Server thread/INFO]: BlockBuilderJoe lost connection: You have been idle for too long!
-[12:48:17] [Server thread/INFO]: BlockBuilderJoe left the game
-[12:56:44] [User Authenticator #123/INFO]: UUID of player BlockB109 is 1bc870ff-f7cc-4591-8c20-7a40182d928f
-[12:56:44] [Server thread/INFO]: BlockB109 joined the game
-[12:56:44] [Server thread/INFO]: BlockB109[/10.147.17.92:52615] logged in with entity id 2420 at ([releaseV2]69359.7953745625, -25.837394656331057, 69371.83177323628)
-[13:24:18] [Server thread/INFO]: BlockB109 issued server command: /save-all
-[13:24:18] [Server thread/INFO]: [BlockB109: Saved the game]
-[13:24:38] [Server thread/INFO]: BlockB109 lost connection: Disconnected
-[13:24:38] [Server thread/INFO]: BlockB109 left the game
+[16:47:24] [User Authenticator #166/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[16:47:24] [Server thread/INFO]: alex86465 joined the game
+[16:47:24] [Server thread/INFO]: alex86465[/10.147.17.188:59801] logged in with entity id 4504 at ([releaseV2]80099.88526802583, -25.0, 79949.10851771134)
+[16:47:59] [Server thread/INFO]: alex86465 issued server command: /tp ~ ~ ~
+[16:47:59] [Server thread/INFO]: [alex86465: Teleported alex86465 to 80060.639583, -27.000000, 79951.354142]
+[16:48:01] [Server thread/INFO]: alex86465 issued server command: /tp ~ ~ ~
+[16:48:01] [Server thread/INFO]: [alex86465: Teleported alex86465 to 80060.639583, -27.000000, 79951.354142]
+[16:48:05] [Server thread/INFO]: alex86465 issued server command: /tp 40100 42 40017
+[16:48:05] [Server thread/INFO]: [alex86465: Teleported alex86465 to 40100.500000, 42.000000, 40017.500000]
+[16:48:28] [Server thread/INFO]: alex86465 issued server command: /tp 79933 -38 80029
+[16:48:28] [Server thread/INFO]: [alex86465: Teleported alex86465 to 79933.500000, -38.000000, 80029.500000]
+[16:48:28] [Server thread/WARN]: alex86465 moved too quickly! 39818.136679266856,-95.75126767342064,39962.1199650372
+[16:48:34] [Server thread/INFO]: alex86465 issued server command: /gamemode spectator
+[16:48:34] [Server thread/INFO]: [alex86465: Set own game mode to Spectator Mode]
+[16:48:51] [Server thread/INFO]: alex86465 issued server command: /gamemode creative
+[16:48:51] [Server thread/INFO]: [alex86465: Set own game mode to Creative Mode]
+[16:49:21] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[16:49:21] [Server thread/INFO]: alex86465 left the game
+[16:50:09] [User Authenticator #167/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[16:50:09] [Server thread/INFO]: alex86465 joined the game
+[16:50:09] [Server thread/INFO]: alex86465[/10.147.17.188:59831] logged in with entity id 4617 at ([releaseV2]80070.93162786882, 11.50566060211779, 79960.31147189817)
+[16:52:30] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[16:52:30] [Server thread/INFO]: alex86465 left the game

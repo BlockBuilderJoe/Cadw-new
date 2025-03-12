@@ -1,21 +1,12 @@
-[12:26:16] [User Authenticator #27/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[12:26:17] [Server thread/INFO]: alex86465 joined the game
-[12:26:17] [Server thread/INFO]: alex86465[/10.147.17.188:56793] logged in with entity id 44946 at ([PHASE3]9882.735388501345, 31.0, 10034.304953348113)
-[12:29:21] [Server thread/INFO]: alex86465 issued server command: /effect clear
-[12:29:21] [Server thread/INFO]: [alex86465: Removed every effect from alex86465]
-[12:30:53] [Server thread/INFO]: alex86465 issued server command: //stack 2 down
-[12:31:07] [Server thread/INFO]: alex86465 issued server command: //set grass_block
-[12:31:20] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:31:42] [Server thread/INFO]: alex86465 issued server command: //set air
-[12:42:13] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:42:19] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:42:49] [Server thread/INFO]: alex86465 issued server command: //replace stone_bricks 70%stone_bricks,20%mossy_stone_bricks,10%cracked_stone_bricks
-[12:43:12] [Server thread/INFO]: alex86465 issued server command: //replace cobblestone 70%cobblestone,20%andesite,10%gravel
-[12:43:24] [Server thread/INFO]: alex86465 issued server command: //pos1
-[12:43:41] [Server thread/INFO]: alex86465 issued server command: //pos2
-[12:43:44] [Server thread/INFO]: alex86465 issued server command: //replace cobblestone 70%cobblestone,20%andesite,10%gravel
-[12:43:48] [Server thread/INFO]: alex86465 issued server command: //replace stone_bricks 70%stone_bricks,20%mossy_stone_bricks,10%cracked_stone_bricks
-[12:50:08] [Server thread/INFO]: alex86465 issued server command: //brush cyl 30%grass_block,70%mossy_cobblestone
-[12:51:09] [Server thread/INFO]: alex86465 issued server command: //undo
-[12:52:31] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[12:52:31] [Server thread/INFO]: alex86465 left the game
+[16:49:29] [User Authenticator #5/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[16:49:29] [Server thread/INFO]: alex86465 joined the game
+[16:49:29] [Server thread/INFO]: alex86465[/10.147.17.188:59820] logged in with entity id 212 at ([PHASE3]9946.55325392563, 0.0, 20104.316096189024)
+[16:49:33] [Server thread/INFO]: alex86465 issued server command: /tp ~ ~ ~
+[16:49:33] [Server thread/INFO]: [alex86465: Teleported alex86465 to 9946.553254, 0.000000, 20104.316096]
+[16:49:36] [Server thread/INFO]: alex86465 issued server command: /tp 40100 42 40017
+[16:49:36] [Server thread/INFO]: [alex86465: Teleported alex86465 to 40100.500000, 42.000000, 40017.500000]
+[16:49:36] [Server thread/WARN]: alex86465 moved too quickly! 30153.94674607437,42.0,19913.183903810976
+[16:49:54] [Server thread/INFO]: alex86465 issued server command: /tp 9950 10 20100
+[16:49:54] [Server thread/INFO]: [alex86465: Teleported alex86465 to 9950.500000, 10.000000, 20100.500000]
+[16:50:01] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[16:50:01] [Server thread/INFO]: alex86465 left the game
