@@ -107,6 +107,8 @@ cw.npc.name.lobby=Croeso
 cw.npc.text.lobby=Croeso i'r lobi, cliciwch ar y map o Gymru i archwilio ein safleoedd!
 cw.npc.button.one.lobby=Diolch!
 
+
+
 cw.npc.text.easel=Cliciwch ar y botwm gyda'r lleoliad rydych chi am ei archwilio!
 cw.npc.button.one.coch=Castell Coch
 cw.npc.button.two.tre=Tretŵr
@@ -15674,6 +15676,16 @@ npc.text.taliesinNPC1=Mynyddoedd uchel, llynnoedd, arfordiroedd a chestyll. Gwla
 npc.button.taliesinNPC1.0=Darganfyddwch Mwy 
 npc.button.taliesinNPC1.1=GaleriCadwCymru
 npc.button.taliesinNPC1.2=Ymweld â' Galeri 
+
+npc.name.tretowerNPC=Tretower
+npc.text.tretowerNPC1=Nawr gallwch fynd i Dretower. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
+npc.button.tretowerNPC1.0=Mynd
+npc.button.tretowerNPC1.1=Aros
+npc.name.tretowerwelcNPC=Tretower
+npc.text.tretowerwelcNPC1=Croeso i Tretower, cyn bo hir bydd gennym lawer o adnoddau i'ch helpu i ddysgu popeth am y safle anhygoel hwn. Ar hyn o bryd gallwch archwilio'r ardal!
+npc.button.tretowerwelcNPC1.0=Diolch
+npc.button.tretowerwelcNPC1.1=Galeri
+
 npc.name.welcomeNPC=Croeso
 npc.text.welcomeNPC1=Croeso, fforiwr chwilfrydig, i'ch taith rithwir o amgylch Castell Conwy! Dewch i gychwyn ar antur sy'n llawn rhyfeddodau a chyffro. Felly, paciwch eich dychymyg, a gadewch i ni fynd ar daith fythgofiadwy! Cerddwch heibio'r Porth Allanol ac i fyny'r ramp neu gliciwch ar y botwm 'Porthcwlis' isod i gael eich telegludo yno.
 npc.button.welcomeNPC1.0=Porthcwlis
@@ -16163,3 +16175,7 @@ npc.text.mmbstartNPC3url2=Ym mha iaith yr hoffech wylio'r fideo?
 npc.button.mmbstartNPC3url2.0=English
 npc.name.mmbNPCstart=Dod yn Feistr Adeiladwr Canoloesol   
 npc.name.mmbNPCstart=Dod yn Feistr Adeiladwr Canoloesol   
+npc.name.tretowerNPC=Tretower
+npc.text.tretowerNPC1=Nawr gallwch fynd i Dretower. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
+npc.button.tretowerNPC1.0=Mynd
+npc.button.tretowerNPC1.1=Aros

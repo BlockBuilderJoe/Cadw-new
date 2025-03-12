@@ -97,6 +97,92 @@
                 ]
             },
             {
+                "scene_tag": "tretowerNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tretowerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tretowerNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tretowerNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -20101 3 -19599 facing -20096 3 -19601"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tretowerNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tretowerwelcNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tretowerwelcNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tretowerwelcNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tretowerwelcNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tretowerwelcNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "welcomeNPC1",
                 "npc_name": {
                     "rawtext": [
@@ -2317,9 +2403,6 @@
                         },
                         {
                             "translate": "npc.text.compassNPC1.6"
-                        },
-                        {
-                            "text": "\n"
                         },
                         {
                             "text": "\n"
