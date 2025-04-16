@@ -1,23 +1,5 @@
-[16:47:24] [User Authenticator #166/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[16:47:24] [Server thread/INFO]: alex86465 joined the game
-[16:47:24] [Server thread/INFO]: alex86465[/10.147.17.188:59801] logged in with entity id 4504 at ([releaseV2]80099.88526802583, -25.0, 79949.10851771134)
-[16:47:59] [Server thread/INFO]: alex86465 issued server command: /tp ~ ~ ~
-[16:47:59] [Server thread/INFO]: [alex86465: Teleported alex86465 to 80060.639583, -27.000000, 79951.354142]
-[16:48:01] [Server thread/INFO]: alex86465 issued server command: /tp ~ ~ ~
-[16:48:01] [Server thread/INFO]: [alex86465: Teleported alex86465 to 80060.639583, -27.000000, 79951.354142]
-[16:48:05] [Server thread/INFO]: alex86465 issued server command: /tp 40100 42 40017
-[16:48:05] [Server thread/INFO]: [alex86465: Teleported alex86465 to 40100.500000, 42.000000, 40017.500000]
-[16:48:28] [Server thread/INFO]: alex86465 issued server command: /tp 79933 -38 80029
-[16:48:28] [Server thread/INFO]: [alex86465: Teleported alex86465 to 79933.500000, -38.000000, 80029.500000]
-[16:48:28] [Server thread/WARN]: alex86465 moved too quickly! 39818.136679266856,-95.75126767342064,39962.1199650372
-[16:48:34] [Server thread/INFO]: alex86465 issued server command: /gamemode spectator
-[16:48:34] [Server thread/INFO]: [alex86465: Set own game mode to Spectator Mode]
-[16:48:51] [Server thread/INFO]: alex86465 issued server command: /gamemode creative
-[16:48:51] [Server thread/INFO]: [alex86465: Set own game mode to Creative Mode]
-[16:49:21] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[16:49:21] [Server thread/INFO]: alex86465 left the game
-[16:50:09] [User Authenticator #167/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
-[16:50:09] [Server thread/INFO]: alex86465 joined the game
-[16:50:09] [Server thread/INFO]: alex86465[/10.147.17.188:59831] logged in with entity id 4617 at ([releaseV2]80070.93162786882, 11.50566060211779, 79960.31147189817)
-[16:52:30] [Server thread/INFO]: alex86465 lost connection: Disconnected
-[16:52:30] [Server thread/INFO]: alex86465 left the game
+[15:04:54] [User Authenticator #175/INFO]: UUID of player alex86465 is 1682055d-59f7-48a4-8d0e-efa86179f777
+[15:04:54] [Server thread/INFO]: alex86465 joined the game
+[15:04:54] [Server thread/INFO]: alex86465[/10.147.17.188:54393] logged in with entity id 4922 at ([releaseV2]79942.34, -31.0, 79976.28)
+[15:05:11] [Server thread/INFO]: alex86465 lost connection: Disconnected
+[15:05:11] [Server thread/INFO]: alex86465 left the game
