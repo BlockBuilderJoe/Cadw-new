@@ -5141,6 +5141,698 @@
             {
                 "scene_tag": "TRETOWER",
                 "buttons": []
+            },
+            {
+                "scene_tag": "CUSTODIAN NPCS",
+                "buttons": []
+            },
+            {
+                "scene_tag": "twelcomeNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.twelcomeNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.twelcomeNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.twelcomeNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=AG-loweVoZI"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.twelcomeNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.twelcomeNPC1.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "courtNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.courtNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.courtNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=courtNPC] @p courtNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "courtNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.courtNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.courtNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=RSBec2uBc_8"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=courtNPC] @p courtNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "courtNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.courtNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.courtNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC3.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=greenNPC] @p greenNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=MZqA0l3JQNs"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=greenNPC] @p greenNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=greenNPC] @p greenNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC4.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=_GCZarHAH0E"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC4.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=greenNPC] @p greenNPC5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC5.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.greenNPC5.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.greenNPC5.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC5.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=greenNPC] @p greenNPC6"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "greenNPC6",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.greenNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.greenNPC6"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC6.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC6.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "buttons": []
+            },
+            {
+                "scene_tag": "QUEST NPCS",
+                "buttons": []
+            },
+            {
+                "scene_tag": "taliesintNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.taliesintNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC2"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=0YR-TPb7WeY "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC5"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC5.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC6"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC6",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC6"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC6.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             }
         ]
     }
