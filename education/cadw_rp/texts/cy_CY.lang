@@ -15681,8 +15681,19 @@ npc.name.tretowerNPC=Tretower
 npc.text.tretowerNPC1=Nawr gallwch fynd i Dretower. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
 npc.button.tretowerNPC1.0=Mynd
 npc.button.tretowerNPC1.1=Aros
+
 npc.name.tretowerwelcNPC=Tretower
 npc.text.tretowerwelcNPC1=Croeso i Tretower, cyn bo hir bydd gennym lawer o adnoddau i'ch helpu i ddysgu popeth am y safle anhygoel hwn. Ar hyn o bryd gallwch archwilio'r ardal!
+npc.button.tretowerwelcNPC1.0=Diolch
+npc.button.tretowerwelcNPC1.1=Galeri
+
+npc.name.davidsNPC=St. Davids
+npc.text.davidsNPC1=Nawr gallwch fynd i St. Davids. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
+npc.button.tretowerNPC1.0=Mynd
+npc.button.tretowerNPC1.1=Aros
+
+npc.name.davidswelcNPC=St. Davids
+npc.text.davidswelcNPC1=Croeso i St. Davids, cyn bo hir bydd gennym lawer o adnoddau i'ch helpu i ddysgu popeth am y safle anhygoel hwn. Ar hyn o bryd gallwch archwilio'r ardal!
 npc.button.tretowerwelcNPC1.0=Diolch
 npc.button.tretowerwelcNPC1.1=Galeri
 
@@ -16179,3 +16190,11 @@ npc.name.tretowerNPC=Tretower
 npc.text.tretowerNPC1=Nawr gallwch fynd i Dretower. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
 npc.button.tretowerNPC1.0=Mynd
 npc.button.tretowerNPC1.1=Aros
+npc.name.davidsNPC=St. Davids
+npc.text.davidsNPC1=Nawr gallwch fynd i St. Davids. Bydd adnoddau ar gyfer y wefan hon yn dod yn fuan, ond am y tro gallwch archwilio'r wefan, pwyswch y botwm i fynd yno.
+npc.button.davidsNPC1.0=Mynd
+npc.button.davidsNPC1.1=Aros
+npc.name.davidswelcNPC=St. Davids
+npc.text.davidswelcNPC1=Croeso i St. Davids, cyn bo hir bydd gennym lawer o adnoddau i'ch helpu i ddysgu popeth am y safle anhygoel hwn. Ar hyn o bryd gallwch archwilio'r ardal!
+npc.button.davidswelcNPC1.0=Diolch
+npc.button.davidswelcNPC1.1=Galari

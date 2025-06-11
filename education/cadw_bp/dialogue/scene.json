@@ -183,6 +183,92 @@
                 ]
             },
             {
+                "scene_tag": "davidsNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.davidsNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.davidsNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.davidsNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -40303 -16 -40004 facing -40310 -14 -39999"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.davidsNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "davidswelcNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.davidswelcNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.davidswelcNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.davidswelcNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.davidswelcNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "welcomeNPC1",
                 "npc_name": {
                     "rawtext": [
@@ -5051,6 +5137,10 @@
                         ]
                     }
                 ]
+            },
+            {
+                "scene_tag": "TRETOWER",
+                "buttons": []
             }
         ]
     }
