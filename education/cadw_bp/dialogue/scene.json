@@ -122,7 +122,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20101 3 -19599 facing -20096 3 -19601"
+                            "tp @p -20093 2 -19578 facing -20093 2 -19582"
                         ]
                     },
                     {
@@ -135,49 +135,6 @@
                         },
                         "commands": [
                             ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "tretowerwelcNPC1",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.tretowerwelcNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.tretowerwelcNPC1"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.tretowerwelcNPC1.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.tretowerwelcNPC1.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
                         ]
                     }
                 ]
@@ -5139,12 +5096,58 @@
                 ]
             },
             {
+                "buttons": []
+            },
+            {
                 "scene_tag": "TRETOWER",
                 "buttons": []
             },
             {
                 "scene_tag": "CUSTODIAN NPCS",
                 "buttons": []
+            },
+            {
+                "scene_tag": "gototreNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.gototreNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.gototreNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gototreNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -20093 2 -19578 facing -20093 2 -19582"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gototreNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             },
             {
                 "scene_tag": "twelcomeNPC1",
@@ -5530,7 +5533,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -19889 8 -20021 facing -19888 8 -20026"
                         ]
                     },
                     {
@@ -6017,7 +6020,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20172 2 -19616 facing -20170 2 -19613"
                         ]
                     },
                     {
