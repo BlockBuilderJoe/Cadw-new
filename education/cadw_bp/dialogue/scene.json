@@ -5185,7 +5185,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20092 2 -19608 facing -20092 2 -19612"
                         ]
                     },
                     {
@@ -5224,6 +5224,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.courtNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=RSBec2uBc_8"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtNPC1.1"
                                 }
                             ]
                         },
@@ -5300,19 +5310,7 @@
                             ]
                         },
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.courtNPC3.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "tp @p -20030 1 -19924 facing -20028 1 -19928"
                         ]
                     }
                 ]
@@ -5339,6 +5337,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.greenNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=MZqA0l3JQNs"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC1.1"
                                 }
                             ]
                         },
@@ -5411,6 +5419,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.greenNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=_GCZarHAH0E"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greenNPC3.1"
                                 }
                             ]
                         },
@@ -5535,18 +5553,6 @@
                         "commands": [
                             "tp @p -19889 8 -20021 facing -19888 8 -20026"
                         ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.greenNPC6.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
-                        ]
                     }
                 ]
             },
@@ -5572,6 +5578,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.drawNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=4nWqQyVRw7g"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.drawNPC1.1"
                                 }
                             ]
                         },
@@ -5644,6 +5660,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.drawNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=PJ6or0cxxAU"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.drawNPC3.1"
                                 }
                             ]
                         },
@@ -5730,7 +5756,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -19866 15 -20065 facing -19869 15 -20067"
                         ]
                     },
                     {
@@ -5769,6 +5795,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.greatNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=5Zv45MzO3TY"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greatNPC1.1"
                                 }
                             ]
                         },
@@ -5875,6 +5911,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=fpuETleoJI4"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greatNPC4.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=greatNPC] @p greatNPC5"
                         ]
@@ -5944,6 +5990,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.greatNPC6.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=egKP0h-Po4Y"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.greatNPC6.1"
                                 }
                             ]
                         },
@@ -6020,19 +6076,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20172 2 -19616 facing -20170 2 -19613"
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.greatNPC8.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "tp @p -20163 2 -19601 facing -20158 2 -19601"
                         ]
                     }
                 ]
@@ -6059,6 +6103,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.gardenNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=a3XAzECAvaA"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gardenNPC1.1"
                                 }
                             ]
                         },
@@ -6131,6 +6185,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.gardenNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=738QAKdDCXU"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gardenNPC3.1"
                                 }
                             ]
                         },
@@ -6215,6 +6279,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=zkBWnNP_LBs"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gardenNPC5.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=gardenNPC] @p gardenNPC6"
                         ]
@@ -6288,19 +6362,7 @@
                             ]
                         },
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.gardenNPC7.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "tp @p -20133 2 -19651 facing -20134 2 -19655"
                         ]
                     }
                 ]
@@ -6327,6 +6389,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.kitchenNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=orjTZ2Df6Hk"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.kitchenNPC1.1"
                                 }
                             ]
                         },
@@ -6399,6 +6471,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.kitchenNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=xlsxfxD4vow"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.kitchenNPC3.1"
                                 }
                             ]
                         },
@@ -6514,6 +6596,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=aVwOKeL_G8Y"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.butteryNPC1.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=butteryNPC] @p butteryNPC2"
                         ]
@@ -6623,6 +6715,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.pantryNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=eo_H2d3gqgk"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.pantryNPC1.1"
                                 }
                             ]
                         },
@@ -6810,6 +6912,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=iReJfTcGUa0"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.hallNPC1.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=hallNPC] @p hallNPC2"
                         ]
@@ -6891,6 +7003,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=NPVZ7CvFufA"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.hallNPC3.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=hallNPC] @p hallNPC4"
                         ]
@@ -6960,6 +7082,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.hallNPC5.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=RDpa1NJQ_6k"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.hallNPC5.1"
                                 }
                             ]
                         },
@@ -7045,7 +7177,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20057 2 -19658 facing -20052 2 -19658"
                         ]
                     },
                     {
@@ -7099,6 +7231,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.solarNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=NWfBorRaIJY"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.solarNPC1.1"
                                 }
                             ]
                         },
@@ -7175,7 +7317,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20048 12 -19653 facing -20051 12 -19655"
                         ]
                     },
                     {
@@ -7214,6 +7356,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.chamberNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=ZW7uX6MhNf4"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.chamberNPC1.1"
                                 }
                             ]
                         },
@@ -7290,7 +7442,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20038 12 -19635 facing -20034 12 -19635"
                         ]
                     },
                     {
@@ -7329,6 +7481,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.northNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=kP47W23IpnI"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.northNPC1.1"
                                 }
                             ]
                         },
@@ -7405,7 +7567,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20053 13 -19584 facing -20057 13 -19584"
                         ]
                     },
                     {
@@ -7459,6 +7621,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.wallNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=dqp-2x7yOY0"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.wallNPC1.1"
                                 }
                             ]
                         },
@@ -7544,7 +7716,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20123 12 -19654 facing -20123 12 -19658"
                         ]
                     },
                     {
@@ -7583,6 +7755,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.westNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=QNrUQ_4Knek"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.westNPC1.1"
                                 }
                             ]
                         },
@@ -7658,6 +7840,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=8OkeFTVVbKc"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.westNPC3.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=westNPC] @p westNPC4"
                         ]
@@ -7730,6 +7922,16 @@
                                 }
                             ]
                         },
+                        "url": "https://www.youtube.com/watch_popup?v=GLaUqPAsEu8"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.westNPC5.1"
+                                }
+                            ]
+                        },
                         "commands": [
                             "dialogue open @e[tag=westNPC] @p westNPC6"
                         ]
@@ -7799,6 +8001,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.westNPC7.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Ffzt-A0mbYk"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.westNPC7.1"
                                 }
                             ]
                         },
@@ -7875,19 +8087,7 @@
                             ]
                         },
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.westNPC9.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "tp @p -20042 2 -19600 facing -20042 2 -19604"
                         ]
                     }
                 ]
@@ -7914,6 +8114,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.courtyNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Lso7e7a8SY4"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.courtyNPC1.1"
                                 }
                             ]
                         },
@@ -7990,7 +8200,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20036 4 -19613 facing -20032 4 -19613"
                         ]
                     },
                     {
@@ -8029,6 +8239,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.stewNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=cE_fsdJLAyk"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.stewNPC1.1"
                                 }
                             ]
                         },
@@ -8105,19 +8325,7 @@
                             ]
                         },
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.stewNPC3.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "tp @p -20093 2 -19565 facing -20090 2 -19562"
                         ]
                     }
                 ]
@@ -8144,6 +8352,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.gateNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Gp5Cwu5CR04"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gateNPC1.1"
                                 }
                             ]
                         },
@@ -8216,6 +8434,16 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.gateNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=M7dSkLHxyLw"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gateNPC3.1"
                                 }
                             ]
                         },
@@ -8311,6 +8539,37 @@
                 "buttons": []
             },
             {
+                "scene_tag": "taliesintNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "taliesintNPC1",
                 "npc_name": {
                     "rawtext": [
@@ -8344,9 +8603,7 @@
                                 }
                             ]
                         },
-                        "commands": [
-                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC2"
-                        ]
+                        "url": "https://www.youtube.com/watch_popup?v=0YR-TPb7WeY "
                     },
                     {
                         "name": {
@@ -8357,7 +8614,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p 79934 -42 80011 facing 79934 -42 80005"
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC2"
                         ]
                     }
                 ]
@@ -8518,6 +8775,1640 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.taliesintNPC6.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC7"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "taliesintNPC7",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.taliesintNPC7"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesintNPC7.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -20029 1 -19931 facing -20034 1 -19931"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.principalNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=an5I4Zq_Yfc"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=principalNPC] @p principalNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=an5I4Zq_Yfc"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC2.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=vxXruR9uu34"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC2.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=principalNPC] @p principalNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=vxXruR9uu34"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC3.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=principalNPC] @p principalNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=principalNPC] @p principalNPC5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "principalNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.principalNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.principalNPC5.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.principalNPC5.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.principalNPC5.2"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.principalNPC5.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -20016 1 -19942 facing -20016 1 -19947"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "historianNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.historianNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.historianNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.historianNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "historianNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.historianNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.historianNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.historianNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.historianNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.historianNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.historianNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=historianNPC] @p historianNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "historianNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.historianNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.historianNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.historianNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=historianNPC] @p historianNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "historianNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.historianNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.historianNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.historianNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=historianNPC] @p historianNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "historianNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.historianNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.historianNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.historianNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -20005 1 -19952 facing -20005 1 -19956"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "communityNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.communityNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.communityNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.communityNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "communityNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.communityNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.communityNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.communityNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.communityNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.communityNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.communityNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=communityNPC] @p communityNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "communityNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.communityNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.communityNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.communityNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=communityNPC] @p communityNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "communityNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.communityNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.communityNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.communityNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=communityNPC] @p communityNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "communityNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.communityNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.communityNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.communityNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19994 1 -19962 facing -19994 1 -19965"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ecoNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ecoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ecoNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ecoNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ecoNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ecoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ecoNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.ecoNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.ecoNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.ecoNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ecoNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=ecoNPC] @p ecoNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ecoNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ecoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ecoNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ecoNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=ecoNPC] @p ecoNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ecoNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ecoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ecoNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ecoNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=ecoNPC] @p ecoNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ecoNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ecoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ecoNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ecoNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19982 1 -19972 facing -19982 1 -19975"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tourNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tourNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tourNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tourNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tourNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tourNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tourNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.tourNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.tourNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.tourNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tourNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=tourNPC] @p tourNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tourNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tourNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tourNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tourNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=tourNPC] @p tourNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tourNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tourNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tourNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tourNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=tourNPC] @p tourNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tourNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tourNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tourNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tourNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19972 1 -19982 facing -19972 1 -19985"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "siteNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.siteNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.siteNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.siteNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "siteNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.siteNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.siteNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.siteNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.siteNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.siteNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.siteNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=siteNPC] @p siteNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "siteNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.siteNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.siteNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.siteNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=siteNPC] @p siteNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "siteNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.siteNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.siteNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.siteNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19961 1 -19992 facing -19961 1 -19995"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "plannerNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.plannerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.plannerNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.plannerNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "plannerNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.plannerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.plannerNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.plannerNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.plannerNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.plannerNPC1.3"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.plannerNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=plannerNPC] @p plannerNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "plannerNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.plannerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.plannerNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.plannerNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=plannerNPC] @p plannerNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "plannerNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.plannerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.plannerNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.plannerNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=plannerNPC] @p plannerNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "plannerNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.plannerNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.plannerNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.plannerNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19950 1 -20002 facing -19950 1 -20005"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guidelineNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.guidelineNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.guidelineNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guidelineNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.guidelineNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.guidelineNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=ojEdkUjvQsM"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC1.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=guidelineNPC] @p guidelineNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guidelineNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.guidelineNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.guidelineNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=ojEdkUjvQsM"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=guidelineNPC] @p guidelineNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "guidelineNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.guidelineNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.guidelineNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.guidelineNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -19936 1 -20001 facing -19936 1 -20005"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "exampleNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.exampleNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.exampleNPC0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "exampleNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.exampleNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.exampleNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=exampleNPC] @p exampleNPC2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "exampleNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.exampleNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.exampleNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC2.0"
+                                }
+                            ]
+                        },
+                        "url": "https://unesco.org.uk/site/assets/files/2734/sites_for_-sustainable_development_main_report.pdf"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC2.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=exampleNPC] @p exampleNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "exampleNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.exampleNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.exampleNPC3.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.exampleNPC3.1"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC3.0"
+                                }
+                            ]
+                        },
+                        "url": "https://time.com/6318234/si-thep-thailand-unesco-world-heritage-site-tourists/"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC3.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=exampleNPC] @p exampleNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "exampleNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.exampleNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.exampleNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.exampleNPC4.0"
                                 }
                             ]
                         },
