@@ -8529,7 +8529,8 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -20100 2 -19739 facing -20100 2 -19743",
+                            "function trequeststart"
                         ]
                     }
                 ]
@@ -8810,7 +8811,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20029 1 -19931 facing -20034 1 -19931"
+                            "function tretaliesin"
                         ]
                     }
                 ]
@@ -9236,7 +9237,8 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20005 1 -19952 facing -20005 1 -19956"
+                            "tp @p -20005 1 -19952 facing -20005 1 -19956",
+                            "function trequeststart"
                         ]
                     }
                 ]
@@ -9588,7 +9590,8 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -19982 1 -19972 facing -19982 1 -19975"
+                            "tp @p -19982 1 -19972 facing -19982 1 -19975",
+                            "function trequeststart"
                         ]
                     }
                 ]
@@ -9909,7 +9912,8 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -19961 1 -19992 facing -19961 1 -19995"
+                            "tp @p -19961 1 -19992 facing -19961 1 -19995",
+                            "function trequeststart"
                         ]
                     }
                 ]
@@ -10229,7 +10233,8 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -19936 1 -20001 facing -19936 1 -20005"
+                            "tp @p -19936 1 -20001 facing -19936 1 -20005",
+                            "function trequeststart"
                         ]
                     }
                 ]
