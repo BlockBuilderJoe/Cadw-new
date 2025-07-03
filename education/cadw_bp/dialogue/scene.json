@@ -6364,6 +6364,18 @@
                         "commands": [
                             "tp @p -20133 2 -19651 facing -20134 2 -19655"
                         ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gardenNPC7.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -10414,6 +10426,154 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.exampleNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "Hidden NPCs",
+                "buttons": []
+            },
+            {
+                "scene_tag": "baileyNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.baileyNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.baileyNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tgatehouseNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tgatehouseNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tgatehouseNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "outkitchNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.outkitchNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.outkitchNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "thallNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.thallNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.thallNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "tchamberNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.tchamberNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.tchamberNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "towerNPC1",
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.towerNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.towerNPC1.0"
                                 }
                             ]
                         },

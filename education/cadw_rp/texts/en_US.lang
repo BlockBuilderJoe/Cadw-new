@@ -42,6 +42,20 @@ cw.placename.tsolar=Solar
 cw.placename.tnorthrange=North Range
 cw.placename.tapartment=Apartment
 
+cw.placename.tbedchamber=Bed Chamber
+cw.placename.twithchamber=Withdrawing Chamber
+cw.placename.tgreatchamber=Great Chamber
+cw.placename.tgallery=Gallery
+cw.placename.twallwalk=Wall-Walk
+
+cw.placename.tbailey=Bailey
+cw.placename.toutgate=Gatehouse
+cw.placename.toutkitchen=Kitchen
+cw.placename.thall=Hall
+cw.placename.tchamber=Chamber
+cw.placename.tgreattower=Great Tower
+
+
 sign.1=Press the button to go to Castell Conwy
 sign.2=Exhibition area under construction
 
@@ -1298,3 +1312,17 @@ npc.button.exampleNPC3.1=Next
 npc.name.exampleNPC=Examples
 npc.text.exampleNPC4=Ok young builder! Tretower Castle needs your help. But don't just build - PLAN like a pro! Think about the old walls, the people who lived here, and how to protect the past using smart, sustainable ideas. Ready to rebuild history?
 npc.button.exampleNPC4.0=Okay!
+npc.text.baileyNPC1=Hidden
+npc.button.baileyNPC1.0=Okay
+npc.text.gatehouseNPC1=Hidden
+npc.button.gatehouseNPC1.0=Okay
+npc.text.outkitchNPC1=Hidden
+npc.button.outkitchNPC1.0=Okay
+npc.text.thallNPC1=Hidden
+npc.button.thallNPC1.0=Okay
+npc.text.tchamberNPC1=Hidden
+npc.button.tchamberNPC1.0=Okay
+npc.text.towerNPC1=Hidden
+npc.button.towerNPC1.0=Okay
+npc.text.tgatehouseNPC1=Hidden
+npc.button.tgatehouseNPC1.0=Okay
