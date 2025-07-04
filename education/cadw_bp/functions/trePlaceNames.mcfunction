@@ -6,7 +6,7 @@ execute at @p if entity @e[tag=pantryNPC,r=5] run titleraw @p actionbar {"rawtex
 execute at @p if entity @e[tag=serveryNPC,r=5] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tservery"}]}
 execute at @p if entity @e[tag=hallNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tgreathall"}]}
 execute at @p if entity @e[tag=solarNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tsolar"}]}
-execute at @p if entity @e[tag=stewNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tnorth"}]}
+execute at @p if entity @e[tag=stewNPC,r=5] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tnorthrange"}]}
 execute at @p if entity @e[tag=wallNPC,r=10] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.twallwalk"}]}
 
 #Option 2: Use a specific location
@@ -20,4 +20,8 @@ execute at @p if entity @p[r=5,x=-19904,y=8,z=-20055] run titleraw @p actionbar 
 execute at @p if entity @p[r=10,x=-19888,y=8,z=-20091] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tchamber"}]}
 execute at @p if entity @p[r=10,x=-19887,y=8,z=-20066] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tgreattower"}]}
 execute at @p if entity @p[r=10,x=-19868,y=15,z=-20065] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tgreattower"}]}
-
+execute at @p if entity @p[r=5,x=-20047,y=13,z=-19652] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tbedchamber"}]}
+execute at @p if entity @p[r=5,x=-20038,y=12,z=-19655] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tbedchamber"}]}
+execute at @p if entity @p[r=5,x=-20037,y=12,z=-19635] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.twithchamber"}]}
+execute at @p if entity @p[r=5,x=-20036,y=12,z=-19611] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tgreatchamber"}]}
+execute at @p if entity @p[r=5,x=-20038,y=12,z=-19588] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.tapartment"}]}

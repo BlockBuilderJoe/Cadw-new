@@ -5185,7 +5185,8 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20092 2 -19608 facing -20092 2 -19612"
+                            "tp @p -20092 2 -19608 facing -20092 2 -19612",
+                            "function giveItems"
                         ]
                     },
                     {
@@ -10430,21 +10431,24 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function tquesttaliesin"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "Hidden NPCs",
-                "buttons": []
-            },
-            {
-                "scene_tag": "baileyNPC1",
+                "scene_tag": "taliesintendNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name."
+                        }
+                    ]
+                },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.baileyNPC1"
+                            "translate": "npc.text.taliesintendNPC0"
                         }
                     ]
                 },
@@ -10453,7 +10457,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.baileyNPC1.0"
+                                    "translate": "npc.button.taliesintendNPC0.0"
                                 }
                             ]
                         },
@@ -10464,11 +10468,18 @@
                 ]
             },
             {
-                "scene_tag": "tgatehouseNPC1",
+                "scene_tag": "taliesintendNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintendNPC"
+                        }
+                    ]
+                },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tgatehouseNPC1"
+                            "translate": "npc.text.taliesintendNPC1"
                         }
                     ]
                 },
@@ -10477,46 +10488,41 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tgatehouseNPC1.0"
+                                    "translate": "npc.button.taliesintendNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
                             ""
                         ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "outkitchNPC1",
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.outkitchNPC1"
-                        }
-                    ]
-                },
-                "buttons": [
+                    },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.outkitchNPC1.0"
+                                    "translate": "npc.button.taliesintendNPC1.1"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=taliesintendNPC] @p taliesintendNPC1"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "thallNPC1",
+                "scene_tag": "taliesintendNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.taliesintendNPC"
+                        }
+                    ]
+                },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.thallNPC1"
+                            "translate": "npc.text.taliesintendNPC3"
                         }
                     ]
                 },
@@ -10525,22 +10531,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.thallNPC1.0"
+                                    "translate": "npc.button.taliesintendNPC3.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "gamemode creative"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "tchamberNPC1",
+                "scene_tag": "tdragonNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.tdragonNPC2"
+                        }
+                    ]
+                },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tchamberNPC1"
+                            "translate": "npc.text.tdragonNPC1"
                         }
                     ]
                 },
@@ -10549,31 +10562,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tchamberNPC1.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "towerNPC1",
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.towerNPC1"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.towerNPC1.0"
+                                    "translate": "npc.button.tdragonNPC1.0"
                                 }
                             ]
                         },
