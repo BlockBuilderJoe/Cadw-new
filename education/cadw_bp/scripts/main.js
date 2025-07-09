@@ -11,16 +11,32 @@ function getScore(score, objective) {
   return 0;
 }
 
-//Button for Conwy
+//Button handlers
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
+  const coordKey = `${buttonLocation.x},${buttonLocation.z}`;
 
-  switch ((buttonLocation.x, buttonLocation.z)) {
-    case (79942, 80003):
+  switch (coordKey) {
+    case "79942,80003":
       startFlythrough("conwy","intro.conwy");
       break;
-    case (79942, 80008):
+    case "79942,80008":
       startFlythrough("conwy","intro.conwy");
+      break;
+    case "79926,79997":
+      overworld.runCommand(`function tp/tretower`);
+      break;
+    case "79926,79992":
+      overworld.runCommand(`function tp/tretower`);
+      break;
+    case "79930,80015":
+      overworld.runCommand(`function tp/stdavids`);
+      break;
+    case "79942,79992":
+      overworld.runCommand(`function tp/stdavids`);
+      break;
+    case "79942,79997":
+      overworld.runCommand(`function tp/stdavids`);
       break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
@@ -36,18 +52,26 @@ world.afterEvents.itemUse.subscribe((event) => {
         .button(`ui.compass.button.stay`)
         .button(`ui.compass.button.galleri`)
         .button(`ui.compass.button.conwy`)
+        .button(`ui.compass.button.tretower`)
       if (taleisinActivated === 1) {
         form.button(`ui.compass.button.taleisin`)
       }
      form.show(event.source).then((response) => {
       if (response.selection === 0) {
       } else if (response.selection === 1) {
+        overworld.runCommand(`tag @p remove buildChallenge`)
+        overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`tp @p 79934 -42 80011 facing 79934 -42 80005`)
       } else if (response.selection === 2) {
         overworld.runCommand(`tag @p remove buildChallenge`)
         overworld.runCommand(`function conwyreturn`)
       } else if (response.selection === 3) {
         overworld.runCommand(`tag @p remove buildChallenge`)
+        overworld.runCommand(`tag @p remove tretowerChallenge`)
+        overworld.runCommand(`function tp/tretower`)
+      } else if (response.selection === 4) {
+        overworld.runCommand(`tag @p remove buildChallenge`)
+        overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`tp @p 9883 29 10191 facing 9883 29 10195`)
       }
     });
