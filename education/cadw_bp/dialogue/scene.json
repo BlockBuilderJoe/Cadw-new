@@ -7012,16 +7012,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.hallNPC1.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.hallNPC1.1"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.hallNPC1"
                         }
                     ]
                 },
@@ -7843,16 +7834,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.wallNPC3.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.wallNPC3.1"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.wallNPC3"
                         }
                     ]
                 },
@@ -8734,37 +8716,6 @@
                 "buttons": []
             },
             {
-                "scene_tag": "taliesintNPC0",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.taliesintNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.taliesintNPC0"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.taliesintNPC0.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
                 "scene_tag": "taliesintNPC1",
                 "npc_name": {
                     "rawtext": [
@@ -8776,16 +8727,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesintNPC1.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.taliesintNPC1.1"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.taliesintNPC1"
                         }
                     ]
                 },
@@ -8885,7 +8827,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC4"
+                            "function tretaliesinmid"
                         ]
                     }
                 ]
@@ -8895,7 +8837,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesintNPC"
+                            "translate": "npc.name.taliesintmidNPC"
                         }
                     ]
                 },
@@ -8916,7 +8858,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC5"
+                            "dialogue open @e[tag=taliesintmidNPC] @p taliesintNPC5"
                         ]
                     }
                 ]
@@ -8926,7 +8868,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesintNPC"
+                            "translate": "npc.name.taliesintmidNPC"
                         }
                     ]
                 },
@@ -8947,7 +8889,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC6"
+                            "dialogue open @e[tag=taliesintmidNPC] @p taliesintNPC6"
                         ]
                     }
                 ]
@@ -8957,7 +8899,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesintNPC"
+                            "translate": "npc.name.taliesintmidNPC"
                         }
                     ]
                 },
@@ -8978,7 +8920,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesintNPC] @p taliesintNPC7"
+                            "dialogue open @e[tag=taliesintmidNPC] @p taliesintNPC7"
                         ]
                     }
                 ]
@@ -8988,7 +8930,7 @@
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesintNPC"
+                            "translate": "npc.name.taliesintmidNPC"
                         }
                     ]
                 },
@@ -9057,16 +8999,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.principalNPC1.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.principalNPC1.1"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.principalNPC1"
                         }
                     ]
                 },
@@ -9248,12 +9181,6 @@
                         },
                         {
                             "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.principalNPC5.2"
-                        },
-                        {
-                            "text": "\n"
                         }
                     ]
                 },
@@ -9267,7 +9194,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -20016 1 -19942 facing -20016 1 -19947"
+                            "function principal"
                         ]
                     }
                 ]
@@ -10564,16 +10491,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.exampleNPC3.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.exampleNPC3.1"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.exampleNPC3"
                         }
                     ]
                 },

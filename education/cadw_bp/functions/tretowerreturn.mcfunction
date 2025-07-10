@@ -8,7 +8,7 @@ effect @p clear
 function giveItems
 
 # Return to adventure mode
-#gamemode adventure @p
+gamemode adventure @p
 
 # Teleport to Galleri
 tp @p 79934 -42 80011 facing 79934 -42 80005

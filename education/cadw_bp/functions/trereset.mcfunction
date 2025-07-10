@@ -1,9 +1,10 @@
 #gamemode adventure @p
-#effect @p clear
+effect @p clear
 function tgiveitems
 
+tag @p remove tretowerChallenge
+
 #Changes dialogue for the NPCs at the start of each quest
-dialogue change @e[tag=taliesintNPC] taliesintNPC0
 dialogue change @e[tag=principalNPC] principalNPC0
 dialogue change @e[tag=historianNPC] historianNPC0
 dialogue change @e[tag=communityNPC] communityNPC0
