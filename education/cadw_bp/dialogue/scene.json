@@ -14350,6 +14350,99 @@
                 ]
             },
             {
+                "scene_tag": "ddragonNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ddragonNPC2"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ddragonNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ddragonNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ddragonNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ddragonNPC4"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ddragonNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ddragonNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "ddragonNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.ddragonNPC6"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.ddragonNPC5"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.ddragonNPC5.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "QUEST NPCS",
                 "buttons": []
             },

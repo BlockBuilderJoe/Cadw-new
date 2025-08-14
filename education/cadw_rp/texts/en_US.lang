@@ -70,7 +70,7 @@ cw.placename.dgreatchamber=Great Chamber
 cw.placename.dgreathall=Great Hall
 cw.placename.dlatrine=Latrine Block
 cw.placename.dundercrofts=Undercrofts
-
+cw.placename.dskew=Skew Passage
 
 sign.1=Press the button to go to Castell Conwy
 sign.2=Exhibition area under construction
@@ -84,6 +84,7 @@ ui.compass.button.galleri=Galeri
 ui.compass.button.conwy=Conwy
 ui.compass.button.taleisin=Taliesin
 ui.compass.button.tretower=Tretower
+ui.compass.button.stdavids=St Davids
 
 book.1.line.1=Queen Eleanor particularly liked fruit. She enjoyed British apples, pears, quince and grapes. She liked figs, pomegranates, lemons, oranges, dates, and raisins imported from Spain.
 book.1.line.2=Queen Eleanor loved jewellery. She had her own goldsmith at Rhuddlan castle.
@@ -1767,3 +1768,12 @@ npc.text.carysNPC1url0=Pick your tongue, traveller! Which language do you fancy 
 npc.button.carysNPC1url0.0=English
 npc.button.carysNPC1url0.1=Cymraeg
 npc.button.carysNPC1url0.2=Back/Nôl
+npc.name.ddragonNPC2=Hidden Lleu
+npc.text.ddragonNPC1=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.ddragonNPC1.0=Will do!
+npc.name.ddragonNPC4=Hidden Lleu
+npc.text.ddragonNPC3=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.ddragonNPC3.0=Will do!
+npc.name.ddragonNPC6=Hidden Lleu
+npc.text.ddragonNPC5=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.ddragonNPC5.0=Will do!

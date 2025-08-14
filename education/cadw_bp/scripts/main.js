@@ -53,6 +53,7 @@ world.afterEvents.itemUse.subscribe((event) => {
         .button(`ui.compass.button.galleri`)
         .button(`ui.compass.button.conwy`)
         .button(`ui.compass.button.tretower`)
+        .button(`ui.compass.button.stdavids`)
       if (taleisinActivated === 1) {
         form.button(`ui.compass.button.taleisin`)
       }
@@ -70,6 +71,10 @@ world.afterEvents.itemUse.subscribe((event) => {
         overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`function tp/tretower`)
       } else if (response.selection === 4) {
+        overworld.runCommand(`tag @p remove buildChallenge`)
+        overworld.runCommand(`tag @p remove tretowerChallenge`)
+        overworld.runCommand(`function tp/stdavids`)
+      } else if (response.selection === 5) {
         overworld.runCommand(`tag @p remove buildChallenge`)
         overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`tp @p 9883 29 10191 facing 9883 29 10195`)
