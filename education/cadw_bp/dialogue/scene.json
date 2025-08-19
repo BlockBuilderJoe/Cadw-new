@@ -8653,7 +8653,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=gateNPC] @p gateNPC1url2"
+                            "dialogue open @e[tag=gateNPC] @p gateNPC1url1"
                         ]
                     },
                     {

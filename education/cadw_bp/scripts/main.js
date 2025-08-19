@@ -38,6 +38,12 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
     case "79942,79997":
       overworld.runCommand(`function tp/stdavids`);
       break;
+    case "79926,80003":
+      overworld.runCommand(`tp @p -69031 3 -69052`);
+      break;
+    case "79926,80008":
+      overworld.runCommand(`tp @p -69031 3 -69052`);
+      break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
   }

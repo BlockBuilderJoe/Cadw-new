@@ -21,16 +21,19 @@ execute at @p if entity @p[x=-40331,y=-18,z=-39900,dx=11,dy=0,dz=25] run titlera
 execute at @p if entity @p[x=-40342,y=-18,z=-39899,dx=9,dy=0,dz=24] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
 execute at @p if entity @p[x=-40361,y=-18,z=-39899,dx=16,dy=1,dz=25] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
 execute at @p if entity @p[x=-40377,y=-18,z=-39896,dx=13,dy=0,dz=22] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40382,y=-16,z=-39917,dx=26,dy=5,dz=12] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40382,y=-16,z=-39917,dx=26,dy=3,dz=12] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
 execute at @p if entity @p[x=-40393,y=-16,z=-39961,dx=19,dy=3,dz=42] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40280,y=-16,z=-39931,dx=17,dy=5,dz=9] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40272,y=-16,z=-39983,dx=8,dy=5,dz=16] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40262,y=-16,z=-39983,dx=20,dy=4,dz=6] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40267,y=-16,z=-39975,dx=10,dy=4,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40280,y=-16,z=-39931,dx=17,dy=3,dz=9] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40272,y=-16,z=-39983,dx=8,dy=3,dz=16] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40262,y=-16,z=-39983,dx=20,dy=3,dz=6] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40267,y=-16,z=-39975,dx=10,dy=3,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
 execute at @p if entity @p[x=-40272,y=-19,z=-39962,dx=18,dy=3,dz=12] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40272,y=-19,z=-39948,dx=19,dy=8,dz=9] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40281,y=-16,z=-40010,dx=15,dy=5,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
-execute at @p if entity @p[x=-40272,y=-16,z=-39997,dx=8,dy=5,dz=7] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40272,y=-19,z=-39948,dx=19,dy=3,dz=9] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40281,y=-16,z=-40010,dx=15,dy=3,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40272,y=-16,z=-39997,dx=8,dy=3,dz=7] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40290,y=-16,z=-39947,dx=11,dy=3,dz=27] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40291,y=-19,z=-39892,dx=8,dy=3,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
+execute at @p if entity @p[x=-40293,y=-19,z=-39902,dx=10,dy=3,dz=8] run titleraw @p actionbar {"rawtext": [{"translate": "cw.placename.dundercrofts"}]}
 
 
 
