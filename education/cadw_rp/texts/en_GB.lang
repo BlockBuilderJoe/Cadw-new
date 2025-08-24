@@ -210,6 +210,20 @@ cw.npc.button.two.davidwelcome=Lobby
 entity.blockbuilders:red_dragon.name=Red Dragon
 item.spawn_egg.entity.blockbuilders:red_dragon.name=Spawn Red Dragon
 entity.blockbuilders:taliesin.name=Taliesin
+item.myname:broken_stone_cross=Broken Stone Cross
+item.blockbuilders:broken_alter=Broken Alter
+item.blockbuilders:cracked_casket=Cracked Casket
+item.blockbuilders:cracked_casket=Cracked Casket
+item.blockbuilders:torn_inventory_page=Torn Inventory Page
+item.blockbuilders:runestone=RuneStone
+entity.blockbuilders:mosaic.name=Mosaic
+item.spawn_egg.entity.blockbuilders:mosaic.name=Spawn Mosaic
+item.myname:chunk_of_mosaic=chunk of mosaic
+entity.myname:viking_ghost_2.name=Viking Ghost 2
+item.spawn_egg.entity.myname:viking_ghost_2.name=Spawn Viking Ghost 2
+
+
+
 npc.name.tretowerNPC=Tretower
 npc.text.tretowerNPC1=You can now head to Tretower!
 npc.button.tretowerNPC1.0=Go!

@@ -199,6 +199,19 @@ cw.npc.button.two.davidwelcome=Lobby
 entity.myname:red_dragon.name=Red Dragon
 item.spawn_egg.entity.myname:red_dragon.name=Spawn Red Dragon
 npc.name.taliesinNPC=Taliesin
+item.myname:broken_stone_cross=Broken Stone Cross
+item.blockbuilders:broken_alter=Broken Alter
+item.blockbuilders:cracked_casket=Cracked Casket
+item.blockbuilders:cracked_casket=Cracked Casket
+item.blockbuilders:torn_inventory_page=Torn Inventory Page
+item.blockbuilders:runestone=RuneStone
+entity.blockbuilders:mosaic.name=Mosaic
+item.spawn_egg.entity.blockbuilders:mosaic.name=Spawn Mosaic
+item.myname:chunk_of_mosaic=chunk of mosaic
+entity.myname:viking_ghost_2.name=Viking Ghost 2
+item.spawn_egg.entity.myname:viking_ghost_2.name=Spawn Viking Ghost 2
+
+
 npc.text.taliesinNPC1=Soaring mountains, lakes, coastlines, and castles. A land where history and nature intertwine in an unforgettable tapestry. My name is Taliesin, and I invite you to journey through this mystical land's most captivating landmarks. Exploring the wonders that make Wales a place of enchantment. Click on the 'Find Out More' button. 
 npc.button.taliesinNPC1.0=Find Out More
 npc.button.taliesinNPC1.1=CadwCymruGaleri

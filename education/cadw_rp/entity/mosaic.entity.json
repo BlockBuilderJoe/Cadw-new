@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "blockbuilders:mosaic",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/mosaic"
+			},
+			"geometry": {
+				"default": "geometry.mosaic"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#313037",
+				"overlay_color": "#e5cb8c"
+			}
+		}
+	}
+}
