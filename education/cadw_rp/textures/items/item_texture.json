@@ -1,0 +1,22 @@
+{
+	"texture_data": {
+		"chunk_of_mosaic": {
+			"textures": "textures/items/chunk_of_mosaic.png"
+		},
+		"runestone": {
+			"textures": "textures/items/runestone.png"
+		},
+		"torn_inventory_page": {
+			"textures": "textures/items/torn_inventory_page.png"
+		},
+		"cracked_casket": {
+			"textures": "textures/items/cracked_casket.png"
+		},
+		"broken_alter": {
+			"textures": "textures/items/broken_alter.png"
+		},
+		"broken_stone_cross": {
+			"textures": "textures/items/broken_stone_cross.png"
+		}
+	}
+}
