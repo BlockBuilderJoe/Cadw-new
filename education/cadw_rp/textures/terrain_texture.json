@@ -1,0 +1,26 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"mosaic_6": {
+			"textures": "textures/blocks/mosaic_6.png"
+		},
+		"mosaic_5": {
+			"textures": "textures/blocks/mosaic_5.png"
+		},
+		"mosaic_4": {
+			"textures": "textures/blocks/mosaic_4.png"
+		},
+		"mosaic_3": {
+			"textures": "textures/blocks/mosaic_3.png"
+		},
+		"mosaic_2": {
+			"textures": "textures/blocks/mosaic_2.png"
+		},
+		"mosaic_1": {
+			"textures": "textures/blocks/mosaic_1.png"
+		}
+	}
+}

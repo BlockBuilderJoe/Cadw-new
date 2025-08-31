@@ -221,6 +221,12 @@ item.spawn_egg.entity.blockbuilders:mosaic.name=Spawn Mosaic
 item.myname:chunk_of_mosaic=chunk of mosaic
 entity.myname:viking_ghost_2.name=Viking Ghost 2
 item.spawn_egg.entity.myname:viking_ghost_2.name=Spawn Viking Ghost 2
+tile.blockbuilders:mosaic_1.name=mosaic 1
+tile.blockbuilders:mosaic_2.name=mosaic 2
+tile.blockbuilders:mosaic_3.name=mosaic 3
+tile.blockbuilders:mosaic_4.name=mosaic 4
+tile.blockbuilders:mosaic_5.name=mosaic 5
+tile.blockbuilders:mosaic_6.name=mosaic 6
 
 
 
