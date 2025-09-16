@@ -65,7 +65,8 @@ world.afterEvents.itemUse.subscribe((event) => {
         .button(`ui.compass.button.galleri`)
         .button(`ui.compass.button.conwy`)
         .button(`ui.compass.button.tretower`)
-        // .button(`ui.compass.button.stdavids`) // Temporarily disabled
+        // .button(`ui.compass.button.stdavids`) // Temporarily disabled - to be used again later
+        // .button(`ui.compass.button.flint`) // Temporarily disabled - to be implemented later
       if (taleisinActivated === 1) {
         form.button(`ui.compass.button.taleisin`)
       }
@@ -82,13 +83,19 @@ world.afterEvents.itemUse.subscribe((event) => {
         overworld.runCommand(`tag @p remove buildChallenge`)
         overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`function tp/tretower`)
-      /* Temporarily disabled St. David's teleport
+      /* Temporarily disabled St. David's teleport - to be used again later
       } else if (response.selection === 4) {
         overworld.runCommand(`tag @p remove buildChallenge`)
         overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`function tp/stdavids`)
       */
-      } else if (response.selection === 4) { // Was 5, now 4 due to St. David's being disabled
+      /* Temporarily disabled Flint teleport - to be implemented later
+      } else if (response.selection === 5) {
+        overworld.runCommand(`tag @p remove buildChallenge`)
+        overworld.runCommand(`tag @p remove tretowerChallenge`)
+        overworld.runCommand(`function tp/flint`)
+      */
+      } else if (response.selection === 4) {
         overworld.runCommand(`tag @p remove buildChallenge`)
         overworld.runCommand(`tag @p remove tretowerChallenge`)
         overworld.runCommand(`tp @p 9883 29 10191 facing 9883 29 10195`)
