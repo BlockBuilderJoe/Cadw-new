@@ -15181,7 +15181,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function open_yrsa_dialogue"
                         ]
                     }
                 ]
@@ -15212,7 +15212,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=yrsaNPC] @p yrsaNPC7"
                         ]
                     }
                 ]
@@ -15243,7 +15243,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40279 -10 -39933 facing -40276 -10 -39933"
                         ]
                     }
                 ]
@@ -15295,7 +15295,20 @@
                         }
                     ]
                 },
-                "buttons": []
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.betiquestNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=vikingNPC] @p vikingNPC2"
+                        ]
+                    }
+                ]
             },
             {
                 "scene_tag": "vikingNPC2",
@@ -15323,7 +15336,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40285 -10 -39905 facing -40283 -10 -39905"
                         ]
                     }
                 ]
@@ -15354,7 +15367,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function beti_to_yrsa"
                         ]
                     }
                 ]
@@ -15385,7 +15398,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=yrsaNPC] @p yrsaNPC9"
                         ]
                     }
                 ]
@@ -15416,7 +15429,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40389 -10 -39918 facing -40391 -10 -39918"
                         ]
                     }
                 ]
@@ -15478,7 +15491,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=vikingNPC] @p vikingNPC3"
                         ]
                     }
                 ]
@@ -17481,12 +17494,97 @@
                 ]
             },
             {
-                "buttons": []
+                "scene_tag": "mabliNPC6",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mabliNPC6"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC6.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             },
             {
-                "buttons": []
+                "scene_tag": "mabliNPC7",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mabliNPC7.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.mabliNPC7.1"
+                        },
+                        {
+                            "text": "\n"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC7.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC7.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             },
             {
+                "scene_tag": "mabliNPC8",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
                 "buttons": []
             },
             {

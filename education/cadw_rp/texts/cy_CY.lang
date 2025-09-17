@@ -79,6 +79,7 @@ sign.4=Pwyswch y botwm i fynd i Dyddewi
 
 sign.5=Wedi'i guddio yn y tywyllwch, lle roedd y gorffennol wedi'i gloi i ffwrdd, mae'r llong hir yn aros—wedi'i hanghofio gan amser, wedi'i chuddio ym mherfeddion y Palas!
 
+sign.6=Lle mae pelydrau cyntaf yr haul yn cusanu'r cerrig, mae crair o'r gorffennol yn aros.
 
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
@@ -17240,7 +17241,7 @@ npc.button.llewNPC1.0=Chwilio Un
 npc.name.llewNPC=Llew y Gwrandäwr
 npc.text.llewNPC2=Aaa, siffrwd hen memrwn! Mae hynny'n gerddoriaeth i glustiau Gerallt. Gwell peidio â'i adael i aros — mae ei gof yn hir, ond nid yw ei amynedd!
 npc.button.llewNPC2.0=Gerallt Gwir
-npc.name.geraldNPC=Llew y Gwrandäwr
+npc.name.geraldNPC=Gerallt y  Geirwir
 npc.text.geraldNPC11=Campus! Dyna ddau i lawr — a'r un â'r arogl gwin yn sicr. Rydych chi'n datblygu i fod yn ysgolhaig yn ôl fy nghalon sgribledig fy hun. Ond daliwch ati — mae un darn olaf yn weddill. Rhywle uchel, lle mae creaduriaid yn gwenu a môr-forynion yn grwgnach. Adferwch ef, a byddwn yn adfer gogoniant llawn fy ngwirioneddau teithio!
 npc.button.geraldNPC11.0=Chwilio Tri
 npc.name.geraldNPC=Gerallt y  Geirwir
@@ -17259,7 +17260,7 @@ npc.button.eleriquestNPC2.0=Chwilio Un
 npc.name.eleriquestNPC=Eleri'r Llygaid Barcud
 npc.text.eleriquestNPC3=Chwilio da! Mae gen ti lygaid mor finiog â hebog. Mae'n debyg bod Gerallt yn cerdded yn ôl ac ymlaen erbyn hyn - ewch â'r peth ato cyn iddo ddechrau cyflwyno cwyn ffurfiol yn erbyn hanes.
 npc.button.eleriquestNPC3.0=Gerallt Gwir
-npc.name.geraldNPC=Gerallt y Geirwir
+npc.name.geraldNPC=Gerallt y  Geirwir
 npc.text.geraldNPC13.0=Rydych chi wedi llwyddo! Mae fy nyddiadur yn gyfan eto - a dim staen coffi i'w weld! Gyda'r tudalennau hyn, mae'r gorffennol yn siarad unwaith eto: cysgodion y Llychlynwyr, gwleddoedd esgobion, a chyfrinachau cadeirlan.
 npc.text.geraldNPC13.1=Ond byddwch yn ofalus - nid yw'r stori nesaf yn ymwneud ag adeiladu, ond yn ymwneud â dymchwel. Mae'r Diddymiad ar y ffordd, ac ni all hyd yn oed waliau cerrig ei ddal yn ôl. Chwiliwch am y Brawd Cadwgan. Mae ganddo straeon am frenhinoedd, darnau arian, a mynachod ar y symud. . .  a her a allai ysgwyd eich credoau.
 npc.button.geraldNPC13.0=Brawd Cadwgan
@@ -17345,3 +17346,8 @@ npc.button.mabliNPC4.0=Nesaf
 npc.name.mabliNPC=Mabli Ceidwraig y Llawysgrif
 npc.text.mabliNPC5=Mae chwe phennill o'r llyfr cysegredig hwnnw wedi'u cuddio ledled y palas hwn. Mae pob un wedi'i selio mewn silff lyfrau ac wedi'i farcio â phos. Datryswch ef, dewch o hyd i'r pennill, a bydd y cliw nesaf yn eich tywys ymlaen. Pan fyddwch chi'n dal y chwech, dychwelwch ataf a byddwn yn ail-ymgynnull yr etifeddiaeth - un gair ar y tro!
 npc.button.mabliNPC5.0=Heulfan Esgob
+npc.text.mabliNPC6=Campus! Rydych chi wedi ail-gydosod y penillion, yn union fel y gwnaeth Morgan unwaith gydosod gobaith o inc a gweddi. Mae'r geiriau hyn yn fwy na sanctaidd - maen nhw'n hanes, wedi'u curo allan yng ngolau cannwyll ac wedi'u cario drwy ganrifoedd.
+npc.button.mabliNPC6.0=Nesaf
+npc.text.mabliNPC7.0=Ond nid yw'r stori'n gorffen gyda memrwn. Roedd taith William Morgan yn feiddgar, yn wych, ac weithiau'n wallgof. Eisiau'r stori lawn - o'r pulpud i'r siop argraffu, o erledigaeth i gyhoeddiad?
+npc.text.mabliNPC7.1=Cliciwch y botwm 'Stori Lawn' isod…Gwyliwch, gwrandewch, a chael eich ysbrydoli!
+npc.button.mabliNPC7.0=Stori Llawn

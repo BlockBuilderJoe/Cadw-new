@@ -86,7 +86,10 @@ sign.1=Press the button to go to Castell Conwy
 sign.2=Exhibition area under construction
 sign.3=Press the button to go to Tretower
 sign.4=Press the button to go to St Davids
+
 sign.5=Hidden in the darkness, where the past was locked away, the longship waits - forgotten by time, hidden in the depths of the Palace!
+
+sign.6=Where the first rays of the sun kiss the stones, a relic from the past lies waiting.
 
 
 ui.compass.title=Compass Teleport
@@ -1889,7 +1892,7 @@ npc.text.idrisquestNPC3=Ah, you've uncovered the relic, hidden away in the depth
 npc.button.idrisquestNPC3.0=Return the Relic
 npc.text.yrsaNPC6=Oho! That's one - and not even covered in moss. Either you're lucky, or secretly a raider yourself. Now go find the next hidden relic!
 npc.button.yrsaNPC6.0=Next
-npc.text.yrsaNPC7=The Vikings left more than just their ships—they left their mark in stone. The Runestone Tablet, carved with ancient runes, holds the secrets of their journeys. Find this relic, and you will uncover a story long buried. It waits where the sun rises. Go now, seek it out, and return with the knowledge of the past.
+npc.text.yrsaNPC7=The Vikings left more than just their ships - they left their mark in stone. The Runestone Tablet, carved with ancient runes, holds the secrets of their journeys. Find this relic, and you will uncover a story long buried. It waits where the sun rises. Go now, seek it out, and return with the knowledge of the past.
 npc.button.yrsaNPC7.0=Find
 npc.name.betiquestNPC=Beti the Brisk
 npc.text.betiquestNPC0=I cannot speak to you now, your quest will begin at the end…
@@ -1909,7 +1912,7 @@ npc.name.gwenquestNPC=Gwenno the Whisperer
 npc.text.gwenquestNPC0=I cannot speak to you now, your quest will begin at the end…
 npc.button.gwenquestNPC0.0=Okay
 npc.name.gwenquestNPC=Gwenno the Whisperer
-npc.text.gwenquestNPC1=Some say when the chapel was rebuilt, they found something strange behind the altar. I never believed them — until I heard a low humming . . . and it wasn't Rhodri.
+npc.text.gwenquestNPC1=Some say when the chapel was rebuilt, they found something strange behind the altar. I never believed them - until I heard a low humming. . . and it wasn't Rhodri.
 npc.button.gwenquestNPC1.0=Search Relic
 npc.text.vikingNPC3=The looted altar lies in the darkness, forgotten by time. It was stolen, but its power cannot be erased. Look for the place where sacred meets shadow. There, the altar waits.
 npc.button.vikingNPC3.0=Find More Signs
@@ -2104,3 +2107,10 @@ npc.button.mabliNPC4.0=Next
 npc.name.mabliNPC=Mabli the Manuscript Keeper
 npc.text.mabliNPC5=Six verses from that sacred book are hidden throughout this palace. Each one's sealed in a bookshelf and marked with a riddle. Solve it, find the verse, and the next clue will guide you on. When you hold all six, return to me and we'll reassemble the legacy — one word at a time!
 npc.button.mabliNPC5.0=Bishop's Solar
+npc.button.betiquestNPC1.0=Okay
+npc.text.mabliNPC6=Bravo! You've reassembled the verses, just as Morgan once assembled hope from ink and prayer. These words are more than holy — they're history, hammered out in candlelight and carried through centuries.
+npc.button.mabliNPC6.0=Next
+npc.text.mabliNPC7.0=But the tale doesn't end with parchment. William Morgan's journey was bold, brilliant, and occasionally bonkers. Want the full story — from pulpit to print shop, from persecution to publication?
+npc.text.mabliNPC7.1=Click the 'Full Story' button below…Watch, listen, and be inspired!
+npc.button.mabliNPC7.0=Full Story
+npc.button.mabliNPC7.1=Next

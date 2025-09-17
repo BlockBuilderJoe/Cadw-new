@@ -50,6 +50,14 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
     case "79926,79986":
       overworld.runCommand(`tp @p -168929 -40 -169084`);
       break;
+    case "-40316,-39879":
+      overworld.runCommand(`give @p myname:chunk_of_mosaic 1`);
+      overworld.runCommand(`dialogue open @e[tag=idrisquestNPC] @p idrisquestNPC3`);
+      break;
+    case "-40294,-39896":
+      overworld.runCommand(`give @p blockbuilders:runestone 1`);
+      overworld.runCommand(`dialogue open @e[tag=betiquestNPC] @p betiquestNPC2`);
+      break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
   }
