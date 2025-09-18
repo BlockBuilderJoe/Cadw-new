@@ -81,6 +81,17 @@ sign.5=Wedi'i guddio yn y tywyllwch, lle roedd y gorffennol wedi'i gloi i ffwrdd
 
 sign.6=Lle mae pelydrau cyntaf yr haul yn cusanu'r cerrig, mae crair o'r gorffennol yn aros.
 
+sign.7=Lle nad yw'r golau'n cyrraedd, mae'r allor yn aros—ei darnau wedi'u gwasgaru a'u torri. Chwiliwch am y tywyllwch i ddod o hyd i grair cysegredig y Llychlynnwr.
+
+sign.8=Edrychwch ar y waliau o amgylch y Neuadd Fawr — yn uchel ac yn isel! Maen nhw'n edrych arnoch chi os meiddiwch chi edrych yn ôl.
+
+sign.9=Edrychwch yn agos at y lle tân neu'r darllenfa. Lle roedd fflamau'n fflachio ac ysgrythurau'n cael eu darllen, mae rhestr o golledion yn gorwedd yn dawel yn lle hynny.
+
+sign.10=Chwiliwch am y drws carreg islaw'r capel. Mae'r crair yn gorwedd yn y cysgod, yn aros am gof.
+
+sign.11=Chwiliwch wrth y llwybr graean sy'n troi o amgylch y capel adfeiliedig.
+Edrychwch yn isel, lle mae carreg yn cwrdd â phridd, mae symbol cysegredig yn aros i gael ei ddatgelu
+
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
 ui.compass.button.stay=Aros yma
@@ -151,6 +162,11 @@ book.3.line.16=Er i'r castell gael ei golli, bu'r stori am gipio beiddgar Rhys a
 book.3.line.17=Parhaodd gwrthryfel Owain Glyndŵr, a thaniodd breuddwyd annibyniaeth y Cymry yn ddisgleiriach nag erioed.
 book.3.line.18=Ac felly, yng ngwlad y chwedlau hynafol a gweithredoedd arwrol, daeth stori Castell Conwy a’r brodyr Tudur clyfar yn rhan annwyl o hanes Cymru, i’n hatgoffa y gall dewrder a chyfrwystra’r rhai a feiddiai dorri hyd yn oed y muriau mwyaf nerthol.
 book.3.line.19=Y Diwedd.
+
+book.4.line.1=Croesi i Anhrefn
+book.4.line.2=Roedd y ffyrdd i Dyddewi yn beryglus – mwy o lwybr geifr na phriffordd
+book.4.line.3=Wylodd fy mul. Ond ar ôl cyrraedd, cododd y palas o'm blaen fel pregeth gerfiedig.
+
 
 cw.npc.name.lobby=Croeso
 cw.npc.text.lobby=Croeso i'r lobi, cliciwch ar y map o Gymru i archwilio ein safleoedd!
@@ -17351,3 +17367,15 @@ npc.button.mabliNPC6.0=Nesaf
 npc.text.mabliNPC7.0=Ond nid yw'r stori'n gorffen gyda memrwn. Roedd taith William Morgan yn feiddgar, yn wych, ac weithiau'n wallgof. Eisiau'r stori lawn - o'r pulpud i'r siop argraffu, o erledigaeth i gyhoeddiad?
 npc.text.mabliNPC7.1=Cliciwch y botwm 'Stori Lawn' isod…Gwyliwch, gwrandewch, a chael eich ysbrydoli!
 npc.button.mabliNPC7.0=Stori Llawn
+npc.name.nestquestNPC=Nest y Nodwraig
+npc.text.nestquestNPC1.0="Rwy'n eistedd ger seddi pŵer y gorffennol,
+npc.text.nestquestNPC1.1=Lle gwleddodd uchelwyr yn uchel ac yn gyflym.
+npc.text.nestquestNPC1.2=Y tu ôl i wyneb, wedi'i gerfio'n falch a llym,
+npc.text.nestquestNPC1.3=Mae'r ddeilen goll gyntaf yn aros am ddychwelyd."
+npc.button.nestquestNPC1.0=Nesaf
+npc.name.nestquestNPC=Nest y Nodwraig
+npc.text.nestquestNPC2="Mae memrwn y Parch Gerallt yn chwarae cuddio! Mae'r sôn ei fod wedi llithro y tu ôl i gorbel cerfiedig yn y neuadd — wyddoch chi, y pennau carreg doniol hynny'n gwylio pob symudiad rydych chi'n ei wneud? Ewch i chwilota o amgylch cadair yr esgob a dewch yn ôl pan fyddwch chi wedi dod o hyd i'r sgribl coll!"
+npc.button.nestquestNPC2.0=Chwilio Un
+npc.name.nestquestNPC=Nest y Nodwraig
+npc.text.nestquestNPC3=Wrth slipars yr esgob — fe'i cawsoch chi! Bydd Gerallt wrth ei fodd. Ewch ymlaen felly, rhowch ef iddo cyn iddo gyhuddo'r corbelau o ddwyn ei ben eto.
+npc.button.nestquestNPC3.0=Gerallt Gwir

@@ -15491,7 +15491,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=vikingNPC] @p vikingNPC3"
+                            "function viking_dialogue_fix"
                         ]
                     }
                 ]
@@ -15522,7 +15522,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40358 -10 -39917 facing -40356 -10 -39917"
                         ]
                     }
                 ]
@@ -15553,7 +15553,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40328 -16 -40013 facing -40328 -16 -40016"
                         ]
                     }
                 ]
@@ -15584,7 +15584,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=yrsaNPC] @p yrsaNPC11"
                         ]
                     }
                 ]
@@ -15615,7 +15615,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=yrsaNPC] @p yrsaNPC12"
                         ]
                     }
                 ]
@@ -15658,7 +15658,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40255 -10 -39951 facing -40252 -10 -39951"
                         ]
                     }
                 ]
@@ -15720,7 +15720,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC2"
                         ]
                     }
                 ]
@@ -15751,7 +15751,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC3"
                         ]
                     }
                 ]
@@ -15782,7 +15782,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC1url0"
                         ]
                     },
                     {
@@ -15794,7 +15794,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC4"
                         ]
                     }
                 ]
@@ -15825,7 +15825,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC1url0"
                         ]
                     },
                     {
@@ -15837,7 +15837,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC5"
                         ]
                     }
                 ]
@@ -15883,7 +15883,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC6"
                         ]
                     }
                 ]
@@ -15914,7 +15914,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC7"
                         ]
                     }
                 ]
@@ -15945,7 +15945,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function gerald_button_teleport"
                         ]
                     }
                 ]
@@ -15976,42 +15976,42 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40285 -10 -39887 facing -40283 -10 -39887"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "nestNPC0",
+                "scene_tag": "nestquestNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestNPC"
+                            "translate": "npc.name.nestquestNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestNPC0.0"
+                            "translate": "npc.text.nestquestNPC1.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestNPC0.1"
+                            "translate": "npc.text.nestquestNPC1.1"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestNPC0.2"
+                            "translate": "npc.text.nestquestNPC1.2"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestNPC0.3"
+                            "translate": "npc.text.nestquestNPC1.3"
                         },
                         {
                             "text": "\n"
@@ -16023,29 +16023,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestNPC0.0"
+                                    "translate": "npc.button.nestquestNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "function nestquest_next"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "nestNPC1",
+                "scene_tag": "nestquestNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestNPC"
+                            "translate": "npc.name.nestquestNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestNPC1"
+                            "translate": "npc.text.nestquestNPC2"
                         }
                     ]
                 },
@@ -16054,29 +16054,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestNPC1.0"
+                                    "translate": "npc.button.nestquestNPC2.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40297 -10 -39887 facing -40297 -10 -39885"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "nestNPC2",
+                "scene_tag": "nestquestNPC3",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestNPC"
+                            "translate": "npc.name.nestquestNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestNPC2"
+                            "translate": "npc.text.nestquestNPC3"
                         }
                     ]
                 },
@@ -16085,7 +16085,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestNPC2.0"
+                                    "translate": "npc.button.nestquestNPC3.0"
                                 }
                             ]
                         },
@@ -16531,6 +16531,37 @@
                 ]
             },
             {
+                "scene_tag": "questNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.questNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.questNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.questNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "tp @p -40384 -10 -39908 facing -40384 -10 -39905"
+                        ]
+                    }
+                ]
+            },
+            {
                 "scene_tag": "cadwganNPC0",
                 "npc_name": {
                     "rawtext": [
@@ -16587,7 +16618,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC2"
                         ]
                     }
                 ]
@@ -16627,7 +16658,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC1url0"
                         ]
                     },
                     {
@@ -16639,7 +16670,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC3"
                         ]
                     }
                 ]
@@ -16670,7 +16701,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC1url0"
                         ]
                     },
                     {
@@ -16682,7 +16713,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC4"
                         ]
                     }
                 ]
@@ -16713,7 +16744,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC5"
                         ]
                     }
                 ]
@@ -16744,7 +16775,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40260 -10 -39981 facing -40260 -10 -39979"
                         ]
                     }
                 ]
@@ -16806,7 +16837,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=anwenNPC] @p anwenNPC2"
                         ]
                     }
                 ]
@@ -16837,7 +16868,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40253 -10 -39986 facing -40251 -10 -39986"
                         ]
                     }
                 ]
@@ -16877,7 +16908,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function cadwgan_teleport"
                         ]
                     }
                 ]
@@ -16917,7 +16948,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40351 -16 -39909 facing -40354 -16 -39909"
                         ]
                     }
                 ]
@@ -16991,7 +17022,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40371 -16 -39908 facing -40371 -16 -39906"
                         ]
                     }
                 ]
@@ -17022,7 +17053,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function cadwgan_teleport2"
                         ]
                     }
                 ]
@@ -17062,7 +17093,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC8"
                         ]
                     }
                 ]
@@ -17093,7 +17124,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40378 -16 -39925 facing -40378 -16 -39925"
                         ]
                     }
                 ]
@@ -17155,7 +17186,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=carysquestNPC] @p carysquestNPC2"
                         ]
                     }
                 ]
@@ -17186,7 +17217,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40362 -16 -39925 facing -40362 -16 -39922 "
                         ]
                     }
                 ]
@@ -17217,7 +17248,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function cadwgan_teleport3"
                         ]
                     }
                 ]
@@ -18671,6 +18702,156 @@
                         "commands": [
                             "dialogue open @e[tag=yrsaNPC] @p yrsaNPC2"
                         ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "geraldNPC1url0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.geraldNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.geraldNPC1url0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.geraldNPC1url0.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Pg1ptOhvOPU "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.geraldNPC1url0.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=XjIvkcfu684"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.geraldNPC1url0.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "cadwganNPC1url0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.cadwganNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.cadwganNPC1url0"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.cadwganNPC1url0.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=7YACJEU_rBs "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.cadwganNPC1url0.1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=BUGrSmcXMkY"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.cadwganNPC1url0.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button..0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=BYi77IIkNpM "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button..1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=fKEvVjOp2e0 "
+                    }
+                ]
+            },
+            {
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button..0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Zdx2dW_Lltc"
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button..1"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Zdx2dW_Lltc"
                     }
                 ]
             }

@@ -58,6 +58,18 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       overworld.runCommand(`give @p blockbuilders:runestone 1`);
       overworld.runCommand(`dialogue open @e[tag=betiquestNPC] @p betiquestNPC2`);
       break;
+    case "-40259,-40000":
+      overworld.runCommand(`give @p blockbuilders:torn_inventory_page 1`);
+      overworld.runCommand(`dialogue open @e[tag=anwenNPC] @p anwenNPC3`);
+      break;
+    case "-40382,-39906":
+      overworld.runCommand(`give @p blockbuilders:cracked_casket 1`);
+      overworld.runCommand(`dialogue open @e[tag=gutoNPC] @p gutoNPC2`);
+      break;
+    case "-40359,-39928":
+      overworld.runCommand(`give @p myname:broken_stone_cross 1`);
+      overworld.runCommand(`dialogue open @e[tag=carysquestNPC] @p carysquestNPC3`);
+      break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
   }

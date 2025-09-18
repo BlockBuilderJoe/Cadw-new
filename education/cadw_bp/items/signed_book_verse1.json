@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "blockbuilders:signed_book_verse1",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "written_book"
+      },
+      "minecraft:display_name": {
+        "value": "The Beginning"
+      },
+      "minecraft:book_content": {
+        "title": "The Beginning",
+        "author": "William Morgan",
+        "pages": [
+          "\"In the beginning was the Word...\" John 1:1",
+          "From prayeful heights to the cool stone below - where bread was stored and whispers grow."
+        ]
+      }
+    }
+  }
+}
