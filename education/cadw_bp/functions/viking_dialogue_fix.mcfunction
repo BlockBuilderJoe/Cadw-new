@@ -1,9 +1,10 @@
 # This function teleports the player to the vikingNPC and opens dialogue
-# Teleport player to vikingNPC location
-tp @p -40319 -16 -39925 facing -40319 -16 -39928
 
 # Change the vikingNPC dialogue to vikingNPC3
 dialogue change @e[tag=vikingNPC,c=1] vikingNPC3
 
-# Open the dialogue with vikingNPC3
-dialogue open @e[tag=vikingNPC,c=1] @p vikingNPC3
+# Teleport player to vikingNPC location
+tp @p -40319 -16 -39925 facing -40319 -16 -39928
+
+
+

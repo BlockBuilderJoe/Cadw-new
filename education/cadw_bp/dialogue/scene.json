@@ -14758,7 +14758,31 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40328 -16 -40013 facing -40328 -16 -40016"
+                            "function vikingechoes"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesindavendNPC8.1"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function gerald"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesindavendNPC8.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function dissolution"
                         ]
                     }
                 ]
@@ -14995,7 +15019,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40342 -10 -39878 facing -40342 -10 -39875"
+                            "function idrisquest"
                         ]
                     }
                 ]
@@ -15088,7 +15112,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40319 -16 -39925 facing -40319 -16 -39928"
+                            "function vikingtp"
                         ]
                     }
                 ]
@@ -15243,7 +15267,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40279 -10 -39933 facing -40276 -10 -39933"
+                            "function betitp"
                         ]
                     }
                 ]
@@ -15305,7 +15329,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=vikingNPC] @p vikingNPC2"
+                            "function vikingtpagain"
                         ]
                     }
                 ]
@@ -15429,7 +15453,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40389 -10 -39918 facing -40391 -10 -39918"
+                            "function gwen_quest_start"
                         ]
                     }
                 ]
@@ -15522,7 +15546,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40358 -10 -39917 facing -40356 -10 -39917"
+                            "tp @p -40276 -10 -40010 facing -40276 -10 -40012"
                         ]
                     }
                 ]
@@ -15549,6 +15573,37 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.gwenquestNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=gwenquestNPC] @p gwenquestNPC3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "gwenquestNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.gwenquestNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.gwenquestNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.gwenquestNPC3.0"
                                 }
                             ]
                         },
@@ -15658,7 +15713,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40255 -10 -39951 facing -40252 -10 -39951"
+                            "function gerald"
                         ]
                     }
                 ]
@@ -15976,10 +16031,31 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40285 -10 -39887 facing -40283 -10 -39887"
+                            "function nest_quest_start"
                         ]
                     }
                 ]
+            },
+            {
+                "scene_tag": "nestquestNPC0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.nestquestNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.nestquestNPC0"
+                        }
+                    ]
+                },
+                "on_open_commands": [
+                    "Okay"
+                ],
+                "buttons": []
             },
             {
                 "scene_tag": "nestquestNPC1",
@@ -16169,28 +16245,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.llewNPC0.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.llewNPC0.1"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.llewNPC0.2"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.llewNPC0.3"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.llewNPC0"
                         }
                     ]
                 },
@@ -16221,7 +16276,28 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.llewNPC1"
+                            "translate": "npc.text.llewNPC1.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.llewNPC1.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.llewNPC1.2"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.llewNPC1.3"
+                        },
+                        {
+                            "text": "\n"
                         }
                     ]
                 },
@@ -16262,6 +16338,37 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.llewNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "llewNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.llewNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.llewNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.llewNPC3.0"
                                 }
                             ]
                         },
@@ -16556,7 +16663,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40384 -10 -39908 facing -40384 -10 -39905"
+                            "function dissolution"
                         ]
                     }
                 ]
@@ -16775,7 +16882,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40260 -10 -39981 facing -40260 -10 -39979"
+                            "function anwen_quest_start"
                         ]
                     }
                 ]
@@ -16948,7 +17055,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40351 -16 -39909 facing -40354 -16 -39909"
+                            "function guto_quest_start"
                         ]
                     }
                 ]
@@ -17124,7 +17231,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40378 -16 -39925 facing -40378 -16 -39925"
+                            "function carys_quest_start"
                         ]
                     }
                 ]
@@ -17265,28 +17372,7 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.cadwganNPC9.0"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.cadwganNPC9.2"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "text": "\n"
-                        },
-                        {
-                            "translate": "npc.text.cadwganNPC9.4"
-                        },
-                        {
-                            "text": "\n"
+                            "translate": "npc.text.cadwganNPC9"
                         }
                     ]
                 },
@@ -17296,6 +17382,37 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.cadwganNPC9.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC10"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "cadwganNPC10",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.cadwganNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.cadwganNPC10"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.cadwganNPC10.0"
                                 }
                             ]
                         },
