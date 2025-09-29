@@ -1,0 +1,1 @@
+give @p written_book 1 0 {"author":"Gerald","title":"Crossing into Chaos","pages":["The roads to St Davids were treacherous – more goat path than highway. My mule wept. But upon arrival, the palace rose before me like a carved sermon."]}

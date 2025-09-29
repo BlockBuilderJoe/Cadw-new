@@ -15713,6 +15713,37 @@
                             ]
                         },
                         "commands": [
+                            "dialogue open @e[tag=yrsaNPC] @p yrsaNPC13"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "yrsaNPC13",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.yrsaNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.yrsaNPC13"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.yrsaNPC13.0"
+                                }
+                            ]
+                        },
+                        "commands": [
                             "function gerald"
                         ]
                     }
@@ -16052,42 +16083,52 @@
                         }
                     ]
                 },
-                "on_open_commands": [
-                    "Okay"
-                ],
-                "buttons": []
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.nestquestNPC0.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             },
             {
-                "scene_tag": "nestquestNPC1",
+                "scene_tag": "nestredoNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestquestNPC"
+                            "translate": "npc.name.nestredoNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestquestNPC1.0"
+                            "translate": "npc.text.nestredoNPC1.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestquestNPC1.1"
+                            "translate": "npc.text.nestredoNPC1.1"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestquestNPC1.2"
+                            "translate": "npc.text.nestredoNPC1.2"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.nestquestNPC1.3"
+                            "translate": "npc.text.nestredoNPC1.3"
                         },
                         {
                             "text": "\n"
@@ -16099,7 +16140,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestquestNPC1.0"
+                                    "translate": "npc.button.nestredoNPC1.0"
                                 }
                             ]
                         },
@@ -16110,18 +16151,18 @@
                 ]
             },
             {
-                "scene_tag": "nestquestNPC2",
+                "scene_tag": "nestredoNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestquestNPC"
+                            "translate": "npc.name.nestredoNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestquestNPC2"
+                            "translate": "npc.text.nestredoNPC2"
                         }
                     ]
                 },
@@ -16130,7 +16171,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestquestNPC2.0"
+                                    "translate": "npc.button.nestredoNPC2.0"
                                 }
                             ]
                         },
@@ -16141,18 +16182,18 @@
                 ]
             },
             {
-                "scene_tag": "nestquestNPC3",
+                "scene_tag": "nestredoNPC3",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestquestNPC"
+                            "translate": "npc.name.nestredoNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestquestNPC3"
+                            "translate": "npc.text.nestredoNPC3"
                         }
                     ]
                 },
@@ -16161,12 +16202,43 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestquestNPC3.0"
+                                    "translate": "npc.button.nestredoNPC3.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "function nest_note_first"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "nestredoNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.nestredoNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.nestredoNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.nestredoNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function note_1"
                         ]
                     }
                 ]
@@ -16197,7 +16269,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC10"
                         ]
                     }
                 ]
@@ -16228,7 +16300,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function llew_start"
                         ]
                     }
                 ]
@@ -16311,7 +16383,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=llewNPC] @p llewNPC2"
                         ]
                     }
                 ]
@@ -16342,7 +16414,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40279 -16 -39960 facing -40277 -16 -39960"
                         ]
                     }
                 ]
@@ -16373,7 +16445,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function note_2"
                         ]
                     }
                 ]
@@ -16404,7 +16476,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC12"
                         ]
                     }
                 ]
@@ -16435,7 +16507,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function eleri_start"
                         ]
                     }
                 ]
@@ -16518,7 +16590,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=eleriquestNPC] @p eleriquestNPC2"
                         ]
                     }
                 ]
@@ -16549,7 +16621,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40270 -16 -39995 facing -40270 -16 -39997"
                         ]
                     }
                 ]
@@ -16580,7 +16652,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function note_3"
                         ]
                     }
                 ]
@@ -16632,7 +16704,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function dissolution"
                         ]
                     }
                 ]

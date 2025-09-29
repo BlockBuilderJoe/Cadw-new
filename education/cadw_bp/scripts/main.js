@@ -1,5 +1,6 @@
 import { world, system, BlockPermutation } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
+import { giveBookToPlayer } from "./books.js";
 
 let overworld = world.getDimension("overworld");
 
@@ -69,6 +70,19 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
     case "-40359,-39928":
       overworld.runCommand(`give @p myname:broken_stone_cross 1`);
       overworld.runCommand(`dialogue open @e[tag=carysquestNPC] @p carysquestNPC3`);
+      break;
+    case "-40288,-40008":
+      overworld.runCommand(`function give_book_from_chest`);
+      overworld.runCommand(`dialogue change @e[tag=nestredoNPC] nestredoNPC3`);
+      overworld.runCommand(`dialogue open @e[tag=nestredoNPC] @p nestredoNPC3`);
+      break;
+    case "-40254,-39962":
+      overworld.runCommand(`function give_book_two`);
+      overworld.runCommand(`dialogue open @e[tag=llewNPC] @p llewNPC3`);
+      break;
+    case "-40266,-40000":
+      overworld.runCommand(`function give_book_three`);
+      overworld.runCommand(`dialogue open @e[tag=eleriquestNPC] @p eleriquestNPC3`);
       break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);

@@ -94,6 +94,10 @@ Edrychwch yn isel, lle mae carreg yn cwrdd â phridd, mae symbol cysegredig yn a
 
 sign.12=Lle nad yw'r golau'n cyrraedd, mae'r allor yn aros—ei darnau wedi'u gwasgaru a'u torri. Chwiliwch am y tywyllwch i ddod o hyd i grair cysegredig y Llychlynnwr.
 
+sign.13=Dilynwch y grisiau cerrig i lawr o dan y Neuadd Fawr. Mae'n oer, yn dywyll, ac yn arogli'n rhyfedd o winwns.
+
+sign.14=Dringwch yn uchel - i'r parapet arcêd neu ger y capel. Nid yw'r cerfiadau i fyny yno yn ffansi yn unig - maen nhw'n fusneslyd.
+
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
 ui.compass.button.stay=Aros yma
@@ -169,6 +173,15 @@ book.4.line.1=Croesi i Anhrefn
 book.4.line.2=Roedd y ffyrdd i Dyddewi yn beryglus – mwy o lwybr geifr na phriffordd
 book.4.line.3=Wylodd fy mul. Ond ar ôl cyrraedd, cododd y palas o'm blaen fel pregeth gerfiedig.
 
+book.5.line.1=Bwyta gydag Esgobion
+book.5.line.2=Peidiwch byth ag ymddiried mewn cogydd esgob. Roedd y cawl yn tywynnu'n amheus.
+book.5.line.3=Serch hynny, roedd y sgwrs yn fwy sbeislyd - dysgais gyfrinachau a fyddai'n gwneud i Norman gochi.
+
+
+book.6.line.1=Sibrydion yn y Capel
+book.6.line.2=Yn nhawelwch capel yr esgob, teimlais bresenoldeb.
+book.6.line.3=Ai sancteiddrwydd oedd e. . . 
+book.6.line.4=neu rywun yn cuddio y tu ôl i'r piscina? Beth bynnag, cymerais nodiadau.
 
 cw.npc.name.lobby=Croeso
 cw.npc.text.lobby=Croeso i'r lobi, cliciwch ar y map o Gymru i archwilio ein safleoedd!
@@ -17417,3 +17430,15 @@ npc.text.nestquestNPC0=Oi! Dim sgipio ymlaen! Ewch i orffen y daith—yna gallwn
 npc.button.nestquestNPC0.0=Oce
 npc.text.carysquestNPC0=Dydych chi ddim wedi ennill eich esgidiau adeiladwr eto. Dewch i archwilio, bychan!
 npc.button.carysquestNPC0.0=Oce
+npc.name.nestredoNPC=Nest y Nodwraig
+npc.text.nestredoNPC1.0="Rwy'n eistedd ger seddi pŵer y gorffennol,
+npc.text.nestredoNPC1.1=Lle gwleddodd uchelwyr yn uchel ac yn gyflym.
+npc.text.nestredoNPC1.2=Y tu ôl i wyneb, wedi'i gerfio'n falch a llym,
+npc.text.nestredoNPC1.3=Mae'r ddeilen goll gyntaf yn aros am ddychwelyd."
+npc.button.nestredoNPC1.0=Nesaf
+npc.name.nestredoNPC=Nest y Nodwraig
+npc.text.nestredoNPC2="Mae memrwn y Parch Gerallt yn chwarae cuddio! Mae'r sôn ei fod wedi llithro y tu ôl i gorbel cerfiedig yn y neuadd — wyddoch chi, y pennau carreg doniol hynny'n gwylio pob symudiad rydych chi'n ei wneud? Ewch i chwilota o amgylch cadair yr esgob a dewch yn ôl pan fyddwch chi wedi dod o hyd i'r sgribl coll!"
+npc.button.nestredoNPC2.0=Chwilio Un
+npc.name.nestredoNPC=Nest y Nodwraig
+npc.text.nestredoNPC3=Wrth slipars yr esgob — fe'i cawsoch chi! Bydd Gerallt wrth ei fodd. Ewch ymlaen felly, rhowch ef iddo cyn iddo gyhuddo'r corbelau o ddwyn ei ben eto.
+npc.button.nestredoNPC3.0=Gerallt Gwir

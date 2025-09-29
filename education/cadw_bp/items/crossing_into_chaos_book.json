@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cadw:crossing_into_chaos_book",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "book_written"
+      },
+      "minecraft:display_name": {
+        "value": "§r§6Crossing into Chaos§r"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 32,
+      "minecraft:foil": false
+    }
+  }
+}
