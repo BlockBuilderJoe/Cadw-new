@@ -55,7 +55,7 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       overworld.runCommand(`give @p myname:chunk_of_mosaic 1`);
       overworld.runCommand(`dialogue open @e[tag=idrisquestNPC] @p idrisquestNPC3`);
       break;
-    case "-40294,-39896":
+    case "-40284,-39900":
       overworld.runCommand(`give @p blockbuilders:runestone 1`);
       overworld.runCommand(`dialogue open @e[tag=betiquestNPC] @p betiquestNPC2`);
       break;
@@ -80,9 +80,35 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       overworld.runCommand(`function give_book_two`);
       overworld.runCommand(`dialogue open @e[tag=llewNPC] @p llewNPC3`);
       break;
-    case "-40266,-40000":
+    case "-40265,-40004":
       overworld.runCommand(`function give_book_three`);
       overworld.runCommand(`dialogue open @e[tag=eleriquestNPC] @p eleriquestNPC3`);
+      break;
+    case "-40267,-40000":
+      overworld.runCommand(`function give_book_four`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC] @p keeperNPC1`);
+      break;
+    case "-40265,-39917":
+      overworld.runCommand(`function give_book_five`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC2] @p keeperNPC2`);
+      break;
+    case "-40253,-40000":
+      overworld.runCommand(`function give_book_six`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC3] @p keeperNPC3`);
+      break;
+    case "-40388,-39959":
+      overworld.runCommand(`function give_book_seven`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC4] @p keeperNPC4`);
+      break;
+    case "-40310,-39913":
+      overworld.runCommand(`function give_book_eight`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC5] @p keeperNPC5`);
+      break;
+    case "-40336,-39899":
+      overworld.runCommand(`function give_book_nine`);
+      overworld.runCommand(`dialogue open @e[tag=keeperNPC6] @p keeperNPC6`);
+      overworld.runCommand(`tp @e[tag=mabliNPC] -40265 -10 -40012`);
+      overworld.runCommand(`dialogue change @e[tag=mabliNPC] mabliNPC6`);
       break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);

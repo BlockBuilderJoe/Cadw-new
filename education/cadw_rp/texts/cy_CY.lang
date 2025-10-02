@@ -94,9 +94,67 @@ Edrychwch yn isel, lle mae carreg yn cwrdd â phridd, mae symbol cysegredig yn a
 
 sign.12=Lle nad yw'r golau'n cyrraedd, mae'r allor yn aros—ei darnau wedi'u gwasgaru a'u torri. Chwiliwch am y tywyllwch i ddod o hyd i grair cysegredig y Llychlynnwr.
 
-sign.13=Dilynwch y grisiau cerrig i lawr o dan y Neuadd Fawr. Mae'n oer, yn dywyll, ac yn arogli'n rhyfedd o winwns.
+sign.13=Dilynwch y grisiau cerrig i lawr o dan y Neuadd yr Esgob. Mae'n oer, yn dywyll, ac yn arogli'n rhyfedd o winwns.
 
 sign.14=Dringwch yn uchel - i'r parapet arcêd neu ger y capel. Nid yw'r cerfiadau i fyny yno yn ffansi yn unig - maen nhw'n fusneslyd.
+
+sign.15=Casglwch eich eitemau cwest! Hawliwch eich ysbail Llychlynnaidd!
+
+sign.16=Casglwch eich eitemau cwest! Cipiwch eich creiriau Llychlynnaidd!
+
+sign.17=Casglwch eich eitemau cwest! Hawliwch eich trysor Llychlynnaidd!
+
+sign.18=Casglwch eich eitemau cwest! Codwch y tudalennau coll!
+
+sign.19=Casglwch eich eitemau cwest! Casglwch ddarnau dyddiadur Gerallt!
+
+sign.20=Casglwch eich eitemau cwest! Hawliwch nodiadau Gerallt!
+
+sign.21=Casglwch eich eitemau cwest! Codwch y Dudalen Rhestr Eiddo wedi'i Rhwygo!
+
+sign.22=Casglwch eich eitemau cwest! Hawliwch yr Arch wedi Cracio!
+
+sign.23=Casglwch eich eitemau cwest! Casglwch y Groes Garreg Doredig!
+
+sign.24=Chwiliwch am y silffoedd lle mae'r ysgrythur yn cysgu...
+
+sign.25=O dan y gegin mae'r gwir —
+Lle roedd bara unwaith yn bwydo'r corff,
+Bydd geiriau'n bwydo'r enaid nawr.
+
+sign.26=I lawr y grisiau, heibio tân a cherrig,
+Lle roedd casgenni’n eistedd a llygod mawr yn crwydro ar un adeg — Mae’r ail bennill yn aros.
+
+sign.27=Siambr ar gyfer meddyliau, ar gyfer gweddïau, ar gyfer cwsg —
+Lle mae cyfrinachau'r ysgrythur yn cadw'r distawrwydd.
+Ar un adeg cerddodd yr esgob yma wrth lewyrch cannwyll —
+Dilynwch y golau lle mae ei droed yn mynd.
+
+sign.28=Encil yr esgob — doethineb cynnes, gwyliadwrus, a sibrydol
+
+sign.29=Gall muriau chwalu, gall brenhinoedd syrthio,
+Ond mae geiriau'n parhau y tu hwnt i bob un ohonynt.
+Chwiliwch y neuadd gymedrol lle gorweddai gwesteion ar un adeg,
+Mae gwirionedd yn cysgu lle mae traed yn pylu.
+
+sign.30=Gwesty Syml — ond mae'r Gair yn aros yn hirach nag yr oedd y boneddigion.
+
+sign.31=Anghenfilod wedi'u cerfio, llygaid carreg yn disgleirio —
+Camwch o dan fwâu, os meiddiwch.
+Mae blodau'n pylu, ond mae gwirionedd yn parhau'n dal,
+Ceisiwch y Gair o fewn y neuadd.
+
+sign.32=Dringwch lle mae'r llewod carreg yn gwylio,
+Lle mae babŵns yn bloeddio a morforynion yn eistedd.
+Mae'r Gair pur yn aros ymhlith y balch —
+Tarian uwchben, i ffwrdd o'r dorf
+
+sign.33=Ymhlith grotesgau a mawredd, mae ffydd yn sefyll yn gryf. Chwiliwch am y darian uwchben y dorf.
+
+sign.34=Mae sgroliau'n aros y tu mewn!
+Ewch i Gapel yr Esgob,
+Chwiliwch am Mabli ger y piscina —
+Mae hi'n barod i weld a ydych chi wedi datrys Etifeddiaeth y Geiriau!
 
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
@@ -182,6 +240,9 @@ book.6.line.1=Sibrydion yn y Capel
 book.6.line.2=Yn nhawelwch capel yr esgob, teimlais bresenoldeb.
 book.6.line.3=Ai sancteiddrwydd oedd e. . . 
 book.6.line.4=neu rywun yn cuddio y tu ôl i'r piscina? Beth bynnag, cymerais nodiadau.
+
+
+
 
 cw.npc.name.lobby=Croeso
 cw.npc.text.lobby=Croeso i'r lobi, cliciwch ar y map o Gymru i archwilio ein safleoedd!
@@ -17442,3 +17503,57 @@ npc.button.nestredoNPC2.0=Chwilio Un
 npc.name.nestredoNPC=Nest y Nodwraig
 npc.text.nestredoNPC3=Wrth slipars yr esgob — fe'i cawsoch chi! Bydd Gerallt wrth ei fodd. Ewch ymlaen felly, rhowch ef iddo cyn iddo gyhuddo'r corbelau o ddwyn ei ben eto.
 npc.button.nestredoNPC3.0=Gerallt Gwir
+npc.text.taliesindavNPC3=O geiswyr dewr, y mae eich esgidiau'n cnoi ar gerrig a sathrwyd unwaith gan seintiau ac arglwyddi, Dewch i chwilota gyda mi trwy balas y gorffennol, trwy adleisiau, ysbrydion, a chelciau esgobion! Mae ffrindiau rhuddgoch yn aros i'ch tywys, gyda thasgau i bryfocio'ch balchder chwilfrydig.
+npc.button.taliesindavNPC3.0=Nesaf
+npc.text.taliesindavNPC4=Myfi yw Taliesin, bardd chwedloniaeth, carwr llên gwerin. Mae'r palas hwn yn dal straeon am rym, balchder a phrotest. Os hoffech chi eu datgelu i gyd, cwblhewch gwestau y ceidwaid mewn gwisgoedd rhuddgoch sy'n gwarchod cyfrinachau'r garreg gysegredig hon…
+npc.button.taliesindavNPC4.0=Nesaf
+npc.text.taliesindavNPC5.0=Ond cyn i chi rasio i ffwrdd i'w cyfarfod, cymerwch eiliad i weld beth sydd ar y gweill.
+npc.text.taliesindavNPC5.1=Fy ffrindiau, rydw i wedi paratoi cipolwg ar yr anturiaethau mawreddog sydd o'n blaenau.
+npc.text.taliesindavNPC5.2=Gwyliwch 'Beth nesaf, Adeiladwr Dewr' — a pharatowch eich synnwyr, eich dewrder… ac efallai byrbryd. Bydd eu hangen arnoch chi i gyd!
+npc.button.taliesindavNPC5.0=Cwest & Helynt
+npc.button.taliesindavNPC5.1=Nesaf
+npc.text.taliesindavNPC6=A-a! Mae anturiaethwr doeth bob amser yn chwilio ymlaen. Gwyliwch y fideo 'Beth Nesaf' yn gyntaf — yna byddwch chi'n barod i ddewis eich cwest fel pencampwr go iawn.
+npc.button.taliesindavNPC6.0=Fideo
+npc.button.taliesindavNPC6.1=Nesaf
+npc.text.taliesindavNPC7.0=Rydych chi wedi gweld y ffordd o'ch blaen, adeiladwr dewr!
+npc.text.taliesindavNPC7.1=Mae pedwar cwest yn aros amdanoch chi — pob un yn gam trwy'r canrifoedd.
+npc.text.taliesindavNPC7.2=Maen nhw'n dilyn y drefn y digwyddodd hanes… ond gallwch chi ddewis pa un bynnag yr hoffech chi ddechrau.
+npc.button.taliesindavNPC7.0=Nesaf
+npc.text.taliesindavNPC8.0=1. Adleisiau'r Llychlynwyr – Helfa am olion o oes yr ysbeilwyr.
+npc.text.taliesindavNPC8.2=2. Siwrnai Gerallt o Gymro – Rhowch dudalennau teithiwr aflonydd at ei gilydd.
+npc.button.taliesindavNPC8.0=Nesaf
+npc.text.taliesindavNPC9.0=3. Dramâu Diddymu – Datgelwch gwymp teyrnas yr esgob.
+npc.text.taliesindavNPC9.2=4. Etifeddiaeth y Geiriauwr – Darganfyddwch sut y rhoddodd un dyn lais i'r Beibl yn y Gymraeg.
+npc.button.taliesindavNPC9.0=Nesaf
+npc.text.taliesindavNPC10.0=Dilynwch y canrifoedd yn eu trefn, neu neidiwch at ba bynnag geidwad mewn gwisg rhuddgoch sy'n galw arnoch chi gyntaf.
+npc.text.taliesindavNPC10.2=Bydd y stori'n aros… ond nid yw antur byth yn gwneud hynny!
+npc.button.taliesindavNPC10.0=Adlais Llychlyn
+npc.text.yrsaNPC1url0=Dewiswch eich iaith, deithiwr! Pa iaith hoffech chi glywed y stori hon?
+npc.text.geraldNPC1url0=Dewiswch eich iaith! Cymraeg? Saesneg? Dydyn ni ddim yn gwneud rhochian canoloesol, mae'n ddrwg gennym.
+npc.text.cadwganNPC1url0=Pa iaith sy'n addas i'ch clustiau brenhinol? Dewch ymlaen, dewiswch sut rydych chi eisiau i'ch hanes gael ei gweini!
+npc.text.taliesindavNPC1url1=Pa iaith sy'n addas i'ch clustiau brenhinol? Dewch ymlaen, dewiswch sut rydych chi eisiau i'ch hanes gael ei gweini!
+npc.text.nestredoNPC0=Oi! Dim sgipio ymlaen! Ewch i orffen y daith—yna gallwn ni siarad am hanes ac arwriaeth.
+npc.button.nestredoNPC0.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC1=Y Dechrau - Mae pennill am ddechreuadau yn aros y tu mewn… agorwch eich Llyfr a Chwilsen a darllenwch.
+npc.button.keeperNPC1.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC2=Bara Beunyddiol - Ni fydd bara yn unig yn eich llenwi - bydd y geiriau y tu mewn yn gwneud hynny. Agorwch eich Llyfr a Chwilsen.
+npc.button.keeperNPC2.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC3=Goleuni Arweiniol - Mae golau i draed blinedig o fewn y dudalen hon. Agorwch eich Llyfr a Chwilsen.
+npc.button.keeperNPC3.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC4=Gwir Ddiysgog - Gall carreg chwalu, ond mae gwirionedd yn para. Agorwch eich Llyfr a Chwilsen i'w gweld.
+npc.button.keeperNPC4.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC5=Gair Tragwyddol - Mae glaswellt yn pylu, blodau'n cwympo - ond mae'r Gair yn sefyll. Agorwch eich Llyfr a Chwilsen.
+npc.button.keeperNPC5.0=Oce
+npc.name.keeperNPC=Darn 1
+npc.text.keeperNPC6=Pur a Chryf - Rydych chi wedi cyrraedd y darn olaf! Agorwch eich Llyfr a Chwilsen a pharatowch i gwrdd â Mabli.
+npc.button.keeperNPC6.0=Oce
+npc.name.keeperNPC2=Darn 2
+npc.name.keeperNPC3=Darn 3
+npc.name.keeperNPC4=Darn 4
+npc.name.keeperNPC5=Darn 5
+npc.name.keeperNPC6=Darn 6

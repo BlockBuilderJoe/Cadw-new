@@ -84,7 +84,7 @@ sign.6=Where the first rays of the sun kiss the stones, a relic from the past li
 
 sign.7=The looted altar lies in the darkness, forgotten by time. It was stolen, but its power cannot be erased. Look for the place where sacred meets shadow. There, the altar waits.
 
-sign.8=Check the walls around the Great Hall - high and low! They're peeking at you if you dare peek back.
+sign.8=Gerald's page is being cheeky! Near the gate it flutters, hiding well! Peek around - it's waiting for you!
 
 sign.9=Look near the fireplace or lectern. Where flames once flickered and scriptures were read, a list of loss lies quietly instead.
 
@@ -94,9 +94,49 @@ sign.11=Search by the gravel path that curves around the ruined chapel. Look low
 
 sign.12=Where the light does not reach, the altar remains - its pieces scattered and broken. Seek the darkness to find the Viking's sacred relic.
 
-sign.13=Follow the stone steps down below the Great Hall. It's cool, dark, and smells oddly of onions.
+sign.13=Follow the stone steps down below Bishop's Hall. It's cool, dark, and smells oddly of onions.
 
-sign.14=Climb high - to the arcaded parapet or near the chapel. The carvings up there aren't just fancy - they're nosy.
+sign.14=Enter the Bishop's Chapel. The carvings aren't just decoration - they're watching! Look near the altar under the big window to find the page.
+
+sign.15=Collect your quest items! Claim your Viking loot!
+
+sign.16=Collect your quest items! Snag your Norse relics!
+
+sign.17=Collect your quest items! Claim your Viking treasure!
+
+sign.18=Collect your quest items! Pick up the missing pages!
+
+sign.19=Collect your quest items! Gather Gerald's journal pieces!
+
+sign.20=Collect your quest items! Claim Gerald's notes!
+
+sign.21=Collect your quest items! Pick up the Torn Inventory Page!
+
+sign.22=Collect your quest items! Claim the Cracked Casket!
+
+sign.23=Collect your quest items! Gather the Broken Stone Cross!
+
+sign.24=Seek the shelves where scripture sleeps...
+
+sign.25=Beneath the kitchen lies the truth - Where bread once fed the body, Now words shall feed the soul.
+
+sign.26=Down the steps, past fire and stone, Where barrels sit and rats once roamed - The second verse awaits.
+
+sign.27=A chamber for thoughts, for prayers, for sleep - Where secrets of scripture the silence keeps. The bishop once walked here by candle's glow - Follow the light where his footsteps go.
+
+sign.28=The bishop's retreat - warm, watchful, and whispering wisdom.
+
+sign.29=Walls may crumble, kings may fall, But words endure beyond them all. Seek the modest hall where guests once lay, Truth sleeps where footsteps fade away.
+
+sign.30=A simple guest house - but the Word stays longer than the nobles did.
+
+sign.31=Monsters carved, stone eyes glare - Step beneath arches, if you dare. Flowers fade, but truth stays tall, Seek the Word within the hall.
+
+sign.32=Climb where the stone lions watch, Where baboons bellow and mermaids perch. The pure Word waits among the proud - A shield above, away from the crowd.
+
+sign.33=Among grotesques and grandeur, faith stands strong. Look for the shield above the crowd.
+
+sign.34=Scrolls await inside! Head to the Bishop's Chapel, Look for Mabli near the piscina - She's ready to see if you've cracked the Wordsmith's Legacy!
 
 ui.compass.title=Compass Teleport
 ui.compass.body=Where would you like to go?
@@ -188,9 +228,72 @@ book.5.line.2=Never trust a bishop's cook. The broth was suspiciously glowing.
 book.5.line.3=Still, the conversation was spicier - I learned secrets that would make a Norman blush.
 
 book.6.line.1=Whispers in the Chapel
-book.6.line.2=In the hush of the bishop’s chapel, I felt a presence.
-book.6.line.3=Was it holiness. . .
+book.6.line.2=In the hush of the bishop's chapel, I felt a presence.
+book.6.line.3=Was it holiness...
 book.6.line.4=or someone hiding behind the piscina? Either way, I took notes.
+
+book.7.line.1=Title: The Beginning
+book.7.line.2=Author: William Morgan
+book.7.line.3=Verse: John 1:1
+book.7.line.4=This fragment comes from the work of William Morgan, the first translator of the Bible into Welsh.
+book.7.line.5=It corresponds to John 1:1 in the original text. 
+book.7.line.6=Morgan's translation helped make the Word accessible to ordinary Welsh speakers.
+book.7.line.7=Reflection/Guidance
+book.7.line.8=Consider why the opening of the Bible would be important to translate. How might this have affected Welsh readers in Morgan's time?
+book.7.line.9=Clue:
+book.7.line.10=From prayerful heights to the cool stone below - where bread was stored and whispers grow.
+
+book.8.line.1=Title: Daily Bread
+book.8.line.2=Author: William Morgan
+book.8.line.3=Verse: Luke 4:4
+book.8.line.4=This fragment corresponds to Luke 4:4.
+book.8.line.5=The translation provided spiritual nourishment to the people of Wales, making scripture more meaningful and relevant.
+book.8.line.6=Reflection/Guidance
+book.8.line.7=Consider the idea of spiritual sustenance. How might reading the Bible in Welsh have impacted daily life and faith?
+book.8.line.8=Clue:
+book.8.line.9=Where thoughts once sparked beside the flame, light guided minds and Morgan's name.
+
+book.9.line.1=Title: Guiding Light
+book.9.line.2=Author: William Morgan
+book.9.line.3=Verse: Psalm 119:105
+book.9.line.4=This fragment corresponds to Psalm 119:105.
+book.9.line.5=Morgan's work provided spiritual guidance, helping Welsh readers follow the teachings of the Bible in their own language.
+book.9.line.6=Reflection/Guidance
+book.9.line.7=Think about guidance in daily life. How does having scripture in your own language illuminate understanding and decision-making?
+book.9.line.8=Clue:
+book.9.line.9=Even weary travellers need the Word - seek where soft snores once stirred.
+
+book.10.line.1=Title: Unshaken Truth
+book.10.line.2=Author: William Morgan
+book.10.line.3=Verse: Matthew 24:35
+book.10.line.4=This fragment corresponds to Matthew 24:35.
+book.10.line.5=The Word stands for eternity, and Morgan's work ensured a lasting legacy for the Welsh language.
+book.10.line.6=Reflection/Guidance
+book.10.line.7=Consider legacy. How does Morgan's translation continue to influence Welsh culture and language today?
+book.10.line.8=Clue:
+book.10.line.9=Pass through arches of power and pride - where visitors once stepped inside.
+
+book.11.line.1=Title: Everlasting Word
+book.11.line.2=Author: William Morgan
+book.11.line.3=Verse: Isaiah 40:8
+book.11.line.4=This fragment corresponds to Isaiah 40:8.
+book.11.line.5=Morgan's translation preserved these teachings for generations, helping the Welsh language and culture endure.
+book.11.line.6=Reflection/Guidance
+book.11.line.7=Reflect on the idea of permanence. How does translating key texts help preserve culture and language over time?
+book.11.line.8=Clue:
+book.11.line.9=Where mermaids watch and monsters leer - look high for the Word that conquered fear.
+
+book.12.line.1=Title: Pure and Strong
+book.12.line.2=Author: William Morgan
+book.12.line.3=Verse: Proverbs 30:5
+book.12.line.4=This fragment corresponds to Proverbs 30:5.
+book.12.line.5=Morgan's translation emphasized the purity and reliability of the Word, helping Welsh speakers trust the text.
+book.12.line.6=Reflection/Guidance
+book.12.line.7=Why is accuracy and trustworthiness important in translation? How might this have affected how people used and valued the Bible?
+book.12.line.8=Clue:
+book.12.line.9=You've reached the heights - well done, word-hunter!
+book.12.line.10=Now descend the parapet and walk toward the bishop's chapel. Inside, near the carved piscina where prayers once poured,
+book.12.line.11=You'll find Mabli the Manuscript Keeper - parchment in hand and eyebrows raised!
 
 cw.npc.name.lobby=Welcome
 cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
@@ -1962,9 +2065,9 @@ npc.text.geraldNPC4=Think you're ready to chase lost pages? First, meet the medi
 npc.button.geraldNPC4.0=Video
 npc.button.geraldNPC4.1=Next
 npc.name.geraldNPC=Gerald the Truthful
-npc.text.geraldNPC5.0=History isn't just scrolls and snoring! It's a quest! To prove yourself, you must:                                                     Locate 3 pages from my missing travel journals
-npc.text.geraldNPC5.1=Follow in my muddy footsteps
-npc.text.geraldNPC5.2=Decode a hidden quote only a true scholar can reveal!
+npc.text.geraldNPC5.0=History isn't just scrolls and snoring! It's a quest! To prove yourself, you must:                                                     - Locate 3 pages from my missing travel journals
+npc.text.geraldNPC5.1=- Follow in my muddy footsteps
+npc.text.geraldNPC5.2=- Decode a hidden quote only a true scholar can reveal!
 npc.button.geraldNPC5.0=Next
 npc.name.geraldNPC=Gerald the Truthful
 npc.text.geraldNPC6=Now, find the missing pages, piece together my tales, and restore my legend. Do this, and I shall open the gate to the next quest, a grand adventure awaits! But beware - some truths are buried deep. . .  possibly behind a corbel or two.
@@ -2015,23 +2118,23 @@ npc.name.eleriquestNPC=Eleri the Eagle-Eyed
 npc.text.eleriquestNPC0=What do you think this is - a speedrun? Come back after you've done the proper tour!
 npc.button.eleriquestNPC0.0=Okay
 npc.name.eleriquestNPC=Eleri the Eagle-Eyed
-npc.text.eleriquestNPC1.0="High above where breezes bite,
-npc.text.eleriquestNPC1.1=Where beasts in stone give birds a fright,
-npc.text.eleriquestNPC1.2=Look near the siren of the wall -
-npc.text.eleriquestNPC1.3=A watery lass has caught its fall."
-npc.button.eleriquestNPC1.0=Next
+npc.text.eleriquestNPC1.0="From just outside the chapel door,
+npc.text.eleriquestNPC1.1=Stone faces watch and shows pour.
+npc.text.eleriquestNPC1.2=Gerald's final page rests inside,
+npc.text.eleriquestNPC1.3=Near the altar where the candles glow.
+npc.button.eleriquestNPC1.0=Seek Page One
 npc.name.eleriquestNPC=Eleri the Eagle-Eyed
 npc.text.eleriquestNPC2=I spotted a flash of parchment beneath the mermaid corbel up on the parapet. Tricky place - high up and full of stony stares. Keep your eyes peeled for carved creatures, and come back when you've recovered the page!
 npc.button.eleriquestNPC2.0=Seek Page One
 npc.name.eleriquestNPC=Eleri the Eagle-Eyed
-npc.text.eleriquestNPC3=Nice spotting! You've got eyes as sharp as a peregrine. Gerald's probably pacing by now - take it to him before he starts filing a formal complaint with history.
+npc.text.eleriquestNPC3=Nice spotting! You've got eyes as sharp as a peregrine. A chapel note! But is it holy insight or sneaky gossip? Only one way to know - open your Book & Quill and read what Gerald whispered onto the page.
 npc.button.eleriquestNPC3.0=Gerald Truthful
 npc.name.geraldNPC=Gerald the Truthful
 npc.text.geraldNPC13.0=You've done it! My journal's whole again - and not a coffee stain in sight! With these pages, the past speaks once more: Viking shadows, bishop banquets, and cathedral secrets.
 npc.text.geraldNPC13.1=But beware - the next tale isn't about building up, but tearing down.
 npc.text.geraldNPC13.2=The Dissolution is coming, and not even stone walls can hold it back.
 npc.text.geraldNPC13.3=Seek out Brother Cadwgan. He's got tales of kings, coins, and monks on the move. . .  and a challenge that might just shake your beliefs.
-npc.button.geraldNPC13.0=Brother Cadwgan
+npc.button.geraldNPC13.0=Next
 npc.name.cadwganNPC=Brother Cadwgan
 npc.text.cadwganNPC0=Nice try, but I'm not giving away quests like medieval soup. Go see the rest of the palace first!
 npc.button.cadwganNPC0.0=Okay
@@ -2108,7 +2211,7 @@ npc.name.mabliNPC=Mabli the Manuscript Keeper
 npc.text.mabliNPC0=You haven't earned your builder's boots yet. Get exploring, slowpoke!
 npc.button.mabliNPC0.0=Okay
 npc.name.mabliNPC=Mabli the Manuscript Keeper
-npc.text.mabliNPC1=Shwmae, young seekers. I am Mabli, keeper of quills and secrets. In the shadows of this great palace, one name burns brighter than any — William Morgan, translator of the Welsh Bible and guardian of our tongue.
+npc.text.mabliNPC1=Shwmae, young seekers. I am Mabli, keeper of quills and secrets. In the shadows of this great palace, one name burns brighter than any - William Morgan, translator of the Welsh Bible and guardian of our tongue.
 npc.button.mabliNPC1.0=Next
 npc.name.mabliNPC=Mabli the Manuscript Keeper
 npc.text.mabliNPC2.0=But ink fades, and pages scatter. I need your help to find six sacred verses from his Bible, hidden in dusty bookshelves across the palace. Each verse carries a clue to the next. Piece them together, and you'll unlock the light of language that once lit every corner of Wales.
@@ -2116,20 +2219,20 @@ npc.text.mabliNPC2.1=Are you ready to read between the lines?
 npc.button.mabliNPC2.0=Legacy
 npc.button.mabliNPC2.1=Next
 npc.name.mabliNPC=Mabli the Manuscript Keeper
-npc.text.mabliNPC3=A man once turned holy words into Welsh — and it changed everything. Click 'video' to learn about William Morgan, or press 'next' if translating the Bible sounds easier than it really was!
+npc.text.mabliNPC3=A man once turned holy words into Welsh - and it changed everything. Click 'video' to learn about William Morgan, or press 'next' if translating the Bible sounds easier than it really was!
 npc.button.mabliNPC3.0=Video
 npc.button.mabliNPC3.1=Next
 npc.name.mabliNPC=Mabli the Manuscript Keeper
-npc.text.mabliNPC4=You've seen the words come alive — now it's time to hunt them down! William Morgan's Bible wasn't just ink and parchment — it was a lifeline for language, for Wales, for us all.
+npc.text.mabliNPC4=You've seen the words come alive - now it's time to hunt them down! William Morgan's Bible wasn't just ink and parchment - it was a lifeline for language, for Wales, for us all.
 npc.button.mabliNPC4.0=Next
 npc.name.mabliNPC=Mabli the Manuscript Keeper
-npc.text.mabliNPC5=Six verses from that sacred book are hidden throughout this palace. Each one's sealed in a bookshelf and marked with a riddle. Solve it, find the verse, and the next clue will guide you on. When you hold all six, return to me and we'll reassemble the legacy — one word at a time!
+npc.text.mabliNPC5=Six verses from that sacred book are hidden throughout this palace. Each one's sealed in a bookshelf and marked with a riddle. Solve it, find the verse, and the next clue will guide you on. When you hold all six, return to me and we'll reassemble the legacy - one word at a time!
 npc.button.mabliNPC5.0=Bishop's Solar
 npc.button.betiquestNPC1.0=Search Relic
-npc.text.mabliNPC6=Bravo! You've reassembled the verses, just as Morgan once assembled hope from ink and prayer. These words are more than holy — they're history, hammered out in candlelight and carried through centuries.
+npc.text.mabliNPC6=Bravo! You've reassembled the verses, just as Morgan once assembled hope from ink and prayer. These words are more than holy - they're history, hammered out in candlelight and carried through centuries.
 npc.button.mabliNPC6.0=Next
-npc.text.mabliNPC7.0=But the tale doesn't end with parchment. William Morgan's journey was bold, brilliant, and occasionally bonkers. Want the full story — from pulpit to print shop, from persecution to publication?
-npc.text.mabliNPC7.1=Click the 'Full Story' button below…Watch, listen, and be inspired!
+npc.text.mabliNPC7.0=But the tale doesn't end with parchment. William Morgan's journey was bold, brilliant, and occasionally bonkers. Want the full story - from pulpit to print shop, from persecution to publication?
+npc.text.mabliNPC7.1=Click the 'Full Story' button below. . . Watch, listen, and be inspired!
 npc.button.mabliNPC7.0=Full Story
 npc.button.mabliNPC7.1=Next
 npc.name.nestquestNPC=Nest the Notary
@@ -2175,8 +2278,8 @@ npc.text.llewNPC1.0="Where echo dwells and cool stones sleep,
 npc.text.llewNPC1.1=And servants' secrets softly creep,
 npc.text.llewNPC1.2=Past casks and crumbs in silent gloom,
 npc.text.llewNPC1.3=A page lies still in a shadowed room."
-npc.text.llewNPC3=Ahhh, the rustle of aged parchment! That's music to Gerald's ears. Best not keep him waiting - his memory's long, but his patience is not!
-npc.button.llewNPC3.0=Gerald Truthful
+npc.text.llewNPC3=You've found a page that smells faintly of stew. . . Open your Book & Quill to discover why Gerald thought a bishop's broth could glow in the dark!
+npc.button.llewNPC3.0=Next
 npc.text.nestquestNPC0=Oi! No skipping ahead! Go finish the tour - then we can talk history and heroics.
 npc.text.yrsaNPC13=Yes, you've completed Quest 1, head east through the chapel ruins. Quest 2 awaits with Gerald of Wales - ready to talk your ears off!
 npc.button.yrsaNPC13.0=Gerald of Wales
@@ -2184,10 +2287,10 @@ npc.text.nestquestNPC4=Gerald will be delighted. Go on then, deliver it to him b
 npc.button.nestquestNPC4.0=Gerald Truthful
 npc.button.nestquestNPC0.0=Okay
 npc.name.nestredoNPC=Nest the Notary
-npc.text.nestredoNPC1.0="I sit near seats of power past,
-npc.text.nestredoNPC1.1=Where nobles feasted loud and fast.
-npc.text.nestredoNPC1.2=Behind a face, carved proud and stern,
-npc.text.nestredoNPC1.3=The first lost leaf awaits return."
+npc.text.nestredoNPC1.0=I sit near the start of journeys grand, 
+npc.text.nestredoNPC1.1=Where boots get muddy on this land.
+npc.text.nestredoNPC1.2=The first lost leaf fluttered close by - 
+npc.text.nestredoNPC1.3=Check the stones near the main gate, give it a try!
 npc.button.nestredoNPC1.0=Next
 npc.name.nestredoNPC=Nest the Notary
 npc.text.nestredoNPC2=Parch Gerald's parchment is playing hide-and-seek! Word is, it slipped behind a carved corbel in the hall - you know, those funny stone heads watching your every move? Have a nosy around the bishop's chair and come back when you've found the missing scribble!
@@ -2198,3 +2301,73 @@ npc.button.nestredoNPC3.0=Next
 npc.name.nestredoNPC=Nest the Notary
 npc.text.nestredoNPC4=Gerald will be delighted. Go on then, deliver it to him before he accuses the corbels of stealing his pen again.
 npc.button.nestredoNPC4.0=Gerald Truthful
+npc.text.taliesindavNPC3=O seekers bold, whose boots do crunch on stones once trod by saints and lords, Come quest with me through palace past, through echoes, ghosts, and bishop hoards! Crimson friends await to guide, with tasks to tease your curious pride.
+npc.button.taliesindavNPC3.0=Next
+npc.text.taliesindavNPC4=I am Taliesin, bard of legend, lover of lore. This palace holds tales of power, pride, and protest. If you would uncover them all, complete the quests of the crimson-robed keepers who guard the secrets of this sacred stone . . .
+npc.button.taliesindavNPC4.0=Next
+npc.text.taliesindavNPC5=But before you race off to meet them, take a moment to see what's in store. My friends I have prepared a glimpse of the grand adventures ahead. Watch 'What's Next, Brave Builder' - and ready your wits, your courage . . . and perhaps a snack. You'll need them all!
+npc.button.taliesindavNPC5.0=Quests & Chaos
+npc.button.taliesindavNPC5.1=Next
+npc.text.taliesindavNPC6=Ah-ah! A wise adventurer always scouts ahead. Watch the 'What's Next' video first - then you'll be ready to choose your quest like a true champion.
+npc.button.taliesindavNPC6.0=Video
+npc.button.taliesindavNPC6.1=Next
+npc.text.taliesindavNPC7.0=You've seen the road ahead, brave builder! Four quests await you - each one a stepping-stone through the centuries.
+npc.text.taliesindavNPC7.1=They follow the order in which history happened . . . yet you may choose whichever you wish to begin.
+npc.button.taliesindavNPC7.0=Next
+npc.text.taliesindavNPC8.0=1. The Viking Echoes - Hunt for relics from the raiders' age.
+npc.text.taliesindavNPC8.2=2. Gerald of Wales' Journey - Piece together the pages of a restless traveller.
+npc.button.taliesindavNPC8.0=Next
+npc.text.taliesindavNPC9.0=3. Dissolution Dramas - Unravel the fall of the bishop's realm.
+npc.text.taliesindavNPC9.2=4. The Wordsmith's Legacy - Discover how one man gave the Bible a voice in Welsh.
+npc.button.taliesindavNPC9.0=Next
+npc.text.taliesindavNPC10.0=Follow the centuries in order, or leap to whichever crimson-robed keeper calls to you first.
+npc.text.taliesindavNPC10.2=The story will wait . . . but adventure never does!
+npc.button.taliesindavNPC10.0=The Viking Echoes
+npc.button.taliesindavNPC10.1=Gerald's Journey
+npc.button.taliesindavNPC10.2=Dissolution
+npc.text.taliesindavNPC1url1=Choose your lingo! Cymraeg? English? We don't do medieval grunt, sorry.
+npc.button.taliesindavNPC1url1.0=English
+npc.button.taliesindavNPC1url1.1=Cymraeg
+npc.button.taliesindavNPC1url1.2=Back/Nôl
+npc.text.nestredoNPC0=Oi! No skipping ahead! Go finish the tour - then we can talk history and heroics.
+npc.button.nestredoNPC0.0=Okay
+npc.text.nestredoNPC2.0=Check the arch and nearby stones,
+npc.text.nestredoNPC2.1=The page is hiding where the journey begins.
+npc.text.nestredoNPC2.2=Look high and low - don't skip a corner!
+npc.text.llewNPC4=Ahhh, the rustle of aged parchment! That's music to Gerald's ears. Best not keep him waiting - his memory's long, but his patience is not!
+npc.button.llewNPC4.0=Gerald Truthful
+npc.text.eleriquestNPC1.4=Stop inside carefully - the secrets await!
+npc.text.geraldNPC14=Yes, you've completed Quest 2. Well done, truth-seeker! Now follow the path toward the chapter house, where Brother Cadwgan  will set you your third quest: Dissolution Dramas.
+npc.button.geraldNPC14.0=Brother Cadwgan
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC1=The Beginning - A verse about beginnings waits inside. . . open your Book & Quill and read.
+npc.button.keeperNPC1.0=Okay
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC2=Daily Bread - Bread alone won't fill you - the words inside will. Open your Book & Quill.
+npc.button.keeperNPC2.0=Okay
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC3=Guiding Light - Light for weary feet lies within this page. Open your Book & Quill.
+npc.button.keeperNPC3.0=Okay
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC4=Unshaken Truth - Stone may crumble, but truth endures. Open your Book & Quill to see it.
+npc.button.keeperNPC4.0=Okay
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC5=Everlasting Word - Grass fades, flowers fall - but the Word stands. Open your Book & Quill.
+npc.button.keeperNPC5.0=Okay
+npc.name.keeperNPC=Mabli the Manuscript Keeper
+npc.text.keeperNPC6=Pure and Strong - You've reached the final fragment! Open your Book & Quill and prepare to meet Mabli.
+npc.button.keeperNPC6.0=Okay
+npc.text.mabliNPC1url0=Which language suits your royal ears? Go on, choose how you want your history served!
+npc.button.mabliNPC1url0.0=English
+npc.button.mabliNPC1url0.1=Cymraeg
+npc.button.mabliNPC1url0.2=Back/Nôl
+npc.text.mabliNPC1url1=Pick your tongue, traveller! Which language do you fancy hearing this tale in?
+npc.button.mabliNPC1url1.0=English
+npc.button.mabliNPC1url1.1=Cymraeg
+npc.button.mabliNPC1url1.2=Back/Nôl
+npc.name.keeperNPC2=Mabli the Manuscript Keeper
+npc.name.keeperNPC3=Mabli the Manuscript Keeper
+npc.name.keeperNPC4=Mabli the Manuscript Keeper
+npc.name.keeperNPC5=Mabli the Manuscript Keeper
+npc.name.keeperNPC6=Mabli the Manuscript Keeper
+npc.button.taliesindavNPC10.3=Wordsmith

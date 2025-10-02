@@ -14344,7 +14344,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC1"
+                            "function quest_begin"
                         ]
                     }
                 ]
@@ -14447,18 +14447,18 @@
                 "buttons": []
             },
             {
-                "scene_tag": "taliesindavendNPC1",
+                "scene_tag": "taliesindavNPC3",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC1"
+                            "translate": "npc.text.taliesindavNPC3"
                         }
                     ]
                 },
@@ -14467,29 +14467,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC1.0"
+                                    "translate": "npc.button.taliesindavNPC3.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC2"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC4"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC2",
+                "scene_tag": "taliesindavNPC4",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC2"
+                            "translate": "npc.text.taliesindavNPC4"
                         }
                     ]
                 },
@@ -14498,29 +14498,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC2.0"
+                                    "translate": "npc.button.taliesindavNPC4.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC3"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC5"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC3",
+                "scene_tag": "taliesindavNPC5",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC3"
+                            "translate": "npc.text.taliesindavNPC5"
                         }
                     ]
                 },
@@ -14529,41 +14529,41 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC3.0"
+                                    "translate": "npc.button.taliesindavNPC5.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC1url0"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC1url1"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC3.1"
+                                    "translate": "npc.button.taliesindavNPC5.1"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC4"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC6"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC4",
+                "scene_tag": "taliesindavNPC6",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC4"
+                            "translate": "npc.text.taliesindavNPC6"
                         }
                     ]
                 },
@@ -14572,47 +14572,47 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC4.0"
+                                    "translate": "npc.button.taliesindavNPC6.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC1url0"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC1url1"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC4.1"
+                                    "translate": "npc.button.taliesindavNPC6.1"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC5"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC7"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC5",
+                "scene_tag": "taliesindavNPC7",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC5.0"
+                            "translate": "npc.text.taliesindavNPC7.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesindavendNPC5.1"
+                            "translate": "npc.text.taliesindavNPC7.1"
                         },
                         {
                             "text": "\n"
@@ -14624,29 +14624,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC5.0"
+                                    "translate": "npc.button.taliesindavNPC7.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC6"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC8"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC6",
+                "scene_tag": "taliesindavNPC8",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC6.0"
+                            "translate": "npc.text.taliesindavNPC8.0"
                         },
                         {
                             "text": "\n"
@@ -14655,7 +14655,7 @@
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesindavendNPC6.2"
+                            "translate": "npc.text.taliesindavNPC8.2"
                         },
                         {
                             "text": "\n"
@@ -14667,29 +14667,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC6.0"
+                                    "translate": "npc.button.taliesindavNPC8.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC7"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC9"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC7",
+                "scene_tag": "taliesindavNPC9",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC7.0"
+                            "translate": "npc.text.taliesindavNPC9.0"
                         },
                         {
                             "text": "\n"
@@ -14698,7 +14698,7 @@
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesindavendNPC7.2"
+                            "translate": "npc.text.taliesindavNPC9.2"
                         },
                         {
                             "text": "\n"
@@ -14710,29 +14710,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC7.0"
+                                    "translate": "npc.button.taliesindavNPC9.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC8"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC10"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC8",
+                "scene_tag": "taliesindavNPC10",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC8.0"
+                            "translate": "npc.text.taliesindavNPC10.0"
                         },
                         {
                             "text": "\n"
@@ -14741,7 +14741,7 @@
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.taliesindavendNPC8.2"
+                            "translate": "npc.text.taliesindavNPC10.2"
                         },
                         {
                             "text": "\n"
@@ -14753,7 +14753,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC8.0"
+                                    "translate": "npc.button.taliesindavNPC10.0"
                                 }
                             ]
                         },
@@ -14765,7 +14765,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC8.1"
+                                    "translate": "npc.button.taliesindavNPC10.1"
                                 }
                             ]
                         },
@@ -14777,12 +14777,24 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC8.2"
+                                    "translate": "npc.button.taliesindavNPC10.2"
                                 }
                             ]
                         },
                         "commands": [
                             "function dissolution"
+                        ]
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.taliesindavNPC10.3"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "function quest_three_start"
                         ]
                     }
                 ]
@@ -15360,7 +15372,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40285 -10 -39905 facing -40283 -10 -39905"
+                            "tp @p -40279 -19 -39895 facing -40281 -19 -39895"
                         ]
                     }
                 ]
@@ -16068,18 +16080,18 @@
                 ]
             },
             {
-                "scene_tag": "nestquestNPC0",
+                "scene_tag": "nestredoNPC0",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.nestquestNPC"
+                            "translate": "npc.name.nestredoNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestquestNPC0"
+                            "translate": "npc.text.nestredoNPC0"
                         }
                     ]
                 },
@@ -16088,7 +16100,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.nestquestNPC0.0"
+                                    "translate": "npc.button.nestredoNPC0.0"
                                 }
                             ]
                         },
@@ -16162,7 +16174,22 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.nestredoNPC2"
+                            "translate": "npc.text.nestredoNPC2.0"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.nestredoNPC2.1"
+                        },
+                        {
+                            "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.nestredoNPC2.2"
+                        },
+                        {
+                            "text": "\n"
                         }
                     ]
                 },
@@ -16176,7 +16203,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p -40297 -10 -39887 facing -40297 -10 -39885"
+                            "tp @p -40302 -16 -40005 facing -40300 -16 -40005"
                         ]
                     }
                 ]
@@ -16269,7 +16296,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=geraldNPC] @p geraldNPC10"
+                            "function gerald_back"
                         ]
                     }
                 ]
@@ -16445,6 +16472,37 @@
                             ]
                         },
                         "commands": [
+                            "dialogue open @e[tag=llewNPC] @p llewNPC4"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "llewNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.llewNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.llewNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.llewNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
                             "function note_2"
                         ]
                     }
@@ -16577,6 +16635,12 @@
                         },
                         {
                             "text": "\n"
+                        },
+                        {
+                            "translate": "npc.text.eleriquestNPC1.4"
+                        },
+                        {
+                            "text": "\n"
                         }
                     ]
                 },
@@ -16590,38 +16654,7 @@
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=eleriquestNPC] @p eleriquestNPC2"
-                        ]
-                    }
-                ]
-            },
-            {
-                "scene_tag": "eleriquestNPC2",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.eleriquestNPC"
-                        }
-                    ]
-                },
-                "text": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.text.eleriquestNPC2"
-                        }
-                    ]
-                },
-                "buttons": [
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.eleriquestNPC2.0"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            "tp @p -40270 -16 -39995 facing -40270 -16 -39997"
+                            "tp @p -40282 -10 -39999 facing -40284 -10 -39999"
                         ]
                     }
                 ]
@@ -16700,6 +16733,37 @@
                             "rawtext": [
                                 {
                                     "translate": "npc.button.geraldNPC13.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=geraldNPC] @p geraldNPC14"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "geraldNPC14",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.geraldNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.geraldNPC14"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.geraldNPC14.0"
                                 }
                             ]
                         },
@@ -17489,7 +17553,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "function quest_three_start"
                         ]
                     }
                 ]
@@ -17551,7 +17615,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC2"
                         ]
                     }
                 ]
@@ -17591,7 +17655,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC1url0"
                         ]
                     },
                     {
@@ -17603,7 +17667,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC3"
                         ]
                     }
                 ]
@@ -17634,7 +17698,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC1url0"
                         ]
                     },
                     {
@@ -17646,7 +17710,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC4"
                         ]
                     }
                 ]
@@ -17677,7 +17741,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC5"
                         ]
                     }
                 ]
@@ -17708,7 +17772,193 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -40270 -10 -39996 facing -40269 -10 -39998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC2",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC2"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC2"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC2.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC3",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC3"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC3"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC3.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC4",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC4"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC4"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC4.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC5",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC5"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC5"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC5.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "keeperNPC6",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.keeperNPC6"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.keeperNPC6"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.keeperNPC6.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "clear @p chest 0 1"
                         ]
                     }
                 ]
@@ -17739,7 +17989,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC7"
                         ]
                     }
                 ]
@@ -17779,33 +18029,10 @@
                             ]
                         },
                         "commands": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": {
-                            "rawtext": [
-                                {
-                                    "translate": "npc.button.mabliNPC7.1"
-                                }
-                            ]
-                        },
-                        "commands": [
-                            ""
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC1url1"
                         ]
                     }
                 ]
-            },
-            {
-                "scene_tag": "mabliNPC8",
-                "npc_name": {
-                    "rawtext": [
-                        {
-                            "translate": "npc.name.mabliNPC"
-                        }
-                    ]
-                },
-                "buttons": []
             },
             {
                 "buttons": []
@@ -18793,18 +19020,18 @@
                 ]
             },
             {
-                "scene_tag": "taliesindavendNPC1url0",
+                "scene_tag": "taliesindavNPC1url1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.taliesindavendNPC"
+                            "translate": "npc.name.taliesindavNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.taliesindavendNPC1url0"
+                            "translate": "npc.text.taliesindavNPC1url1"
                         }
                     ]
                 },
@@ -18813,7 +19040,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC1url0.0"
+                                    "translate": "npc.button.taliesindavNPC1url1.0"
                                 }
                             ]
                         },
@@ -18823,7 +19050,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC1url0.1"
+                                    "translate": "npc.button.taliesindavNPC1url1.1"
                                 }
                             ]
                         },
@@ -18833,12 +19060,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.taliesindavendNPC1url0.2"
+                                    "translate": "npc.button.taliesindavNPC1url1.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=taliesindavendNPC] @p taliesindavendNPC4"
+                            "dialogue open @e[tag=taliesindavNPC] @p taliesindavNPC6"
                         ]
                     }
                 ]
@@ -18997,12 +19224,27 @@
                 ]
             },
             {
+                "scene_tag": "mabliNPC1url0",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mabliNPC1url0"
+                        }
+                    ]
+                },
                 "buttons": [
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button..0"
+                                    "translate": "npc.button.mabliNPC1url0.0"
                                 }
                             ]
                         },
@@ -19012,21 +19254,58 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button..1"
+                                    "translate": "npc.button.mabliNPC1url0.1"
                                 }
                             ]
                         },
                         "url": "https://www.youtube.com/watch_popup?v=fKEvVjOp2e0 "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC1url0.2"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC3"
+                        ]
                     }
                 ]
             },
             {
+                "scene_tag": "mabliNPC1url1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mabliNPC1url1"
+                        }
+                    ]
+                },
                 "buttons": [
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button..0"
+                                    "translate": "npc.button.mabliNPC1url1.0"
+                                }
+                            ]
+                        },
+                        "url": "https://www.youtube.com/watch_popup?v=Doqz_lNfUF4 "
+                    },
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC1url1.1"
                                 }
                             ]
                         },
@@ -19036,11 +19315,13 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button..1"
+                                    "translate": "npc.button.mabliNPC1url1.2"
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=Zdx2dW_Lltc"
+                        "commands": [
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC7"
+                        ]
                     }
                 ]
             }
