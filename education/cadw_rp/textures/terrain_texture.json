@@ -4,6 +4,15 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"stone_cross": {
+			"textures": "textures/blocks/stone_cross.png"
+		},
+		"casket": {
+			"textures": "textures/blocks/casket.png"
+		},
+		"alter": {
+			"textures": "textures/blocks/alter.png"
+		},
 		"mosaic_6": {
 			"textures": "textures/blocks/mosaic_6.png"
 		},

@@ -362,7 +362,9 @@ tile.blockbuilders:mosaic_3.name=mosaic 3
 tile.blockbuilders:mosaic_4.name=mosaic 4
 tile.blockbuilders:mosaic_5.name=mosaic 5
 tile.blockbuilders:mosaic_6.name=mosaic 6
-
+tile.blockbuilders:alter.name=Alter
+tile.blockbuilders:casket.name=Casket
+tile.blockbuilders:stone_cross.name=Stone Cross
 
 
 npc.name.tretowerNPC=Tretower

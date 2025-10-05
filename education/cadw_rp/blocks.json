@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.0",
+	"stone_cross": {
+		"sound": "wood"
+	},
+	"cracked_casket": {
+		"sound": "wood"
+	},
+	"alter": {
+		"sound": "stone"
+	},
+	"mosaic_6": {
+		"sound": "stone"
+	},
+	"mosaic_5": {
+		"sound": "stone"
+	},
+	"mosaic_4": {
+		"sound": "stone"
+	},
+	"mosaic_3": {
+		"sound": "stone"
+	},
+	"mosaic_2": {
+		"sound": "stone"
+	},
+	"mosaic_1": {
+		"sound": "stone"
+	}
+}

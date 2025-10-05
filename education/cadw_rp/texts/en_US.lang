@@ -352,6 +352,9 @@ tile.blockbuilders:mosaic_3.name=mosaic 3
 tile.blockbuilders:mosaic_4.name=mosaic 4
 tile.blockbuilders:mosaic_5.name=mosaic 5
 tile.blockbuilders:mosaic_6.name=mosaic 6
+tile.blockbuilders:alter.name=Alter
+tile.blockbuilders:casket.name=Casket
+tile.blockbuilders:stone_cross.name=Stone Cross
 
 
 npc.text.taliesinNPC1=Soaring mountains, lakes, coastlines, and castles. A land where history and nature intertwine in an unforgettable tapestry. My name is Taliesin, and I invite you to journey through this mystical land's most captivating landmarks. Exploring the wonders that make Wales a place of enchantment. Click on the 'Find Out More' button. 
