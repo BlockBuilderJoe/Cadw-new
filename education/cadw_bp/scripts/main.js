@@ -12,6 +12,37 @@ function getScore(score, objective) {
   return 0;
 }
 
+// Quest begin function with delayed dialogue change
+export function questBegin() {
+  // Teleport player first
+  overworld.runCommand(`tp @p -40311 -14 -40033 facing -40307 -14 -40033`);
+
+  // Wait for chunks to load, then change dialogue (20 ticks = 1 second)
+  system.runTimeout(() => {
+    overworld.runCommand(`dialogue change @e[tag=taliesindavNPC] taliesindavNPC3`);
+  }, 20);
+}
+
+// Idris quest function with delayed dialogue change
+export function idrisQuest() {
+  // Teleport player first
+  overworld.runCommand(`tp @p -40342 -10 -39878 facing -40342 -10 -39875`);
+
+  // Wait for chunks to load, then change dialogue (20 ticks = 1 second)
+  system.runTimeout(() => {
+    overworld.runCommand(`dialogue change @e[tag=idrisquestNPC] idrisquestNPC1`);
+  }, 20);
+}
+
+//Script event handlers for quest functions
+system.afterEvents.scriptEventReceive.subscribe((event) => {
+  if (event.id === "cadw:quest_begin") {
+    questBegin();
+  } else if (event.id === "cadw:idris_quest") {
+    idrisQuest();
+  }
+});
+
 //Button handlers
 world.afterEvents.buttonPush.subscribe(async (event) => {
   const buttonLocation = event.block.location;
