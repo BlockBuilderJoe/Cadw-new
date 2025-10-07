@@ -17553,6 +17553,37 @@
                             ]
                         },
                         "commands": [
+                            "dialogue open @e[tag=cadwganNPC] @p cadwganNPC11"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "cadwganNPC11",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.cadwganNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.cadwganNPC11"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.cadwganNPC11.0"
+                                }
+                            ]
+                        },
+                        "commands": [
                             "function quest_three_start"
                         ]
                     }
@@ -18006,13 +18037,44 @@
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.mabliNPC7.0"
+                            "translate": "npc.text.mabliNPC7"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.mabliNPC7.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            "dialogue open @e[tag=mabliNPC] @p mabliNPC8"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "mabliNPC8",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.mabliNPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.mabliNPC8.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.mabliNPC7.1"
+                            "translate": "npc.text.mabliNPC8.1"
                         },
                         {
                             "text": "\n"
@@ -18024,7 +18086,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.mabliNPC7.0"
+                                    "translate": "npc.button.mabliNPC8.0"
                                 }
                             ]
                         },
@@ -19299,7 +19361,7 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=Doqz_lNfUF4 "
+                        "url": "https://www.youtube.com/watch_popup?v=Z9bfbZkgiw8"
                     },
                     {
                         "name": {
@@ -19309,7 +19371,7 @@
                                 }
                             ]
                         },
-                        "url": "https://www.youtube.com/watch_popup?v=Zdx2dW_Lltc"
+                        "url": "https://www.youtube.com/watch_popup?v=21g4QjCUVnM"
                     },
                     {
                         "name": {

@@ -34,12 +34,70 @@ export function idrisQuest() {
   }, 20);
 }
 
+// Dissolution function with delayed dialogue change
+export function dissolution() {
+  // Add ticking area to ensure distant NPCs are loaded
+  overworld.runCommand(`tickingarea add -40400 -20 -39920 -40370 0 -39890 cadwgan_area true`);
+
+  // Teleport player first
+  overworld.runCommand(`tp @p -40384 -10 -39908 facing -40384 -10 -39905`);
+
+  // Wait for chunks to load, then change dialogue and clean up (20 ticks = 1 second)
+  system.runTimeout(() => {
+    overworld.runCommand(`dialogue change @e[tag=cadwganNPC,x=-40384,y=-10,z=-39908,r=100] cadwganNPC1`);
+    overworld.runCommand(`tickingarea remove cadwgan_area`);
+
+    // Reset all other NPCs to NPC0 dialogue state
+    overworld.runCommand(`dialogue change @e[tag=idrisquestNPC] idrisquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=vikingNPC] vikingNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=betiquestNPC] betiquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=gwenquestNPC] gwenquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=yrsaNPC] yrsaNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=nestquestNPC] nestquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=llewNPC] llewNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=eleriquestNPC] eleriquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=geraldNPC] geraldNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=gutoNPC] gutoNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=carysquestNPC] carysquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=mabliNPC] mabliNPC0`);
+  }, 20);
+}
+
+// Quest Three Start function with delayed dialogue change
+export function questThreeStart() {
+  // Teleport player first
+  overworld.runCommand(`tp @p -40280 -16 -39986 facing -40277 -16 -39986`);
+
+  // Wait for chunks to load, then change dialogue (20 ticks = 1 second)
+  system.runTimeout(() => {
+    overworld.runCommand(`dialogue change @e[tag=mabliNPC] mabliNPC1`);
+
+    // Reset all other NPCs to NPC0 dialogue state
+    overworld.runCommand(`dialogue change @e[tag=idrisquestNPC] idrisquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=vikingNPC] vikingNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=betiquestNPC] betiquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=gwenquestNPC] gwenquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=yrsaNPC] yrsaNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=nestquestNPC] nestquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=llewNPC] llewNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=eleriquestNPC] eleriquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=geraldNPC] geraldNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=gutoNPC] gutoNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=carysquestNPC] carysquestNPC0`);
+    overworld.runCommand(`dialogue change @e[tag=cadwganNPC] cadwganNPC0`);
+  }, 20);
+}
+
 //Script event handlers for quest functions
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   if (event.id === "cadw:quest_begin") {
     questBegin();
   } else if (event.id === "cadw:idris_quest") {
     idrisQuest();
+  } else if (event.id === "cadw:dissolution") {
+    dissolution();
+  } else if (event.id === "cadw:quest_three_start") {
+    questThreeStart();
   }
 });
 
