@@ -144,7 +144,7 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
       overworld.runCommand(`give @p myname:chunk_of_mosaic 1`);
       overworld.runCommand(`dialogue open @e[tag=idrisquestNPC] @p idrisquestNPC3`);
       break;
-    case "-40284,-39900":
+    case "-40287,-39901":
       overworld.runCommand(`give @p blockbuilders:runestone 1`);
       overworld.runCommand(`dialogue open @e[tag=betiquestNPC] @p betiquestNPC2`);
       break;

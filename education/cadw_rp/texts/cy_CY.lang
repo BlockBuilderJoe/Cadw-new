@@ -156,6 +156,13 @@ Ewch i Gapel yr Esgob,
 Chwiliwch am Mabli ger y piscina —
 Mae hi'n barod i weld a ydych chi wedi datrys Etifeddiaeth y Geiriau!
 
+sign.35=Casglwch eich eitemau cwest! Gafaelwch Darn 1 – Llawysgrif Morgan
+sign.36=Casglwch eich eitemau cwest! Gafaelwch Darn 2 – Llawysgrif Morgan
+sign.37=Casglwch eich eitemau cwest! Gafaelwch Darn 3 – Llawysgrif Morgan
+sign.38=Casglwch eich eitemau cwest! Gafaelwch Darn 4 – Llawysgrif Morgan
+sign.39=Casglwch eich eitemau cwest! Gafaelwch Darn 5 – Llawysgrif Morgan
+sign.40=Casglwch eich eitemau cwest! Gafaelwch Darn 6 – Llawysgrif Morgan
+
 ui.compass.title=Cwmpawd Teleport
 ui.compass.body=Lle hoffech chi fynd?
 ui.compass.button.stay=Aros yma

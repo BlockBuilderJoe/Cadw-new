@@ -147,6 +147,13 @@ sign.33=Among grotesques and grandeur, faith stands strong. Look for the shield 
 
 sign.34=Scrolls await inside! Head to the Bishop’s Chapel, Look for Mabli near the piscina - She's ready to see if you've cracked the Wordsmith's Legacy!
 
+sign.35=Collect your quest items! Grab Fragment 1 - Morgan's Manuscript
+sign.36=Collect your quest items! Grab Fragment 2 - Morgan's Manuscript
+sign.37=Collect your quest items! Grab Fragment 3 - Morgan's Manuscript
+sign.38=Collect your quest items! Grab Fragment 4 - Morgan's Manuscript
+sign.39=Collect your quest items! Grab Fragment 5 - Morgan's Manuscript
+sign.40=Collect your quest items! Grab Fragment 6 - Morgan's Manuscript
+
 ui.compass.title=Compass Teleport
 ui.compass.body=Where would you like to go?
 ui.compass.button.stay=Stay Here
@@ -303,6 +310,20 @@ book.12.line.8=Clue:
 book.12.line.9= You've reached the heights — well done, word-hunter!
 book.12.line.10=Now descend the parapet and walk toward the bishop’s chapel. Inside, near the carved piscina where prayers once poured,
 book.12.line.11=You'll find Mabli the Manuscript Keeper - parchment in hand and eyebrows raised!
+
+
+book.13.line.1=Title: Inventory - Monastery Records
+book.13.line.2=Author: Anonymous Monk
+book.13.line.3=Introduction 
+book.13.line.4=This fragile page once belonged to the monastery's ledger. 
+book.13.line.5=Its edges are torn, and the ink has faded, but you can still make out some of the entries. What stories might these items tell us?
+book.13.line.6=Inventory List
+book.13.line.7=Golden candlesticks, sacred robes, silver chalices, manuscripts of prayers and sermons, altar linens.
+book.13.line.8=Context and Reflection
+book.13.line.9=During the Dissolution, many of these items were seized or hidden.
+book.13.line.10=What can this page tell us about daily life and the wealth of the monastery? Who might have taken these treasures, and why?
+book.13.line.11=Look carefully at the items listed. Discuss with your team: which items would have been most valuable, and how do they reflect life in the monastery?
+book.13.line.12=Use your observations as you continue exploring the quest.
 
 #World Translations
 cw.npc.name.lobby=Welcome
@@ -2133,7 +2154,7 @@ npc.text.eleriquestNPC1.0="From just outside the chapel door,
 npc.text.eleriquestNPC1.1=Stone faces watch and shows pour.
 npc.text.eleriquestNPC1.2=Gerald's final page rests inside,
 npc.text.eleriquestNPC1.3=Near the altar where the candles glow.
-npc.button.eleriquestNPC1.0=Seek Page One
+npc.button.eleriquestNPC1.0=Seek Page Three
 npc.name.eleriquestNPC=Eleri the Eagle-Eyed
 npc.text.eleriquestNPC2=I spotted a flash of parchment beneath the mermaid corbel up on the parapet. Tricky place - high up and full of stony stares. Keep your eyes peeled for carved creatures, and come back when you've recovered the page!
 npc.button.eleriquestNPC2.0=Seek Page One
