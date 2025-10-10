@@ -1,23 +1,5 @@
-# Gerald function - teleport player and reset NPC dialogues
-# Teleport player to specified location
-tp @p -40255 -10 -39951 facing -40252 -10 -39951
-
-# Set geraldNPC to geraldNPC1
-dialogue change @e[tag=geraldNPC] geraldNPC1
-
-# Reset all other NPCs to NPC0 dialogue state
-dialogue change @e[tag=idrisquestNPC] idrisquestNPC0
-dialogue change @e[tag=vikingNPC] vikingNPC0
-dialogue change @e[tag=betiquestNPC] betiquestNPC0
-dialogue change @e[tag=gwenquestNPC] gwenquestNPC0
-dialogue change @e[tag=yrsaNPC] yrsaNPC0
-dialogue change @e[tag=nestquestNPC] nestquestNPC0
-dialogue change @e[tag=llewNPC] llewNPC0
-dialogue change @e[tag=eleriquestNPC] eleriquestNPC0
-dialogue change @e[tag=cadwganNPC] cadwganNPC0
-dialogue change @e[tag=gutoNPC] gutoNPC0
-dialogue change @e[tag=carysquestNPC] carysquestNPC0
-dialogue change @e[tag=mabliNPC] mabliNPC0
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:gerald
 
 # Place stone blocks
 setblock -40315 -19 -39883 stone
@@ -70,3 +52,47 @@ setblock -40269 -15 -39993 cobblestone
 setblock -40270 -15 -39993 cobblestone
 setblock -40271 -15 -39993 cobblestone
 setblock -40272 -15 -39993 cobblestone
+setblock -40259 -10 -39999 mossy_stone_bricks
+setblock -40260 -10 -39999 mossy_stone_bricks
+setblock -40261 -10 -39999 mossy_stone_bricks
+setblock -40261 -10 -40000 mossy_stone_bricks
+setblock -40259 -9 -39999 mossy_stone_bricks
+setblock -40260 -9 -39999 mossy_stone_bricks
+setblock -40261 -9 -39999 mossy_stone_bricks
+setblock -40261 -9 -40000 mossy_stone_bricks
+setblock -40380 -16 -39909 mossy_stone_brick_wall
+setblock -40381 -16 -39909 mossy_stone_brick_wall
+setblock -40382 -16 -39909 mossy_stone_brick_wall
+setblock -40380 -15 -39909 mossy_stone_brick_wall
+setblock -40381 -15 -39909 mossy_stone_brick_wall
+setblock -40382 -15 -39909 mossy_stone_brick_wall
+setblock -40361 -17 -39929 stone
+setblock -40360 -17 -39929 grass
+setblock -40359 -17 -39929 grass
+setblock -40358 -17 -39929 grass
+setblock -40358 -17 -39928 grass
+setblock -40358 -17 -39927 grass
+setblock -40359 -16 -39928 grass
+setblock -40268 -10 -40000 stone_bricks
+setblock -40268 -9 -40000 stone_bricks
+setblock -40268 -8 -40000 stone_bricks
+setblock -40265 -16 -39918 barrel
+setblock -40265 -15 -39918 barrel
+setblock -40265 -14 -39918 barrel
+setblock -40266 -14 -39917 barrel
+setblock -40264 -14 -39917 barrel
+setblock -40253 -10 -39999 bookshelf
+setblock -40253 -9 -39999 bookshelf
+setblock -40253 -8 -39999 bookshelf
+setblock -40388 -16 -39959 stone_bricks
+setblock -40388 -15 -39959 stone_bricks
+setblock -40388 -16 -39958 stone_bricks
+setblock -40388 -15 -39958 stone_bricks
+setblock -40309 -10 -39912 stone_bricks
+setblock -40309 -9 -39912 stone_bricks
+setblock -40309 -8 -39912 stone_bricks
+setblock -40310 -10 -39912 stone_bricks
+setblock -40310 -9 -39912 stone_bricks
+setblock -40310 -8 -39912 stone_bricks
+setblock -40379 7 -39874 stone
+setblock -40379 8 -39874 stone

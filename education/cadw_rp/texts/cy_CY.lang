@@ -249,6 +249,25 @@ book.6.line.3=Ai sancteiddrwydd oedd e. . .
 book.6.line.4=neu rywun yn cuddio y tu ôl i'r piscina? Beth bynnag, cymerais nodiadau.
 
 
+book.14.line.1=Teitl: Y Mapiwr Cylch Haearn
+book.14.line.2=Awdur: Ceidwad Glyn
+book.14.line.3=Gorchymyn Brenhinol gan y Ceidwad Glyn
+book.14.line.4=Ni stopiodd y Brenin Edward I gyda Chastell y Fflint – adeiladodd gylch cyfan o gaerau carreg!
+book.14.line.5=Mae Edward yn mynnu map o'i Gylch Haearn" nerthol o gestyll! Gosodwch y tir a marciwch bob caer gyda baneri ac enwau beiddgar. Peidiwch ag anghofio labelu un gyda grwgnach frenhinol: "Oherwydd fy mod i wedi blino ar Llywelyn!"
+book.14.line.6=Eich Min-Cwest:
+book.14.line.7=Adeiladwch fap enfawr o Gymru
+book.14.line.8=Ychwanegwch faneri ar gyfer Fflint, Rhuddlan, Conwy, ac ati.
+book.14.line.9=Defnyddiwch arwyddion gydag enwau cestyll ac un dyfyniad doniol
+book.14.line.10=Map dryslyd? Brenin dryslyd? Ddim ar eich gwyliadwriaeth chi! Dechreuwch labelu, ddysgwr — neu risgiwch ein colli ni i gyd yn y tŵr toiled:
+book.14.line.11=- Creuwch fap llawr enfawr o Gymru gan ddefnyddio blociau lliw.
+book.14.line.12=- Gosodwch faneri ar gyfer cestyll allweddol:
+book.14.line.13=• Y Fflint
+book.14.line.14=• Rhuddlan
+book.14.line.15=• Conwy
+book.14.line.16=• Caernarfon
+book.14.line.17=• Harlech
+book.14.line.18=Labelwch bob castell gydag arwydd a disgrifiwch ei bwrpas. Ychwanegwch o leiaf un arwydd doniol — er enghraifft: “Oherwydd fy mod i wedi cael llond bol ar Llywelyn!”
+
 
 
 cw.npc.name.lobby=Croeso
@@ -17568,3 +17587,5 @@ npc.text.mabliNPC7=Campus! Rydych chi wedi ail-gydosod y penillion, yn union fel
 npc.text.mabliNPC8.0=Ond nid yw'r stori'n gorffen gyda memrwn. Roedd taith William Morgan yn feiddgar, yn wych, ac weithiau'n wallgof. Eisiau'r stori lawn - o'r pulpud i'r siop argraffu, o erledigaeth i gyhoeddiad?
 npc.text.mabliNPC8.1=Cliciwch y botwm 'Stori Lawn' isod…Gwyliwch, gwrandewch, a chael eich ysbrydoli!
 npc.button.mabliNPC8.0=Stori Llawn
+npc.text.eleriquestNPC4=Mae'n debyg bod Gerallt yn cerdded yn ôl ac ymlaen erbyn hyn - ewch â'r peth ato cyn iddo ddechrau cyflwyno cwyn ffurfiol yn erbyn hanes.
+npc.button.eleriquestNPC4.0=Nesaf

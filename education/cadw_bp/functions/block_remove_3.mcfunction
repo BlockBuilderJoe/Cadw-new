@@ -1,0 +1,1 @@
+scriptevent cadw:block_remove_3

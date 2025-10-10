@@ -1,9 +1,5 @@
-# Nest Quest Start function - teleport player and set NPC dialogue
-# Teleport player to specified location
-tp @p -40306 -16 -40005 facing -40306 -16 -40008
-
-# Set nestquestNPC to nestquestNPC1
-dialogue change @e[tag=nestredoNPC] nestredoNPC1
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:nest_quest_start
 
 # Remove stone blocks
 setblock -40288 -16 -40010 air

@@ -1,6 +1,5 @@
-# Viking TP function - teleport player and set NPC dialogue
-# Teleport player to specified location
-tp @p -40319 -16 -39925 facing -40319 -16 -39928
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:viking_tp
 
 # Remove stone blocks at test positions
 setblock -40315 -19 -39883 air
@@ -35,6 +34,3 @@ setblock -40314 -18 -39880 air
 setblock -40314 -18 -39881 air
 setblock -40314 -18 -39882 air
 setblock -40314 -18 -39883 air
-
-# Set vikingNPC to vikingNPC1
-dialogue change @e[tag=vikingNPC] vikingNPC1

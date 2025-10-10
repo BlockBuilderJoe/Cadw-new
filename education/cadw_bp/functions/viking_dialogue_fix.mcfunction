@@ -1,10 +1,5 @@
-# This function teleports the player to the vikingNPC and opens dialogue
-
-# Change the vikingNPC dialogue to vikingNPC3
-dialogue change @e[tag=vikingNPC,c=1] vikingNPC3
-
-# Teleport player to vikingNPC location
-tp @p -40319 -16 -39925 facing -40319 -16 -39928
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:viking_dialogue_fix
 
 # Remove cobblestone blocks
 setblock -40269 -16 -39993 air

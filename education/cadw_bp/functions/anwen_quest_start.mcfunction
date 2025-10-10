@@ -1,10 +1,11 @@
-# Anwen Quest Start function - teleport player and set NPC dialogue
-# Teleport player to specified location
-tp @p -40260 -10 -39981 facing -40260 -10 -39979
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:anwen_quest_start
 
-# Set anwenNPC to anwenNPC1 with extended range
-# Using a larger search radius to ensure the NPC is found
-dialogue change @e[tag=anwenNPC,x=-40260,y=-10,z=-39980,r=50] anwenNPC1
-
-# Fallback: If NPC is still not found, try without position constraints
-dialogue change @e[tag=anwenNPC,c=1] anwenNPC1
+setblock -40259 -10 -39999 air
+setblock -40260 -10 -39999 air
+setblock -40261 -10 -39999 air
+setblock -40261 -10 -40000 air
+setblock -40259 -9 -39999 air
+setblock -40260 -9 -39999 air
+setblock -40261 -9 -39999 air
+setblock -40261 -9 -40000 air

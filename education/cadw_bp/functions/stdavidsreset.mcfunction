@@ -1,36 +1,5 @@
-# Reset St. David's quest NPCs to their initial dialogue states
-# First ensure ticking area is active for St. David's region
-# Expanded to cover all NPCs from -40400 to -40240 (X) and -39870 to -40040 (Z)
-tickingarea remove stdavids_reset
-tickingarea add -40400 -30 -40040 -40240 20 -39870 stdavids_reset true
-
-# Reset all NPCs to NPC0 dialogue state
-# Using extended search without position constraints to ensure all NPCs are found
-dialogue change @e[tag=yrsaNPC,c=1] yrsaNPC0
-dialogue change @e[tag=idrisquestNPC,c=1] idrisquestNPC0
-dialogue change @e[tag=vikingNPC,c=1] vikingNPC0
-dialogue change @e[tag=betiquestNPC,c=1] betiquestNPC0
-dialogue change @e[tag=gwenquestNPC,c=1] gwenquestNPC0
-dialogue change @e[tag=geraldNPC,c=1] geraldNPC0
-dialogue change @e[tag=nestredoNPC,c=1] nestredoNPC0
-dialogue change @e[tag=llewNPC,c=1] llewNPC0
-dialogue change @e[tag=eleriquestNPC,c=1] eleriquestNPC0
-dialogue change @e[tag=cadwganNPC,c=1] cadwganNPC0
-dialogue change @e[tag=anwenNPC,c=1] anwenNPC0
-dialogue change @e[tag=gutoNPC,c=1] gutoNPC0
-dialogue change @e[tag=carysquestNPC,c=1] carysquestNPC0
-dialogue change @e[tag=carysNPC,c=1] carysNPC1
-dialogue change @e[tag=mabliNPC,c=1] mabliNPC0
-dialogue change @e[tag=taliesindavNPC,c=1] taliesindavNPC1
-
-# Remove temporary ticking area after reset
-tickingarea remove stdavids_reset
-
-# Teleport geraldNPC back to original position
-tp @e[tag=geraldNPC] -40252 -10 -39951
-
-# Teleport mabliNPC back to original position
-tp @e[tag=mabliNPC] -40277 -16 -39986
+# Call JavaScript function to handle reset with delayed execution and ticking area
+scriptevent cadw:stdavids_reset
 
 # Place stone blocks at test positions
 setblock -40315 -19 -39883 stone
@@ -111,11 +80,58 @@ setblock -40266 -10 -40005 stone
 setblock -40265 -10 -40005 stone
 setblock -40266 -9 -40005 stone
 setblock -40265 -9 -40005 stone
+setblock -40259 -10 -39999 mossy_stone_bricks
+setblock -40260 -10 -39999 mossy_stone_bricks
+setblock -40261 -10 -39999 mossy_stone_bricks
+setblock -40261 -10 -40000 mossy_stone_bricks
+setblock -40259 -9 -39999 mossy_stone_bricks
+setblock -40260 -9 -39999 mossy_stone_bricks
+setblock -40261 -9 -39999 mossy_stone_bricks
+setblock -40261 -9 -40000 mossy_stone_bricks
+setblock -40380 -16 -39909 mossy_stone_brick_wall
+setblock -40381 -16 -39909 mossy_stone_brick_wall
+setblock -40382 -16 -39909 mossy_stone_brick_wall
+setblock -40380 -15 -39909 mossy_stone_brick_wall
+setblock -40381 -15 -39909 mossy_stone_brick_wall
+setblock -40382 -15 -39909 mossy_stone_brick_wall
+setblock -40361 -17 -39929 stone
+setblock -40360 -17 -39929 grass
+setblock -40359 -17 -39929 grass
+setblock -40358 -17 -39929 grass
+setblock -40358 -17 -39928 grass
+setblock -40358 -17 -39927 grass
+setblock -40359 -16 -39928 grass
+setblock -40268 -10 -40000 stone_bricks
+setblock -40268 -9 -40000 stone_bricks
+setblock -40268 -8 -40000 stone_bricks
+setblock -40265 -16 -39918 barrel
+setblock -40265 -15 -39918 barrel
+setblock -40265 -14 -39918 barrel
+setblock -40266 -14 -39917 barrel
+setblock -40264 -14 -39917 barrel
+setblock -40253 -10 -39999 bookshelf
+setblock -40253 -9 -39999 bookshelf
+setblock -40253 -8 -39999 bookshelf
+setblock -40388 -16 -39959 stone_bricks
+setblock -40388 -15 -39959 stone_bricks
+setblock -40388 -16 -39958 stone_bricks
+setblock -40388 -15 -39958 stone_bricks
+setblock -40309 -10 -39912 stone_bricks
+setblock -40309 -9 -39912 stone_bricks
+setblock -40309 -8 -39912 stone_bricks
+setblock -40310 -10 -39912 stone_bricks
+setblock -40310 -9 -39912 stone_bricks
+setblock -40310 -8 -39912 stone_bricks
+setblock -40379 7 -39874 stone
+setblock -40379 8 -39874 stone
 
 # Clear player inventory except compass, camera, and book_and_quill
 clear @p
 give @p compass 1
 give @p camera 1
 give @p writable_book 1
+
+# Reset carysNPC dialogue
+dialogue change @e[tag=carysNPC] carysNPC0
 
 # Add more NPC resets here as needed

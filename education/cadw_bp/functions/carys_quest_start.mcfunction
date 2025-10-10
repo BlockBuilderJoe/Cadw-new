@@ -1,6 +1,11 @@
-# Carys Quest Start function - teleport player and set NPC dialogue
-# Teleport player to specified location
-tp @p -40378 -16 -39925 facing -40378 -16 -39925
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:carys_quest_start
 
-# Set carysquestNPC to carysquestNPC1
-dialogue change @e[tag=carysquestNPC] carysquestNPC1
+# Remove stone block
+setblock -40361 -17 -39929 air
+setblock -40360 -17 -39929 air
+setblock -40359 -17 -39929 air
+setblock -40358 -17 -39929 air
+setblock -40358 -17 -39928 air
+setblock -40358 -17 -39927 air
+setblock -40359 -16 -39928 air

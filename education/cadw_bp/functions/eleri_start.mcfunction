@@ -1,5 +1,5 @@
-tp @p -40280 -16 -39994 facing -40280 -16 -39996
-dialogue change @e[tag=eleriquestNPC] eleriquestNPC1
+# Call JavaScript function to handle teleport with delayed dialogue change
+scriptevent cadw:eleri_start
 
 # Remove stone blocks
 setblock -40266 -10 -40004 air
