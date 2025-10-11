@@ -20017,7 +20017,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69036 3 -69043 facing -69036 3 -69045"
                         ]
                     }
                 ]
@@ -20048,7 +20048,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_porter"
                         ]
                     }
                 ]
@@ -20189,7 +20189,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69034 3 -69092 facing -69035 3 -69092"
                         ]
                     }
                 ]
@@ -20220,7 +20220,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_taran"
                         ]
                     }
                 ]
@@ -20355,7 +20355,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69100 3 -69104 facing -69101 3 -69104"
                         ]
                     }
                 ]
@@ -20386,24 +20386,24 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_tomos"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "tomosNPC1",
+                "scene_tag": "tomosfNPC1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.tomosNPC"
+                            "translate": "npc.name.tomosfNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tomosNPC1"
+                            "translate": "npc.text.tomosfNPC1"
                         }
                     ]
                 },
@@ -20412,53 +20412,53 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC1.0"
+                                    "translate": "npc.button.tomosfNPC1.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=tomosNPC] @p tomosNPC1url1"
+                            "dialogue open @e[tag=tomosfNPC] @p tomosfNPC1url1"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC1.1"
+                                    "translate": "npc.button.tomosfNPC1.1"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=tomosNPC] @p tomosNPC2"
+                            "dialogue open @e[tag=tomosfNPC] @p tomosfNPC2"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "tomosNPC2",
+                "scene_tag": "tomosfNPC2",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.tomosNPC"
+                            "translate": "npc.name.tomosfNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tomosNPC2.0"
+                            "translate": "npc.text.tomosfNPC2.0"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.tomosNPC2.1"
+                            "translate": "npc.text.tomosfNPC2.1"
                         },
                         {
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.tomosNPC2.2"
+                            "translate": "npc.text.tomosfNPC2.2"
                         },
                         {
                             "text": "\n"
@@ -20467,7 +20467,7 @@
                             "text": "\n"
                         },
                         {
-                            "translate": "npc.text.tomosNPC2.4"
+                            "translate": "npc.text.tomosfNPC2.4"
                         },
                         {
                             "text": "\n"
@@ -20479,41 +20479,41 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC2.0"
+                                    "translate": "npc.button.tomosfNPC2.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=tomosNPC] @p tomosNPC1url1"
+                            "dialogue open @e[tag=tomosfNPC] @p tomosfNPC1url1"
                         ]
                     },
                     {
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC2.1"
+                                    "translate": "npc.button.tomosfNPC2.1"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=tomosNPC] @p tomosNPC3"
+                            "dialogue open @e[tag=tomosfNPC] @p tomosfNPC3"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "tomosNPC3",
+                "scene_tag": "tomosfNPC3",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.tomosNPC"
+                            "translate": "npc.name.tomosfNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tomosNPC3"
+                            "translate": "npc.text.tomosfNPC3"
                         }
                     ]
                 },
@@ -20522,29 +20522,29 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC3.0"
+                                    "translate": "npc.button.tomosfNPC3.0"
                                 }
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69091 3 -69180 facing -69093 3 -69180"
                         ]
                     }
                 ]
             },
             {
-                "scene_tag": "tomosNPC4",
+                "scene_tag": "tomosfNPC4",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.tomosNPC"
+                            "translate": "npc.name.tomosfNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tomosNPC4"
+                            "translate": "npc.text.tomosfNPC4"
                         }
                     ]
                 },
@@ -20553,12 +20553,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC4.0"
+                                    "translate": "npc.button.tomosfNPC4.0"
                                 }
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_lady"
                         ]
                     }
                 ]
@@ -20693,7 +20693,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69001 5 -69178 facing -69000 5 -69178"
                         ]
                     }
                 ]
@@ -20724,7 +20724,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_james"
                         ]
                     }
                 ]
@@ -20859,7 +20859,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -68992 4 -69078 facing -68990 4 -69078"
                         ]
                     }
                 ]
@@ -20890,7 +20890,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_caradog"
                         ]
                     }
                 ]
@@ -21037,7 +21037,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -68978 9 -69074 facing -68978 9 -69072"
                         ]
                     }
                 ]
@@ -21068,7 +21068,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            "function to_builder"
                         ]
                     }
                 ]
@@ -21215,7 +21215,7 @@
                             ]
                         },
                         "commands": [
-                            ""
+                            "tp @p -69134 -3 -68908 facing -69134 -3 -68906"
                         ]
                     }
                 ]
@@ -21246,7 +21246,7 @@
                             ]
                         },
                         "commands": [
-                            "tp @p"
+                            ""
                         ]
                     }
                 ]
@@ -21348,6 +21348,99 @@
             },
             {
                 "buttons": []
+            },
+            {
+                "scene_tag": "fdragon1NPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.fdragon1NPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.fdragon1NPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.fdragon1NPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "fdragon2NPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.fdragon2NPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.fdragon2NPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.fdragon2NPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "fdragon3NPC1",
+                "npc_name": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.name.fdragon3NPC"
+                        }
+                    ]
+                },
+                "text": {
+                    "rawtext": [
+                        {
+                            "translate": "npc.text.fdragon3NPC1"
+                        }
+                    ]
+                },
+                "buttons": [
+                    {
+                        "name": {
+                            "rawtext": [
+                                {
+                                    "translate": "npc.button.fdragon3NPC1.0"
+                                }
+                            ]
+                        },
+                        "commands": [
+                            ""
+                        ]
+                    }
+                ]
             },
             {
                 "buttons": []
@@ -21564,18 +21657,18 @@
                 ]
             },
             {
-                "scene_tag": "tomosNPC1url1",
+                "scene_tag": "tomosfNPC1url1",
                 "npc_name": {
                     "rawtext": [
                         {
-                            "translate": "npc.name.tomosNPC"
+                            "translate": "npc.name.tomosfNPC"
                         }
                     ]
                 },
                 "text": {
                     "rawtext": [
                         {
-                            "translate": "npc.text.tomosNPC1url1"
+                            "translate": "npc.text.tomosfNPC1url1"
                         }
                     ]
                 },
@@ -21584,7 +21677,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC1url1.0"
+                                    "translate": "npc.button.tomosfNPC1url1.0"
                                 }
                             ]
                         },
@@ -21594,7 +21687,7 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC1url1.1"
+                                    "translate": "npc.button.tomosfNPC1url1.1"
                                 }
                             ]
                         },
@@ -21604,12 +21697,12 @@
                         "name": {
                             "rawtext": [
                                 {
-                                    "translate": "npc.button.tomosNPC1url1.2"
+                                    "translate": "npc.button.tomosfNPC1url1.2"
                                 }
                             ]
                         },
                         "commands": [
-                            "dialogue open @e[tag=tomosNPC] @p tomosNPC2"
+                            "dialogue open @e[tag=tomosfNPC] @p tomosfNPC2"
                         ]
                     }
                 ]

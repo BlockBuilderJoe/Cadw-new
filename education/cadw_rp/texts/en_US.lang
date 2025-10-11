@@ -334,6 +334,150 @@ book.14.line.16=Caernarfon
 book.14.line.17=Harlech
 book.14.line.18=Label each castle with a sign and describe its purpose. Add at least one humorous sign - for example: 'Because I'm fed up with Llywelyn!'
 
+book.15.line.1=Title: Dig the Ditch!
+book.15.line.2=Author: Mason Mo
+book.15.line.3=A Muddy Mission from Mason Mo
+book.15.line.4=Time to dig like it's 1277!
+book.15.line.5=The moat around Flint Castle was deep, wide, and tidal. Time to get muddy!
+book.15.line.6=Your Min-Quest:
+book.15.line.7=Dig and shape the tidal moat
+book.15.line.8=Fill it with seawater or river water
+book.15.line.9=Build a wooden trestle bridge over it
+book.15.line.10=Add signs explaining your engineering
+book.15.line.11=Grab a shovel, ye brave block-basher! The ditch won't dig itself - unless the English fall in first:
+book.15.line.12=Dig a trench around the outer ward to act as a moat.
+book.15.line.13=Fill it with water connected to the sea or river (if possible).
+book.15.line.14=Build a wooden trestle bridge, supported like the original.
+book.15.line.15=Add signs that explain the design, depth, and purpose of the ditch.
+book.15.line.16=Bonus: Make it look like the water rises at high tide!
+
+
+book.16.line.1=Title: Defend the Gate!
+book.16.line.2=Author: Porter Prys
+book.16.line.3=Security Orders from Porter Prys
+book.16.line.4=No password? No entry! Design the most secure gatehouse in the realm. Traps and tricks encouraged!
+book.16.line.5=Your Min-Quest:
+book.16.line.6=Build a medieval gatehouse
+book.16.line.7=Include redstone traps and a drawbridge
+book.16.line.8=Use levers, plates, or buttons to activate defences
+book.16.line.9=Label each feature with signs
+book.16.line.10=Locks, rocks, and a drop from the top - design your devious defence! And mind the splinters. . .
+book.16.line.11=No one gets past this gate without a clever design!
+book.16.line.12=Build a realistic medieval gatehouse using stone and timber.
+book.16.line.13=Add a working drawbridge using trapdoors, pistons, or redstone.
+book.16.line.14=Create traps: arrow dispensers, trapdoors, or fall pits.
+book.16.line.15=Use pressure plates or levers to activate defences.
+book.16.line.16=Add signs to explain how everything works.
+book.16.line.17=Bonus: build an alarm bell!
+
+
+book.17.line.1=Title: Toilet Target Practice
+book.17.line.2=Author: Taran the Tower-Watcher
+book.17.line.3=Battle Latrines with Taran the Tower-Watcher
+book.17.line.4=Rebuild the South-West Tower, fit it with arrow slits and a drop-loo - then hit the target below. Mind the splash!
+book.17.line.5=Your Min-Quest:
+book.17.line.6=Rebuild the SW tower with 3 floors
+book.17.line.7=Add arrowloops and a working latrine chute
+book.17.line.8=Build a target beneath and try hitting it with slimeballs
+book.17.line.9=Time for a royal flush! Load your loo and test your aim - it's medieval plumbing at its finest.
+book.17.line.10=It's time to rebuild the tower - with working medieval features!
+book.17.line.11=Recreate the tower with three interior floors.
+book.17.line.12=Include arrowloops and battlements.
+book.17.line.13=Add a latrine chute over the moat or river.
+book.17.line.14=Build a target below and use slimeballs to test your toilet aim!
+book.17.line.15=Decorate the interior with torches, crates, and medieval detail.
+
+
+book.18.line.1=Title: Secrets of the Defender
+book.18.line.2=Author: Tomos o'r Traeth
+book.18.line.3=Tactics from Tomos o'r Traeth
+book.18.line.4=A great tower hides its greatest strengths. Build one with clever defences and a sneaky hidden guard.
+book.18.line.5=Your Min-Quest:
+book.18.line.6=Build a tower with:
+book.18.line.7=Clockwise spiral stairs
+book.18.line.8=Arrowloops
+book.18.line.9=Redstone trap
+book.18.line.10=Hide an NPC
+book.18.line.11=Use a lever or plate to reveal them!
+book.18.line.12=Add signs to describe your design.
+book.18.line.13=Hidey holes and secret scrolls? It's your last stand! Go full fortress ninja! - now design your own!
+book.18.line.14=Create a small tower using stone and wood.
+book.18.line.15=Build clockwise spiral stairs (harder to attack going up).
+book.18.line.16=Add cleverly positioned arrowloops.
+book.18.line.17=Install a hidden trap using redstone.
+book.18.line.18=Hide an NPC guard that only appears when a switch or plate is used.
+book.18.line.19=Explain your choices using signs.
+
+
+book.19.line.1=Title: Noble Quarters of Flint
+book.19.line.2=Author: Lady Lleucu
+book.19.line.3=A Stylish Request from Lady Lleucu
+book.19.line.4=Only the finest for a noble! Time to get posh. Furnish a chamber fit for royalty. And don't forget your noble handbook!
+book.19.line.5=Your Min-Quest:
+book.19.line.6=Design a luxury chamber in the NE tower
+book.19.line.7=Include a bed, fireplace, and private toilet
+book.19.line.8=Write a book titled 'How to Be Fancy in Flint'
+book.19.line.9=Feathers, flair, and fancy furniture - design like you dine with dukes. Just don't spill gravy on the bed.
+book.19.line.10=Transform the NE tower into a noble's private chamber.
+book.19.line.11=Add a fireplace, latrine, bed, shelves, and decorations.
+book.19.line.12=Use paintings, item frames, and carpets to add luxury.
+book.19.line.13=Write a signed book titled How to Be Fancy in Flint.
+book.19.line.14=Bonus: Include a hidden jewellery chest or wardrobe!
+
+
+
+book.20.line.1=Title: Wedges of Power
+book.20.line.2=Author: Master James
+book.20.line.3=Master James's Architectural Challenge
+book.20.line.4=The Great Tower needs five wedge-shaped rooms, like pizza slices! each with a purpose. Show off your medieval design flair!
+book.20.line.5=Your Min-Quest:
+book.20.line.6=Rebuild the Great Tower's upper floor
+book.20.line.7=Divide it into 5 wedge rooms: chapel, kitchen, storage, barracks, royal room
+book.20.line.8=Decorate and explain each one with signs
+book.20.line.9=This tower's turning in circles! Lay those blocks with purpose - or Sir Geometry will be most displeased, so you better: 
+book.20.line.10=Rebuild the upper floor of the Great Tower.
+book.20.line.11=Divide the space into five wedge-shaped rooms.
+book.20.line.12=Each room must serve a different function - chapel, kitchen, storage, barracks, royal quarters.
+book.20.line.13=Add signs or books to describe each room.
+book.20.line.14=Bonus - Use different materials to reflect the rooms use.
+
+
+book.21.line.1=Title: The King's Last Words
+book.21.line.2=Author: Chronicler Caradog
+book.21.line.3=A Reflection from Chronicler Caradog
+book.21.line.4=Richard II stood on this wall and saw his crown crumble.
+book.21.line.5=Your Min-Quest:
+book.21.line.6=Go to the top of the Great Tower
+book.21.line.7=Write a speech, diary entry, or poem from Richard II's view
+book.21.line.8=Use signs or a book and quill
+book.21.line.9=Bonus: Perform it with emotes!
+book.21.line.10=History's getting heavy - time to act, emote, or sigh like a sad, soggy sovereign. Get dramatic and:
+book.21.line.11=Go to the top of the Great Tower and look out across the estuary.
+book.21.line.12=Write a dramatic speech, diary entry, or poem from King Richard's perspective.
+book.21.line.13=Think about how he might have felt - scared? betrayed? defiant?
+book.21.line.14=Use a book & quill or signs to share your work.
+book.21.line.15=Bonus: Add dramatic emotes or record a voice performance.
+
+
+book.22.line.1=Title: Flint Town Planner
+book.22.line.2=Author: Builder Berwyn
+book.22.line.3=A Blueprint from Builder Berwyn
+book.22.line.4=The castle's nice, but I love straight lines! Let's build a town fit for a tax roll. 
+book.22.line.5=Recreate Edward's grid town: streets, stalls, and tax-paying homes. Order in every brick!
+book.22.line.6=Your Min-Quest:
+book.22.line.7=Build Castle Street, Church Street, Feathers Street, and burgage plots
+book.22.line.8=Each home must display a sign: 'Property of a loyal (and taxed) burgess'
+book.22.line.9=Add a market, maypole, and town centre
+book.22.line.10=Time to dig, decide, and do something dramatic - before a noble faints!
+book.22.line.11=Flint wasn't just a castle - it was a whole planned town!
+book.22.line.12=Use a flat area to build Edward's medieval town next to the castle.
+book.22.line.13=Lay out a grid of straight streets: Castle Street, Church Street, Feathers Street.
+book.22.line.14=Place burgage plots with small houses and gardens.
+book.22.line.15=Each house must have a sign: 'Property of a loyal (and taxed) burgess.'
+book.22.line.16=Include a central square with a market, maypole, and stocks.
+book.22.line.17=Bonus: Add a medieval shire hall or guild building!
+
+
 cw.npc.name.lobby=Welcome
 cw.npc.text.lobby=Welcome to the lobby, click on the map of Wales to explore our sites!
 cw.npc.button.one.lobby=Thanks!
@@ -2644,3 +2788,34 @@ npc.button.builderNPC1url1.2=Back/Nôl
 npc.button..2=Back/Nôl
 npc.button..2=Back/Nôl
 npc.button..2=Back/Nôl
+npc.name.tomosfNPC=Tomos o'r Traeth
+npc.text.tomosfNPC1=This tower looked out over the river, just in case some soggy soldier thought of sneaking up the back way. Spoiler: it didn't end well for them.
+npc.button.tomosfNPC1.0=Last Stand
+npc.button.tomosfNPC1.1=Next
+npc.name.tomosfNPC=Tomos o'r Traeth
+npc.text.tomosfNPC2.0=The next challenge awaits. . . 
+npc.text.tomosfNPC2.1=But just checking:
+npc.text.tomosfNPC2.2=Did you watch the video? Wouldn't want you to miss a trick!
+npc.text.tomosfNPC2.4=It's full of tips, turrets, and tactical toilets!
+npc.button.tomosfNPC2.0=Video
+npc.button.tomosfNPC2.1=Next
+npc.name.tomosfNPC=Tomos o'r Traeth
+npc.text.tomosfNPC3=Defenders don't just shoot - we scheme. Build a tower with smart defences and a hidden guard. Don't make it too easy!
+npc.button.tomosfNPC3.0=Get Scroll
+npc.name.tomosfNPC=Tomos o'r Traeth
+npc.text.tomosfNPC4=Sneaky enough? Now go upstairs - Lady Lleucu wants her room redecorated in noble style.
+npc.button.tomosfNPC4.0=Lady Lleucu
+npc.name.fdragon1NPC=Hidden Lleu
+npc.text.fdragon1NPC1=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.fdragon1NPC1.0=Will do!
+npc.name.fdragon2NPC=Hidden Lleu
+npc.text.fdragon2NPC1=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.fdragon2NPC1.0=Will do!
+npc.name.fdragon3NPC=Hidden Lleu
+npc.text.fdragon3NPC1=You found me! Well done! Please remember to take my picture and add it to your 'field journal.'
+npc.button.fdragon3NPC1.0=Will do!
+npc.name.tomosfNPC=Tomos o'r Traeth
+npc.text.tomosfNPC1url1=Choose your lingo! Cymraeg? English? We don't do medieval grunt, sorry.
+npc.button.tomosfNPC1url1.0=English
+npc.button.tomosfNPC1url1.1=Cymraeg
+npc.button.tomosfNPC1url1.2=Back/Nôl

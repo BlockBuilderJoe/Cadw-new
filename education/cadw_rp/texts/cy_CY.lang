@@ -268,6 +268,149 @@ book.14.line.16=• Caernarfon
 book.14.line.17=• Harlech
 book.14.line.18=Labelwch bob castell gydag arwydd a disgrifiwch ei bwrpas. Ychwanegwch o leiaf un arwydd doniol — er enghraifft: “Oherwydd fy mod i wedi cael llond bol ar Llywelyn!”
 
+book.15.line.1=Teitl: Cloddiwch y Ffos!
+book.15.line.2=Awdur: Saer Maen Mo
+book.15.line.3=Cenhadaeth Fwdlyd gan Saer Maen Mo
+book.15.line.4=Mae'n amser i gloddio fel pe bai hi'n 1277!
+book.15.line.5=Roedd y ffos o amgylch Castell y Fflint yn ddwfn, yn llydan, ac yn llanwol. Amser mynd yn fwdlyd!
+book.15.line.6=Eich Min-Cwest:
+book.15.line.7=Cloddiwch a lluniwch ffos llanw
+book.15.line.8=Llenwch â dŵr y môr neu ddŵr afon
+book.15.line.9=Adeiladwch bont drestl bren drosto
+book.15.line.10=Ychwanegwch arwyddion yn esbonio eich peirianneg
+book.15.line.11=Gafaelwch mewn rhaw, chwi ddewr sy'n torri blociau! Ni fydd y ffos yn cloddio ei hun - oni bai bod y Saeson yn cwympo i mewn yn gyntaf:
+book.15.line.12=Cloddiwch ffos o amgylch y ward allanol i weithredu fel ffos amddiffynnol.
+book.15.line.13=Llenwch â dŵr sy'n gysylltiedig â'r môr neu'r afon (os yn bosibl).
+book.15.line.14=Adeiladwch bont drestl bren, wedi'i chynnal fel y gwreiddiol.
+book.15.line.15=Ychwanegwch arwyddion sy'n egluro dyluniad, dyfnder a phwrpas y ffos.
+book.15.line.16=Bonws: Gwnewch iddi edrych fel pe bai'r dŵr yn codi ar lanw uchel!
+
+
+book.16.line.1=Teitl: Amddiffyn y Porth!
+book.16.line.2=Awdur: Porthor Prys
+book.16.line.3=Gorchmynion Diogelwch gan Porthor Prys
+book.16.line.4=Dim cyfrinair? Dim mynediad! Dyluniwch y porthdy mwyaf diogel yn y deyrnas. Anogir trapiau a thriciau!
+book.16.line.5=Eich Min-Cwest:
+book.16.line.6=Adeiladwch borthdy canoloesol
+book.16.line.7=Cynhwyswch drapiau redstone a phont godi
+book.16.line.8=Defnyddiwch liferau, platiau, neu fotymau i actifadu amddiffynfeydd
+book.16.line.9=Labelwch bob nodwedd gydag arwyddion
+book.16.line.10=Cloeon, creigiau, a gostyngiad o'r brig — dyluniwch eich amddiffyniad cyfrwys! A gofalwch am y fflawiau. . .
+book.16.line.11=Does neb yn mynd heibio'r porth hwn heb ddyluniad clyfar!
+book.16.line.12=Adeiladwch borthdy canoloesol realistig gan ddefnyddio carreg a phren.
+book.16.line.13=Ychwanegwch bont godi weithredol gan ddefnyddio trapdrysau, pistonau, neu redstone.
+book.16.line.14=Crëwch drapiau: dosbarthwyr saethau, trapdrysau, neu byllau cwympo.
+book.16.line.15=Defnyddiwch blatiau pwyso neu liferi i actifadu amddiffynfeydd.
+book.16.line.16=Ychwanegwch arwyddion i esbonio sut mae popeth yn gweithio.
+book.16.line.17=Bonws: adeiladwch gloch larwm!
+
+
+book.17.line.1=Teitle: Ymarfer Targed Toiled
+book.17.line.2=Awdur: Taran y Gwyliwr Tŵr
+book.17.line.3=Toiledau Brwydro gyda Taran y Gwyliwr Tŵr
+book.17.line.4=Ailadeiladwch Dŵr y De-orllewin, gosodwch tyllau saethau a thoiled gollwng — yna taro'r targed isod. Gwyliwch y sblash!
+book.17.line.5=Eich Min-Quest:
+book.17.line.6=Ailadeiladwch dŵr De-orllewinol gyda 3 llawr
+book.17.line.7=Ychwanegwch agen saethu a siwt toiled sy'n gweithio
+book.17.line.8=Adeiladwch darged oddi tano a cheisio ei daro â pheli slime
+book.17.line.9=Amser am fflysh brenhinol! Llwythwch eich toiled a phrofwch eich anelu — mae'n bibellau canoloesol ar ei orau.
+book.17.line.10=Mae'n amser ailadeiladu'r tŵr — gyda nodweddion canoloesol gweithredol!
+book.17.line.11=Ail-greuwch dŵr gyda thri llawr mewnol.
+book.17.line.12=Cynhwyswch agennau saethu a muriau amddiffynnol.
+book.17.line.13=Ychwanegwch siwt toiled dros y ffos neu'r afon.
+book.17.line.14=Adeiladwch darged isod a defnyddiwch beli slime i brofi eich anelu toiled!
+book.17.line.15=Addurnwch y tu mewn gyda thorchau, cratiau, a manylion canoloesol.
+
+
+book.18.line.1=Teitl: Cyfrinachau'r Amddiffynwr
+book.18.line.2=Awdur: Tomos o'r Traeth
+book.18.line.3=Tactegau o Tomos o’r Traeth
+book.18.line.4=Mae tŵr mawr yn cuddio ei gryfderau mwyaf. Adeiladwch un gydag amddiffynfeydd clyfar a gwarchodwr cudd cyfrwys.
+book.18.line.5=Eich Min-Cwest:
+book.18.line.6=Adeiladwch dŵr gyda:
+book.18.line.7=Grisiau troellog clocwedd
+book.18.line.8=Agennau Saethu
+book.18.line.9=Trap Redstone
+book.18.line.10=Cuddiwch NPC.
+book.18.line.11=Defnyddiwch lifer neu blât i'w datgelu!
+book.18.line.12=Ychwanegu arwyddion i ddisgrifio'ch dyluniad.
+book.18.line.13=Tyllau cudd a sgroliau cyfrinachol? Dyma'ch safiad olaf! Ewch yn ninja caer llawn! — nawr dyluniwch un eich hun!
+book.18.line.14=Crëwch dŵr bach gan ddefnyddio carreg a phren.
+book.18.line.15=Adeiladwch risiau troellog clocwedd (anoddach ymosod arnynt wrth fynd i fyny).
+book.18.line.16=Ychwanegwch agennau saethu wedi'u lleoli'n glyfar.
+book.18.line.17=Gosodwch drap cudd gan ddefnyddio carreg goch.
+book.18.line.18=Cuddiwch warchodwr NPC sydd ond yn ymddangos pan ddefnyddir switsh neu blât.
+book.18.line.19=Eglurwch eich dewisiadau gan ddefnyddio arwyddion.
+
+
+book.19.line.1=Teitl: Chwarterau Noble y Fflint
+book.19.line.2=Awdur: Argwlyddes Lleucu
+book.19.line.3=Cais Chwaethus gan yr Arglwyddes Lleucu
+book.19.line.4=Dim ond y gorau i fonheddwr! Amser mynd yn foethus. Dodrefnwch ystafell addas i frenhiniaeth. A pheidiwch ag anghofio eich llawlyfr bonheddig!
+book.19.line.5=Eich Min-Cwest:
+book.19.line.6=Dyluniwch siambr foethus yn y tŵr De-ddwyrain
+book.19.line.7=Cynhwyswch gwely, lle tân, a thoiled preifat
+book.19.line.8=Ysgrifennwch llyfr o'r enw “Sut i Fod yn Ffansil yn y Fflint”
+book.19.line.9=Plu, steil, a dodrefn ffansi — dyluniwch fel petaech chi'n ciniawa gyda dugiaid. Peidiwch â thywallt saws ar y gwely.
+book.19.line.10=Trawsnewidiwch y tŵr De-ddwyrain yn siambr breifat i uchelwr.
+book.19.line.11=Ychwanegwch le tân, toiled, gwely, silffoedd ac addurniadau.
+book.19.line.12=Defnyddiwch baentiadau, fframiau eitemau a charpedi i ychwanegu moethusrwydd.
+book.19.line.13=Ysgrifennwch lyfr wedi'i lofnodi o'r enw Sut i Fod yn Ffansi yn y Fflint.
+book.19.line.14=Bonws: Cynhwyswch gist gemwaith neu wardrob cudd!
+
+
+book.20.line.1=Teitl: Lletemau o Bŵer
+book.20.line.2=Awdur: Meistr Iago
+book.20.line.3=Her Bensaernïol y Meistr Iago
+book.20.line.4=Mae angen pum ystafell siâp lletem ar y Tŵr Mawr, fel sleisys pitsa! pob un â phwrpas. Dangoswch eich dawn ddylunio ganoloesol!
+book.20.line.5=Eich Min-Cwest:
+book.20.line.6=Ailadeiladwch lawr uchaf y Tŵr Mawr
+book.20.line.7=Rhannwch yn 5 ystafell lletem: capel, cegin, storfa, barics, ystafell frenhinol
+book.20.line.8=Addurnwch ac eglurwch pob un gydag arwyddion
+book.20.line.9=Mae'r tŵr hwn yn troi mewn cylchoedd! Gosodwch y blociau hynny gyda phwrpas - neu bydd Syr Geometreg yn anfodlon iawn, felly gwell i chi:
+book.20.line.10=Ailadeiladu llawr uchaf y Tŵr Mawr.
+book.20.line.11=Rhannu'r gofod yn bum ystafell siâp lletem.
+book.20.line.12=Rhaid i bob ystafell gyflawni swyddogaeth wahanol: capel, cegin, storfa, barics, ystafelloedd brenhinol.
+book.20.line.13=Ychwanegu arwyddion neu lyfrau i ddisgrifio pob ystafell.
+book.20.line.14=Bonws: Defnyddiwch wahanol ddefnyddiau i adlewyrchu defnydd yr ystafell.
+
+
+book.21.line.1=Teitl: Geiriau Olaf y Brenin
+book.21.line.2=Awdur: Caradog Cofnodwr
+book.21.line.3=Myfyrdod gan Caradog Cofnodwr
+book.21.line.4=Safodd Rhisiart II ar y wal hon a gwelodd ei goron yn chwalu.
+book.21.line.5=Eich Min-Cwest:
+book.21.line.6=Ewch i ben y Tŵr Mawr
+book.21.line.7=Ysgrifennwch araith, cofnod dyddiadur, neu gerdd o safbwynt Rhisiart II
+book.21.line.8=Defnyddiwch arwyddion neu lyfr a chwilsen
+book.21.line.9=Bonws: Perfformiwch gydag emotes!
+book.21.line.10=Mae hanes yn mynd yn drwm — amser i actio, mynegi teimladau, neu ochain fel brenin trist, gwlyb. Byddwch yn ddramatig a:
+book.21.line.11=Ewch i ben y Tŵr Mawr ac edrychwch allan ar draws yr aber.
+book.21.line.12=Ysgrifennwch araith ddramatig, cofnod dyddiadur, neu gerdd o safbwynt y Brenin Rhisiart.
+book.21.line.13=Meddyliwch am sut y gallai fod wedi teimlo — wedi'i ofni? wedi'i fradychu? yn herfeiddiol?
+book.21.line.14=Defnyddiwch lyfr a chwilsen neu arwyddion i rannu eich gwaith.
+book.21.line.15=Bonws: Ychwanegwch emosiynau dramatig neu recordiwch berfformiad llais.
+
+
+book.22.line.1=Teitl: Cynlluniwr Tref y Fflint
+book.22.line.2=Awdur: Crefftwr Berwyn
+book.22.line.3=Cynllun gan yr Crefftwr Berwyn
+book.22.line.4="Mae'r castell yn braf, ond dw i'n caru llinellau syth!
+Gadewch i ni adeiladu tref sy'n addas ar gyfer rhôl dreth. Ail-grëwch dref grid Edward: strydoedd, stondinau, a chartrefi sy'n talu trethi. Trefn ym mhob bric!"
+book.22.line.5=Eich Min-Cwest:
+book.22.line.6=Adeiladwch blotiau Stryd y Castell, Stryd yr Eglwys, Stryd y Plu, a thir bwrdais
+book.22.line.7=Rhaid i bob cartref arddangos arwydd: “Eiddo bwrdais ffyddlon (a threthdaledig)”
+book.22.line.8=Ychwanegwch farchnad, melyn y Fai, a chanol y dref
+book.22.line.9=Amser cloddio, penderfynu, a gwneud rhywbeth dramatig — cyn i fonheddwr lewygu!
+book.22.line.10=Nid castell yn unig oedd y Fflint — roedd yn dref gyfan wedi'i chynllunio!
+book.22.line.11=Defnyddiwch ardal wastad i adeiladu tref ganoloesol Edward wrth ymyl y castell.
+book.22.line.12=Gosodwch grid o strydoedd syth: Stryd y Castell, Stryd yr Eglwys, Stryd y Plu.
+book.22.line.13=PGosodwch blotiau bwrdais gyda thai bychain a gerddi.
+book.22.line.14=Rhaid i bob tŷ gael arwydd: “Eiddo bwrdais ffyddlon (a threthdaledig)."
+book.22.line.15=Cynhwyswch sgwâr canolog gyda marchnad, melyn y Fai, a stociau.
+book.22.line.16=Bonws: Ychwanegwch neuadd sir ganoloesol neu adeilad urdd!
+
+
 
 
 cw.npc.name.lobby=Croeso

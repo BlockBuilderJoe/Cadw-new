@@ -482,6 +482,62 @@ export function to_mason() {
   overworld.runCommand(`clear @p chest 0 1`);
 }
 
+// To Porter function
+export function to_porter() {
+  // Teleport player
+  overworld.runCommand(`tp @p -69030 3 -69086 facing -69030 3 -69088`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To Taran function
+export function to_taran() {
+  // Teleport player
+  overworld.runCommand(`tp @p -69094 3 -69101 facing -69096 3 -69101`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To Tomos function
+export function to_tomos() {
+  // Teleport player
+  overworld.runCommand(`tp @p -69088 3 -69183 facing -69088 3 -69185`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To Lady function
+export function to_lady() {
+  // Teleport player
+  overworld.runCommand(`tp @p -69003 4 -69178 facing -69003 4 -69180`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To James function
+export function to_james() {
+  // Teleport player
+  overworld.runCommand(`tp @p -68992 4 -69081 facing -68992 4 -69082`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To Caradog function
+export function to_caradog() {
+  // Teleport player
+  overworld.runCommand(`tp @p -68978 9 -69076 facing -68976 9 -69076`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
+// To Builder function
+export function to_builder() {
+  // Teleport player
+  overworld.runCommand(`tp @p -69137 -2 -68917 facing -69137 -2 -68914`);
+  // Remove chest from inventory
+  overworld.runCommand(`clear @p chest 0 1`);
+}
+
 //Script event handlers for quest functions
 system.afterEvents.scriptEventReceive.subscribe((event) => {
   if (event.id === "cadw:quest_begin") {
@@ -522,6 +578,20 @@ system.afterEvents.scriptEventReceive.subscribe((event) => {
     structure_flint();
   } else if (event.id === "cadw:to_mason") {
     to_mason();
+  } else if (event.id === "cadw:to_porter") {
+    to_porter();
+  } else if (event.id === "cadw:to_taran") {
+    to_taran();
+  } else if (event.id === "cadw:to_tomos") {
+    to_tomos();
+  } else if (event.id === "cadw:to_lady") {
+    to_lady();
+  } else if (event.id === "cadw:to_james") {
+    to_james();
+  } else if (event.id === "cadw:to_caradog") {
+    to_caradog();
+  } else if (event.id === "cadw:to_builder") {
+    to_builder();
   }
 });
 
@@ -626,6 +696,38 @@ world.afterEvents.buttonPush.subscribe(async (event) => {
     case "-69107,-68948":
       overworld.runCommand(`function give_flint_scroll_1`);
       overworld.runCommand(`dialogue open @e[tag=glynNPC] @p glynNPC5`);
+      break;
+    case "-69036,-69045":
+      overworld.runCommand(`function give_flint_scroll_2`);
+      overworld.runCommand(`dialogue open @e[tag=masonNPC] @p masonNPC4`);
+      break;
+    case "-69035,-69092":
+      overworld.runCommand(`function give_flint_scroll_3`);
+      overworld.runCommand(`dialogue open @e[tag=porterNPC] @p porterNPC4`);
+      break;
+    case "-69101,-69104":
+      overworld.runCommand(`function give_flint_scroll_4`);
+      overworld.runCommand(`dialogue open @e[tag=taranNPC] @p taranNPC4`);
+      break;
+    case "-69093,-69180":
+      overworld.runCommand(`function give_flint_scroll_5`);
+      overworld.runCommand(`dialogue open @e[tag=tomosfNPC] @p tomosfNPC4`);
+      break;
+    case "-69000,-69178":
+      overworld.runCommand(`function give_flint_scroll_6`);
+      overworld.runCommand(`dialogue open @e[tag=ladyNPC] @p ladyNPC4`);
+      break;
+    case "-68990,-69078":
+      overworld.runCommand(`function give_flint_scroll_7`);
+      overworld.runCommand(`dialogue open @e[tag=jamesNPC] @p jamesNPC4`);
+      break;
+    case "-68978,-69072":
+      overworld.runCommand(`function give_flint_scroll_8`);
+      overworld.runCommand(`dialogue open @e[tag=caradogNPC] @p caradogNPC4`);
+      break;
+    case "-69134,-68906":
+      overworld.runCommand(`function give_flint_scroll_9`);
+      overworld.runCommand(`dialogue open @e[tag=builderNPC] @p builderNPC4`);
       break;
     default:
       world.sendMessage(`Unhandled button location: ${buttonLocation.x} ${buttonLocation.z}`);
